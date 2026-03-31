@@ -35,10 +35,10 @@
       "Stronger Public Finances"
     ],
     "qLabels": [
-      "WEAKER FINANCES\nFEWER GOOD JOBS",
-      "WEAKER FINANCES\nMORE GOOD JOBS",
       "STRONGER FINANCES\nFEWER GOOD JOBS",
-      "STRONGER FINANCES\nMORE GOOD JOBS"
+      "STRONGER FINANCES\nMORE GOOD JOBS",
+      "WEAKER FINANCES\nFEWER GOOD JOBS",
+      "WEAKER FINANCES\nMORE GOOD JOBS"
     ],
     "yInvert": true,
     "desirability": "best=top-right worst=bottom-left"
