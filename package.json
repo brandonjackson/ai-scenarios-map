@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node scripts/csv2json.mjs && vite",
+    "build": "node scripts/csv2json.mjs && vite build",
     "preview": "vite preview",
     "data:csv2json": "node scripts/csv2json.mjs"
   },
