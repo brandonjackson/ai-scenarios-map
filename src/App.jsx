@@ -149,6 +149,12 @@ export default function App() {
         minHeight: "100vh",
         fontFamily: "'DM Sans', 'Helvetica Neue', sans-serif",
         color: "#b0bec5",
+      }}
+    >
+    <div
+      style={{
+        maxWidth: 1060,
+        margin: "0 auto",
         padding: "24px 28px",
       }}
     >
@@ -572,6 +578,7 @@ export default function App() {
           Framework Sub-scenario
         </span>
       </div>
+    </div>
     </div>
   );
 }
