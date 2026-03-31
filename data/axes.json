@@ -1,0 +1,46 @@
+[
+  {
+    "id": "labor-gains",
+    "name": "Labor Demand x Gain Distribution",
+    "xField": "x_labor",
+    "yField": "y_labor",
+    "xLabel": [
+      "Concentrated",
+      "Diffuse Gains"
+    ],
+    "yLabel": [
+      "Strong Replacement",
+      "Strong Augmentation"
+    ],
+    "qLabels": [
+      "AUGMENTATION\nCONCENTRATED",
+      "AUGMENTATION\nDIFFUSE GAINS",
+      "REPLACEMENT\nCONCENTRATED",
+      "REPLACEMENT\nDIFFUSE GAINS"
+    ],
+    "yInvert": false,
+    "desirability": "best=top-right worst=bottom-left"
+  },
+  {
+    "id": "fiscal-jobs",
+    "name": "Public Finances x Job Quality",
+    "xField": "x_fiscal",
+    "yField": "y_fiscal",
+    "xLabel": [
+      "Fewer Good Jobs",
+      "More Good Jobs"
+    ],
+    "yLabel": [
+      "Weaker Public Finances",
+      "Stronger Public Finances"
+    ],
+    "qLabels": [
+      "WEAKER FINANCES\nFEWER GOOD JOBS",
+      "WEAKER FINANCES\nMORE GOOD JOBS",
+      "STRONGER FINANCES\nFEWER GOOD JOBS",
+      "STRONGER FINANCES\nMORE GOOD JOBS"
+    ],
+    "yInvert": true,
+    "desirability": "best=top-right worst=bottom-left"
+  }
+]
