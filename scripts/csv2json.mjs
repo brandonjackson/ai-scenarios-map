@@ -1,10 +1,10 @@
 /**
  * Convert scenarios.csv → scenarios.json
  * Run: node scripts/csv2json.mjs
- * 
+ *
  * This is the canonical data pipeline:
- * 1. Edit scenarios.csv (or the .xlsx and re-export)
- * 2. Run this script
+ * 1. Edit scenarios.csv (CSV is the source of truth)
+ * 2. Run this script (or just `npm run dev` / `npm run build` — it runs automatically)
  * 3. The app reads scenarios.json
  */
 
