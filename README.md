@@ -1,6 +1,14 @@
 # AI Scenario Literature Map
 
-An interactive 2×2 scatter plot mapping AI scenario literature across multiple analytical dimensions.
+An interactive site mapping AI scenario literature across multiple analytical dimensions, alongside a catalogue of policy responses.
+
+## Site Structure
+
+A left nav is shared across all pages (hash routes, so deep links work on GitHub Pages):
+
+- **Overview** (`#/`) — the interactive 2×2 scatter plot
+- **Scenarios** (`#/scenarios`) — searchable list; each scenario has a detail page (`#/scenarios/<id>`) showing its position on every axis pair
+- **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`)
 
 ## Data Model
 
@@ -39,8 +47,16 @@ data/
   axes.json              ← axis pair definitions
   ai_scenario_literature.xlsx  ← spreadsheet for editing
 src/
-  App.jsx                ← main React component (data-driven)
-  index.html             ← entry point
+  App.jsx                ← layout shell + route table
+  router.js              ← tiny hash router
+  data.js                ← shared data imports + helpers
+  styles.css             ← site-wide styles (layout, nav, cards)
+  components/Sidebar.jsx ← left nav
+  pages/
+    Overview.jsx         ← scatter plot (data-driven)
+    Scenarios.jsx        ← scenario list + detail
+    Policies.jsx         ← policy list + detail
+index.html               ← entry point
 public/
   (static assets)
 package.json
