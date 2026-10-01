@@ -370,3 +370,99 @@ a:hover { text-decoration: underline; }
 @media (max-width: 420px) {
   .brand > span:last-child { display: none; }
 }
+
+/* ---------- Goals & assessments ---------- */
+
+:root {
+  --score-0: #e57373;
+  --score-1: #ffb74d;
+  --score-2: #b0bec5;
+  --score-3: #aed581;
+  --score-4: #66bb6a;
+}
+.score {
+  display: inline-block;
+  min-width: 22px;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  color: var(--s);
+  background: color-mix(in srgb, var(--s) 14%, transparent);
+}
+.score-0 { --s: var(--score-0); }
+.score-1 { --s: var(--score-1); }
+.score-2 { --s: var(--score-2); }
+.score-3 { --s: var(--score-3); }
+.score-4 { --s: var(--score-4); }
+.score-na { --s: var(--faint); }
+
+.card-badges { display: flex; gap: 6px; flex: none; align-items: flex-start; }
+.small { font-size: 12.5px; margin-top: 8px; }
+.mono { font-family: var(--mono); font-size: 12px; }
+code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
+.prose-muted { color: var(--muted); font-size: 13.5px; margin-top: 10px; }
+
+.assessment {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.assessment-rows { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.assessment-rows li { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start; }
+.assessment-name { font-size: 13.5px; font-weight: 600; color: var(--text-strong); }
+.assessment-reason { font-size: 13px; line-height: 1.5; color: var(--muted); }
+.assessment-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  align-items: center;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 12.5px;
+}
+.assessment-foot strong { font-family: var(--mono); color: var(--text-strong); }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+.data-table, .scorecard { width: 100%; border-collapse: collapse; font-size: 13px; }
+.data-table th, .data-table td, .scorecard th, .scorecard td {
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+.data-table tr:last-child > *, .scorecard tr:last-child > * { border-bottom: none; }
+.data-table thead th, .scorecard thead th {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--faint);
+  background: var(--panel);
+}
+.data-table tbody th, .scorecard tbody th { font-weight: 600; color: var(--text-strong); white-space: nowrap; }
+.data-table td { line-height: 1.5; color: var(--muted); }
+.scorecard td { white-space: nowrap; vertical-align: middle; }
+.scorecard tbody th { font-weight: 500; }
+.data-table td.threat { color: #ef9a9a; }
+.data-table td.opportunity { color: #a5d6a7; }
+.delta { margin-left: 4px; font-family: var(--mono); font-size: 10.5px; }
+.delta.up { color: var(--score-4); }
+.delta.down { color: var(--score-0); }
+
+.scale-list { list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+.scale-list li { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.rules { padding-left: 18px; display: flex; flex-direction: column; gap: 7px; font-size: 13.5px; line-height: 1.55; }
+.rules strong { color: var(--text-strong); }
+.formula {
+  margin-top: 12px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--accent);
+}

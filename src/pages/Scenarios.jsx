@@ -1,6 +1,8 @@
 import { useMemo, useState } from "react";
 import { scenarios, axes, hasAxis, quadrantLabel, splitTags } from "../data.js";
 import { href } from "../router.js";
+import { goals, defaultGoal, assessScenario } from "../goals.js";
+import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
 
 const TYPES = [
   { key: "all", label: "All" },
@@ -77,7 +79,10 @@ export function ScenariosList() {
             <a className="card" href={href(`/scenarios/${s.id}`)}>
               <div className="card-head">
                 <h2 className="card-title">{s.title}</h2>
-                <TypeBadge type={s.type} />
+                <div className="card-badges">
+                  <RatingBadge s={s} />
+                  <TypeBadge type={s.type} />
+                </div>
               </div>
               <div className="card-meta">
                 {s.author} · {s.year}
@@ -101,6 +106,13 @@ export function ScenariosList() {
       {rows.length === 0 && <div className="empty">No scenarios match these filters.</div>}
     </div>
   );
+}
+
+// Headline rating under the default goal, if this scenario has been scored.
+function RatingBadge({ s }) {
+  const a = assessScenario(defaultGoal, s.id);
+  if (a?.rating == null) return null;
+  return <ScoreChip goal={defaultGoal} value={a.rating} label title={`${defaultGoal.name}: average ${a.average.toFixed(1)}`} />;
 }
 
 // Small 2×2 showing where one scenario sits on an axis pair.
@@ -186,6 +198,25 @@ export function ScenarioDetail({ id }) {
               </p>
             )}
           </section>
+
+          {goals.map((g) => {
+            const a = assessScenario(g, s.id);
+            if (!a && g.id !== defaultGoal.id) return null;
+            return (
+              <section className="section" key={g.id}>
+                <h2>
+                  Assessed against <a href={href(`/goals/${g.id}`)}>{g.name}</a>
+                </h2>
+                {a ? (
+                  <AssessmentCard goal={g} assessment={a} />
+                ) : (
+                  <p className="muted small">
+                    Not yet assessed. Add rows to <code>goals/{g.id}/scores.csv</code> to score it.
+                  </p>
+                )}
+              </section>
+            );
+          })}
 
           {splitTags(s.tags).length > 0 && (
             <section className="section">
