@@ -14,3 +14,163 @@ wf-disempowered-abundance,,essentials,4,"Prices fall as AI runs much of the econ
 wf-disempowered-abundance,,safety-net,3,"Life feels comfortable and support holds, but it depends on the goodwill of a few owners."
 wf-disempowered-abundance,,government,1,"Governments funded by AI firms have less reason to listen; power drifts away unnoticed."
 wf-disempowered-abundance,,time,3,"Comfort leaves room for life outside work, but without a say in how it is shaped."
+turing-transform,,work,4,"Automation opens tasks once locked behind rare skills to a wider pool, so effort pays for more people."
+turing-transform,,essentials,3,"Lower skill premiums do little on their own for housing, food, energy or care."
+turing-transform,,safety-net,3,Narrower inequality eases pressure on the safety net without changing its design.
+turing-transform,,government,3,Institutions carry on much as now.
+turing-transform,,time,3,Little change to working hours or time for family and community.
+pope-leo,,work,4,AI is kept as a tool that enhances human work rather than replacing it.
+pope-leo,,essentials,3,No specific gains for the cost of essentials.
+pope-leo,,safety-net,3,"Existing protections hold, framed around human dignity."
+pope-leo,,government,3,"Human agency is defended in principle, but no new mechanisms are proposed."
+pope-leo,,time,4,Puts relationships and meaning ahead of AI substitutes for human connection.
+autor,,work,4,"Less-trained workers can do expert work, restoring middle-skill jobs and new tasks."
+autor,,essentials,3,"Cheaper expertise helps at the margin, but housing and energy are untouched."
+autor,,safety-net,3,Net-positive labour demand keeps the safety net within capacity.
+autor,,government,3,"Outcome depends on policy steering, which is assumed but not guaranteed."
+autor,,time,3,No particular change to time for what matters.
+normal-tech,,work,3,Slow diffusion over decades gives workers time to adjust.
+normal-tech,,essentials,3,Meaningful but gradual productivity gains leave costs broadly unchanged.
+normal-tech,,safety-net,3,Gradual disruption stays within existing capacity.
+normal-tech,,government,3,Existing institutions can adapt at the pace of change.
+normal-tech,,time,3,Daily life changes slowly.
+techno-optimist,,work,3,"Anyone can build, but displaced workers are left to market forces."
+techno-optimist,,essentials,4,Competition drives down the cost of goods and services.
+techno-optimist,,safety-net,2,Little role for collective support; those who fall behind rely on growth reaching them.
+techno-optimist,,government,2,"Direction is set by technologists, with regulation cast as an obstacle."
+techno-optimist,,time,3,Productivity gains are not tied to more time outside work.
+tbi,,work,2,"One to three million displaced mid-career workers bear the transition, even if offset in aggregate."
+tbi,,essentials,3,GDP gains of 11% by 2050 are too gradual to shift the cost of essentials.
+tbi,,safety-net,3,"New demand offsets job losses, keeping the safety net within capacity."
+tbi,,government,4,Workforce time savings are pitched as a route to AI-enabled public services.
+tbi,,time,3,Time saved goes to output rather than to people's own time.
+dacc,,work,3,Technology that diffuses power keeps a path for individual effort.
+dacc,,essentials,3,No particular change to the cost of essentials.
+dacc,,safety-net,3,Existing protections are neither strengthened nor eroded.
+dacc,,government,4,"Defensive, decentralised technology deliberately keeps power spread out."
+dacc,,time,3,No particular change to time for what matters.
+turing-trap,,work,3,The outcome hinges on whether firms choose augmentation over imitation of humans.
+turing-trap,,essentials,3,No particular change to the cost of essentials.
+turing-trap,,safety-net,3,"Holds while gains stay diffuse, but incentives tilt towards automation."
+turing-trap,,government,3,"Political power follows economic bargaining power, which holds only while augmentation wins."
+turing-trap,,time,3,No particular change to time for what matters.
+acemoglu,,work,2,"The gains that do appear flow to capital owners, while affected workers' wages stall."
+acemoglu,,essentials,3,Modest GDP gains bring no fall in the cost of essentials.
+acemoglu,,safety-net,3,Limited automation keeps disruption within existing capacity.
+acemoglu,,government,3,Active policy is needed but feasible.
+acemoglu,,time,3,No particular change to time for what matters.
+doctorow,,work,2,"AI cannot do the job, but the threat of it breaks workers' bargaining power."
+doctorow,,essentials,3,No particular change to the cost of essentials.
+doctorow,,safety-net,3,A bubble bursting strains but does not break existing support.
+doctorow,,government,3,Institutions are not directly undermined.
+doctorow,,time,2,"Workers become reverse centaurs, paced and monitored by machines."
+chiang,,work,2,"Firms fire workers even when AI does not work, using it as cover."
+chiang,,essentials,3,No particular change to the cost of essentials.
+chiang,,safety-net,3,Layoffs stay within the safety net's existing capacity.
+chiang,,government,2,Accountability laundering makes decisions harder to contest.
+chiang,,time,3,No particular change to time for what matters.
+ilo,,work,2,"A falling labour income share leaves exposed workers, especially in clerical work, behind."
+ilo,,essentials,3,No particular change to the cost of essentials.
+ilo,,safety-net,2,"Gains concentrate in rich countries, while workers elsewhere often lack social protection."
+ilo,,government,3,Institutions are stretched but functioning.
+ilo,,time,3,No particular change to time for what matters.
+gradual-disemp,,work,2,Human economic participation erodes step by step.
+gradual-disemp,,essentials,3,Material comfort can persist through the drift.
+gradual-disemp,,safety-net,2,States that rely less on human labour and taxes have less reason to provide for citizens.
+gradual-disemp,,government,1,Institutions slowly misalign from human interests without any visible break.
+gradual-disemp,,time,2,Culture is increasingly produced by and for AI systems.
+keep-future-human,,work,1,An unchecked race to AGI replaces human labour.
+keep-future-human,,essentials,2,Gains accrue to a few developers rather than lowering costs for everyone.
+keep-future-human,,safety-net,2,Systems built for temporary job loss cannot cope with replacement.
+keep-future-human,,government,1,Power concentrates in whoever controls the most capable systems.
+keep-future-human,,time,2,Human roles shrink alongside human agency.
+intelligence-curse,,work,1,Powerful actors lose the incentive to invest in people once labour is no longer needed.
+intelligence-curse,,essentials,2,Essentials depend on the goodwill of those who own the non-human factors.
+intelligence-curse,,safety-net,1,Rentier dynamics remove the reason to fund support for citizens.
+intelligence-curse,,government,1,"Like a rentier state, government no longer needs its citizens' consent or taxes."
+intelligence-curse,,time,2,People lose economic purpose without gaining real security.
+shumer,,work,2,Skilled technical work is automated faster than workers can adapt.
+shumer,,essentials,3,No particular change to the cost of essentials.
+shumer,,safety-net,2,Rapid change outruns benefits built for short job losses.
+shumer,,government,3,Little said about government; institutions are untested.
+shumer,,time,3,No particular change to time for what matters.
+loving-grace,,work,2,A country of geniuses in a datacentre leaves the role of human work an open question.
+loving-grace,,essentials,4,"Cures, cheaper drugs and fast growth, including in developing countries, put essentials within reach."
+loving-grace,,safety-net,3,Depends on how the gains are shared.
+loving-grace,,government,3,"Hopes AI strengthens democracy, but that depends on governance."
+loving-grace,,time,3,"More room for meaning is possible, but not assured for everyone."
+moores-law,,work,1,"AI replaces most labour, so effort is no longer the path to a better life."
+moores-law,,essentials,4,Costs of goods and services fall towards zero.
+moores-law,,safety-net,3,"An equity fund pays dividends, but it is untested at scale."
+moores-law,,government,2,"Production concentrates in AI firms, and the fund depends on their political will."
+moores-law,,time,3,"Time is freed, but without the structure work provided."
+citrini,,work,1,Mass white-collar unemployment wipes out the link between effort and reward.
+citrini,,essentials,2,Output shows up as ghost GDP that does not reach household budgets.
+citrini,,safety-net,1,Tax receipts fall as unemployment soars.
+citrini,,government,2,A market crash leaves government reacting to the crisis.
+citrini,,time,2,Lost jobs bring insecurity rather than free time.
+sit-awareness,,work,1,Superintelligence by the end of the decade makes most human labour redundant.
+sit-awareness,,essentials,2,Trillion-dollar compute clusters compete with households for energy.
+sit-awareness,,safety-net,2,Support systems are not designed for the speed of change.
+sit-awareness,,government,2,"A national-security Project takes over, with decisions made out of public view."
+sit-awareness,,time,2,Life is reorganised around a race rather than around people.
+ai-2027,,work,1,An intelligence explosion makes human labour largely redundant.
+ai-2027,,essentials,2,"Abundance arrives, but on terms set by one lab."
+ai-2027,,safety-net,1,Replacement outpaces any safety net.
+ai-2027,,government,1,"One lab dominates, and oversight is captured or bypassed."
+ai-2027,,time,2,Humans lose say over how their time and lives are shaped.
+toloui-prometheus,,work,4,Decentralised AI enhances human capability across the workforce.
+toloui-prometheus,,essentials,4,Competition among fast followers keeps prices low.
+toloui-prometheus,,safety-net,3,Augmentation keeps disruption within existing capacity.
+toloui-prometheus,,government,3,No dominant actor to capture policy.
+toloui-prometheus,,time,3,No particular change to time for what matters.
+toloui-copilot,,work,3,"Humans remain essential, though platforms capture much of the value."
+toloui-copilot,,essentials,2,Platform owners extract rents on the AI layer that everyone depends on.
+toloui-copilot,,safety-net,3,"Employment holds, so the safety net is not overwhelmed."
+toloui-copilot,,government,2,A few dominant platforms gain leverage over regulators.
+toloui-copilot,,time,3,No particular change to time for what matters.
+toloui-swarm,,work,1,"Rapid, broad displacement leaves effort with nowhere to go."
+toloui-swarm,,essentials,4,Commoditisation drives prices down.
+toloui-swarm,,safety-net,2,Massive displacement overwhelms benefits built for short job losses.
+toloui-swarm,,government,3,No single actor captures the gains or the state.
+toloui-swarm,,time,2,Displacement brings insecurity rather than free time.
+toloui-titans,,work,1,Monopolistic control of broadly displacing technology.
+toloui-titans,,essentials,2,Monopolists set prices for what everyone needs.
+toloui-titans,,safety-net,1,Displacement and concentrated gains drain the tax base.
+toloui-titans,,government,1,Monopoly power dominates government.
+toloui-titans,,time,2,Lost work brings insecurity rather than free time.
+korinek-aug,,work,4,"Workers become more productive without being replaced, and gains spread through wages."
+korinek-aug,,essentials,3,Standard productivity growth leaves the cost of essentials broadly unchanged.
+korinek-aug,,safety-net,3,"Employment holds, so the safety net is not stretched."
+korinek-aug,,government,3,Institutions are not challenged.
+korinek-aug,,time,3,No particular change to time for what matters.
+korinek-agi,,work,1,AGI replaces most cognitive labour.
+korinek-agi,,essentials,2,"Output soars, but without redistribution the worst-off cannot afford its fruits."
+korinek-agi,,safety-net,1,"Without redistribution, there is nothing to catch those left behind."
+korinek-agi,,government,2,Enormous gains to capital owners translate into political influence.
+korinek-agi,,time,2,Lost work brings insecurity rather than free time.
+cfg-plateau,,work,4,Cheap local models augment workers and small firms.
+cfg-plateau,,essentials,3,Modest gains leave the cost of essentials broadly unchanged.
+cfg-plateau,,safety-net,3,Limited disruption stays within existing capacity.
+cfg-plateau,,government,3,"Open source keeps power spread out, but institutions are unchanged."
+cfg-plateau,,time,3,No particular change to time for what matters.
+cfg-central,,work,1,Fast capability growth under one actor replaces human labour.
+cfg-central,,essentials,2,Access to essentials depends on one actor's choices.
+cfg-central,,safety-net,1,Unprecedented concentration leaves the safety net without a tax base.
+cfg-central,,government,1,One dominant actor holds unprecedented power.
+cfg-central,,time,2,People lose say over how their lives are shaped.
+cfg-decentral,,work,2,Fast capability growth across many actors displaces workers.
+cfg-decentral,,essentials,4,Open-weight models make AI-powered goods and services cheap.
+cfg-decentral,,safety-net,2,Rapid displacement strains benefits built for short job losses.
+cfg-decentral,,government,2,Misuse risks and a fractured information ecosystem strain governance.
+cfg-decentral,,time,3,No particular change to time for what matters.
+dsit-steady,,work,3,Gradual adoption gives workers time to adjust.
+dsit-steady,,essentials,3,Steady progress leaves the cost of essentials broadly unchanged.
+dsit-steady,,safety-net,3,Disruption stays within existing capacity.
+dsit-steady,,government,3,Existing institutions adapt.
+dsit-steady,,time,3,No particular change to time for what matters.
+dsit-rapid,,work,2,Fast capability gains bring significant displacement.
+dsit-rapid,,essentials,3,No particular change to the cost of essentials.
+dsit-rapid,,safety-net,2,Displacement outpaces benefits built for short job losses.
+dsit-rapid,,government,2,Government struggles to keep pace with a few dominant companies.
+dsit-rapid,,time,3,No particular change to time for what matters.
