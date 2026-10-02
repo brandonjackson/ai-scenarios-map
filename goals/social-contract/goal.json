@@ -2,6 +2,7 @@
   "id": "social-contract",
   "name": "The Social Contract",
   "author": "Windfall Trust",
+  "criteriaNoun": "promises",
   "status": "Working draft",
   "summary": "Scores how well five promises of the social contract are kept under each AI scenario. The promises are held constant so that varying the scenario shows which are most at risk, and varying the policy within a scenario shows which interventions might be most effective.",
   "description": "The social contract is the set of promises a society makes to its citizens in return for their participation: working, paying taxes and playing by the rules. The exact terms vary from country to country, yet they are remarkably consistent. We group them into five promises, each summed up in a plain-language vow. Measuring the health of the social contract offers an alternative to numerical measures like GDP. People know when a promise is broken, and asking them is more honest than numerical assessments, which often mask contradictions: an economy can grow while most people feel left behind.",

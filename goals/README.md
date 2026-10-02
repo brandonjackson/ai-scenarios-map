@@ -32,6 +32,7 @@ working draft of five promises a society makes to its citizens.
 | --- | --- | --- |
 | `id` | yes | Matches the folder name. Used in URLs (`#/goals/<id>`). |
 | `name` | yes | Display name. |
+| `criteriaNoun` | | What to call the criteria in headings (e.g. "promises"). Defaults to "criteria". |
 | `author`, `status` | | Shown under the title (e.g. "Working draft"). |
 | `summary` | | One paragraph shown on the goals list and detail page. |
 | `description` | | Longer background, shown on the detail page. |

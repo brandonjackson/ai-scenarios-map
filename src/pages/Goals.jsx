@@ -2,6 +2,7 @@ import { scenarios, policies } from "../data.js";
 import { goals, defaultGoal, goalById, assessScenario } from "../goals.js";
 import { describeAggregation } from "../lib/goals.js";
 import { ScoreChip } from "../components/Assessment.jsx";
+import RiskChart from "../components/RiskChart.jsx";
 import { href } from "../router.js";
 
 const scenarioById = Object.fromEntries(scenarios.map((s) => [s.id, s]));
@@ -186,6 +187,17 @@ export function GoalDetail({ id }) {
           <p className="formula">{describeAggregation(goal)}</p>
         </section>
       </div>
+
+      {baseline.length > 1 && (
+        <section className="section">
+          <h2>Which {goal.criteriaNoun || "criteria"} are most at risk</h2>
+          <p className="muted small chart-intro">
+            Share of the {baseline.length} assessed scenarios at each score. Worse scores extend left of the
+            centre line, better ones right. Hover a segment to see the scenarios.
+          </p>
+          <RiskChart goal={goal} assessments={baseline.map((r) => ({ title: r.label, a: r.a }))} />
+        </section>
+      )}
 
       <section className="section">
         <h2>Scenarios assessed</h2>

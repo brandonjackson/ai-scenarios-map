@@ -365,6 +365,9 @@ a:hover { text-decoration: underline; }
   .nav-icon { display: none; }
   .content { padding: 20px 16px 48px; }
   .pros-cons { grid-template-columns: 1fr; }
+  .risk-row { grid-template-columns: 1fr auto; }
+  .risk-label { grid-column: 1 / -1; }
+  .risk-bar { grid-column: 1; }
 }
 
 @media (max-width: 420px) {
@@ -374,11 +377,15 @@ a:hover { text-decoration: underline; }
 /* ---------- Goals & assessments ---------- */
 
 :root {
-  --score-0: #e57373;
-  --score-1: #ffb74d;
-  --score-2: #b0bec5;
-  --score-3: #aed581;
-  --score-4: #66bb6a;
+  /* Diverging red <-> blue around a neutral midpoint (colour-blind safe).
+     Ink is picked per step for >= 5.5:1 contrast on the fill. */
+  --score-0: #ee5b52;
+  --score-1: #a8423c;
+  --score-2: #929ba3;
+  --score-3: #3b63c4;
+  --score-4: #5fa2ff;
+  --ink-dark: #0a0f16;
+  --ink-light: #ffffff;
 }
 .score {
   display: inline-block;
@@ -390,15 +397,15 @@ a:hover { text-decoration: underline; }
   padding: 2px 7px;
   border-radius: 4px;
   white-space: nowrap;
-  color: var(--s);
-  background: color-mix(in srgb, var(--s) 14%, transparent);
+  color: var(--ink);
+  background: var(--s);
 }
-.score-0 { --s: var(--score-0); }
-.score-1 { --s: var(--score-1); }
-.score-2 { --s: var(--score-2); }
-.score-3 { --s: var(--score-3); }
-.score-4 { --s: var(--score-4); }
-.score-na { --s: var(--faint); }
+.score-0 { --s: var(--score-0); --ink: var(--ink-dark); }
+.score-1 { --s: var(--score-1); --ink: var(--ink-light); }
+.score-2 { --s: var(--score-2); --ink: var(--ink-dark); }
+.score-3 { --s: var(--score-3); --ink: var(--ink-light); }
+.score-4 { --s: var(--score-4); --ink: var(--ink-dark); }
+.score-na { color: var(--faint); background: #151f2e; }
 
 .card-badges { display: flex; gap: 6px; flex: none; align-items: flex-start; }
 .small { font-size: 12.5px; margin-top: 8px; }
@@ -466,3 +473,47 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
   font-size: 11.5px;
   color: var(--accent);
 }
+
+/* Promises-at-risk chart */
+.risk {
+  position: relative;
+  padding: 16px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.risk-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+.risk-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.risk-legend i, .risk-tip i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+.risk-rows { display: flex; flex-direction: column; gap: 10px; }
+.risk-row { display: grid; grid-template-columns: 170px 1fr 130px; gap: 6px 14px; align-items: center; }
+.risk-label { font-size: 13px; font-weight: 600; color: var(--text-strong); }
+.risk-bar { position: relative; display: flex; height: 20px; }
+.risk-side { display: flex; gap: 2px; }
+.risk-left { justify-content: flex-end; padding-right: 1px; }
+.risk-right { padding-left: 1px; }
+.risk-seg { height: 100%; min-width: 2px; cursor: default; }
+.risk-left .risk-seg:first-child { border-radius: 4px 0 0 4px; }
+.risk-right .risk-seg:last-child { border-radius: 0 4px 4px 0; }
+.risk-seg:hover { outline: 2px solid var(--text-strong); outline-offset: 1px; position: relative; z-index: 1; }
+.risk-centre { position: absolute; top: -4px; bottom: -4px; width: 1px; background: var(--muted); }
+.risk-stat { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.risk-stat strong { font-family: var(--mono); color: var(--text-strong); }
+.risk-tip {
+  position: absolute;
+  z-index: 5;
+  transform: translate(-50%, calc(-100% - 8px));
+  width: max-content;
+  max-width: 300px;
+  padding: 10px 12px;
+  background: var(--panel-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  font-size: 12px;
+}
+.risk-tip-head { display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-strong); }
+.risk-tip-count { font-family: var(--mono); font-size: 11px; color: var(--muted); margin: 4px 0; }
+.risk-tip-list { color: var(--text); line-height: 1.45; }
+.chart-intro { margin: -4px 0 10px; }

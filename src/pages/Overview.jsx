@@ -2,6 +2,13 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import scenariosData from "../../data/scenarios.json";
 import axesData from "../../data/axes.json";
 import { href } from "../router.js";
+import { defaultGoal, assessScenario } from "../goals.js";
+import { scaleLabel } from "../lib/goals.js";
+import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
+
+// Headline rating under the default goal, or null if not assessed.
+const ratingOf = (s) => assessScenario(defaultGoal, s.id)?.rating ?? null;
+const UNRATED = "#37474f";
 
 // Build framework connection groups
 const frameworkGroups = {};
@@ -25,6 +32,7 @@ export default function Overview() {
   const [hovered, setHovered] = useState(null);
   const [filter, setFilter] = useState("all");
   const [axisIdx, setAxisIdx] = useState(0);
+  const [colorBy, setColorBy] = useState("type");
   const chartRef = useRef(null);
   const [dims, setDims] = useState({ w: 900, h: 680 });
 
@@ -68,6 +76,13 @@ export default function Overview() {
   );
 
   const active = hovered || selected;
+  const byRating = colorBy === "rating";
+  const typeColor = (s) => (s.type === "framework" ? "#ffb74d" : "#4dd0e1");
+  const pointColor = (s) => {
+    if (!byRating) return typeColor(s);
+    const r = ratingOf(s);
+    return r == null ? UNRATED : scoreColor(defaultGoal, r);
+  };
   const activeFramework = active?.framework || null;
   const frameworkSiblings = activeFramework
     ? frameworkGroups[activeFramework] || []
@@ -242,9 +257,23 @@ export default function Overview() {
             {f.label}
           </button>
         ))}
+        <div className="chips" role="group" aria-label="Colour points by" style={{ marginLeft: "auto" }}>
+          {[
+            { key: "type", label: "Colour by type" },
+            { key: "rating", label: `Colour by ${defaultGoal.name.replace(/^The /, "").toLowerCase()} rating` },
+          ].map((c) => (
+            <button
+              key={c.key}
+              className={`chip${colorBy === c.key ? " active" : ""}`}
+              aria-pressed={colorBy === c.key}
+              onClick={() => setColorBy(c.key)}
+            >
+              {c.label}
+            </button>
+          ))}
+        </div>
         <span
           style={{
-            marginLeft: "auto",
             fontSize: 12,
             color: "#546e7a",
             fontFamily: "JetBrains Mono",
@@ -337,7 +366,7 @@ export default function Overview() {
               const p2 = toScreen(b);
               return (
                 <line key={`fw-${a.id}-${b.id}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                  stroke="#ffb74d" strokeWidth={1.5} opacity={0.7}
+                  stroke={byRating ? "#78909c" : "#ffb74d"} strokeWidth={1.5} opacity={0.7}
                 />
               );
             })}
@@ -362,7 +391,7 @@ export default function Overview() {
               >
                 {isActive && (
                   <circle cx={sx} cy={sy} r={14} fill="none"
-                    stroke={s.type === "framework" ? "#ffb74d" : "#4dd0e1"}
+                    stroke={pointColor(s)}
                     strokeWidth={1.2} opacity={0.4}
                   >
                     <animate attributeName="r" values="10;18;10" dur="2s" repeatCount="indefinite" />
@@ -371,13 +400,13 @@ export default function Overview() {
                 )}
                 {s.type === "framework" ? (
                   <rect x={sx - 6.5} y={sy - 6.5} width={13} height={13} rx={2.5}
-                    fill="#ffb74d"
-                    stroke={isActive || isSibling ? "#ffe0b2" : "none"}
+                    fill={pointColor(s)}
+                    stroke={isActive || isSibling ? "#ffe0b2" : "#0a0f16"}
                     strokeWidth={isActive ? 2 : 1.5}
                   />
                 ) : (
-                  <circle cx={sx} cy={sy} r={7.5} fill="#4dd0e1"
-                    stroke={isActive ? "#b2ebf2" : "none"} strokeWidth={2}
+                  <circle cx={sx} cy={sy} r={7.5} fill={pointColor(s)}
+                    stroke={isActive ? "#b2ebf2" : "#0a0f16"} strokeWidth={2}
                   />
                 )}
               </g>
@@ -484,6 +513,10 @@ export default function Overview() {
                   >
                     {active.type === "single" ? "Single Vision" : "Framework"}
                   </span>
+                  {ratingOf(active) != null && (
+                    <ScoreChip goal={defaultGoal} value={ratingOf(active)} label
+                      title={`${defaultGoal.name} rating`} />
+                  )}
                   {active.tags &&
                     active.tags.split(", ").map((t, i) => (
                       <span
@@ -532,28 +565,33 @@ export default function Overview() {
             ({skipped} not rated on this axis)
           </span>
         )}
-        <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-          <span
-            style={{
-              width: 7,
-              height: 7,
-              borderRadius: "50%",
-              background: "#4dd0e1",
-            }}
-          />{" "}
-          Single Vision
-        </span>
-        <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-          <span
-            style={{
-              width: 7,
-              height: 7,
-              borderRadius: 2,
-              background: "#ffb74d",
-            }}
-          />{" "}
-          Framework Sub-scenario
-        </span>
+        {byRating ? (
+          <>
+            <span style={{ color: "#78909c" }}>{defaultGoal.name} rating:</span>
+            {defaultGoal.scale.map((v) => (
+              <span key={v.value} style={{ display: "flex", alignItems: "center", gap: 5, color: "#78909c" }}>
+                <span style={{ width: 9, height: 9, borderRadius: 2, background: scoreColor(defaultGoal, v.value) }} />
+                {v.value} · {scaleLabel(defaultGoal, v.value)}
+              </span>
+            ))}
+            <span style={{ display: "flex", alignItems: "center", gap: 5, color: "#78909c" }}>
+              <span style={{ width: 9, height: 9, borderRadius: 2, background: UNRATED }} />
+              Not assessed
+            </span>
+            <span>● single vision · ■ framework</span>
+          </>
+        ) : (
+          <>
+            <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
+              <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#4dd0e1" }} />{" "}
+              Single Vision
+            </span>
+            <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
+              <span style={{ width: 7, height: 7, borderRadius: 2, background: "#ffb74d" }} />{" "}
+              Framework Sub-scenario
+            </span>
+          </>
+        )}
       </div>
     </div>
   );

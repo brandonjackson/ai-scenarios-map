@@ -1,13 +1,20 @@
 import { scaleLabel } from "../lib/goals.js";
 
-// Coloured 1–5 pill. Colour is normalised to the goal's scale, so goals with
-// other ranges still read red → green.
-export function ScoreChip({ goal, value, label, title }) {
-  if (value == null) return <span className="score score-na">–</span>;
+// Maps a score onto the five-step diverging palette (--score-0 … --score-4),
+// normalised to the goal's scale so goals with other ranges still read
+// red → neutral → blue.
+export function scoreStep(goal, value) {
   const values = goal.scale.map((s) => s.value);
   const lo = Math.min(...values);
   const hi = Math.max(...values);
-  const step = hi === lo ? 2 : Math.round(((value - lo) / (hi - lo)) * 4);
+  return hi === lo ? 2 : Math.round(((value - lo) / (hi - lo)) * 4);
+}
+
+export const scoreColor = (goal, value) => `var(--score-${scoreStep(goal, value)})`;
+
+export function ScoreChip({ goal, value, label, title }) {
+  if (value == null) return <span className="score score-na">–</span>;
+  const step = scoreStep(goal, value);
   return (
     <span className={`score score-${step}`} title={title || scaleLabel(goal, value)}>
       {label ? `${value} · ${scaleLabel(goal, value)}` : value}
