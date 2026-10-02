@@ -1,10 +1,12 @@
 import scenariosData from "../../data/scenarios.json";
 import { policies } from "../data.js";
+import { goals } from "../goals.js";
 import { href } from "../router.js";
 
 const NAV = [
   { key: "overview", label: "Overview", path: "/", icon: "◫" },
   { key: "scenarios", label: "Scenarios", path: "/scenarios", icon: "◇", count: scenariosData.length },
+  { key: "goals", label: "Goals", path: "/goals", icon: "◎", count: goals.length },
   { key: "policies", label: "Policies", path: "/policies", icon: "▤", count: policies.length },
 ];
 

@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/csv2json.mjs && vite",
-    "build": "node scripts/csv2json.mjs && vite build",
+    "dev": "node scripts/csv2json.mjs && node scripts/check-goals.mjs && vite",
+    "build": "node scripts/csv2json.mjs && node scripts/check-goals.mjs && vite build",
     "preview": "vite preview",
     "data:csv2json": "node scripts/csv2json.mjs",
+    "goals:check": "node scripts/check-goals.mjs",
     "data:policy-atlas": "node data/policy-atlas/scrape.mjs && node data/policy-atlas/build-csv.mjs"
   },
   "dependencies": {

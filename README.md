@@ -8,6 +8,7 @@ A left nav is shared across all pages (hash routes, so deep links work on GitHub
 
 - **Overview** (`#/`) — the interactive 2×2 scatter plot
 - **Scenarios** (`#/scenarios`) — searchable list; each scenario has a detail page (`#/scenarios/<id>`) showing its position on every axis pair
+- **Goals** (`#/goals`) — goal functions that scenarios are assessed against; each goal has a detail page (`#/goals/<id>`) with its criteria, scale and a scorecard of assessed scenarios. Scenario pages show their assessment under each goal.
 - **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`)
 
 ## Data Model
@@ -18,6 +19,22 @@ All source data lives in `data/`:
 - **`scenarios.json`** — Same data as JSON (generated from CSV or vice versa).
 - **`axes.json`** — Defines available axis pairs (what fields to plot, labels, orientation).
 - **`ai_scenario_literature.xlsx`** — Editable spreadsheet version with colour coding and a README sheet.
+
+## Goals
+
+A **goal function** is a yardstick for judging scenarios: a set of criteria, a scoring scale, and a rule for combining criterion scores into one headline rating. Goals live in `goals/`, one folder per goal:
+
+```
+goals/
+  config.json              ← { "default": "<goal id>" }
+  social-contract/
+    goal.json              ← criteria, scale, rules, aggregation
+    scores.csv             ← scenario,policy,criterion,score,reason
+```
+
+The default goal is **The Social Contract** (Windfall Trust): five promises — hard work pays, affordable essentials, reliable safety net, responsive government, time for what matters — each scored 1–5 for the worst-off group, averaged, and capped by the weakest-link rule (the headline rating can sit at most one point above the weakest promise).
+
+To add your own goal, copy `goals/social-contract/`, edit it, and see [`goals/README.md`](goals/README.md) for the full format. `npm run goals:check` validates every goal (it also runs before `dev` and `build`).
 
 ### Adding a new scenario
 
@@ -46,15 +63,22 @@ data/
   scenarios.json         ← JSON mirror
   axes.json              ← axis pair definitions
   ai_scenario_literature.xlsx  ← spreadsheet for editing
+goals/                   ← goal functions (see goals/README.md)
+scripts/
+  csv2json.mjs           ← scenarios.csv → scenarios.json
+  check-goals.mjs        ← validates goals/
 src/
   App.jsx                ← layout shell + route table
   router.js              ← tiny hash router
   data.js                ← shared data imports + helpers
+  goals.js               ← loads every goals/*/ folder
+  lib/goals.js           ← scoring + validation (pure, shared with scripts)
   styles.css             ← site-wide styles (layout, nav, cards)
   components/Sidebar.jsx ← left nav
   pages/
     Overview.jsx         ← scatter plot (data-driven)
     Scenarios.jsx        ← scenario list + detail
+    Goals.jsx            ← goal list + detail (scorecard)
     Policies.jsx         ← policy list + detail
 index.html               ← entry point
 public/

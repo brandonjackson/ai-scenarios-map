@@ -1,0 +1,75 @@
+{
+  "id": "social-contract",
+  "name": "The Social Contract",
+  "author": "Windfall Trust",
+  "criteriaNoun": "promises",
+  "status": "Working draft",
+  "summary": "Scores how well five promises of the social contract are kept under each AI scenario. The promises are held constant so that varying the scenario shows which are most at risk, and varying the policy within a scenario shows which interventions might be most effective.",
+  "description": "The social contract is the set of promises a society makes to its citizens in return for their participation: working, paying taxes and playing by the rules. The exact terms vary from country to country, yet they are remarkably consistent. We group them into five promises, each summed up in a plain-language vow. Measuring the health of the social contract offers an alternative to numerical measures like GDP. People know when a promise is broken, and asking them is more honest than numerical assessments, which often mask contradictions: an economy can grow while most people feel left behind.",
+  "criteria": [
+    {
+      "id": "work",
+      "name": "Hard work pays",
+      "short": "Work",
+      "vow": "Effort provides a pathway to a better life.",
+      "threats": ["Entry-level jobs disappear", "Wages compress", "Credentials lose value"],
+      "opportunities": ["Higher mid-skill productivity", "New kinds of work"]
+    },
+    {
+      "id": "essentials",
+      "name": "Affordable essentials",
+      "short": "Essentials",
+      "vow": "Housing, food, energy and care stay within reach.",
+      "threats": ["Gains swallowed by land and rents", "Data centres push up energy bills", "Personalised pricing"],
+      "opportunities": ["Automated construction and farming", "Free expert advice", "Cheaper drugs", "Abundant energy"]
+    },
+    {
+      "id": "safety-net",
+      "name": "Reliable safety net",
+      "short": "Safety net",
+      "vow": "If you lose your job, you land safely.",
+      "threats": ["A shrinking tax base", "Benefits built for short job losses, not permanent ones"],
+      "opportunities": ["More jobs in care", "Fairer capital taxation", "Universal basic capital"]
+    },
+    {
+      "id": "government",
+      "name": "Responsive government",
+      "short": "Government",
+      "vow": "Votes matter and collective problems are solved.",
+      "threats": ["State capacity lags firms", "Regulatory capture", "A broken information ecosystem"],
+      "opportunities": ["AI-enabled public services", "Deliberation at scale", "Interoperable public infrastructure"]
+    },
+    {
+      "id": "time",
+      "name": "Time for what matters",
+      "short": "Time",
+      "vow": "Room for family, community and meaning.",
+      "threats": ["Always-on work", "The attention economy", "AI companions replacing relationships"],
+      "opportunities": ["A shorter working week", "More time off", "Time for care and learning"]
+    }
+  ],
+  "scale": [
+    { "value": 1, "label": "Broken for all", "meaning": "Universal loss of hope, trust and fairness" },
+    { "value": 2, "label": "Broken for some", "meaning": "Severe harm concentrated in specific groups" },
+    { "value": 3, "label": "Stable", "meaning": "Manageable disruption within existing capacity" },
+    { "value": 4, "label": "Improving", "meaning": "Lives improving for future generations" },
+    { "value": 5, "label": "Thriving", "meaning": "Profound progress for the next generation" }
+  ],
+  "rules": [
+    { "name": "Score each promise", "text": "Each scenario gets a score from 1 to 5 on every promise, with a one-sentence reason." },
+    { "name": "Judge for the worst-off", "text": "Scores reflect the group that fares worst, not the average citizen." },
+    { "name": "Average the five", "text": "The average gives a quick read across promises." },
+    { "name": "Apply the weakest-link rule", "text": "A scenario's headline rating can sit no more than one point above its weakest promise. Material plenty cannot make up for citizens losing their say." }
+  ],
+  "aggregation": {
+    "method": "mean",
+    "rounding": "floor",
+    "weakestLink": 1
+  },
+  "notes": [
+    "All scores are provisional and meant for discussion.",
+    "Scores for the literature scenarios are a first draft for review. Each is scored on the future the source describes, as placed on the map: cautionary sources (e.g. Keep the Future Human) are scored on the outcome they warn of, and prescriptive ones (e.g. Antiqua et Nova) on the future they argue for.",
+    "Rubric anchors: each promise needs felt descriptions for 1, 3 and 5, so the jumps between levels are visible.",
+    "New ideas above a 3: which instruments could plausibly move any promise beyond stable?"
+  ]
+}
