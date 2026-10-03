@@ -6,9 +6,10 @@ An interactive site mapping AI scenario literature across multiple analytical di
 
 A left nav is shared across all pages (hash routes, so deep links work on GitHub Pages):
 
-- **Overview** (`#/`) — the interactive 2×2 scatter plot
-- **Scenarios** (`#/scenarios`) — searchable list, filterable by type and policy stance; each scenario has a detail page (`#/scenarios/<id>`) with tabs for an overview (position on every axis pair, goal assessments), its social contract summary (with draft scores beside each promise) and its assumptions analysis, read from `scenarios/<id>/`
+- **Overview** (`#/`) — the social contract scale and the average trajectory of policy-off scenarios, overall and promise by promise, against the policy-on average
 - **Goals** (`#/goals`) — goal functions that scenarios are assessed against; each goal has a detail page (`#/goals/<id>`) with its criteria, scale and a scorecard of assessed scenarios. Scenario pages show their assessment under each goal.
+- **Maps** (`#/maps`) — the interactive 2×2 scatter plot
+- **Scenarios** (`#/scenarios`) — searchable list, filterable by type and policy stance; each scenario has a detail page (`#/scenarios/<id>`) with tabs for an overview (position on every axis pair, goal assessments), its social contract summary (with draft scores beside each promise) and its assumptions analysis, read from `scenarios/<id>/`
 - **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`)
 
 ## Data Model

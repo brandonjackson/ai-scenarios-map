@@ -1,5 +1,6 @@
 import Sidebar from "./components/Sidebar.jsx";
 import Overview from "./pages/Overview.jsx";
+import Maps from "./pages/Maps.jsx";
 import { GoalsList, GoalDetail } from "./pages/Goals.jsx";
 import { PoliciesList, PolicyDetail } from "./pages/Policies.jsx";
 import { ScenariosList, ScenarioDetail } from "./pages/Scenarios.jsx";
@@ -10,6 +11,8 @@ function resolve([section, id]) {
   switch (section) {
     case undefined:
       return { nav: "overview", page: <Overview /> };
+    case "maps":
+      return { nav: "maps", page: <Maps /> };
     case "goals":
       return {
         nav: "goals",
