@@ -1,426 +1,201 @@
-import { useState, useRef, useEffect, useMemo } from "react";
-import scenariosData from "../../data/scenarios.json";
-import axesData from "../../data/axes.json";
-import { href } from "../router.js";
-import { defaultGoal, assessScenario } from "../goals.js";
+import { scenarios } from "../data.js";
+import { defaultGoal as goal, assessScenario } from "../goals.js";
 import { scaleLabel } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
+import { href } from "../router.js";
 
-// Headline rating under the default goal, or null if not assessed.
-const ratingOf = (s) => assessScenario(defaultGoal, s.id)?.rating ?? null;
-const UNRATED = "var(--border-strong)";
+const values = goal.scale.map((s) => s.value).sort((a, b) => a - b);
+const lo = values[0];
+const hi = values[values.length - 1];
+const mid = (lo + hi) / 2;
 
-// Build framework connection groups
-const frameworkGroups = {};
-scenariosData.forEach((s) => {
-  if (s.framework) {
-    if (!frameworkGroups[s.framework]) frameworkGroups[s.framework] = [];
-    frameworkGroups[s.framework].push(s.id);
-  }
+// Position of a (possibly fractional) score along a track of equal-width
+// segments, one per scale step, as a percentage from the left.
+const pos = (v) => ((v - lo + 0.5) / values.length) * 100;
+
+const mean = (xs) => (xs.length ? xs.reduce((t, x) => t + x, 0) / xs.length : null);
+
+// Baseline assessments for every scenario with the given policy stance.
+const assessed = (stance) =>
+  scenarios
+    .filter((s) => s.policy === stance)
+    .map((s) => ({ s, a: assessScenario(goal, s.id) }))
+    .filter((r) => r.a?.complete);
+
+const off = assessed("off");
+const on = assessed("on");
+
+const summarise = (rows) => ({
+  n: rows.length,
+  average: mean(rows.map((r) => r.a.average)),
+  rating: mean(rows.map((r) => r.a.rating)),
+  criteria: Object.fromEntries(
+    goal.criteria.map((c) => [c.id, mean(rows.map((r) => r.a.scores[c.id].score))])
+  ),
 });
 
-const toNorm = (v) => (v + 1) / 2;
+const offSum = summarise(off);
+const onSum = summarise(on);
 
-const FILTERS = [
-  { key: "all", label: "All" },
-  { key: "single", label: "Single Vision", dot: "single" },
-  { key: "framework", label: "Framework Sub-scenario", dot: "framework" },
-];
+// Nearest scale label for a fractional score, e.g. 2.4 → "Broken for some".
+const nearest = (v) => scaleLabel(goal, Math.min(hi, Math.max(lo, Math.round(v))));
+
+function Track({ children, labels }) {
+  return (
+    <div className="sc-track-wrap">
+      <div className="sc-track">
+        {values.map((v) => (
+          <div key={v} className="sc-seg" style={{ background: scoreColor(goal, v) }} />
+        ))}
+        {children}
+      </div>
+      {labels && (
+        <div className="sc-ticks">
+          {values.map((v) => (
+            <div key={v} className="sc-tick">
+              <strong>{v}</strong> {scaleLabel(goal, v)}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// An arrow from the "stable" midpoint to where the average scenario lands.
+function Trajectory({ to, ghost }) {
+  if (to == null) return null;
+  const a = pos(mid);
+  const b = pos(to);
+  return (
+    <>
+      <div
+        className={`sc-arrow${b < a ? " left" : ""}`}
+        style={{ left: `${Math.min(a, b)}%`, width: `${Math.abs(b - a)}%` }}
+      />
+      {ghost != null && <div className="sc-ghost" style={{ left: `${pos(ghost)}%` }} title={`Policy on: ${ghost.toFixed(1)}`} />}
+      <div className="sc-marker" style={{ left: `${pos(to)}%` }} title={`Policy off: ${to.toFixed(1)}`} />
+    </>
+  );
+}
 
 export default function Overview() {
-  const [selected, setSelected] = useState(null);
-  const [hovered, setHovered] = useState(null);
-  const [filter, setFilter] = useState("all");
-  const [axisIdx, setAxisIdx] = useState(0);
-  const [colorBy, setColorBy] = useState("type");
-  const chartRef = useRef(null);
-  const [dims, setDims] = useState({ w: 900, h: 680 });
-
-  const axes = axesData[axisIdx];
-
-  useEffect(() => {
-    const measure = () => {
-      if (chartRef.current) {
-        const r = chartRef.current.getBoundingClientRect();
-        setDims({ w: r.width, h: Math.max(480, r.height) });
-      }
-    };
-    measure();
-    // Observe the element rather than the window: the sidebar layout can
-    // change the chart's width without a window resize.
-    const ro = new ResizeObserver(measure);
-    ro.observe(chartRef.current);
-    return () => ro.disconnect();
-  }, []);
-
-  const filtered = useMemo(
-    () =>
-      scenariosData.filter((s) => {
-        const xVal = s[axes.xField];
-        const yVal = s[axes.yField];
-        const hasData = xVal !== null && xVal !== "" && yVal !== null && yVal !== "";
-        const matchesType = filter === "all" || s.type === filter;
-        return hasData && matchesType;
-      }),
-    [filter, axisIdx]
-  );
-
-  const skipped = useMemo(
-    () =>
-      scenariosData.filter((s) => {
-        const xVal = s[axes.xField];
-        const yVal = s[axes.yField];
-        return xVal === null || xVal === "" || yVal === null || yVal === "";
-      }).length,
-    [axisIdx]
-  );
-
-  const active = hovered || selected;
-  const byRating = colorBy === "rating";
-  const typeColor = (s) => (s.type === "framework" ? "var(--framework)" : "var(--single)");
-  const pointColor = (s) => {
-    if (!byRating) return typeColor(s);
-    const r = ratingOf(s);
-    return r == null ? UNRATED : scoreColor(defaultGoal, r);
-  };
-  const activeFramework = active?.framework || null;
-  const frameworkSiblings = activeFramework
-    ? frameworkGroups[activeFramework] || []
-    : [];
-
-  const pad = { top: 50, right: 30, bottom: 50, left: 30 };
-  const plotW = dims.w - pad.left - pad.right;
-  const plotH = dims.h - pad.top - pad.bottom;
-
-  const toScreen = (s) => {
-    const xVal = s[axes.xField];
-    const yVal = s[axes.yField];
-    const sx = pad.left + toNorm(xVal) * plotW;
-    let sy;
-    if (axes.yInvert) {
-      sy = pad.top + (1 - toNorm(yVal)) * plotH;
-    } else {
-      sy = pad.top + toNorm(yVal) * plotH;
-    }
-    return { sx, sy };
-  };
-
-  const frameworkLines = useMemo(() => {
-    const lines = [];
-    Object.values(frameworkGroups).forEach((ids) => {
-      const members = ids
-        .map((id) => scenariosData.find((s) => s.id === id))
-        .filter(Boolean)
-        .filter(
-          (s) =>
-            s[axes.xField] !== null &&
-            s[axes.xField] !== "" &&
-            s[axes.yField] !== null &&
-            s[axes.yField] !== ""
-        );
-      for (let i = 0; i < members.length; i++) {
-        for (let j = i + 1; j < members.length; j++) {
-          lines.push([members[i], members[j], members[i].framework]);
-        }
-      }
-    });
-    return lines;
-  }, [axisIdx]);
-
-  const proximityLines = useMemo(() => {
-    const eligible = scenariosData.filter(
-      (s) =>
-        s[axes.xField] !== null &&
-        s[axes.xField] !== "" &&
-        s[axes.yField] !== null &&
-        s[axes.yField] !== ""
-    );
-    const lines = [];
-    const K = 3;
-    const threshold = 0.55;
-    eligible.forEach((s) => {
-      const dists = eligible
-        .filter((o) => o.id !== s.id)
-        .map((o) => ({
-          o,
-          d: Math.sqrt(
-            (s[axes.xField] - o[axes.xField]) ** 2 +
-              (s[axes.yField] - o[axes.yField]) ** 2
-          ),
-        }))
-        .sort((a, b) => a.d - b.d)
-        .slice(0, K)
-        .filter(({ d }) => d < threshold);
-      dists.forEach(({ o }) => {
-        const key = [s.id, o.id].sort().join("-");
-        if (!lines.find((l) => l.key === key)) {
-          lines.push({ key, a: s, b: o });
-        }
-      });
-    });
-    return lines;
-  }, [axisIdx]);
+  const worst = goal.criteria
+    .map((c) => ({ c, v: offSum.criteria[c.id] }))
+    .sort((x, y) => x.v - y.v);
+  const below = off.filter((r) => r.a.rating < mid).length;
 
   return (
     <div>
       <header className="page-header">
         <h1>Overview</h1>
         <p>
-          Map {scenariosData.length} AI scenarios across different analytical
-          dimensions. Select an axis pair to explore how the literature
-          distributes across that lens.
+          Where does AI leave the social contract if governments do nothing
+          new? Each of the {scenarios.length} scenarios in the literature is
+          scored on {goal.criteria.length} promises society makes to its
+          citizens. Here is the average path of the {offSum.n} scenarios that
+          assume policy is absent, lagging or captured.
         </p>
       </header>
 
-      {/* Axis picker */}
-      <div className="axis-picker" role="group" aria-label="Axis pair">
-        {axesData.map((a, i) => (
-          <button
-            key={a.id}
-            className={`axis-btn${axisIdx === i ? " active" : ""}`}
-            aria-pressed={axisIdx === i}
-            onClick={() => {
-              setAxisIdx(i);
-              setSelected(null);
-            }}
-          >
-            {a.name}
-          </button>
-        ))}
-      </div>
-
-      {/* Filters */}
-      <div className="map-controls">
-        <div className="chips" role="group" aria-label="Filter by type">
-          {FILTERS.map((f) => (
-            <button
-              key={f.key}
-              className={`chip${filter === f.key ? " active" : ""}`}
-              aria-pressed={filter === f.key}
-              onClick={() => setFilter(f.key)}
-            >
-              {f.dot && <span className={`dot${f.dot === "framework" ? " dot-framework" : ""}`} />}
-              {f.label}
-            </button>
+      <section className="section">
+        <h2>The social contract scale</h2>
+        <p className="muted small chart-intro">
+          Every promise is scored from {lo} to {hi}, judged for the group that fares worst. {scaleLabel(goal, mid)} is
+          the midpoint: disruption existing institutions can absorb.
+        </p>
+        <ul className="sc-scale">
+          {goal.scale.map((s) => (
+            <li key={s.value} style={{ "--c": scoreColor(goal, s.value) }}>
+              <span className="sc-scale-value">{s.value}</span>
+              <span className="sc-scale-label">{s.label}</span>
+              <span className="sc-scale-meaning">{s.meaning}</span>
+            </li>
           ))}
+        </ul>
+      </section>
+
+      <section className="section">
+        <h2>The policy-off trajectory</h2>
+        <div className="sc-headline">
+          <div className="sc-stat">
+            <span className="sc-stat-num">{offSum.average.toFixed(1)}</span>
+            <span className="sc-stat-label">
+              average score with policy off
+              <br />
+              <strong>{nearest(offSum.average)}</strong>
+            </span>
+          </div>
+          <div className="sc-stat">
+            <span className="sc-stat-num">
+              {below}/{offSum.n}
+            </span>
+            <span className="sc-stat-label">
+              policy-off scenarios rated below
+              <br />
+              <strong>{scaleLabel(goal, mid)}</strong>
+            </span>
+          </div>
+          <div className="sc-stat">
+            <span className="sc-stat-num">{onSum.average.toFixed(1)}</span>
+            <span className="sc-stat-label">
+              average with policy on, for comparison
+              <br />
+              <strong>{nearest(onSum.average)}</strong>
+            </span>
+          </div>
         </div>
-        <div className="chips" role="group" aria-label="Colour points by" style={{ marginLeft: "auto" }}>
-          {[
-            { key: "type", label: "Colour by type" },
-            { key: "rating", label: `Colour by ${defaultGoal.name.replace(/^The /, "").toLowerCase()} rating` },
-          ].map((c) => (
-            <button
-              key={c.key}
-              className={`chip${colorBy === c.key ? " active" : ""}`}
-              aria-pressed={colorBy === c.key}
-              onClick={() => setColorBy(c.key)}
-            >
-              {c.label}
-            </button>
-          ))}
+        <Track labels>
+          <Trajectory to={offSum.average} ghost={onSum.average} />
+        </Track>
+        <div className="sc-legend">
+          <span><i className="sc-key-arrow" /> Policy off: from {scaleLabel(goal, mid).toLowerCase()} to where the average scenario lands</span>
+          <span><i className="sc-key-ghost" /> Policy on average</span>
         </div>
-        <span className="map-hint">↗ best &nbsp;&nbsp; ↙ worst</span>
-      </div>
+      </section>
 
-      {/* Chart */}
-      <div ref={chartRef} className="map-chart" onClick={() => setSelected(null)}>
-        <svg
-          width="100%"
-          height="100%"
-          viewBox={`0 0 ${dims.w} ${dims.h}`}
-          style={{ position: "absolute", top: 0, left: 0 }}
-        >
-          {/* Quadrant tint: the best (top-right) quadrant */}
-          <rect x={pad.left + plotW / 2} y={pad.top} width={plotW / 2} height={plotH / 2} className="map-best" />
-
-          {/* Cross axes */}
-          <line x1={pad.left + plotW / 2} y1={pad.top} x2={pad.left + plotW / 2} y2={pad.top + plotH} className="map-axis" />
-          <line x1={pad.left} y1={pad.top + plotH / 2} x2={pad.left + plotW} y2={pad.top + plotH / 2} className="map-axis" />
-
-          {/* Quadrant labels */}
-          {[
-            { qIdx: 0, x: pad.left + 10, y: pad.top + 16, anchor: "start" },
-            { qIdx: 1, x: pad.left + plotW - 10, y: pad.top + 16, anchor: "end" },
-            { qIdx: 2, x: pad.left + 10, y: pad.top + plotH - 10, anchor: "start" },
-            { qIdx: 3, x: pad.left + plotW - 10, y: pad.top + plotH - 10, anchor: "end" },
-          ].map(({ qIdx, x, y, anchor }) => {
-            const lines = axes.qLabels[qIdx].split("\n");
-            return (
-              <text key={qIdx} x={x} y={y} className="map-quad" textAnchor={anchor}>
-                {lines.map((l, li) => (
-                  <tspan key={li} x={x} dy={li === 0 ? 0 : 13}>{l}</tspan>
-                ))}
-              </text>
-            );
-          })}
-
-          {/* Edge axis labels */}
-          <text x={pad.left + plotW / 2} y={pad.top - 12} textAnchor="middle" className="map-edge">{axes.yLabel[1]}</text>
-          <text x={pad.left + plotW / 2} y={pad.top + plotH + 30} textAnchor="middle" className="map-edge">{axes.yLabel[0]}</text>
-          <text x={pad.left - 14} y={pad.top + plotH / 2} textAnchor="middle" className="map-edge" transform={`rotate(-90, ${pad.left - 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[0]}</text>
-          <text x={pad.left + plotW + 14} y={pad.top + plotH / 2} textAnchor="middle" className="map-edge" transform={`rotate(90, ${pad.left + plotW + 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[1]}</text>
-
-          {/* Proximity lines */}
-          {proximityLines.map(({ key, a, b }) => {
-            const filteredIds = new Set(filtered.map((s) => s.id));
-            if (!filteredIds.has(a.id) || !filteredIds.has(b.id)) return null;
-            const p1 = toScreen(a);
-            const p2 = toScreen(b);
-            const isActiveEdge = active && (active.id === a.id || active.id === b.id);
-            return (
-              <line key={`prox-${key}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                stroke={isActiveEdge ? "var(--muted)" : "var(--border-strong)"}
-                strokeWidth={isActiveEdge ? 1 : 0.7}
-                strokeDasharray="3 7"
-                opacity={isActiveEdge ? 0.6 : 0.3}
-                style={{ transition: "all 0.2s" }}
-              />
-            );
-          })}
-
-          {/* Framework connection lines */}
-          {activeFramework &&
-            frameworkLines.map(([a, b, fw]) => {
-              if (fw !== activeFramework) return null;
-              if (filter === "single") return null;
-              const filteredIds = new Set(filtered.map((s) => s.id));
-              if (!filteredIds.has(a.id) || !filteredIds.has(b.id)) return null;
-              const p1 = toScreen(a);
-              const p2 = toScreen(b);
-              return (
-                <line key={`fw-${a.id}-${b.id}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                  stroke={byRating ? "var(--muted)" : "var(--framework)"} strokeWidth={1.5} opacity={0.7}
-                />
-              );
-            })}
-
-          {/* Points */}
-          {filtered.map((s) => {
-            const { sx, sy } = toScreen(s);
-            const isActive = active?.id === s.id;
-            const isSibling = frameworkSiblings.includes(s.id);
-            const isFaded = active && !isActive && !isSibling;
-
-            return (
-              <g key={s.id}
-                style={{ cursor: "pointer", transition: "opacity 0.2s" }}
-                opacity={isFaded ? 0.18 : 1}
-                onMouseEnter={() => setHovered(s)}
-                onMouseLeave={() => setHovered(null)}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setSelected(selected?.id === s.id ? null : s);
-                }}
-              >
-                {isActive && (
-                  <circle cx={sx} cy={sy} r={14} fill="none"
-                    stroke={pointColor(s)}
-                    strokeWidth={1.2} opacity={0.4}
-                  >
-                    <animate attributeName="r" values="10;18;10" dur="2s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="0.4;0.08;0.4" dur="2s" repeatCount="indefinite" />
-                  </circle>
-                )}
-                {s.type === "framework" ? (
-                  <rect x={sx - 6.5} y={sy - 6.5} width={13} height={13} rx={2.5}
-                    fill={pointColor(s)}
-                    stroke={isActive || isSibling ? "var(--blush)" : "var(--bg)"}
-                    strokeWidth={isActive ? 2 : 1.5}
-                  />
-                ) : (
-                  <circle cx={sx} cy={sy} r={7.5} fill={pointColor(s)}
-                    stroke={isActive ? "var(--blush)" : "var(--bg)"} strokeWidth={2}
-                  />
-                )}
-              </g>
-            );
-          })}
-        </svg>
-
-        {/* Tooltip */}
-        {active &&
-          active[axes.xField] !== null &&
-          active[axes.xField] !== "" &&
-          (() => {
-            const { sx, sy } = toScreen(active);
-            const cardW = 310;
-            let cx = sx + 16,
-              cy = sy - 50;
-            if (cx + cardW > dims.w - 12) cx = sx - cardW - 16;
-            if (cy < 8) cy = 8;
-            if (cy + 290 > dims.h - 8) cy = dims.h - 298;
-
-            return (
-              <div
-                className="map-tip"
-                style={{ left: cx, top: cy, width: cardW, pointerEvents: selected ? "auto" : "none" }}
-                onClick={(e) => e.stopPropagation()}
-              >
-                <div className="map-tip-title">
-                  {active.url ? (
-                    <a href={active.url} target="_blank" rel="noopener noreferrer">
-                      {active.title} ↗
-                    </a>
-                  ) : (
-                    active.title
-                  )}
-                </div>
-                <div className="map-tip-meta">
-                  {active.author} ({active.year})
-                </div>
-                <div className="map-tip-desc">{active.desc}</div>
-                <div className="card-tags">
-                  <span className={`badge badge-${active.type === "single" ? "single" : "framework"}`}>
-                    {active.type === "single" ? "Single Vision" : "Framework"}
-                  </span>
-                  {ratingOf(active) != null && (
-                    <ScoreChip goal={defaultGoal} value={ratingOf(active)} label
-                      title={`${defaultGoal.name} rating`} />
-                  )}
-                  {active.tags &&
-                    active.tags.split(", ").map((t, i) => (
-                      <span key={i} className="tag">{t}</span>
-                    ))}
-                </div>
-                {selected && (
-                  <a className="map-tip-link" href={href(`/scenarios/${active.id}`)}>
-                    View details →
-                  </a>
-                )}
+      <section className="section">
+        <h2>Promise by promise</h2>
+        <p className="muted small chart-intro">
+          Average policy-off score on each promise, most at risk first. The ring marks the policy-on average.
+        </p>
+        <div className="sc-rows">
+          {worst.map(({ c, v }) => (
+            <div className="sc-row" key={c.id}>
+              <div className="sc-row-label">
+                <strong>{c.name}</strong>
+                <span className="muted">{c.vow}</span>
               </div>
-            );
-          })()}
-      </div>
+              <Track>
+                <Trajectory to={v} ghost={onSum.criteria[c.id]} />
+              </Track>
+              <div className="sc-row-stat">
+                <strong>{v.toFixed(1)}</strong>
+                <span className="muted">{nearest(v)}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
-      <div className="map-legend">
-        <span>{filtered.length} sources plotted</span>
-        {skipped > 0 && <span className="muted">({skipped} not rated on this axis)</span>}
-        {byRating ? (
-          <>
-            <span>{defaultGoal.name} rating:</span>
-            {defaultGoal.scale.map((v) => (
-              <span key={v.value} className="map-key">
-                <i style={{ background: scoreColor(defaultGoal, v.value) }} />
-                {v.value} · {scaleLabel(defaultGoal, v.value)}
-              </span>
+      <section className="section">
+        <h2>Policy-off scenarios</h2>
+        <ul className="sc-list">
+          {[...off]
+            .sort((x, y) => x.a.rating - y.a.rating || x.a.average - y.a.average)
+            .map(({ s, a }) => (
+              <li key={s.id}>
+                <ScoreChip goal={goal} value={a.rating} label />
+                <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
+                <span className="muted">{s.author}</span>
+              </li>
             ))}
-            <span className="map-key">
-              <i style={{ background: UNRATED }} />
-              Not assessed
-            </span>
-            <span>● single vision · ■ framework</span>
-          </>
-        ) : (
-          <>
-            <span className="map-key">
-              <span className="dot" /> Single Vision
-            </span>
-            <span className="map-key">
-              <span className="dot dot-framework" /> Framework Sub-scenario
-            </span>
-          </>
-        )}
-      </div>
+        </ul>
+        <p className="muted small">
+          Scores are provisional; see <a href={href(`/goals/${goal.id}`)}>{goal.name}</a> for how they are made, or
+          explore every scenario on the <a href={href("/maps")}>maps</a>.
+        </p>
+      </section>
     </div>
   );
 }
