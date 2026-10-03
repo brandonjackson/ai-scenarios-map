@@ -8,6 +8,9 @@ const root = new URL("../", import.meta.url);
 const rows = parseCsv(readFileSync(new URL("data/scenarios.csv", root), "utf8"));
 const goal = JSON.parse(readFileSync(new URL("goals/social-contract/goal.json", root), "utf8"));
 const scores = parseCsv(readFileSync(new URL("goals/social-contract/scores.csv", root), "utf8"));
+const atlas = JSON.parse(readFileSync(new URL("data/policy-atlas/policies.json", root), "utf8"));
+const atlasTitle = Object.fromEntries(atlas.policies.map((p) => [p.slug, p.title]));
+const scenarioPolicies = parseCsv(readFileSync(new URL("data/scenario-policies.csv", root), "utf8"));
 
 const coord = (v) => (v === "" || v == null ? "—" : v);
 
@@ -21,6 +24,12 @@ for (const s of rows) {
       return `| ${c.name} | ${r ? r.score : "—"} | ${r ? r.reason : ""} |`;
     })
     .join("\n");
+  const tagged = scenarioPolicies.filter((r) => r.scenario === s.id);
+  const policySection = tagged.length
+    ? `\n## Policies from the atlas\n\n${tagged
+        .map((r) => (r.policy ? `- **${atlasTitle[r.policy]}** (\`${r.policy}\`): ${r.evidence}` : `- None named. ${r.evidence}`))
+        .join("\n")}\n`
+    : "";
   const files = ["summary.md", "analysis.md"].filter((f) => existsSync(new URL(f, dir)));
   const md = `# ${s.title}
 
@@ -51,7 +60,7 @@ ${s.desc}
 | Promise | Score | Reason |
 | --- | --- | --- |
 ${scoreRows}
-
+${policySection}
 ## Files
 
 ${files.map((f) => `- [\`${f}\`](${f})`).join("\n") || "- (none yet)"}

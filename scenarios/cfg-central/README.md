@@ -32,6 +32,14 @@ Fast capability growth controlled by a few dominant actors (CFG's Big AI, Arms R
 | Responsive government | 1 | One dominant actor holds unprecedented power. |
 | Time for what matters | 2 | People lose say over how their lives are shaped. |
 
+## Policies from the atlas
+
+- **Restructuring International Organizations** (`restructuring-international-organizations`): Diplomacy: a Global AI Security Institute modelled on the IAEA
+- **Regulatory Agencies** (`regulatory-agencies`): Diplomacy: treaty-based licensing regime with standardised alignment and audits
+- **Job Guarantees & Public Works Programs** (`job-guarantees-and-public-works-programs`): Big AI ('The Agent Economy'): job guarantees emerge as an adaptation mechanism
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Big AI ('The Agent Economy'): retraining emerges as an adaptation mechanism
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Big AI: Europe publicly backs a sovereign competitor and mandates open weights for publicly funded models
+
 ## Files
 
 - [`summary.md`](summary.md)

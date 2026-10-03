@@ -32,6 +32,12 @@ Close the gates to AGI, build Tool AI instead. Warns unchecked AGI race leads to
 | Responsive government | 1 | Power concentrates in whoever controls the most capable systems. |
 | Time for what matters | 2 | Human roles shrink alongside human agency. |
 
+## Policies from the atlas
+
+- **AI Liability** (`ai-liability`): Strict liability for high-autonomy, high-generality, high-intelligence systems, with safe harbours for tools
+- **Regulatory Agencies** (`regulatory-agencies`): Compute accounting and tiered, risk-based regulation
+- **Restructuring International Organizations** (`restructuring-international-organizations`): International agreements to contain AI, on the model of nuclear non-proliferation
+
 ## Files
 
 - [`summary.md`](summary.md)

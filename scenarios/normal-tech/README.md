@@ -32,6 +32,13 @@ AI is a GPT like electricity. Meaningful productivity impact but slow diffusion 
 | Responsive government | 3 | Existing institutions can adapt at the pace of change. |
 | Time for what matters | 3 | Daily life changes slowly. |
 
+## Policies from the atlas
+
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Public goods the private sector underprovides: accessible datasets and energy infrastructure
+- **AI Liability** (`ai-liability`): Clarify how liability law applies to AI to enable diffusion, as FAA rules did for drones
+- **Data Compensation** (`data-compensation`): Mandatory negotiation, with regulatory oversight, between AI companies and publishers
+- **Regulatory Agencies** (`regulatory-agencies`): Reduce uncertainty: evidence gathering, transparency and monitoring as a first-rate policy goal
+
 ## Files
 
 - [`summary.md`](summary.md)

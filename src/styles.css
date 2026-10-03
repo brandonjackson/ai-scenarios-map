@@ -576,3 +576,11 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 .note-lead em:first-child { font-size: 13px; }
 
 .notes-footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); }
+
+/* ---------- Atlas policies named by a scenario ---------- */
+
+.atlas-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.atlas-list li { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 13.5px; line-height: 1.5; }
+.atlas-list .badge { font-size: 11px; }
+.atlas-list .badge:hover { text-decoration: none; filter: brightness(1.2); }
+.atlas-evidence { color: var(--muted); flex: 1 1 260px; }

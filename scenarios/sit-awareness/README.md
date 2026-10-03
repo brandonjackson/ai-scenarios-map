@@ -32,6 +32,11 @@ AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Gover
 | Responsive government | 2 | A national-security Project takes over, with decisions made out of public view. |
 | Time for what matters | 2 | Life is reorganised around a race rather than around people. |
 
+## Policies from the atlas
+
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Trillion-dollar clusters built in the US, with US electricity output up by tens of percent
+- **Public-Private Partnerships** (`public-private-partnerships`): 'The Project': a government AGI programme run with the leading labs
+
 ## Files
 
 - [`summary.md`](summary.md)

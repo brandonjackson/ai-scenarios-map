@@ -32,6 +32,13 @@ AI replaces most labor, costs tend to zero. Default is concentrated; proposes Am
 | Responsive government | 2 | Production concentrates in AI firms, and the fund depends on their political will. |
 | Time for what matters | 3 | Time is freed, but without the structure work provided. |
 
+## Policies from the atlas
+
+- **AI Equity Taxation** (`ai-equity-taxation`): 2.5% annual tax on large companies' market value, paid in shares
+- **National Dividend Funds** (`national-dividend-funds`): American Equity Fund pays every adult an annual distribution (about $13,500 within a decade)
+- **Universal Basic Capital / Equity** (`universal-basic-capital`): Distributions in company shares make every citizen an equity owner
+- **Wealth Taxes** (`wealth-taxes`): 2.5% tax on the value of privately held land (a land-value tax)
+
 ## Files
 
 - [`summary.md`](summary.md)

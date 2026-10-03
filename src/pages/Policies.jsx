@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { policies, policyCategories, policySource } from "../data.js";
+import { policies, policyCategories, policySource, scenariosForPolicy } from "../data.js";
 import { href } from "../router.js";
 
 const CATEGORY_KEYS = Object.keys(policyCategories);
@@ -203,6 +203,7 @@ export function PolicyDetail({ slug }) {
             <Bullets title="Cons" items={p.cons} className="cons" />
           </div>
           <Bullets title="Precedents" items={p.precedents} />
+          <ScenarioMentions slug={p.slug} />
           <p>
             <a className="button" href={p.url} target="_blank" rel="noopener noreferrer">
               View in the Policy Atlas ↗
@@ -240,5 +241,24 @@ function Crumbs({ title }) {
       <a href={href("/policies")}>Policies</a>
       {title && <> <span aria-hidden="true">/</span> <span>{title}</span></>}
     </nav>
+  );
+}
+
+// Literature scenarios that name this policy (data/scenario-policies.csv).
+function ScenarioMentions({ slug }) {
+  const rows = scenariosForPolicy(slug);
+  if (!rows.length) return null;
+  return (
+    <section className="section">
+      <h2>Named in scenarios</h2>
+      <ul className="link-list">
+        {rows.map(({ scenario: s, evidence }) => (
+          <li key={s.id}>
+            <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
+            <span className="muted"> — {evidence}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

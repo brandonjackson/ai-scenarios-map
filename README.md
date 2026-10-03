@@ -18,6 +18,7 @@ All source data lives in `data/`:
 - **`scenarios.csv`** — The canonical database. Each row is a source or framework sub-scenario. Coordinate columns use a `[-1, +1]` range. Empty cells = not rated for that axis.
 - **`scenarios.json`** — Same data as JSON (generated from CSV or vice versa).
 - **`axes.json`** — Defines available axis pairs (what fields to plot, labels, orientation).
+- **`scenario-policies.csv`** — Which Policy Atlas policies each policy-on or mixed scenario names (`scenario,policy,evidence`). An empty `policy` records that a scenario names none. Checked by `npm run scenarios:check-policies`, which also runs before `dev` and `build`.
 - **`ai_scenario_literature.xlsx`** — Editable spreadsheet version with colour coding and a README sheet.
 
 ## Goals

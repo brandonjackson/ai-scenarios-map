@@ -32,6 +32,10 @@ AI runs much of the economy and prices fall. A handful of companies own most pro
 | Responsive government | 1 | Governments funded by AI firms have less reason to listen; power drifts away unnoticed. |
 | Time for what matters | 3 | Comfort leaves room for life outside work, but without a say in how it is shaped. |
 
+## Policies from the atlas
+
+- None named. No source document yet; the scenario implies material support without ownership or political voice
+
 ## Files
 
 - [`summary.md`](summary.md)

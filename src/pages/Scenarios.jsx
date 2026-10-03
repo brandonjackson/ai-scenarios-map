@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { scenarios, axes, hasAxis, quadrantLabel, splitTags } from "../data.js";
+import { scenarios, axes, hasAxis, quadrantLabel, splitTags, policiesForScenario, policyNoteForScenario } from "../data.js";
 import { href } from "../router.js";
 import { goals, defaultGoal, assessScenario } from "../goals.js";
 import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
@@ -277,6 +277,8 @@ function ScenarioDetailInner({ id }) {
             );
           })}
 
+          <AtlasPolicies s={s} />
+
           {splitTags(s.tags).length > 0 && (
             <section className="section">
               <h2>Ratings notes</h2>
@@ -384,5 +386,30 @@ function NotesFooter({ id }) {
       </a>
       .
     </p>
+  );
+}
+
+// Policy Atlas policies the scenario names, for scenarios that assume or
+// prescribe policy.
+function AtlasPolicies({ s }) {
+  const tagged = policiesForScenario(s.id);
+  const note = policyNoteForScenario(s.id);
+  if (!tagged.length && !note) return null;
+  return (
+    <section className="section">
+      <h2>Policies from the atlas</h2>
+      {tagged.length > 0 ? (
+        <ul className="atlas-list">
+          {tagged.map(({ policy: p, evidence }) => (
+            <li key={p.slug} data-cat={p.category}>
+              <a className="badge badge-cat" href={href(`/policies/${p.slug}`)}>{p.title}</a>
+              <span className="atlas-evidence">{evidence}</span>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="muted small">No atlas policies named. {note}</p>
+      )}
+    </section>
   );
 }
