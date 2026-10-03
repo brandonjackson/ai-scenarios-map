@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, DIFF |
+| **Policy stance** | off |
 
 Open-weight models spread widely; guardrails are breached and misuse (hacking, disinformation) escalates until governments ban high-scale open models. CFG ending under Plateau; CFG has no full fast-and-decentralised scenario.
 

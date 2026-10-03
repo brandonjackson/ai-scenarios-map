@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington> |
 | **Tags** | Limited impact, CONC (structural) |
+| **Policy stance** | off |
 
 AI is a bubble and a worker-frightening machine. Can't do your job, but the narrative breaks labor power.
 

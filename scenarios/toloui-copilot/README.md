@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC |
+| **Policy stance** | mixed |
 
 Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but humans remain essential.
 

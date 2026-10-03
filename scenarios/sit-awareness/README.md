@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://situational-awareness.ai/> |
 | **Tags** | Extreme REP, CONC |
+| **Policy stance** | mixed |
 
 AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Government Project takes over.
 

@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.nber.org/papers/w32487> |
 | **Tags** | Limited impact, CONC (warns) |
+| **Policy stance** | off |
 
 Skeptical of large GDP gains. Only modest share of tasks automatable. But what gains exist concentrate with capital owners without active policy.
 

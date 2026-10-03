@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — DSIT — AI 2030 |
 | **Source** | <https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c> |
 | **Tags** | Moderate AUG, DIFF |
+| **Policy stance** | off |
 
 Capabilities improve more slowly than expected. A 2025 AI bust, disillusionment and mixed uptake; most jobs untouched. Policy interventions deliberately excluded.
 

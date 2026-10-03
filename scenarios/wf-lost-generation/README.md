@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
+| **Policy stance** | off |
 
 AI absorbs the tasks junior staff learned on. Firms keep hiring experienced people but stop hiring beginners. Young people take whatever work they can find while rent, childcare and healthcare outpace their pay. The headline figures hide the problem until a generation has fallen behind.
 

@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://ai-2027.com/> |
 | **Tags** | Extreme REP, CONC |
+| **Policy stance** | off |
 
 Superhuman AI by ~2027, intelligence explosion, one lab dominates. Most extreme replacement + concentration scenario.
 

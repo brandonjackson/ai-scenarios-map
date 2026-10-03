@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://a16z.com/the-techno-optimist-manifesto/> |
 | **Tags** | AUG (via markets), DIFF (asserted) |
+| **Policy stance** | off |
 
 Technology makes everyone more productive, anyone can build. Gains diffuse naturally through competition. Pure faith.
 

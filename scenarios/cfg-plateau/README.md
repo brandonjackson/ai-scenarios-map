@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Moderate AUG, DIFF |
+| **Policy stance** | off |
 
 AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A bright winter.
 

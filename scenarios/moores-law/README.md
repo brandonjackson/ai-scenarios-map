@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://moores.samaltman.com/> |
 | **Tags** | Strong REP, DIFF (prescriptive) |
+| **Policy stance** | on |
 
 AI replaces most labor, costs tend to zero. Default is concentrated; proposes American Equity Fund.
 

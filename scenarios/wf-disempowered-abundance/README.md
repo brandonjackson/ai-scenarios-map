@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
+| **Policy stance** | mixed |
 
 AI runs much of the economy and prices fall. A handful of companies own most production. Life feels comfortable, but people lose their bargaining power, and governments funded by AI firms have less reason to listen. With no visible crisis, power drifts away unnoticed.
 

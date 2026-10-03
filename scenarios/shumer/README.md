@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://fortune.com/2026/02/09/something-big-is-happening-ai-matt-shumer/> |
 | **Tags** | REP, CONC |
+| **Policy stance** | off |
 
 This is February 2020 for AI. CEO says he's no longer needed for technical work. 85M views. Personal testimony.
 
