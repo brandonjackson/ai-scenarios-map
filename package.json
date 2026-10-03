@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "data:csv2json": "node scripts/csv2json.mjs",
     "goals:check": "node scripts/check-goals.mjs",
-    "data:policy-atlas": "node data/policy-atlas/scrape.mjs && node data/policy-atlas/build-csv.mjs"
+    "data:policy-atlas": "node data/policy-atlas/scrape.mjs && node data/policy-atlas/build-csv.mjs",
+    "scenarios:folders": "node scripts/scenario-folders.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -36,9 +36,13 @@ The default goal is **The Social Contract** (Windfall Trust): five promises — 
 
 To add your own goal, copy `goals/social-contract/`, edit it, and see [`goals/README.md`](goals/README.md) for the full format. `npm run goals:check` validates every goal (it also runs before `dev` and `build`).
 
+## Scenario folders
+
+Every scenario has a folder in `scenarios/<id>/` for context about it: a generated `README.md` (metadata, map position, draft scores), a `summary.md` reading the scenario through the five promises of the social contract, an `analysis.md` of its big assumptions (policy on or off, what must be true), and any notes or sources you add. See [`scenarios/README.md`](scenarios/README.md) for the index.
+
 ### Adding a new scenario
 
-Add a row to `scenarios.csv` with at minimum: `id`, `title`, `author`, `year`, `type`, `desc`, `url`, and coordinates for at least one axis pair. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes.
+Add a row to `scenarios.csv` with at minimum: `id`, `title`, `author`, `year`, `type`, `desc`, `url`, and coordinates for at least one axis pair. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes. Then run `npm run scenarios:folders` to create its folder.
 
 ### Adding a new axis pair
 
@@ -64,9 +68,11 @@ data/
   axes.json              ← axis pair definitions
   ai_scenario_literature.xlsx  ← spreadsheet for editing
 goals/                   ← goal functions (see goals/README.md)
+scenarios/               ← one folder of context per scenario (see scenarios/README.md)
 scripts/
   csv2json.mjs           ← scenarios.csv → scenarios.json
   check-goals.mjs        ← validates goals/
+  scenario-folders.mjs   ← creates scenarios/<id>/ and regenerates each README.md
 src/
   App.jsx                ← layout shell + route table
   router.js              ← tiny hash router
