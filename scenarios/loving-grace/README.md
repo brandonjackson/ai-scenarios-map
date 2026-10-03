@@ -32,6 +32,12 @@ Country of geniuses in a datacenter. Strong replacement-level capability. Hopes 
 | Responsive government | 3 | Hopes AI strengthens democracy, but that depends on governance. |
 | Time for what matters | 3 | More room for meaning is possible, but not assured for everyone. |
 
+## Policies from the atlas
+
+- **Universal Basic Income** (`universal-basic-income`): 'A large universal basic income for everyone', though 'only a small part of a solution'
+- **Benefit-Sharing** (`benefit-sharing`): Distributing AI's benefits to the developing world; the entente offers benefits in return for support
+- **Public-Private Partnerships** (`public-private-partnerships`): Entente strategy needs 'close cooperation between private AI companies and democratic governments'
+
 ## Files
 
 - [`summary.md`](summary.md)

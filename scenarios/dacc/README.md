@@ -32,6 +32,10 @@ Defensive, decentralized, differential acceleration. Cautious on AI power but st
 | Responsive government | 4 | Defensive, decentralised technology deliberately keeps power spread out. |
 | Time for what matters | 3 | No particular change to time for what matters. |
 
+## Policies from the atlas
+
+- None named. Levers are funding defensive technology, open-source mandates and possibly banning extremely advanced AI research; none are atlas policies
+
 ## Files
 
 - [`summary.md`](summary.md)

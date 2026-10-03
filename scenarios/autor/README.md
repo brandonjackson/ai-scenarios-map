@@ -32,6 +32,11 @@ AI could restore middle-skill jobs by enabling less-trained workers to do expert
 | Responsive government | 3 | Outcome depends on policy steering, which is assumed but not guaranteed. |
 | Time for what matters | 3 | No particular change to time for what matters. |
 
+## Policies from the atlas
+
+- **Vocational Training & Apprenticeships** (`vocational-training-apprenticeships`): Nurse-practitioner model: new training programmes and a certification regime let mid-skill workers do expert work
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Workers need foundational expertise to use AI decision support; training is the precondition
+
 ## Files
 
 - [`summary.md`](summary.md)

@@ -1,6 +1,8 @@
 import scenariosData from "../data/scenarios.json";
 import axesData from "../data/axes.json";
 import atlas from "../data/policy-atlas/policies.json";
+import scenarioPoliciesCsv from "../data/scenario-policies.csv?raw";
+import { parseCsv } from "./lib/csv.js";
 
 export const scenarios = scenariosData;
 export const axes = axesData;
@@ -21,3 +23,21 @@ export function quadrantLabel(s, a) {
 }
 
 export const splitTags = (tags) => (tags ? tags.split(", ").filter(Boolean) : []);
+
+// Which Policy Atlas policies each scenario names, with a line of evidence.
+// A row with no policy records that the scenario names none.
+const scenarioPolicyRows = parseCsv(scenarioPoliciesCsv);
+const policyBySlug = Object.fromEntries(atlas.policies.map((p) => [p.slug, p]));
+
+export const policiesForScenario = (id) =>
+  scenarioPolicyRows
+    .filter((r) => r.scenario === id && r.policy)
+    .map((r) => ({ policy: policyBySlug[r.policy], evidence: r.evidence }));
+
+export const policyNoteForScenario = (id) =>
+  scenarioPolicyRows.find((r) => r.scenario === id && !r.policy)?.evidence;
+
+export const scenariosForPolicy = (slug) =>
+  scenarioPolicyRows
+    .filter((r) => r.policy === slug)
+    .map((r) => ({ scenario: scenarios.find((s) => s.id === r.scenario), evidence: r.evidence }));

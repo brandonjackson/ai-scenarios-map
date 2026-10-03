@@ -32,6 +32,22 @@ Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Co
 | Responsive government | 3 | No dominant actor to capture policy. |
 | Time for what matters | 3 | No particular change to time for what matters. |
 
+## Policies from the atlas
+
+- **Automation/Robot Taxes** (`automation-robot-taxes`): Rebalance the tax code that favours capital investment over hiring
+- **Employer Tax Breaks** (`employer-tax-breaks`): Cut payroll taxes to lower the cost of hiring, funded by taxes on capital
+- **Tax Credit Expansion** (`tax-credit-expansion`): Expanded earned income tax credit
+- **Wage Insurance** (`wage-insurance`): Wage insurance as a worker-side subsidy
+- **Universal Basic Income** (`universal-basic-income`): Non-employment-linked transfers if labour replacement dominates
+- **Procurement Policies** (`government-procurement-policies`): Procurement that demands worker-augmenting AI copilots rather than turnkey automation
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Federal grants for company training; scale proven models through WIOA
+- **Vocational Training & Apprenticeships** (`vocational-training-apprenticeships`): Registered apprenticeships and employer–community college partnerships
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Energy, grid and chip investment; compute access through NAIRR
+- **Antitrust Law** (`antitrust-law`): Modernised antitrust with a 'guardrails and triggers' approach
+- **Public Utility Regulation** (`public-utility-regulation`): Interoperability, portability and cloud non-discrimination rules
+- **Regulatory Agencies** (`regulatory-agencies`): Expanded AI teams at DOJ and FTC; reporting of large training runs to BIS
+- **AI Liability** (`ai-liability`): Modernised tort standards for AI, with safe harbours
+
 ## Files
 
 - [`summary.md`](summary.md)

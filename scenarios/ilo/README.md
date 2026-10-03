@@ -32,6 +32,19 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | Responsive government | 3 | Institutions are stretched but functioning. |
 | Time for what matters | 3 | No particular change to time for what matters. |
 
+## Policies from the atlas
+
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Upskilling and reskilling programmes, especially for middle-skilled workers
+- **Lifelong Learning Programs** (`lifelong-learning-programs`): Inclusive, lifelong learning entitlements
+- **AI Literacy Training** (`ai-literacy`): AI literacy from primary education onward; upskilling teachers in digital pedagogy
+- **Skill Gap Analyses** (`skill-gap-analyses`): Occupation-tailored responses based on exposure and complementarity; data collection to guide workforce decisions
+- **Unemployment Benefits** (`unemployment-benefits`): Social protection and career-transition support with financial assistance for those displaced
+- **Entrepreneurship & Small Business Support** (`entrepreneurship-small-business-support`): Grants for startups and small businesses in occupations where AI augments work
+- **Union & Bargaining Rights** (`union-bargaining-rights`): Social dialogue and worker participation in the design and deployment of AI systems
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Accessible national digital infrastructure: data centres, cloud computing, broadband
+- **Regulatory Agencies** (`regulatory-agencies`): Clear regulatory frameworks and regular algorithmic auditing
+- **Benefit-Sharing** (`benefit-sharing`): Global AI initiatives and technology transfer so developing countries are not left behind
+
 ## Files
 
 - [`summary.md`](summary.md)

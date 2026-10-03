@@ -32,6 +32,11 @@ AI saves ~25% of UK workforce time. 1-3M jobs displaced but offset by new demand
 | Responsive government | 4 | Workforce time savings are pitched as a route to AI-enabled public services. |
 | Time for what matters | 3 | Time saved goes to output rather than to people's own time. |
 
+## Policies from the atlas
+
+- **Unemployment Benefits** (`unemployment-benefits`): Financial safety nets for displaced workers (from press coverage of the report)
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Retraining programmes and better job matching (from press coverage of the report)
+
 ## Files
 
 - [`summary.md`](summary.md)

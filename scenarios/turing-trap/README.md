@@ -32,6 +32,13 @@ The choice between augmentation and replacement IS the choice between diffuse an
 | Responsive government | 3 | Political power follows economic bargaining power, which holds only while augmentation wins. |
 | Time for what matters | 3 | No particular change to time for what matters. |
 
+## Policies from the atlas
+
+- **Automation/Robot Taxes** (`automation-robot-taxes`): Remove the tax code's bias toward capital over labour
+- **Tax Credit Expansion** (`tax-credit-expansion`): Favour wage income, for instance by expanding the earned income tax credit
+- **Employer Tax Breaks** (`employer-tax-breaks`): Incentives for corporate training to offset the externality of labour mobility
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Government should provide training directly or incentivise it
+
 ## Files
 
 - [`summary.md`](summary.md)

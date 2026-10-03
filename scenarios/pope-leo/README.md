@@ -32,6 +32,10 @@ AI is a tool, not a species. Emphatically augmentation: AI should enhance human 
 | Responsive government | 3 | Human agency is defended in principle, but no new mechanisms are proposed. |
 | Time for what matters | 4 | Puts relationships and meaning ahead of AI substitutes for human connection. |
 
+## Policies from the atlas
+
+- None named. Calls for 'job security and just wages' and subsidiarity, but names no specific instruments
+
 ## Files
 
 - [`summary.md`](summary.md)
