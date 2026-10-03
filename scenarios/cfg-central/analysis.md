@@ -1,7 +1,7 @@
-# Big AI / Arms Race (fast, centralised) — assumptions analysis
+# Big AI / Arms Race — assumptions analysis
 
 ## Policy on or off?
-**Both: the cell spans policy-off and policy-on endings.** Big AI's "Silicon Blackmail" and Arms Race's "Hot War" are close to policy-off (or policy-as-national-security). Diplomacy's "Licensed Utopia" is strongly policy-on: an international treaty, mandatory audits, a 25% AI tax. The map's single point (and its draft scores) reflect the bad endings only.
+**Policy off, or policy as national security.** This scenario covers Big AI ("Silicon Blackmail" and the milder "Agent Economy", where retraining and job guarantees emerge) and Arms Race ("Hot War", "Multipolar World"). The strongly policy-on Diplomacy path (international treaty, mandatory audits, a 25% AI tax) is its own scenario, [Diplomacy: Licensed Utopia](../cfg-diplomacy/analysis.md).
 
 ## Big assumptions
 1. **Fast takeoff.** Agents become highly capable by late 2025, AI speeds up its own R&D, and macro-level automation shows up by 2028–29.
@@ -17,9 +17,9 @@
 - In the bad endings, no binding verification, so arms-control logic fails.
 
 ## Tensions and weak points
-- **Naming (fixed):** CFG doesn't publish a scenario called "Centralized Takeoff", the map's old name. The CSV now calls it "Big AI / Arms Race (fast, centralised)", covering the fast-and-centralised family (Big AI, Diplomacy, Arms Race). The map coordinates match Arms Race and Silicon Blackmail more than Diplomacy. Consider splitting these into separate map points.
+- **Naming (fixed):** CFG has no scenario called "Centralized Takeoff", the map's old name. This point now covers Big AI and Arms Race; Diplomacy is its own scenario.
 - Centralisation is both the problem and, in Diplomacy, the solution: licensing regimes concentrate power but make safety coordination possible.
 - Europe is the report's point of view. Most endings turn on whether Europe gets sovereign capacity (e.g., the public "NimbusAI" competitor).
 
 ## Scoring notes
-Draft scores (1/2/1/1/2) describe Silicon Blackmail or Arms Race. Licensed Utopia would score around 3/4/4/3/4. The spread is the most useful thing about this scenario and is lost when it is averaged into one point.
+1/2/1/1/2, rated 1, describing Silicon Blackmail or Arms Race. Diplomacy's Licensed Utopia scores 3/4/4/3/4 as [`cfg-diplomacy`](../cfg-diplomacy/analysis.md).

@@ -8,36 +8,29 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | --- | --- |
 | **Author** | Brynjolfsson |
 | **Year** | 2022 |
-| **Type** | single |
+| **Type** | framework — Brynjolfsson — Turing Trap |
 | **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
-| **Tags** | AUG (prescribes), DIFF<>CONC |
-| **Policy stance** | on |
+| **Tags** | REP, CONC (warns) |
+| **Policy stance** | off |
 
-The choice between augmentation and replacement IS the choice between diffuse and concentrated gains.
+The trap: AI built to imitate humans substitutes for workers, who lose economic and political bargaining power. Where today's incentives lead.
 
 ## Map position
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.08 | -0.2 |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.4 | 0.35 |
+| Public finances × job quality | -0.3 | -0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | The outcome hinges on whether firms choose augmentation over imitation of humans. |
-| Affordable essentials | 3 | No particular change to the cost of essentials. |
-| Reliable safety net | 3 | Holds while gains stay diffuse, but incentives tilt towards automation. |
-| Responsive government | 3 | Political power follows economic bargaining power, which holds only while augmentation wins. |
-| Time for what matters | 3 | No particular change to time for what matters. |
-
-## Policies from the atlas
-
-- **Automation/Robot Taxes** (`automation-robot-taxes`): Remove the tax code's bias toward capital over labour
-- **Tax Credit Expansion** (`tax-credit-expansion`): Favour wage income, for instance by expanding the earned income tax credit
-- **Employer Tax Breaks** (`employer-tax-breaks`): Incentives for corporate training to offset the externality of labour mobility
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Government should provide training directly or incentivise it
+| Hard work pays | 2 | Machines substitute for workers, who lose their bargaining power and become dependent on those who control the technology. |
+| Affordable essentials | 3 | Cheaper versions of existing goods, but little of the far larger value that new goods and services would bring. |
+| Reliable safety net | 2 | A firm with no workers pays no payroll or income tax, so the tax base erodes as automation spreads. |
+| Responsive government | 2 | Concentrated economic power begets concentrated political power, trapping a powerless majority. |
+| Time for what matters | 2 | Leisure arrives without power; fading opportunities bring deaths of despair. |
 
 ## Files
 

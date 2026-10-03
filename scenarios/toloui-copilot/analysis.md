@@ -1,7 +1,7 @@
 # Copilot Empire — assumptions analysis
 
 ## Policy on or off?
-**Ambiguous: the quadrant comes in two versions.** The structural description is policy-off (market consolidation plus augmenting technology). But Toloui only calls it desirable in its "constructive form", which requires active policy: antitrust modernisation, interoperability rules and labour-favouring tax reform. The good version is policy-on, modelled on the Progressive Era and New Deal responses to the Gilded Age.
+**Policy off.** This scenario is the structural description: market consolidation plus augmenting technology, with no new competition or tax policy. Toloui's "constructive form", which needs antitrust modernisation, interoperability rules and labour-favouring tax reform, is its own scenario, [Copilot Empire (constructive)](../toloui-copilot-constructive/analysis.md).
 
 ## Big assumptions
 1. **AI stays a complement to human labour** even while its owners consolidate. Some attributes (empathy, presence, judgement, leadership) stay human, and firms invest in the slower, harder work of augmentation instead of the "low-hanging fruit" of automation.
@@ -21,4 +21,4 @@
 - Regulatory capture is assumed manageable, though the essay says historical monopolies "forged alliances with politicians".
 
 ## Scoring notes
-The draft rates essentials 2 (rent extraction) and work 3. That's defensible for the policy-off version. The constructive version Toloui advocates would score higher on government (3) and work (4), so this scenario might warrant a policy-on scoring row.
+3/2/3/2/3, rated 2: rent extraction on the AI layer and platform leverage over regulators. The constructive version scores 4/3/3/3/3 as [`toloui-copilot-constructive`](../toloui-copilot-constructive/analysis.md).

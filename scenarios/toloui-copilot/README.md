@@ -11,7 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC |
-| **Policy stance** | mixed |
+| **Policy stance** | off |
 
 Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but humans remain essential.
 
@@ -31,17 +31,6 @@ Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but 
 | Reliable safety net | 3 | Employment holds, so the safety net is not overwhelmed. |
 | Responsive government | 2 | A few dominant platforms gain leverage over regulators. |
 | Time for what matters | 3 | No particular change to time for what matters. |
-
-## Policies from the atlas
-
-- **Antitrust Law** (`antitrust-law`): The constructive Copilot Empire needs modernised antitrust to rein in monopolistic abuses
-- **Public Utility Regulation** (`public-utility-regulation`): Interoperability, portability and cloud non-discrimination rules
-- **Regulatory Agencies** (`regulatory-agencies`): Expanded AI teams at DOJ and FTC
-- **Automation/Robot Taxes** (`automation-robot-taxes`): Higher taxes on capital, or on super-normal AI rents under winner-take-all dynamics
-- **Employer Tax Breaks** (`employer-tax-breaks`): Cut payroll taxes to lower the cost of hiring
-- **Procurement Policies** (`government-procurement-policies`): Procurement that demands worker-augmenting AI
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Training grants and WIOA programmes
-- **AI Liability** (`ai-liability`): Modernised tort standards for AI
 
 ## Files
 

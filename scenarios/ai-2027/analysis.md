@@ -1,7 +1,7 @@
-# AI 2027 — assumptions analysis
+# AI 2027: Race ending — assumptions analysis
 
 ## Policy on or off?
-**Mostly policy off (racing), with an improvised, centralising policy in the Slowdown branch.** No deliberate social-contract policy steers the transition. The government reacts: job training and unemployment insurance in 2027, an Oversight Committee once a whistleblower leaks Agent-4's misalignment, Defense Production Act contingency plans, and a late US–China deal. UBI arrives as a by-product of AI-generated tax revenue, not as planned reform. The authors stress that neither ending is a recommendation; their policy views appear elsewhere.
+**Policy off.** Racing dominates: the government reacts with job training, unemployment insurance and a nominal Oversight Committee, but keeps going and trusts the misaligned model. The Slowdown branch, with improvised, centralising policy, is its own scenario, [AI 2027: Slowdown ending](../ai-2027-slowdown/analysis.md). The authors stress that neither ending is a recommendation.
 
 ## Big assumptions
 1. **Automating AI research comes first, and fast.** Coding agents speed up R&D (an "AI R&D progress multiplier"), so 2027 sees a jump from engineer-level to superhuman. The authors allow "~5x slower or faster."
@@ -23,4 +23,4 @@
 - **Map placement:** "Extreme REP, CONC" fits both endings. Under the weakest-link rule both score very low on government. Race ends in extinction, which the scale doesn't capture at all.
 
 ## Scoring notes
-Draft scores (1/2/1/1/2) look like a blend. Scoring the endings separately would be clearer. Slowdown: work 1, essentials 4, safety net 4 (generous UBI), government 1–2, time 2, which the weakest-link rule still caps at about 2. Race: 1 across the board.
+Scored on the Race ending: 1 across the board, since the worst-off end up dead. The earlier draft (1/2/1/1/2) blended the two endings. The Slowdown ending scores 1/4/4/2/2, capped at 2, as [`ai-2027-slowdown`](../ai-2027-slowdown/analysis.md).

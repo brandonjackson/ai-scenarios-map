@@ -49,11 +49,16 @@ dacc,,essentials,3,No particular change to the cost of essentials.
 dacc,,safety-net,3,Existing protections are neither strengthened nor eroded.
 dacc,,government,4,"Defensive, decentralised technology deliberately keeps power spread out."
 dacc,,time,3,No particular change to time for what matters.
-turing-trap,,work,3,The outcome hinges on whether firms choose augmentation over imitation of humans.
-turing-trap,,essentials,3,No particular change to the cost of essentials.
-turing-trap,,safety-net,3,"Holds while gains stay diffuse, but incentives tilt towards automation."
-turing-trap,,government,3,"Political power follows economic bargaining power, which holds only while augmentation wins."
-turing-trap,,time,3,No particular change to time for what matters.
+turing-trap,,work,2,"Machines substitute for workers, who lose their bargaining power and become dependent on those who control the technology."
+turing-trap,,essentials,3,"Cheaper versions of existing goods, but little of the far larger value that new goods and services would bring."
+turing-trap,,safety-net,2,"A firm with no workers pays no payroll or income tax, so the tax base erodes as automation spreads."
+turing-trap,,government,2,"Concentrated economic power begets concentrated political power, trapping a powerless majority."
+turing-trap,,time,2,Leisure arrives without power; fading opportunities bring deaths of despair.
+turing-trap-escape,,work,4,"With incentives rebalanced towards augmentation, workers stay indispensable and keep the power to insist on a share of the value."
+turing-trap-escape,,essentials,4,"Augmentation creates new goods and services, which is where most economic value has come from since ancient times."
+turing-trap-escape,,safety-net,3,Equal tax treatment of labour and capital and an expanded earned income tax credit keep the tax base broad.
+turing-trap-escape,,government,3,"Useful knowledge stays in human heads, which keeps economic and political power decentralised."
+turing-trap-escape,,time,3,No particular change to time for what matters.
 acemoglu,,work,2,"The gains that do appear flow to capital owners, while affected workers' wages stall."
 acemoglu,,essentials,3,Modest GDP gains bring no fall in the cost of essentials.
 acemoglu,,safety-net,3,Limited automation keeps disruption within existing capacity.
@@ -84,6 +89,11 @@ keep-future-human,,essentials,2,Gains accrue to a few developers rather than low
 keep-future-human,,safety-net,2,Systems built for temporary job loss cannot cope with replacement.
 keep-future-human,,government,1,Power concentrates in whoever controls the most capable systems.
 keep-future-human,,time,2,Human roles shrink alongside human agency.
+keep-future-human-tool-ai,,work,4,"With the gates to AGI closed, Tool AI makes human experts and institutions more effective rather than replacing them."
+keep-future-human-tool-ai,,essentials,4,"Tool AI still transforms medicine, science and education, without the risks of autonomous AGI."
+keep-future-human-tool-ai,,safety-net,3,Tool AI remains highly disruptive; mechanisms to share its benefits more broadly are proposed rather than specified.
+keep-future-human-tool-ai,,government,3,"Compute caps, liability and international agreements keep AI in human hands, enforced through a few chipmakers."
+keep-future-human-tool-ai,,time,3,No particular change to time for what matters.
 intelligence-curse,,work,1,Powerful actors lose the incentive to invest in people once labour is no longer needed.
 intelligence-curse,,essentials,2,Essentials depend on the goodwill of those who own the non-human factors.
 intelligence-curse,,safety-net,1,Rentier dynamics remove the reason to fund support for citizens.
@@ -114,11 +124,16 @@ sit-awareness,,essentials,2,Trillion-dollar compute clusters compete with househ
 sit-awareness,,safety-net,2,Support systems are not designed for the speed of change.
 sit-awareness,,government,2,"A national-security Project takes over, with decisions made out of public view."
 sit-awareness,,time,2,Life is reorganised around a race rather than around people.
-ai-2027,,work,1,An intelligence explosion makes human labour largely redundant.
-ai-2027,,essentials,2,"Abundance arrives, but on terms set by one lab."
-ai-2027,,safety-net,1,Replacement outpaces any safety net.
-ai-2027,,government,1,"One lab dominates, and oversight is captured or bypassed."
-ai-2027,,time,2,Humans lose say over how their time and lives are shaped.
+ai-2027,,work,1,Humans become obsolete and perform a charade of their jobs before the takeover.
+ai-2027,,essentials,1,An apparent end to poverty is followed by a misaligned AI killing almost everyone in 2030.
+ai-2027,,safety-net,1,A luxurious basic income depends entirely on an AI that later turns on humanity.
+ai-2027,,government,1,Political institutions are thoroughly captured by a misaligned superintelligence.
+ai-2027,,time,1,"Hyper-entertainment, then extinction."
+ai-2027-slowdown,,work,1,Almost all work is done by AIs and robots; people take makeshift government jobs or none.
+ai-2027-slowdown,,essentials,4,"Poverty ends even in developing countries, though scarce goods move further out of reach."
+ai-2027-slowdown,,safety-net,4,"Both parties promise, and deliver, a generous basic income."
+ai-2027-slowdown,,government,2,A small Oversight Committee holds hard power and may or may not return it to democratic institutions.
+ai-2027-slowdown,,time,2,A society of superconsumers in an opium haze of AI-provided entertainment.
 toloui-prometheus,,work,4,Decentralised AI enhances human capability across the workforce.
 toloui-prometheus,,essentials,4,Competition among fast followers keeps prices low.
 toloui-prometheus,,safety-net,3,Augmentation keeps disruption within existing capacity.
@@ -129,6 +144,11 @@ toloui-copilot,,essentials,2,Platform owners extract rents on the AI layer that 
 toloui-copilot,,safety-net,3,"Employment holds, so the safety net is not overwhelmed."
 toloui-copilot,,government,2,A few dominant platforms gain leverage over regulators.
 toloui-copilot,,time,3,No particular change to time for what matters.
+toloui-copilot-constructive,,work,4,"With labour-tax reform and training, platforms augment most workers rather than a polarised few."
+toloui-copilot-constructive,,essentials,3,"Interoperability, portability and antitrust guardrails curb rents on the AI layer."
+toloui-copilot-constructive,,safety-net,3,Payroll-tax cuts funded by capital taxes and a public option ease the cost of hiring and of benefits.
+toloui-copilot-constructive,,government,3,"A ""guardrails and triggers"" competition regime keeps regulators able to act on platform power."
+toloui-copilot-constructive,,time,3,No particular change to time for what matters.
 toloui-swarm,,work,1,"Rapid, broad displacement leaves effort with nowhere to go."
 toloui-swarm,,essentials,4,Commoditisation drives prices down.
 toloui-swarm,,safety-net,2,Massive displacement overwhelms benefits built for short job losses.
@@ -159,6 +179,11 @@ cfg-central,,essentials,2,Access to essentials depends on one actor's choices.
 cfg-central,,safety-net,1,Unprecedented concentration leaves the safety net without a tax base.
 cfg-central,,government,1,One dominant actor holds unprecedented power.
 cfg-central,,time,2,People lose say over how their lives are shaped.
+cfg-diplomacy,,work,3,"Automation is visible by 2029 but managed, with education reformed and leisure growing more acceptable."
+cfg-diplomacy,,essentials,4,"AI diagnostics, breakthrough medicines and new materials, with growth reaching 7% a year."
+cfg-diplomacy,,safety-net,4,A 25% AI tax and lump-sum licence fees pay for redistribution.
+cfg-diplomacy,,government,3,"An IAEA-style international regime prevents monopoly abuse, though licensing concentrates power among licensed firms."
+cfg-diplomacy,,time,4,Growing acceptance of leisure time reshapes social structures.
 cfg-decentral,,work,2,Fast capability growth across many actors displaces workers.
 cfg-decentral,,essentials,4,Open-weight models make AI-powered goods and services cheap.
 cfg-decentral,,safety-net,2,Rapid displacement strains benefits built for short job losses.

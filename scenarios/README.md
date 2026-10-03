@@ -36,34 +36,51 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Techno-Optimist Manifesto (Andreessen) | Off, as a principle | [summary](techno-optimist/summary.md) | [analysis](techno-optimist/analysis.md) |
 | Impact of AI on Labour Market (TBI) | Light-touch on | [summary](tbi/summary.md) | [analysis](tbi/analysis.md) |
 | d/acc (Buterin) | Prescriptive: steer which technology gets built | [summary](dacc/summary.md) | [analysis](dacc/analysis.md) |
-| The Turing Trap (Brynjolfsson) | Off leads to the trap; on (tax, training) avoids it | [summary](turing-trap/summary.md) | [analysis](turing-trap/analysis.md) |
+| The Turing Trap (Brynjolfsson) | Off: the trap | [summary](turing-trap/summary.md) | [analysis](turing-trap/analysis.md) |
+| Escaping the Turing Trap (Brynjolfsson) | On: tax and training rebalanced towards augmentation | [summary](turing-trap-escape/summary.md) | [analysis](turing-trap-escape/analysis.md) |
 | Simple Macroeconomics of AI (Acemoglu) | Off for the estimate | [summary](acemoglu/summary.md) | [analysis](acemoglu/analysis.md) |
 | Reverse Centaur's Guide (Doctorow) | Off now; sectoral bargaining prescribed | [summary](doctorow/summary.md) | [analysis](doctorow/analysis.md) |
 | The New McKinsey (Chiang) | Off: the missing policy is the point | [summary](chiang/summary.md) | [analysis](chiang/analysis.md) |
 | Work Transformed (ILO) | Evidence plus on agenda | [summary](ilo/summary.md) | [analysis](ilo/analysis.md) |
 | Gradual Disempowerment (Kulveit et al.) | Off; policy only a stopgap | [summary](gradual-disemp/summary.md) | [analysis](gradual-disemp/analysis.md) |
-| Keep the Future Human (Aguirre) | Warns of off; prescribes strong on | [summary](keep-future-human/summary.md) | [analysis](keep-future-human/analysis.md) |
+| Keep the Future Human: the AGI race (Aguirre) | Off: the race it warns of | [summary](keep-future-human/summary.md) | [analysis](keep-future-human/analysis.md) |
+| Keep the Future Human: Tool AI (Aguirre) | Strongly on: gates closed | [summary](keep-future-human-tool-ai/summary.md) | [analysis](keep-future-human-tool-ai/analysis.md) |
 | The Intelligence Curse (Drago & Laine) | Off is the curse; technology plus democracy is the cure | [summary](intelligence-curse/summary.md) | [analysis](intelligence-curse/analysis.md) |
 | Something Big Is Happening (Shumer) | Off, individualised | [summary](shumer/summary.md) | [analysis](shumer/analysis.md) |
 | Machines of Loving Grace (Amodei) | On, "if everything goes right" | [summary](loving-grace/summary.md) | [analysis](loving-grace/analysis.md) |
 | Moore's Law for Everything (Altman) | Strongly on (American Equity Fund) | [summary](moores-law/summary.md) | [analysis](moores-law/analysis.md) |
 | 2028 Global Intelligence Crisis (Citrini) | Off, then too late | [summary](citrini/summary.md) | [analysis](citrini/analysis.md) |
 | Situational Awareness (Aschenbrenner) | On for security, off for the social contract | [summary](sit-awareness/summary.md) | [analysis](sit-awareness/analysis.md) |
-| AI 2027 (Kokotajlo et al.) | Off (race); improvised centralisation (slowdown) | [summary](ai-2027/summary.md) | [analysis](ai-2027/analysis.md) |
+| AI 2027: Race ending (Kokotajlo et al.) | Off | [summary](ai-2027/summary.md) | [analysis](ai-2027/analysis.md) |
+| AI 2027: Slowdown ending (Kokotajlo et al.) | On: improvised centralisation | [summary](ai-2027-slowdown/summary.md) | [analysis](ai-2027-slowdown/analysis.md) |
 | Promethean Fire (Toloui) | On: the policy target | [summary](toloui-prometheus/summary.md) | [analysis](toloui-prometheus/analysis.md) |
-| Copilot Empire (Toloui) | Two versions: off (rents) or on (antitrust) | [summary](toloui-copilot/summary.md) | [analysis](toloui-copilot/analysis.md) |
+| Copilot Empire (Toloui) | Off: platform rents | [summary](toloui-copilot/summary.md) | [analysis](toloui-copilot/analysis.md) |
+| Copilot Empire, constructive (Toloui) | On: antitrust, interoperability, labour-tax reform | [summary](toloui-copilot-constructive/summary.md) | [analysis](toloui-copilot-constructive/analysis.md) |
 | Disruption Swarm (Toloui) | Off for the transition | [summary](toloui-swarm/summary.md) | [analysis](toloui-swarm/analysis.md) |
 | Titan's Dominion (Toloui) | Off or captured | [summary](toloui-titans/summary.md) | [analysis](toloui-titans/analysis.md) |
 | AI Augments Workers (Korinek) | Off: business as usual | [summary](korinek-aug/summary.md) | [analysis](korinek-aug/analysis.md) |
 | Full AGI Scenario (Korinek) | Off: warning baseline | [summary](korinek-agi/summary.md) | [analysis](korinek-agi/analysis.md) |
 | Plateau (CFG) | Off: the technical ceiling does the work | [summary](cfg-plateau/summary.md) | [analysis](cfg-plateau/analysis.md) |
-| Big AI / Arms Race (CFG) | Both: endings range from off to treaty | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
+| Big AI / Arms Race (CFG) | Off, or policy as national security | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
+| Diplomacy: Licensed Utopia (CFG) | Strongly on: treaty, licensing, AI tax | [summary](cfg-diplomacy/summary.md) | [analysis](cfg-diplomacy/analysis.md) |
 | Decentralised Mayhem (CFG) | Off until a crisis forces bans | [summary](cfg-decentral/summary.md) | [analysis](cfg-decentral/analysis.md) |
 | AI Disappoints (DSIT) | Off by design | [summary](dsit-steady/summary.md) | [analysis](dsit-steady/analysis.md) |
 | AI Disrupts the Workforce (DSIT) | Off by design | [summary](dsit-rapid/summary.md) | [analysis](dsit-rapid/analysis.md) |
 | Lost Generation (Windfall) | Off: policy can't see the problem | [summary](wf-lost-generation/summary.md) | [analysis](wf-lost-generation/analysis.md) |
 | High Substitution (Windfall) | Off | [summary](wf-high-substitution/summary.md) | [analysis](wf-high-substitution/analysis.md) |
 | Disempowered Abundance (Windfall) | Partly on: material redistribution without political redistribution | [summary](wf-disempowered-abundance/summary.md) | [analysis](wf-disempowered-abundance/analysis.md) |
+
+## Fork scenarios
+
+Five sources describe two futures. Each future is its own scenario, with its own row in `data/scenarios.csv`, scores, folder and map point. The pair share a `framework`, so each scenario page links to its twin:
+
+| Policy off | Policy on |
+| --- | --- |
+| `turing-trap`: the trap | `turing-trap-escape` |
+| `toloui-copilot` | `toloui-copilot-constructive` |
+| `cfg-central`: Big AI / Arms Race | `cfg-diplomacy`: Licensed Utopia |
+| `keep-future-human`: the AGI race | `keep-future-human-tool-ai` |
+| `ai-2027`: Race ending | `ai-2027-slowdown` |
 
 ## Data issues found while reading
 
@@ -79,5 +96,5 @@ These were fixed in `data/scenarios.csv`. Each fix is noted in the relevant `ana
 Still open (judgement calls, not fixed):
 
 - Map coordinates for `chiang`, `dsit-steady` and `cfg-decentral` were set under the old descriptions and may need revisiting.
-- Several scenarios describe a fork and would be better scored as separate policy-off and policy-on rows (`turing-trap`, `toloui-copilot`, `cfg-central`, `ai-2027`, `keep-future-human`).
+- Other sources with a distinct policy-on path not yet split out into their own scenario: `korinek-agi`, `moores-law`, `doctorow`, `intelligence-curse`, `wf-high-substitution`.
 - The Windfall Trust Radar scenarios have no linked source.

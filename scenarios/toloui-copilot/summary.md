@@ -1,6 +1,6 @@
 # Copilot Empire — summary
 
-*Ramin Toloui, "Titans, Swarms, or Human Renaissance?", Digitalist Papers vol. 2 · one of four quadrants*
+*Ramin Toloui, "Titans, Swarms, or Human Renaissance?", Digitalist Papers vol. 2 · one of four quadrants · this scenario is the policy-off version; the constructive version is [Copilot Empire (constructive)](../toloui-copilot-constructive/summary.md)*
 
 **The scenario.** A few dominant platforms own the AI layer, but the technology augments rather than replaces people. Toloui says this is "a pervasive feature of modern economic development": railroads, telegraph, electricity, oil, then AT&T, IBM, Microsoft and Google. These monopolies were hugely catalytic for the wider economy and also abusive. The good version needed antitrust, regulation and organised labour to rein them in.
 
