@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong REP, DIFF |
+| **Policy stance** | off |
 
 Fast-follower + labor-replacing. Rapid diffusion, commoditization. Massive displacement but no single actor captures gains.
 

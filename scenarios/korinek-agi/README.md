@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Korinek / IMF |
 | **Source** | <https://www.imf.org/en/publications/fandd/issues/2023/12/scenario-planning-for-an-agi-future-anton-korinek> |
 | **Tags** | Strong REP, CONC |
+| **Policy stance** | off |
 
 AGI replaces most cognitive labor. Capital owners benefit enormously. Without redistribution, extreme inequality.
 

@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.darioamodei.com/essay/machines-of-loving-grace> |
 | **Tags** | Strong REP, DIFF (aspirational) |
+| **Policy stance** | on |
 
 Country of geniuses in a datacenter. Strong replacement-level capability. Hopes for diffusion but depends on governance.
 

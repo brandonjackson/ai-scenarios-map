@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://knightcolumbia.org/content/ai-as-normal-technology> |
 | **Tags** | AUG, DIFF |
+| **Policy stance** | mixed |
 
 AI is a GPT like electricity. Meaningful productivity impact but slow diffusion — decades, not years. No superintelligence. Existing institutions can adapt.
 

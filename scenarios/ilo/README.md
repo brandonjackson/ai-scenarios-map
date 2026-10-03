@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.ilo.org/sites/default/files/2025-07/ilo%20brief%20work%20transformed%20promise%20and%20peril%20of%20ai.pdf> |
 | **Tags** | Mild REP, DIFF->CONC |
+| **Policy stance** | on |
 
 1 in 4 workers globally exposed. Some augmentation potential but adoption concentrated in rich countries. Labour income share falling.
 

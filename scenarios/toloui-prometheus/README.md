@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, DIFF |
+| **Policy stance** | on |
 
 Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Competition keeps prices low.
 

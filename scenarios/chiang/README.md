@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey> |
 | **Tags** | Limited impact, CONC (warns) |
+| **Policy stance** | off |
 
 AI's danger is whom it serves, not what it can do: like McKinsey, it is “capital’s willing executioners”, laundering accountability so firms can cut workers and concentrate wealth.
 

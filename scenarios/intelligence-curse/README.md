@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://intelligence-curse.ai/> |
 | **Tags** | REP, CONC (default) |
+| **Policy stance** | off |
 
 AI creates rentier-state dynamics: non-human factors dominate, powerful actors lose incentive to invest in people.
 

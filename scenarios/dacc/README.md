@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html> |
 | **Tags** | Mild AUG, DIFF (prescriptive) |
+| **Policy stance** | on |
 
 Defensive, decentralized, differential acceleration. Cautious on AI power but strongly prescribes building tech that diffuses power.
 

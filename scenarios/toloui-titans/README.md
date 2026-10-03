@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong REP, CONC |
+| **Policy stance** | off |
 
 Winner-take-all + labor-replacing. Monopolistic control of broadly displacing technology. The worst quadrant.
 

@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://hdsr.mitpress.mit.edu/pub/wy5a8llx> |
 | **Tags** | Strong AUG, DIFF |
+| **Policy stance** | off |
 
 Task automation enhances jobs and reduces inequality by lowering the skill premium — opening tasks locked behind rare skills to a wider pool.
 

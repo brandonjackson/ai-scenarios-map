@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://keepthefuturehuman.ai/essay/docs> |
 | **Tags** | REP (warns), CONC (warns) |
+| **Policy stance** | mixed |
 
 Close the gates to AGI, build Tool AI instead. Warns unchecked AGI race leads to replacement + concentrated power.
 

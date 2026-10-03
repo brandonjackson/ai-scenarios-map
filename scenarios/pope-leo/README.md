@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html> |
 | **Tags** | Strong AUG (prescriptive), DIFF (prescriptive) |
+| **Policy stance** | on |
 
 AI is a tool, not a species. Emphatically augmentation: AI should enhance human dignity, not replace human agency.
 

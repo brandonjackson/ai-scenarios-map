@@ -3,6 +3,7 @@ import { scenarios, axes, hasAxis, quadrantLabel, splitTags } from "../data.js";
 import { href } from "../router.js";
 import { goals, defaultGoal, assessScenario } from "../goals.js";
 import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
+import { scenarioNotes, splitSections, renderMarkdown, POLICY_STANCES } from "../scenarioNotes.js";
 
 const TYPES = [
   { key: "all", label: "All" },
@@ -16,14 +17,26 @@ function TypeBadge({ type }) {
   return <span className={`badge badge-${type}`}>{typeLabel(type)}</span>;
 }
 
+function PolicyBadge({ policy }) {
+  const p = POLICY_STANCES[policy];
+  if (!p) return null;
+  return (
+    <span className={`badge badge-policy-${policy}`} title={p.hint}>
+      {p.label}
+    </span>
+  );
+}
+
 export function ScenariosList() {
   const [query, setQuery] = useState("");
   const [type, setType] = useState("all");
+  const [policy, setPolicy] = useState("all");
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
     return scenarios
       .filter((s) => type === "all" || s.type === type)
+      .filter((s) => policy === "all" || s.policy === policy)
       .filter(
         (s) =>
           !q ||
@@ -33,7 +46,7 @@ export function ScenariosList() {
             .includes(q)
       )
       .sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title));
-  }, [query, type]);
+  }, [query, type, policy]);
 
   return (
     <div>
@@ -67,6 +80,19 @@ export function ScenariosList() {
             </button>
           ))}
         </div>
+        <div className="chips" role="group" aria-label="Filter by policy stance">
+          {[["all", "Any stance"], ...Object.entries(POLICY_STANCES).map(([k, v]) => [k, v.label])].map(([k, label]) => (
+            <button
+              key={k}
+              className={`chip${policy === k ? " active" : ""}`}
+              onClick={() => setPolicy(k)}
+              title={POLICY_STANCES[k]?.hint}
+            >
+              {k !== "all" && <span className={`dot dot-policy-${k}`} />}
+              {label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="result-count">
@@ -81,6 +107,7 @@ export function ScenariosList() {
                 <h2 className="card-title">{s.title}</h2>
                 <div className="card-badges">
                   <RatingBadge s={s} />
+                  <PolicyBadge policy={s.policy} />
                   <TypeBadge type={s.type} />
                 </div>
               </div>
@@ -158,6 +185,12 @@ function MiniQuadrant({ s, a }) {
 }
 
 export function ScenarioDetail({ id }) {
+  // Keyed on id so the selected tab resets when moving between scenarios.
+  return <ScenarioDetailInner key={id} id={id} />;
+}
+
+function ScenarioDetailInner({ id }) {
+  const [tab, setTab] = useState("overview");
   const s = scenarios.find((x) => x.id === id);
   if (!s) {
     return (
@@ -170,6 +203,12 @@ export function ScenarioDetail({ id }) {
   const siblings = s.framework
     ? scenarios.filter((o) => o.framework === s.framework && o.id !== s.id)
     : [];
+  const notes = scenarioNotes(s.id);
+  const tabs = [
+    { key: "overview", label: "Overview" },
+    notes.summary && { key: "summary", label: "Social contract summary" },
+    notes.analysis && { key: "analysis", label: "Assumptions" },
+  ].filter(Boolean);
 
   return (
     <article>
@@ -177,6 +216,7 @@ export function ScenarioDetail({ id }) {
       <header className="page-header">
         <div className="detail-kicker">
           <TypeBadge type={s.type} />
+          <PolicyBadge policy={s.policy} />
           {s.framework && <span className="muted">{s.framework}</span>}
         </div>
         <h1>{s.title}</h1>
@@ -185,10 +225,29 @@ export function ScenarioDetail({ id }) {
         </div>
       </header>
 
-      <div className="detail-grid">
+      {tabs.length > 1 && (
+        <div className="tabs" role="tablist" aria-label="Scenario views">
+          {tabs.map((t) => (
+            <button
+              key={t.key}
+              role="tab"
+              aria-selected={tab === t.key}
+              className={`tab${tab === t.key ? " active" : ""}`}
+              onClick={() => setTab(t.key)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {tab === "summary" && notes.summary && <SocialContractSummary s={s} md={notes.summary} />}
+      {tab === "analysis" && notes.analysis && <Note md={notes.analysis} />}
+
+      {tab === "overview" && <div className="detail-grid">
         <div>
           <section className="section">
-            <h2>Summary</h2>
+            <h2>At a glance</h2>
             <p className="prose">{s.desc}</p>
             {s.url && (
               <p>
@@ -252,7 +311,8 @@ export function ScenarioDetail({ id }) {
             ))}
           </div>
         </aside>
-      </div>
+      </div>}
+      <NotesFooter id={s.id} />
     </article>
   );
 }
@@ -263,5 +323,66 @@ function Crumbs({ title }) {
       <a href={href("/scenarios")}>Scenarios</a>
       {title && <> <span aria-hidden="true">/</span> <span>{title}</span></>}
     </nav>
+  );
+}
+
+// summary.md, with each promise's draft score shown beside its heading.
+function SocialContractSummary({ s, md }) {
+  const { lead, sections } = splitSections(md);
+  const a = assessScenario(defaultGoal, s.id);
+  return (
+    <div className="note">
+      <div className="md note-lead" dangerouslySetInnerHTML={renderMarkdown(lead)} />
+      {sections.map((sec) => {
+        const c = defaultGoal.criteria.find((c) => c.name.toLowerCase() === sec.heading.toLowerCase());
+        const score = c && a?.scores[c.id];
+        return (
+          <section key={sec.heading} className={`note-section${c ? " note-promise" : ""}`}>
+            <h2>
+              {c && <ScoreChip goal={defaultGoal} value={score?.score} label={!!score} />}
+              <span>{sec.heading}</span>
+            </h2>
+            <div className="md" dangerouslySetInnerHTML={renderMarkdown(sec.body)} />
+          </section>
+        );
+      })}
+      {a && (
+        <p className="muted small">
+          Scores are drafts from <a href={href(`/goals/${defaultGoal.id}`)}>{defaultGoal.name}</a>; the
+          text is a reading of the source.
+        </p>
+      )}
+    </div>
+  );
+}
+
+function Note({ md }) {
+  const { lead, sections } = splitSections(md);
+  return (
+    <div className="note">
+      {lead && <div className="md note-lead" dangerouslySetInnerHTML={renderMarkdown(lead)} />}
+      {sections.map((sec) => (
+        <section key={sec.heading} className="note-section">
+          <h2>
+            <span>{sec.heading}</span>
+          </h2>
+          <div className="md" dangerouslySetInnerHTML={renderMarkdown(sec.body)} />
+        </section>
+      ))}
+    </div>
+  );
+}
+
+const REPO = "https://github.com/brandonjackson/ai-scenarios-map/tree/main/scenarios";
+
+function NotesFooter({ id }) {
+  return (
+    <p className="muted small notes-footer">
+      Context for this scenario lives in{" "}
+      <a href={`${REPO}/${id}`} target="_blank" rel="noopener noreferrer">
+        <code>scenarios/{id}/</code>
+      </a>
+      .
+    </p>
   );
 }

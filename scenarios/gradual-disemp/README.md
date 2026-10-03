@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://gradual-disempowerment.ai/> |
 | **Tags** | Moderate REP, CONC |
+| **Policy stance** | off |
 
 Incremental AI erodes human economic participation. Institutions slowly misalign from human interests. No sudden break — a structural drift.
 

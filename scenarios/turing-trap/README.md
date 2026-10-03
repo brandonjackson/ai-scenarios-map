@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
 | **Tags** | AUG (prescribes), DIFF<>CONC |
+| **Policy stance** | on |
 
 The choice between augmentation and replacement IS the choice between diffuse and concentrated gains.
 

@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, CONC |
+| **Policy stance** | mixed |
 
 Fast capability growth controlled by a few dominant actors (CFG's Big AI, Arms Race and Diplomacy scenarios). Unprecedented power concentration and misalignment risk.
 

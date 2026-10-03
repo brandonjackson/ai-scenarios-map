@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://institute.global/insights/economic-prosperity/the-impact-of-ai-on-the-labour-market> |
 | **Tags** | Moderate AUG, DIFF |
+| **Policy stance** | on |
 
 AI saves ~25% of UK workforce time. 1-3M jobs displaced but offset by new demand. GDP +11% by 2050.
 

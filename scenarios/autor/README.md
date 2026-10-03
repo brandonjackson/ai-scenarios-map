@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | single |
 | **Source** | <https://www.nber.org/papers/w32140> |
 | **Tags** | Strong AUG, DIFF |
+| **Policy stance** | on |
 
 AI could restore middle-skill jobs by enabling less-trained workers to do expert work. Creates new tasks, net positive for labor demand — if policy steers it.
 

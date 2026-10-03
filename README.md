@@ -7,7 +7,7 @@ An interactive site mapping AI scenario literature across multiple analytical di
 A left nav is shared across all pages (hash routes, so deep links work on GitHub Pages):
 
 - **Overview** (`#/`) — the interactive 2×2 scatter plot
-- **Scenarios** (`#/scenarios`) — searchable list; each scenario has a detail page (`#/scenarios/<id>`) showing its position on every axis pair
+- **Scenarios** (`#/scenarios`) — searchable list, filterable by type and policy stance; each scenario has a detail page (`#/scenarios/<id>`) with tabs for an overview (position on every axis pair, goal assessments), its social contract summary (with draft scores beside each promise) and its assumptions analysis, read from `scenarios/<id>/`
 - **Goals** (`#/goals`) — goal functions that scenarios are assessed against; each goal has a detail page (`#/goals/<id>`) with its criteria, scale and a scorecard of assessed scenarios. Scenario pages show their assessment under each goal.
 - **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`)
 
@@ -42,7 +42,7 @@ Every scenario has a folder in `scenarios/<id>/` for context about it: a generat
 
 ### Adding a new scenario
 
-Add a row to `scenarios.csv` with at minimum: `id`, `title`, `author`, `year`, `type`, `desc`, `url`, and coordinates for at least one axis pair. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes. Then run `npm run scenarios:folders` to create its folder.
+Add a row to `scenarios.csv` with at minimum: `id`, `title`, `author`, `year`, `type`, `desc`, `url`, and coordinates for at least one axis pair. Set `policy` to `off`, `on` or `mixed` once you know whether the scenario assumes policy is absent, depends on deliberate policy, or has both versions. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes. Then run `npm run scenarios:folders` to create its folder.
 
 ### Adding a new axis pair
 

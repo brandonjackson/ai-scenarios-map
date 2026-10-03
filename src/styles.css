@@ -517,3 +517,62 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 .risk-tip-count { font-family: var(--mono); font-size: 11px; color: var(--muted); margin: 4px 0; }
 .risk-tip-list { color: var(--text); line-height: 1.45; }
 .chart-intro { margin: -4px 0 10px; }
+
+/* ---------- Policy stance ---------- */
+
+/* Deliberately non-evaluative hues, so stance doesn't read as a rating. */
+.badge-policy-off { background: #1c2430; color: #b0bec5; }
+.badge-policy-on { background: #241f33; color: #b39ddb; }
+.badge-policy-mixed { background: #2e1f2a; color: #f48fb1; }
+.dot-policy-off { background: #b0bec5; }
+.dot-policy-on { background: #b39ddb; }
+.dot-policy-mixed { background: #f48fb1; }
+
+/* ---------- Scenario notes (summary.md, analysis.md) ---------- */
+
+.tabs {
+  display: flex;
+  gap: 2px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 22px;
+  overflow-x: auto;
+}
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  padding: 9px 14px;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--text-strong); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.note { max-width: 72ch; }
+.note-lead { margin-bottom: 22px; }
+.note-section { margin-bottom: 22px; }
+.note-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-strong);
+  margin-bottom: 8px;
+}
+.note-promise { padding-left: 14px; border-left: 2px solid var(--border-strong); }
+
+.md { font-size: 14.5px; line-height: 1.7; color: var(--text); }
+.md p + p, .md p + ul, .md ul + p, .md p + ol, .md ol + p { margin-top: 10px; }
+.md em { color: var(--muted); }
+.md strong { color: var(--text-strong); }
+.md ul, .md ol { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.md code { font-family: var(--mono); font-size: 12.5px; background: #151f2e; padding: 1px 5px; border-radius: 3px; }
+.note-lead em:first-child { font-size: 13px; }
+
+.notes-footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); }

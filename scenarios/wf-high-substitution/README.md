@@ -11,6 +11,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
+| **Policy stance** | off |
 
 AI and robots take on most office and a growing share of physical work. Firms replace staff rather than support them. Incomes and income-tax revenue collapse just as demand for support soars, because our systems assume most people work.
 
