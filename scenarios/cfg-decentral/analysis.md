@@ -1,4 +1,4 @@
-# Decentralized Takeoff — assumptions analysis
+# Decentralised Mayhem — assumptions analysis
 
 ## Policy on or off?
 **Policy off until a crisis forces reactive policy.** No coordination steers the spread of capability. Governments act only after harm, with blunt instruments (bans on high-scale open models). That is policy as damage control, not design.
@@ -16,7 +16,7 @@
 - Governments lack verification or monitoring tools short of outright bans.
 
 ## Tensions and weak points
-- **Naming and source gap:** CFG's report has no scenario called "Decentralized Takeoff". The map point seems built from the framework's empty fast-and-decentralised cell and the Mayhem ending (which CFG places under *Plateau*, where the misuse comes from security failure rather than runaway capability). The map's coordinates for this point are an inference, not CFG's.
+- **Naming (fixed) and source gap:** CFG's report has no scenario called "Decentralized Takeoff", the map's old name. The CSV now uses "Decentralised Mayhem", the closest published narrative. CFG places that ending under *Plateau*, where the misuse comes from security failure rather than runaway capability, so the map's coordinates for this point (strong replacement) are an inference, not CFG's.
 - The essentials gain (cheap open AI) and the government loss (misuse) come from the same openness. The scenario is a trade-off, not a destination.
 - Compare Buterin's d/acc, which argues that decentralised *defensive* technology can tip the offence/defence balance. This scenario assumes it doesn't.
 

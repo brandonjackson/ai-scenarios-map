@@ -17,7 +17,7 @@
 - People keep embodied, face-to-face relationships despite AI companions and AI-mediated communication.
 
 ## Tensions and weak points
-- **Attribution error on the map:** the map lists "Vatican / Pope Leo XIV, 2025". The document is from the Dicastery for the Doctrine of the Faith and the Dicastery for Culture and Education, dated 28 January 2025 and approved under **Pope Francis**. Leo XIV was elected in May 2025 and has since made AI a theme of his papacy, but this note isn't his. The CSV's author field should be corrected.
+- **Attribution (fixed):** the map listed "Vatican / Pope Leo XIV". The document is from the Dicastery for the Doctrine of the Faith and the Dicastery for Culture and Education, dated 28 January 2025 and approved under **Pope Francis**. Leo XIV was elected in May 2025 and has since made AI a theme of his papacy, but this note isn't his. The CSV author now reflects this.
 - No mechanism or policy detail: no specific instruments for steering AI toward augmentation. It's a set of criteria, not a plan.
 - Fiscal coordinates on the map are blank, rightly: the note doesn't discuss public finances.
 - Its position that work matters for meaning, not just income, conflicts with UBI-centred scenarios (Altman, Amodei) and matches the Windfall "hard work pays" promise most directly.

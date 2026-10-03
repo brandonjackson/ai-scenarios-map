@@ -17,7 +17,7 @@
 - No movement emerges that uses AI to strengthen workers' collective power.
 
 ## Tensions and weak points
-- **Map description mismatch:** the map says Chiang argues AI is "technically overhyped". The essay makes no claim about capability. Its point is that AI is harmful *because it serves capital*, at any capability level. "Limited impact" on the labour axis is an inference the text doesn't support. Chiang is closer to "replacement as management's intent". The tag "accountability laundering" fits.
+- **Map description (fixed):** the map used to say Chiang argues AI is "technically overhyped". The essay makes no claim about capability. Its point is that AI is harmful *because it serves capital*, at any capability level. The CSV description now says so. "Limited impact" on the labour axis is still an inference the text doesn't support; Chiang is closer to "replacement as management's intent", and the map coordinates may deserve a second look.
 - It is a diagnosis more than a forecast. There's no timeline or mechanism for how bad things get, and the hopeful path (a second golden age without another Great Depression first) isn't spelled out.
 - It shares Acemoglu and Johnson's thesis (direction of technology is a choice) and Doctorow's (AI as a narrative tool against labour).
 

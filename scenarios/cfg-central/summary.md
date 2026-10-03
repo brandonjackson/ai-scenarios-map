@@ -1,4 +1,4 @@
-# Centralized Takeoff — summary
+# Big AI / Arms Race (fast, centralised) — summary
 
 *Centre for Future Generations, "Advanced AI: Possible Futures", July 2025 · fast progress, centralised development (covers CFG's Big AI, Arms Race and Diplomacy scenarios)*
 

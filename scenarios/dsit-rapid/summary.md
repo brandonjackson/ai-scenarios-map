@@ -1,6 +1,6 @@
-# Rapid Transformation — summary
+# AI Disrupts the Workforce — summary
 
-*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023) · closest published match: "AI Disrupts the Workforce"*
+*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023)*
 
 **The scenario.** By 2030, narrow but highly capable AI systems owned by tech giants automate work across many sectors. A key breakthrough lets AI act in the physical world through robots and autonomous vehicles. Data-centre shortages and persistent inflation in 2025 shape the path: vendors focus on cheaper domain-specific systems, and labour stays expensive relative to AI, so "firms therefore used AI systems to replace labour." The systems are seen as "technically safe", yet they cause "increased unemployment and poverty".
 

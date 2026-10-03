@@ -12,7 +12,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Source** | <https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey> |
 | **Tags** | Limited impact, CONC (warns) |
 
-AI is technically overhyped. Its real function is accountability laundering — companies fire workers even when AI doesn't work.
+AI's danger is whom it serves, not what it can do: like McKinsey, it is “capital’s willing executioners”, laundering accountability so firms can cut workers and concentrate wealth.
 
 ## Map position
 

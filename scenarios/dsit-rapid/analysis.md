@@ -1,4 +1,4 @@
-# Rapid Transformation — assumptions analysis
+# AI Disrupts the Workforce — assumptions analysis
 
 ## Policy on or off?
 **Explicitly policy off.** DSIT built every scenario without government interventions so they can be used for stress-testing. The harms (structural unemployment, inequality, backlash) are what happens when nothing is done. The report then lists the decisions policymakers would face: workers' rights, retraining, taxation, "the overall balance of human vs machine labour", and the trade-off of slowing adoption.
@@ -19,7 +19,7 @@
 - Governments don't redistribute the higher tax revenue the scenario itself expects.
 
 ## Tensions and weak points
-- **Naming mismatch:** DSIT has no scenario called "Rapid Transformation". The map description (fast gains, displacement, a few dominant firms, government struggling) best fits "AI Disrupts the Workforce". "Advanced AI on a Knife's Edge" (a highly general system so capable it can't be evaluated) is the faster, more general alternative. Check which one the map point means.
+- **Naming (fixed):** the map used to call this "Rapid Transformation", which isn't a DSIT scenario. The old description (fast gains, displacement, a few dominant firms, government struggling) best fits "AI Disrupts the Workforce", and the CSV now uses that name. "Advanced AI on a Knife's Edge" (a highly general system so capable it can't be evaluated) is the faster, more general alternative and could be added as its own point.
 - The scenario shows that a stronger economy and a weaker social contract can coexist: productivity, tax receipts and cheaper goods rise while employment and cohesion fall.
 - Industrial action is "limited" in automated sectors, but backlash is "rampant", so the political response could be sharp and could arrive before 2030.
 

@@ -31,7 +31,7 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | --- | --- | --- | --- |
 | Turing Transformation (Agrawal, Gans & Goldfarb) | Off: market mechanism | [summary](turing-transform/summary.md) | [analysis](turing-transform/analysis.md) |
 | Antiqua et Nova (Vatican) | Prescriptive: moral programme | [summary](pope-leo/summary.md) | [analysis](pope-leo/analysis.md) |
-| Rebuild Middle-Class Jobs (Autor) | On: needs design, training, scope-of-practice reform | [summary](autor/summary.md) | [analysis](autor/analysis.md) |
+| Applying AI to Rebuild Middle Class Jobs (Autor) | On: needs design, training, scope-of-practice reform | [summary](autor/summary.md) | [analysis](autor/analysis.md) |
 | AI as Normal Technology (Narayanan & Kapoor) | Light: slow by default, resilience policy prescribed | [summary](normal-tech/summary.md) | [analysis](normal-tech/analysis.md) |
 | Techno-Optimist Manifesto (Andreessen) | Off, as a principle | [summary](techno-optimist/summary.md) | [analysis](techno-optimist/analysis.md) |
 | Impact of AI on Labour Market (TBI) | Light-touch on | [summary](tbi/summary.md) | [analysis](tbi/analysis.md) |
@@ -57,22 +57,27 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | AI Augments Workers (Korinek) | Off: business as usual | [summary](korinek-aug/summary.md) | [analysis](korinek-aug/analysis.md) |
 | Full AGI Scenario (Korinek) | Off: warning baseline | [summary](korinek-agi/summary.md) | [analysis](korinek-agi/analysis.md) |
 | Plateau (CFG) | Off: the technical ceiling does the work | [summary](cfg-plateau/summary.md) | [analysis](cfg-plateau/analysis.md) |
-| Centralized Takeoff (CFG) | Both: endings range from off to treaty | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
-| Decentralized Takeoff (CFG) | Off until a crisis forces bans | [summary](cfg-decentral/summary.md) | [analysis](cfg-decentral/analysis.md) |
-| Steady Progress (DSIT) | Off by design | [summary](dsit-steady/summary.md) | [analysis](dsit-steady/analysis.md) |
-| Rapid Transformation (DSIT) | Off by design | [summary](dsit-rapid/summary.md) | [analysis](dsit-rapid/analysis.md) |
+| Big AI / Arms Race (CFG) | Both: endings range from off to treaty | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
+| Decentralised Mayhem (CFG) | Off until a crisis forces bans | [summary](cfg-decentral/summary.md) | [analysis](cfg-decentral/analysis.md) |
+| AI Disappoints (DSIT) | Off by design | [summary](dsit-steady/summary.md) | [analysis](dsit-steady/analysis.md) |
+| AI Disrupts the Workforce (DSIT) | Off by design | [summary](dsit-rapid/summary.md) | [analysis](dsit-rapid/analysis.md) |
 | Lost Generation (Windfall) | Off: policy can't see the problem | [summary](wf-lost-generation/summary.md) | [analysis](wf-lost-generation/analysis.md) |
 | High Substitution (Windfall) | Off | [summary](wf-high-substitution/summary.md) | [analysis](wf-high-substitution/analysis.md) |
 | Disempowered Abundance (Windfall) | Partly on: material redistribution without political redistribution | [summary](wf-disempowered-abundance/summary.md) | [analysis](wf-disempowered-abundance/analysis.md) |
 
 ## Data issues found while reading
 
-These are recorded in the relevant `analysis.md`. They haven't been changed in `data/scenarios.csv`.
+These were fixed in `data/scenarios.csv`. Each fix is noted in the relevant `analysis.md`.
 
-- **`autor`**: the URL (`nber.org/papers/w32890`) points to "Pensioners Without Borders", not Autor. The right paper is NBER w32140, "Applying AI to Rebuild Middle Class Jobs" (2024). The CSV title doesn't match either.
-- **`pope-leo`**: *Antiqua et Nova* (28 Jan 2025) was issued by two Vatican dicasteries under **Pope Francis**, not Leo XIV.
-- **`toloui-*`**: the essay cites July 2025 sources and is dated 11 December, so it's probably 2025, not 2024.
-- **`cfg-central`, `cfg-decentral`**: CFG's report has no scenarios with these names. Its scenarios are Plateau, Big AI, Diplomacy and Arms Race.
-- **`dsit-steady`, `dsit-rapid`**: DSIT's AI 2030 scenarios are Unpredictable Advanced AI, AI Disrupts the Workforce, AI 'Wild West', Advanced AI on a Knife's Edge and AI Disappoints. The closest matches are AI Disappoints and AI Disrupts the Workforce. DSIT also deliberately left out benign scenarios.
-- **`chiang`**: the map says Chiang argues AI is "technically overhyped". The essay makes no capability claim; its argument is about whom AI serves.
-- **`turing-trap`**: draft scores are all 3s. The essay describes a fork, which is better scored as separate policy-off and policy-on rows.
+- **`autor`**: the URL pointed to NBER w32890 ("Pensioners Without Borders"). It now points to w32140, and the title is now the paper's own, "Applying AI to Rebuild Middle Class Jobs".
+- **`pope-leo`**: *Antiqua et Nova* (28 Jan 2025) was issued by two Vatican dicasteries under **Pope Francis**, not Leo XIV. The author field is corrected.
+- **`toloui-*`**: the year is now 2025 (the essay cites July 2025 sources and is dated 11 December).
+- **`cfg-central`, `cfg-decentral`**: the titles are now "Big AI / Arms Race (fast, centralised)" and "Decentralised Mayhem". CFG has no scenarios called Centralized or Decentralized Takeoff.
+- **`dsit-steady`, `dsit-rapid`**: the titles are now DSIT's own names, "AI Disappoints" and "AI Disrupts the Workforce", with matching descriptions. The year is now 2023 (published October 2023).
+- **`chiang`**: the description no longer says Chiang calls AI "technically overhyped". It now reflects his argument about whom AI serves.
+
+Still open (judgement calls, not fixed):
+
+- Map coordinates for `chiang`, `dsit-steady` and `cfg-decentral` were set under the old descriptions and may need revisiting.
+- Several scenarios describe a fork and would be better scored as separate policy-off and policy-on rows (`turing-trap`, `toloui-copilot`, `cfg-central`, `ai-2027`, `keep-future-human`).
+- The Windfall Trust Radar scenarios have no linked source.
