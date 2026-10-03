@@ -596,11 +596,9 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 
 /* ---------- Atlas policies named by a scenario ---------- */
 
-.atlas-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
-.atlas-list li { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 15px; line-height: 1.45; }
-.atlas-list .badge { font-size: 12px; }
-.atlas-list .badge:hover { text-decoration: none; filter: brightness(1.2); }
-.atlas-evidence { color: var(--muted); flex: 1 1 260px; }
+.atlas-table tbody th { width: 1%; }
+.atlas-table .badge { font-size: 12px; display: inline-block; }
+.atlas-table .badge:hover { text-decoration: none; filter: brightness(1.2); }
 
 /* ---------- Maps ---------- */
 
