@@ -114,7 +114,7 @@ export function PoliciesList() {
       <ul className="card-list card-grid">
         {rows.map((p) => (
           <li key={p.slug}>
-            <a className="card" href={href(`/policies/${p.slug}`)}>
+            <a className="card" data-cat={p.category} href={href(`/policies/${p.slug}`)}>
               <div className="card-head">
                 <h2 className="card-title">{p.title}</h2>
               </div>
