@@ -1,4 +1,4 @@
-# Steady Progress — assumptions analysis
+# AI Disappoints — assumptions analysis
 
 ## Policy on or off?
 **Explicitly policy off.** GO-Science "explicitly avoided including any such government interventions in the scenarios" so policymakers can stress-test ideas against them, and "deliberately avoided including any scenarios that are largely benign or favourable." Every DSIT scenario is a policy-off baseline by design.
@@ -17,7 +17,7 @@
 - Low capability coexists with enough misuse to erode trust.
 
 ## Tensions and weak points
-- **Naming and framing mismatch:** DSIT publishes no scenario called "Steady Progress". The map's description ("AI improves steadily, adoption gradual. Existing institutions adapt. Most conservative official scenario") is gentler than the source, which describes a bust, disillusionment and inequitable access, and says outright that it excluded benign scenarios. "AI Disappoints" is the closest match; the map label may misrepresent it.
+- **Naming (fixed):** the map used to call this "Steady Progress" with a gentler description ("existing institutions adapt"). DSIT publishes no scenario by that name, and the source describes a bust, disillusionment and inequitable access, and says outright that it excluded benign scenarios. The CSV now uses DSIT's own name, "AI Disappoints", and a matching description. The map coordinates (augmenting, diffuse, stronger finances) were set for the old framing and may need revisiting.
 - Written for the November 2023 AI Safety Summit, the scenario is already partly overtaken: 2024–25 brought large gains in reasoning and agentic capability, which makes "AI Disappoints" look less likely than when it was written.
 - An AI bust is treated as a minor event. Given today's AI capex share of GDP, a larger crash could hit public finances and jobs on its own (compare Doctorow).
 

@@ -20,7 +20,7 @@
 ## Tensions and weak points
 - The essay says monopolistic control of a labour-replacing technology "is rare in human history, particularly as a market outcome". The scenario rests on a combination with no clean market precedent, so its likelihood is speculative.
 - US–China competition pushes for "go fast", which could either feed consolidation (national champions) or keep the market contested.
-- **Date check:** the map lists Toloui as 2024, but the essay cites July 2025 sources and the 2025 AI Action Plan, and is dated 11 December, so it is probably 2025.
+- **Date (fixed):** the map listed Toloui as 2024, but the essay cites July 2025 sources and the 2025 AI Action Plan, and is dated 11 December. The CSV now says 2025.
 
 ## Scoring notes
 The draft scores (1/2/1/1/2) fit the text. Essentials at 2 rather than 1 is fair: Toloui doesn't argue that prices rise, only that the surplus is captured.

@@ -6,7 +6,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 
 | | |
 | --- | --- |
-| **Author** | Vatican / Pope Leo XIV |
+| **Author** | Vatican (DDF & Dicastery for Culture and Education) / Pope Francis |
 | **Year** | 2025 |
 | **Type** | single |
 | **Source** | <https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html> |

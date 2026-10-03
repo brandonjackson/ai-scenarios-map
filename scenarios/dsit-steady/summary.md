@@ -1,6 +1,6 @@
-# Steady Progress — summary
+# AI Disappoints — summary
 
-*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023) · closest published match: "AI Disappoints"*
+*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023)*
 
 **The scenario.** DSIT's slowest scenario. By 2030 frontier AI has "improved somewhat ... but more slowly than many expected". Systems still make factual errors, struggle with multi-step reasoning and need close human oversight. A 2025 "AI bust", when high-profile launches slip, causes a brief financial crisis, start-ups fail, and the market consolidates toward big tech. Investors move to fusion and quantum. Open-source developers catch up in the space left behind. Most people "feel indifferent towards AI."
 

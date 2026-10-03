@@ -17,7 +17,7 @@
 - Employers use AI to widen access to expert work rather than to cut headcount.
 
 ## Tensions and weak points
-- **Source link is wrong:** the map's URL (`nber.org/papers/w32890`) points to "Pensioners Without Borders" (Kalin, Levy & Muñoz), not Autor. The right paper is **NBER w32140** (<https://www.nber.org/papers/w32140>). The CSV title "Labor Market Impacts of AI" doesn't match the paper's title either. Both should be fixed.
+- **Source link (fixed):** the map's URL used to point to NBER w32890, "Pensioners Without Borders" (Kalin, Levy & Muñoz), and the title read "Labor Market Impacts of AI". The CSV now points to **NBER w32140** (<https://www.nber.org/papers/w32140>) and uses the paper's title.
 - Frontier AI has moved fast since early 2024. Autor's claim that AI is weak on facts and rules has been eroded by reasoning models and agents. If AI becomes a reliable *autonomous* expert, the "decision support for mid-skill workers" window may be brief.
 - It assumes incumbents (the AMA, bar associations) can be overcome. The nurse-practitioner fight took decades.
 - It shares its mechanism with Agrawal et al.'s Turing Transformation, but Autor stresses decent jobs and training where Agrawal et al. stress market entry.

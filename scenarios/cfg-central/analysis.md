@@ -1,4 +1,4 @@
-# Centralized Takeoff — assumptions analysis
+# Big AI / Arms Race (fast, centralised) — assumptions analysis
 
 ## Policy on or off?
 **Both: the cell spans policy-off and policy-on endings.** Big AI's "Silicon Blackmail" and Arms Race's "Hot War" are close to policy-off (or policy-as-national-security). Diplomacy's "Licensed Utopia" is strongly policy-on: an international treaty, mandatory audits, a 25% AI tax. The map's single point (and its draft scores) reflect the bad endings only.
@@ -17,7 +17,7 @@
 - In the bad endings, no binding verification, so arms-control logic fails.
 
 ## Tensions and weak points
-- **Naming mismatch:** CFG doesn't publish a scenario called "Centralized Takeoff". This folder treats it as the fast-and-centralised family (Big AI, Diplomacy, Arms Race). The map description ("one dominant actor ... maximum misalignment risk") matches Arms Race and Silicon Blackmail more than Diplomacy. Consider splitting it into separate map points.
+- **Naming (fixed):** CFG doesn't publish a scenario called "Centralized Takeoff", the map's old name. The CSV now calls it "Big AI / Arms Race (fast, centralised)", covering the fast-and-centralised family (Big AI, Diplomacy, Arms Race). The map coordinates match Arms Race and Silicon Blackmail more than Diplomacy. Consider splitting these into separate map points.
 - Centralisation is both the problem and, in Diplomacy, the solution: licensing regimes concentrate power but make safety coordination possible.
 - Europe is the report's point of view. Most endings turn on whether Europe gets sovereign capacity (e.g., the public "NimbusAI" competitor).
 

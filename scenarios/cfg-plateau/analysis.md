@@ -19,7 +19,7 @@
 ## Tensions and weak points
 - Even a "plateaued" AI can be disruptive at the entry level. CFG's account of office workers adopting tools gradually doesn't address junior hiring (see Windfall's Lost Generation).
 - The two endings show that decentralisation is ambivalent: the same openness that spreads benefits also spreads harm, and the policy response (bans) re-centralises.
-- **Map labelling note:** CFG's published report has five scenarios, *Plateau*, *Big AI*, *Diplomacy* and *Arms Race* plus endings. The map's "Centralized Takeoff" and "Decentralized Takeoff" aren't CFG's own names (see those folders).
+- **Map labelling (fixed):** CFG's published report has five scenarios, *Plateau*, *Big AI*, *Diplomacy* and *Arms Race* plus endings. The map's old "Centralized Takeoff" and "Decentralized Takeoff" points are now named "Big AI / Arms Race (fast, centralised)" and "Decentralised Mayhem".
 
 ## Scoring notes
 Draft scores (4/3/3/3/3) fit Bright Winter. Mayhem would lower government to 2. Consider scoring the two endings separately.

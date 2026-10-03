@@ -1,6 +1,6 @@
-# Applying AI to Rebuild Middle-Class Jobs — summary
+# Applying AI to Rebuild Middle Class Jobs — summary
 
-*David Autor, NBER w32140, February 2024 (published in NOEMA as "How AI Could Help Rebuild the Middle Class") · see the analysis for a source-link problem*
+*David Autor, NBER w32140, February 2024 (published in NOEMA as "How AI Could Help Rebuild the Middle Class")*
 
 **The scenario.** "Not a forecast but an argument about what is possible." Computerisation hollowed out the middle of the labour market: it automated rule-following "mass expertise" (clerks, production workers) and concentrated decision-making in "elite experts" with degrees. AI is the "inversion technology". Because it can handle tacit, judgement-based tasks, it can give decision support to a wider group of workers with foundational training, letting them do higher-stakes work now reserved for doctors, lawyers, coders and professors. "AI, if used well, can assist with restoring the middle-skill, middle-class heart of the US labor market."
 

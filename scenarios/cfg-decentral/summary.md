@@ -1,4 +1,4 @@
-# Decentralized Takeoff — summary
+# Decentralised Mayhem — summary
 
 *Centre for Future Generations, "Advanced AI: Possible Futures", July 2025 · fast capability, many actors (closest published match: Plateau's "Decentralised Mayhem" ending)*
 
