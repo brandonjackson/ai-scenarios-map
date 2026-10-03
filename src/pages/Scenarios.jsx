@@ -399,14 +399,26 @@ function AtlasPolicies({ s }) {
     <section className="section">
       <h2>Policies from the atlas</h2>
       {tagged.length > 0 ? (
-        <ul className="atlas-list">
-          {tagged.map(({ policy: p, evidence }) => (
-            <li key={p.slug} data-cat={p.category}>
-              <a className="badge badge-cat" href={href(`/policies/${p.slug}`)}>{p.title}</a>
-              <span className="atlas-evidence">{evidence}</span>
-            </li>
-          ))}
-        </ul>
+        <div className="table-wrap">
+          <table className="data-table atlas-table">
+            <thead>
+              <tr>
+                <th>Policy</th>
+                <th>How this scenario uses it</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tagged.map(({ policy: p, evidence }) => (
+                <tr key={p.slug} data-cat={p.category}>
+                  <th scope="row">
+                    <a className="badge badge-cat" href={href(`/policies/${p.slug}`)}>{p.title}</a>
+                  </th>
+                  <td>{evidence}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       ) : (
         <p className="muted small">No atlas policies named. {note}</p>
       )}
