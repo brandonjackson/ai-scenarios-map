@@ -8,7 +8,7 @@ import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
 
 // Headline rating under the default goal, or null if not assessed.
 const ratingOf = (s) => assessScenario(defaultGoal, s.id)?.rating ?? null;
-const UNRATED = "#37474f";
+const UNRATED = "var(--border-strong)";
 
 // Build framework connection groups
 const frameworkGroups = {};
@@ -22,7 +22,7 @@ scenariosData.forEach((s) => {
 const toNorm = (v) => (v + 1) / 2;
 
 const FILTERS = [
-  { key: "all", label: "ALL" },
+  { key: "all", label: "All" },
   { key: "single", label: "Single Vision", dot: "single" },
   { key: "framework", label: "Framework Sub-scenario", dot: "framework" },
 ];
@@ -77,7 +77,7 @@ export default function Overview() {
 
   const active = hovered || selected;
   const byRating = colorBy === "rating";
-  const typeColor = (s) => (s.type === "framework" ? "#ffb74d" : "#4dd0e1");
+  const typeColor = (s) => (s.type === "framework" ? "var(--framework)" : "var(--single)");
   const pointColor = (s) => {
     if (!byRating) return typeColor(s);
     const r = ratingOf(s);
@@ -173,28 +173,15 @@ export default function Overview() {
       </header>
 
       {/* Axis picker */}
-      <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
+      <div className="axis-picker" role="group" aria-label="Axis pair">
         {axesData.map((a, i) => (
           <button
             key={a.id}
+            className={`axis-btn${axisIdx === i ? " active" : ""}`}
+            aria-pressed={axisIdx === i}
             onClick={() => {
               setAxisIdx(i);
               setSelected(null);
-            }}
-            style={{
-              background: axisIdx === i ? "#1a3345" : "transparent",
-              border:
-                axisIdx === i
-                  ? "1px solid #2a5060"
-                  : "1px solid #1a2332",
-              color: axisIdx === i ? "#4dd0e1" : "#607d8b",
-              padding: "6px 16px",
-              borderRadius: 6,
-              fontSize: 13,
-              fontFamily: "inherit",
-              cursor: "pointer",
-              fontWeight: axisIdx === i ? 600 : 400,
-              transition: "all 0.15s",
             }}
           >
             {a.name}
@@ -203,60 +190,20 @@ export default function Overview() {
       </div>
 
       {/* Filters */}
-      <div
-        style={{
-          display: "flex",
-          gap: 8,
-          alignItems: "center",
-          marginBottom: 14,
-          flexWrap: "wrap",
-        }}
-      >
-        {FILTERS.map((f) => (
-          <button
-            key={f.key}
-            onClick={() => setFilter(f.key)}
-            style={{
-              background: filter === f.key ? "#1a2332" : "transparent",
-              border:
-                filter === f.key
-                  ? "1px solid #263545"
-                  : "1px solid transparent",
-              color: filter === f.key ? "#eceff1" : "#607d8b",
-              padding: "4px 13px",
-              borderRadius: 5,
-              fontSize: 12.5,
-              fontFamily: "inherit",
-              cursor: "pointer",
-              fontWeight: filter === f.key ? 600 : 400,
-              display: "flex",
-              alignItems: "center",
-              gap: 6,
-            }}
-          >
-            {f.dot === "single" && (
-              <span
-                style={{
-                  width: 8,
-                  height: 8,
-                  borderRadius: "50%",
-                  background: "#4dd0e1",
-                }}
-              />
-            )}
-            {f.dot === "framework" && (
-              <span
-                style={{
-                  width: 8,
-                  height: 8,
-                  borderRadius: 2,
-                  background: "#ffb74d",
-                }}
-              />
-            )}
-            {f.label}
-          </button>
-        ))}
+      <div className="map-controls">
+        <div className="chips" role="group" aria-label="Filter by type">
+          {FILTERS.map((f) => (
+            <button
+              key={f.key}
+              className={`chip${filter === f.key ? " active" : ""}`}
+              aria-pressed={filter === f.key}
+              onClick={() => setFilter(f.key)}
+            >
+              {f.dot && <span className={`dot${f.dot === "framework" ? " dot-framework" : ""}`} />}
+              {f.label}
+            </button>
+          ))}
+        </div>
         <div className="chips" role="group" aria-label="Colour points by" style={{ marginLeft: "auto" }}>
           {[
             { key: "type", label: "Colour by type" },
@@ -272,47 +219,23 @@ export default function Overview() {
             </button>
           ))}
         </div>
-        <span
-          style={{
-            fontSize: 12,
-            color: "#546e7a",
-            fontFamily: "JetBrains Mono",
-          }}
-        >
-          ↗ best &nbsp;&nbsp; ↙ worst
-        </span>
+        <span className="map-hint">↗ best &nbsp;&nbsp; ↙ worst</span>
       </div>
 
       {/* Chart */}
-      <div
-        ref={chartRef}
-        style={{
-          position: "relative",
-          width: "100%",
-          height: "clamp(480px, 64vh, 760px)",
-          background:
-            "radial-gradient(ellipse at 45% 35%, #0f1a26 0%, #0a0f16 75%)",
-          borderRadius: 10,
-          border: "1px solid #172030",
-          overflow: "hidden",
-        }}
-        onClick={() => setSelected(null)}
-      >
+      <div ref={chartRef} className="map-chart" onClick={() => setSelected(null)}>
         <svg
           width="100%"
           height="100%"
           viewBox={`0 0 ${dims.w} ${dims.h}`}
           style={{ position: "absolute", top: 0, left: 0 }}
         >
-          {/* Quadrant tints */}
-          <rect x={pad.left} y={pad.top} width={plotW / 2} height={plotH / 2} fill="rgba(77,208,225,0.02)" />
-          <rect x={pad.left + plotW / 2} y={pad.top} width={plotW / 2} height={plotH / 2} fill="rgba(77,208,225,0.035)" />
-          <rect x={pad.left} y={pad.top + plotH / 2} width={plotW / 2} height={plotH / 2} fill="rgba(255,183,77,0.015)" />
-          <rect x={pad.left + plotW / 2} y={pad.top + plotH / 2} width={plotW / 2} height={plotH / 2} fill="rgba(255,183,77,0.025)" />
+          {/* Quadrant tint: the best (top-right) quadrant */}
+          <rect x={pad.left + plotW / 2} y={pad.top} width={plotW / 2} height={plotH / 2} className="map-best" />
 
           {/* Cross axes */}
-          <line x1={pad.left + plotW / 2} y1={pad.top} x2={pad.left + plotW / 2} y2={pad.top + plotH} stroke="#1e3040" strokeWidth={1} />
-          <line x1={pad.left} y1={pad.top + plotH / 2} x2={pad.left + plotW} y2={pad.top + plotH / 2} stroke="#1e3040" strokeWidth={1} />
+          <line x1={pad.left + plotW / 2} y1={pad.top} x2={pad.left + plotW / 2} y2={pad.top + plotH} className="map-axis" />
+          <line x1={pad.left} y1={pad.top + plotH / 2} x2={pad.left + plotW} y2={pad.top + plotH / 2} className="map-axis" />
 
           {/* Quadrant labels */}
           {[
@@ -323,7 +246,7 @@ export default function Overview() {
           ].map(({ qIdx, x, y, anchor }) => {
             const lines = axes.qLabels[qIdx].split("\n");
             return (
-              <text key={qIdx} x={x} y={y} fill="#1e3040" fontSize={9.5} fontFamily="JetBrains Mono" fontWeight={500} letterSpacing="0.6px" textAnchor={anchor}>
+              <text key={qIdx} x={x} y={y} className="map-quad" textAnchor={anchor}>
                 {lines.map((l, li) => (
                   <tspan key={li} x={x} dy={li === 0 ? 0 : 13}>{l}</tspan>
                 ))}
@@ -332,10 +255,10 @@ export default function Overview() {
           })}
 
           {/* Edge axis labels */}
-          <text x={pad.left + plotW / 2} y={pad.top - 12} textAnchor="middle" fill="#546e7a" fontSize={12} fontFamily="DM Sans" fontWeight={500}>{axes.yLabel[1]}</text>
-          <text x={pad.left + plotW / 2} y={pad.top + plotH + 30} textAnchor="middle" fill="#546e7a" fontSize={12} fontFamily="DM Sans" fontWeight={500}>{axes.yLabel[0]}</text>
-          <text x={pad.left - 14} y={pad.top + plotH / 2} textAnchor="middle" fill="#546e7a" fontSize={11} fontFamily="DM Sans" fontWeight={500} transform={`rotate(-90, ${pad.left - 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[0]}</text>
-          <text x={pad.left + plotW + 14} y={pad.top + plotH / 2} textAnchor="middle" fill="#546e7a" fontSize={11} fontFamily="DM Sans" fontWeight={500} transform={`rotate(90, ${pad.left + plotW + 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[1]}</text>
+          <text x={pad.left + plotW / 2} y={pad.top - 12} textAnchor="middle" className="map-edge">{axes.yLabel[1]}</text>
+          <text x={pad.left + plotW / 2} y={pad.top + plotH + 30} textAnchor="middle" className="map-edge">{axes.yLabel[0]}</text>
+          <text x={pad.left - 14} y={pad.top + plotH / 2} textAnchor="middle" className="map-edge" transform={`rotate(-90, ${pad.left - 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[0]}</text>
+          <text x={pad.left + plotW + 14} y={pad.top + plotH / 2} textAnchor="middle" className="map-edge" transform={`rotate(90, ${pad.left + plotW + 14}, ${pad.top + plotH / 2})`}>{axes.xLabel[1]}</text>
 
           {/* Proximity lines */}
           {proximityLines.map(({ key, a, b }) => {
@@ -346,7 +269,7 @@ export default function Overview() {
             const isActiveEdge = active && (active.id === a.id || active.id === b.id);
             return (
               <line key={`prox-${key}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                stroke={isActiveEdge ? "#3a5a6e" : "#1a2a38"}
+                stroke={isActiveEdge ? "var(--muted)" : "var(--border-strong)"}
                 strokeWidth={isActiveEdge ? 1 : 0.7}
                 strokeDasharray="3 7"
                 opacity={isActiveEdge ? 0.6 : 0.3}
@@ -366,7 +289,7 @@ export default function Overview() {
               const p2 = toScreen(b);
               return (
                 <line key={`fw-${a.id}-${b.id}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                  stroke={byRating ? "#78909c" : "#ffb74d"} strokeWidth={1.5} opacity={0.7}
+                  stroke={byRating ? "var(--muted)" : "var(--framework)"} strokeWidth={1.5} opacity={0.7}
                 />
               );
             })}
@@ -401,12 +324,12 @@ export default function Overview() {
                 {s.type === "framework" ? (
                   <rect x={sx - 6.5} y={sy - 6.5} width={13} height={13} rx={2.5}
                     fill={pointColor(s)}
-                    stroke={isActive || isSibling ? "#ffe0b2" : "#0a0f16"}
+                    stroke={isActive || isSibling ? "var(--blush)" : "var(--bg)"}
                     strokeWidth={isActive ? 2 : 1.5}
                   />
                 ) : (
                   <circle cx={sx} cy={sy} r={7.5} fill={pointColor(s)}
-                    stroke={isActive ? "#b2ebf2" : "#0a0f16"} strokeWidth={2}
+                    stroke={isActive ? "var(--blush)" : "var(--bg)"} strokeWidth={2}
                   />
                 )}
               </g>
@@ -425,92 +348,29 @@ export default function Overview() {
               cy = sy - 50;
             if (cx + cardW > dims.w - 12) cx = sx - cardW - 16;
             if (cy < 8) cy = 8;
-            if (cy + 220 > dims.h - 8) cy = dims.h - 228;
+            if (cy + 290 > dims.h - 8) cy = dims.h - 298;
 
             return (
               <div
-                style={{
-                  position: "absolute",
-                  left: cx,
-                  top: cy,
-                  width: cardW,
-                  background: "linear-gradient(145deg, #121d2b 0%, #0c1420 100%)",
-                  border: "1px solid #1e3345",
-                  borderRadius: 9,
-                  padding: "14px 16px",
-                  pointerEvents: selected ? "auto" : "none",
-                  zIndex: 10,
-                  boxShadow: "0 10px 36px rgba(0,0,0,0.55)",
-                }}
+                className="map-tip"
+                style={{ left: cx, top: cy, width: cardW, pointerEvents: selected ? "auto" : "none" }}
                 onClick={(e) => e.stopPropagation()}
               >
-                <div
-                  style={{
-                    fontSize: 14.5,
-                    fontWeight: 700,
-                    color: "#eceff1",
-                    marginBottom: 3,
-                    lineHeight: 1.3,
-                  }}
-                >
+                <div className="map-tip-title">
                   {active.url ? (
-                    <a
-                      href={active.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        color: "#eceff1",
-                        textDecoration: "none",
-                        borderBottom: "1px solid transparent",
-                        transition: "border-color 0.15s",
-                      }}
-                      onMouseEnter={(e) =>
-                        (e.target.style.borderBottomColor = "#4dd0e1")
-                      }
-                      onMouseLeave={(e) =>
-                        (e.target.style.borderBottomColor = "transparent")
-                      }
-                    >
+                    <a href={active.url} target="_blank" rel="noopener noreferrer">
                       {active.title} ↗
                     </a>
                   ) : (
                     active.title
                   )}
                 </div>
-                <div
-                  style={{
-                    fontSize: 11.5,
-                    color: "#4dd0e1",
-                    fontFamily: "JetBrains Mono",
-                    marginBottom: 9,
-                  }}
-                >
+                <div className="map-tip-meta">
                   {active.author} ({active.year})
                 </div>
-                <div
-                  style={{
-                    fontSize: 12,
-                    lineHeight: 1.55,
-                    color: "#78909c",
-                    marginBottom: 10,
-                  }}
-                >
-                  {active.desc}
-                </div>
-                <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-                  <span
-                    style={{
-                      fontSize: 9.5,
-                      fontFamily: "JetBrains Mono",
-                      fontWeight: 600,
-                      padding: "2px 7px",
-                      borderRadius: 3,
-                      background:
-                        active.type === "single" ? "#0e2a3a" : "#2a1e0e",
-                      color:
-                        active.type === "single" ? "#4dd0e1" : "#ffb74d",
-                    }}
-                  >
+                <div className="map-tip-desc">{active.desc}</div>
+                <div className="card-tags">
+                  <span className={`badge badge-${active.type === "single" ? "single" : "framework"}`}>
                     {active.type === "single" ? "Single Vision" : "Framework"}
                   </span>
                   {ratingOf(active) != null && (
@@ -519,27 +379,11 @@ export default function Overview() {
                   )}
                   {active.tags &&
                     active.tags.split(", ").map((t, i) => (
-                      <span
-                        key={i}
-                        style={{
-                          fontSize: 9.5,
-                          fontFamily: "JetBrains Mono",
-                          fontWeight: 500,
-                          padding: "2px 7px",
-                          borderRadius: 3,
-                          background: "#151f2e",
-                          color: "#607d8b",
-                        }}
-                      >
-                        {t}
-                      </span>
+                      <span key={i} className="tag">{t}</span>
                     ))}
                 </div>
                 {selected && (
-                  <a
-                    href={href(`/scenarios/${active.id}`)}
-                    style={{ display: "inline-block", marginTop: 10, fontSize: 12, fontWeight: 600 }}
-                  >
+                  <a className="map-tip-link" href={href(`/scenarios/${active.id}`)}>
                     View details →
                   </a>
                 )}
@@ -548,47 +392,31 @@ export default function Overview() {
           })()}
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          gap: 20,
-          marginTop: 12,
-          fontSize: 11,
-          color: "#455a64",
-          alignItems: "center",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="map-legend">
         <span>{filtered.length} sources plotted</span>
-        {skipped > 0 && (
-          <span style={{ color: "#37474f" }}>
-            ({skipped} not rated on this axis)
-          </span>
-        )}
+        {skipped > 0 && <span className="muted">({skipped} not rated on this axis)</span>}
         {byRating ? (
           <>
-            <span style={{ color: "#78909c" }}>{defaultGoal.name} rating:</span>
+            <span>{defaultGoal.name} rating:</span>
             {defaultGoal.scale.map((v) => (
-              <span key={v.value} style={{ display: "flex", alignItems: "center", gap: 5, color: "#78909c" }}>
-                <span style={{ width: 9, height: 9, borderRadius: 2, background: scoreColor(defaultGoal, v.value) }} />
+              <span key={v.value} className="map-key">
+                <i style={{ background: scoreColor(defaultGoal, v.value) }} />
                 {v.value} · {scaleLabel(defaultGoal, v.value)}
               </span>
             ))}
-            <span style={{ display: "flex", alignItems: "center", gap: 5, color: "#78909c" }}>
-              <span style={{ width: 9, height: 9, borderRadius: 2, background: UNRATED }} />
+            <span className="map-key">
+              <i style={{ background: UNRATED }} />
               Not assessed
             </span>
             <span>● single vision · ■ framework</span>
           </>
         ) : (
           <>
-            <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-              <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#4dd0e1" }} />{" "}
-              Single Vision
+            <span className="map-key">
+              <span className="dot" /> Single Vision
             </span>
-            <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-              <span style={{ width: 7, height: 7, borderRadius: 2, background: "#ffb74d" }} />{" "}
-              Framework Sub-scenario
+            <span className="map-key">
+              <span className="dot dot-framework" /> Framework Sub-scenario
             </span>
           </>
         )}
