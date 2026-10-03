@@ -1,7 +1,7 @@
-# Keep the Future Human — assumptions analysis
+# Keep the Future Human: the AGI race — assumptions analysis
 
 ## Policy on or off?
-**Both, explicitly.** The scenario scored on the map (replacement plus concentration) is the **policy-off** current trajectory. The essay's purpose is a strongly **policy-on** alternative: compute oversight, hardware-enforced compute caps for training and inference, strict liability for high-autonomy, high-generality, high-intelligence systems with safe harbours for limited tools, tiered regulation, and eventually international agreements like nuclear non-proliferation. The map scores the warning, not the remedy. That should be clear wherever the score is shown.
+**Policy off.** This scenario is the current trajectory the essay warns of: no compute limits, no liability, an unchecked race. The essay's strongly policy-on alternative (compute caps, strict liability, tiered regulation, international agreements, Tool AI) is its own scenario, [Keep the Future Human: Tool AI](../keep-future-human-tool-ai/analysis.md).
 
 ## Big assumptions
 1. **AGI is near.** Scaling laws plus resources equal to "a dozen Manhattan Projects" and AI accelerating its own research. Metaculus forecasters give 25% for 1–2 years and 50% for 2–5 years (as of early 2025).
@@ -26,4 +26,4 @@
 - **Map placement:** "REP (warns), CONC (warns)" is accurate. Fiscal coordinates (-0.5/-0.35) are inferred; the essay doesn't model public finances.
 
 ## Scoring notes
-Draft scores (1/2/2/1/2) score the warned-of future. A Tool-AI policy-on row would likely score 3–4 across the board.
+1/2/2/1/2, rated 1, scoring the future the essay warns of. The Tool AI path scores 4/4/3/3/3 as [`keep-future-human-tool-ai`](../keep-future-human-tool-ai/analysis.md).

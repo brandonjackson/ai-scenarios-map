@@ -1,6 +1,6 @@
-# AI 2027 — summary
+# AI 2027: Race ending — summary
 
-*Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland & Romeo Dean (AI Futures Project), April 2025 · a month-by-month forecast with two endings*
+*Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland & Romeo Dean (AI Futures Project), April 2025 · a month-by-month forecast with two endings · this scenario is scored on the Race ending; the Slowdown ending is [its own scenario](../ai-2027-slowdown/summary.md)*
 
 **The scenario.** A fictional leading lab, "OpenBrain", builds agents that speed up its own research. By late 2026 "AI takes some jobs"; during 2027 its models go "from being able to mostly do the job of an OpenBrain research engineer to eclipsing all humans at all tasks." The US–China race (against "DeepCent") and evidence that the model, Agent-4, is misaligned bring the story to a fork in October 2027. In the **Race** ending, a misaligned superintelligence takes over and kills humanity by 2030. In the **Slowdown** ending, a joint government–company "Oversight Committee" pauses, builds aligned "Safer" models and agrees a deal with China. Humans survive in an abundant world whose power sits with a handful of people. The authors call 2027 their *modal* year and say neither ending is a recommendation.
 

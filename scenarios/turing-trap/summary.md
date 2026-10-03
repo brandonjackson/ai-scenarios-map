@@ -1,6 +1,6 @@
 # The Turing Trap — summary
 
-*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus, Spring 2022*
+*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus, Spring 2022 · this scenario is the trap (policy off); the way out is [Escaping the Turing Trap](../turing-trap-escape/summary.md)*
 
 **The scenario.** A fork in the road, not a forecast. Building AI that *imitates* humans (passing Turing's test) leads to a trap: "as machines become better substitutes for human labor, workers lose economic and political bargaining power and become increasingly dependent on those who control the technology." AI that *augments* people creates far more value and keeps power spread out. "The future is not preordained." But today "there are currently excess incentives for automation rather than augmentation among technologists, business executives, and policy-makers."
 

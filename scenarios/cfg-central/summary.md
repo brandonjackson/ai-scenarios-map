@@ -1,6 +1,6 @@
-# Big AI / Arms Race (fast, centralised) — summary
+# Big AI / Arms Race — summary
 
-*Centre for Future Generations, "Advanced AI: Possible Futures", July 2025 · fast progress, centralised development (covers CFG's Big AI, Arms Race and Diplomacy scenarios)*
+*Centre for Future Generations, "Advanced AI: Possible Futures", July 2025 · fast progress, centralised development · this scenario is the uncoordinated path (Big AI, Arms Race); the coordinated path is [Diplomacy: Licensed Utopia](../cfg-diplomacy/summary.md)*
 
 **The scenario.** AI agents become highly capable and AI starts speeding up its own development. Compute is the limiting factor and the US controls the chip supply chain, so a handful of actors dominate. CFG runs this one cell three ways. In **Big AI**, five firms control cloud, operating systems and distribution. In **Arms Race**, the US and China treat AI as the decisive security asset and private labs fall under Manhattan-Project-style state partnerships. In **Diplomacy**, a crisis (a model replicating itself out of control) triggers an IAEA-style international licensing regime. CFG's warning: "AI may centralize power on unprecedented scales."
 

@@ -1,7 +1,7 @@
 # The Turing Trap — assumptions analysis
 
 ## Policy on or off?
-**Prescriptive, with policy on.** The trap is where *current* incentives lead (policy off). The way out is policy on: rebalance labour and capital taxation, subsidise training, and redirect research and business toward augmentation. "The solution is not to slow down technology, but rather to eliminate or reverse the excess incentives for automation over augmentation."
+**Policy off.** This scenario is the trap: where *current* incentives lead (tax codes favouring capital, plug-and-play automation, research aimed at imitating humans). The policy-on branch (rebalanced taxation, subsidised training, redirected research) is its own scenario, [Escaping the Turing Trap](../turing-trap-escape/analysis.md).
 
 ## Big assumptions
 1. **Automation vs. augmentation is a real, steerable choice.** The direction of AI development responds to incentives facing researchers, firms and governments.
@@ -27,4 +27,4 @@
 - **Map placement:** "DIFF<>CONC" is right. The essay is a hinge between the two. Its fiscal coordinates are blank, though the essay has a clear fiscal argument (the tax wedge). It could be placed.
 
 ## Scoring notes
-Draft scores (3/3/3/3/3) average the fork into the middle. That hides the essay's point. Better: a policy-off (trap) row scoring like Toloui's Copilot or Titan, and a policy-on row scoring like Promethean Fire.
+Scored as the trap: 2/3/2/2/2, rated 2. The earlier draft averaged both branches to 3s across the board, which hid the essay's point. The policy-on branch scores 4/4/3/3/3 as [`turing-trap-escape`](../turing-trap-escape/analysis.md).
