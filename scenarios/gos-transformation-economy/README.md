@@ -27,12 +27,13 @@ Two US companies command unprecedented market share in a winner-takes-all econom
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Most remote-capable roles are automated from 2029, only half of those replaced find work, and entry-level hiring collapses. |
+| Affordable essentials | 3 | AI improves healthcare, but falling wages and weak demand leave many less able to afford the gains. |
+| Reliable safety net | 2 | Falling income-tax receipts meet rising welfare costs just as unemployment reaches recession levels. |
+| Responsive government | 2 | Two US firms control the leading systems, profits leak overseas and AI becomes the decisive, divisive political issue. |
+| Time for what matters | 2 | Unemployment and insecure work bring strain rather than free time. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

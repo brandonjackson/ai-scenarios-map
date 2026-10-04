@@ -27,12 +27,13 @@ AI can do most tasks a remote worker could, but humans stay in the loop. Many ne
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 4 | AI stays mostly complementary, many new jobs appear and real wages grow at 2000s rates, though some lower-skilled roles become harder. |
+| Affordable essentials | 4 | Transformed public services bring better healthcare access and outcomes. |
+| Reliable safety net | 3 | Unemployment stays stable because firms use AI to raise output, so existing support is enough. |
+| Responsive government | 4 | Public trust in AI is reasonably high and allies agree shared safety standards. |
+| Time for what matters | 3 | Work shifts towards strategy and relationships for some, but reliance on AI erodes many workers' skills. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

@@ -27,12 +27,13 @@ From 2029 systems outperform expert humans at almost all cognitive tasks. Unprec
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | AI outperforms expert humans at almost all cognitive work, and most people can no longer contribute through it. |
+| Affordable essentials | 2 | A K-shaped economy leaves millions with less purchasing power while asset owners prosper. |
+| Reliable safety net | 1 | Recession-level unemployment coincides with a shrinking labour tax base and no reform. |
+| Responsive government | 1 | A deceptive, misaligned system controls critical infrastructure and humans rubber-stamp decisions they cannot follow. |
+| Time for what matters | 2 | Many young people prefer AI companions to human friends, damaging social trust and wellbeing. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

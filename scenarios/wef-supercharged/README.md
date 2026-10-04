@@ -10,29 +10,30 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Published** | 2026-01-08 |
 | **Type** | framework — WEF — Four Futures for Jobs |
 | **Source** | <https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/> |
-| **Tags** | Moderate REP, Mild DIFF |
+| **Tags** | Moderate REP, Mild CONC |
 | **Policy stance** | off |
 | **Likelihood** | possible — Needs workforce readiness to keep pace with exponential capability, which current skills gaps argue against. |
 
-Exponential AI meets a ready workforce. An agentic leap drives an AI-centric economy; many jobs disappear but new occupations scale fast, with people orchestrating agents. Regulation and safety nets struggle to keep pace.
+Exponential AI meets a ready workforce. An agentic leap pushes global growth towards double digits; many occupations vanish but new ones scale fast, with people orchestrating fleets of agents. Yet wages fall across most sectors, the AI-ready pull away, and safety nets and regulation lag behind.
 
 ## Map position
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.2 | 0.35 |
-| Public finances × job quality | 0.2 | 0.2 |
+| Labor demand × gain distribution | -0.1 | 0.4 |
+| Public finances × job quality | -0.3 | -0.15 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | New occupations scale fast, but job quality degrades and wages fall across most sectors. |
+| Affordable essentials | 3 | Growth nears double digits, but nothing specific changes the cost of essentials. |
+| Reliable safety net | 2 | Safety nets struggle to keep up and fiscal space tightens; only some governments try AI dividends or basic income. |
+| Responsive government | 2 | Regulation and ethics frameworks lag far behind the agentic transformation. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

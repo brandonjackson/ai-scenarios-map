@@ -27,12 +27,13 @@ Steady AI progress meets persistent talent shortages. Gains are uneven and autom
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Displaced workers move into lower-quality gig work and entry-level pathways narrow. |
+| Affordable essentials | 2 | Rising living costs meet eroding wages and weak benefits. |
+| Reliable safety net | 2 | Safety nets erode and fiscal space is exhausted. |
+| Responsive government | 2 | Broken prosperity promises fuel polarisation and declining trust in institutions. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

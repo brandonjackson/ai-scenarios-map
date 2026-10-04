@@ -27,12 +27,13 @@ AI advances faster than workers can adapt. Firms automate aggressively, upskilli
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | Mass displacement at every skill level, with wages falling globally and labour mobility drying up. |
+| Affordable essentials | 2 | Poverty reaches historic levels as wages fall and governments struggle to supply basic services. |
+| Reliable safety net | 1 | Safety nets stretch beyond capacity as tax bases shrink. |
+| Responsive government | 2 | A few state-like AI firms gain unchecked influence, trust collapses and key decisions are handed to autonomous systems. |
+| Time for what matters | 2 | Unemployment and polarisation erode the informal networks people rely on. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

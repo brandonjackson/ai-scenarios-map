@@ -27,12 +27,13 @@ Open- and closed-weight systems become similarly capable and China becomes the d
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Significant layoffs in technology, finance and professional services, with displaced workers taking large pay cuts. |
+| Affordable essentials | 3 | Intense competition keeps AI cheap, but nothing in the scenario lowers the cost of essentials. |
+| Reliable safety net | 2 | Displaced workers find new jobs only at much lower pay, and no new support is assumed. |
+| Responsive government | 2 | Frequent AI cyberattacks and rogue systems, with Western rules carrying little weight over the leading Chinese models. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

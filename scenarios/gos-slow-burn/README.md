@@ -27,12 +27,13 @@ Systems automate digital workflows at human level but struggle with long, open-e
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 3 | Displacement is contained to junior and execution roles or slower hiring; most sectors, such as health and education, are barely touched. |
+| Affordable essentials | 3 | AI gives minimal economic uplift, so the cost of essentials is broadly unchanged. |
+| Reliable safety net | 3 | A 2028 AI market correction drags on growth without causing a recession, so existing support copes. |
+| Responsive government | 2 | Synthetic media and hostile states' persuasion agents erode trust in elections, and populist parties campaign against AI. |
+| Time for what matters | 2 | Many young people come to depend on AI companions for friendship, therapy and romance, weakening real relationships. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)
