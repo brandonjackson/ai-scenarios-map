@@ -2,6 +2,8 @@ import { useMemo, useState } from "react";
 import { policies, policyCategories, policySource, scenariosForPolicy } from "../data.js";
 import { defaultGoal as goal, criteriaForPolicy } from "../goals.js";
 import { href } from "../router.js";
+import { LikelihoodBadge } from "../likelihood.jsx";
+import { ScenarioList, ScenarioRow } from "../components/ScenarioList.jsx";
 
 const CATEGORY_KEYS = Object.keys(policyCategories);
 const HORIZONS = ["Near Term", "Medium Term", "Long Term"];
@@ -267,14 +269,13 @@ function ScenarioMentions({ slug }) {
   return (
     <section className="section">
       <h2>Named in scenarios</h2>
-      <ul className="link-list">
+      <ScenarioList>
         {rows.map(({ scenario: s, evidence }) => (
-          <li key={s.id}>
-            <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
-            <span className="muted"> — {evidence}</span>
-          </li>
+          <ScenarioRow key={s.id} s={s} aside={<LikelihoodBadge s={s} />}>
+            <p className="scenario-row-desc">{evidence}</p>
+          </ScenarioRow>
         ))}
-      </ul>
+      </ScenarioList>
     </section>
   );
 }
