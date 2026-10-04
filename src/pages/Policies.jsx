@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { policies, policyCategories, policySource, scenariosForPolicy } from "../data.js";
+import { defaultGoal as goal, criteriaForPolicy } from "../goals.js";
 import { href } from "../router.js";
 
 const CATEGORY_KEYS = Object.keys(policyCategories);
@@ -23,6 +24,7 @@ export function PoliciesList() {
   const [category, setCategory] = useState("all");
   const [horizon, setHorizon] = useState("all");
   const [affected, setAffected] = useState("all");
+  const [promise, setPromise] = useState("all");
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -31,13 +33,14 @@ export function PoliciesList() {
         (category === "all" || p.category === category) &&
         (horizon === "all" || p.risk_horizon.includes(horizon)) &&
         (affected === "all" || p.who_it_affects.includes(affected)) &&
+        (promise === "all" || goal.policyCriteria[p.slug]?.some((m) => m.criterion === promise)) &&
         (!q ||
           [p.title, p.summary, p.core_mechanism, ...p.policy_category]
             .join(" ")
             .toLowerCase()
             .includes(q))
     );
-  }, [query, category, horizon, affected]);
+  }, [query, category, horizon, affected, promise]);
 
   const counts = useMemo(() => {
     const c = {};
@@ -86,6 +89,15 @@ export function PoliciesList() {
             ))}
           </select>
         </label>
+        <label className="select">
+          <span>Promise</span>
+          <select value={promise} onChange={(e) => setPromise(e.target.value)}>
+            <option value="all">Any</option>
+            {goal.criteria.map((c) => (
+              <option key={c.id} value={c.id}>{c.name}</option>
+            ))}
+          </select>
+        </label>
       </div>
 
       <div className="chips chips-wrap" role="group" aria-label="Filter by category">
@@ -121,6 +133,9 @@ export function PoliciesList() {
               <CategoryBadge slug={p.category} />
               <p className="card-body">{p.summary}</p>
               <div className="card-tags">
+                {criteriaForPolicy(goal, p.slug).map(({ criterion: c }) => (
+                  <span key={c.id} className="tag tag-goal">{c.name}</span>
+                ))}
                 {p.risk_horizon.map((h) => (
                   <span key={h} className="tag">{h}</span>
                 ))}
@@ -194,6 +209,7 @@ export function PolicyDetail({ slug }) {
 
       <div className="detail-grid">
         <div>
+          <PromisesServed slug={p.slug} />
           <section className="section">
             <h2>Core mechanism</h2>
             <p className="prose">{p.core_mechanism}</p>
@@ -256,6 +272,29 @@ function ScenarioMentions({ slug }) {
           <li key={s.id}>
             <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
             <span className="muted"> — {evidence}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+// The social contract promises this policy is meant to strengthen
+// (goals/<default goal>/policies.csv).
+function PromisesServed({ slug }) {
+  const rows = criteriaForPolicy(goal, slug);
+  if (!rows.length) return null;
+  return (
+    <section className="section">
+      <h2>{goal.criteriaNoun ? `${goal.criteriaNoun[0].toUpperCase()}${goal.criteriaNoun.slice(1)}` : "Criteria"} it serves</h2>
+      <p className="muted small chart-intro">
+        Which <a href={href(`/goals/${goal.id}`)}>{goal.name}</a> {goal.criteriaNoun || "criteria"} this policy is meant to strengthen.
+      </p>
+      <ul className="link-list">
+        {rows.map(({ criterion: c, reason }) => (
+          <li key={c.id}>
+            <strong>{c.name}</strong>
+            <span className="muted"> — {reason}</span>
           </li>
         ))}
       </ul>
