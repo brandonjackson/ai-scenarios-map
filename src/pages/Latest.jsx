@@ -1,5 +1,4 @@
 import { scenarios } from "../data.js";
-import { href } from "../router.js";
 import { ScenarioList, ScenarioRow } from "../components/ScenarioList.jsx";
 import { POLICY_STANCES } from "../scenarioNotes.js";
 import { LikelihoodBadge, byDateDesc, dateKey, formatDate } from "../likelihood.jsx";
@@ -70,18 +69,17 @@ function Publication({ pub }) {
   const first = pub.items[0];
   if (!pub.framework) {
     return (
-      <a className="card" href={href(`/scenarios/${first.id}`)}>
-        <div className="card-head">
-          <h3 className="card-title">{first.title}</h3>
-          <div className="card-badges">
-            <LikelihoodBadge s={first} />
-          </div>
-        </div>
-        <div className="card-meta">
-          {formatDate(first.date, first.year)} · {first.author} · {POLICY_STANCES[first.policy]?.label}
-        </div>
-        <p className="card-body">{first.desc}</p>
-      </a>
+      <div className="card pub-card">
+        <ScenarioList bare>
+          <ScenarioRow
+            s={first}
+            meta={<>{formatDate(first.date, first.year)} · {first.author} · {POLICY_STANCES[first.policy]?.label}</>}
+            aside={<LikelihoodBadge s={first} />}
+          >
+            <p className="scenario-row-desc">{first.desc}</p>
+          </ScenarioRow>
+        </ScenarioList>
+      </div>
     );
   }
   return (
@@ -102,7 +100,7 @@ function Publication({ pub }) {
       <ScenarioList>
         {pub.items.map((s) => (
           <ScenarioRow key={s.id} s={s} meta={null} aside={<LikelihoodBadge s={s} />}>
-            <p className="pub-item-desc">{s.desc}</p>
+            <p className="scenario-row-desc">{s.desc}</p>
           </ScenarioRow>
         ))}
       </ScenarioList>

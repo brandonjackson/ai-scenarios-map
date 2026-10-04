@@ -357,7 +357,7 @@ button, input, select { font-family: inherit; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 860px) {
-  .detail-grid { grid-template-columns: 1fr; }
+  .detail-grid { grid-template-columns: minmax(0, 1fr); }
   .mini-stack { flex-direction: row; flex-wrap: wrap; }
   .mini { flex: 1 1 220px; }
 }
@@ -950,7 +950,6 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 }
 .pub-card { cursor: default; }
 .pub-card:hover { background: var(--bg); border-color: var(--border); }
-.pub-item-desc { font-size: 14px; line-height: 1.5; color: var(--text); }
 
 /* ---------- Scenario list (components/ScenarioList.jsx) ---------- */
 
@@ -975,9 +974,12 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
   color: var(--text-strong);
 }
 .scenario-row-meta { grid-area: meta; font-size: 13px; color: var(--faint); min-width: 0; }
-.scenario-row-aside { grid-area: aside; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+.scenario-row-aside { grid-area: aside; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 6px; }
 .scenario-row-aside .lk { align-self: center; }
-.scenario-row-body { grid-area: body; margin-top: 4px; }
+.scenario-row-body { grid-area: body; margin-top: 4px; display: flex; flex-direction: column; gap: 8px; }
+.scenario-row-desc { font-size: 14px; line-height: 1.5; color: var(--text); }
+.scenario-list.bare { border-top: none; }
+.scenario-list.bare > .scenario-row:first-child { padding-top: 0; }
 
 .scenario-groups { display: flex; flex-direction: column; gap: 28px; margin-bottom: 16px; }
 .scenario-group-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
@@ -987,4 +989,7 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
   .scenario-row { grid-template-areas: "title title" "meta aside" "body body"; row-gap: 6px; }
   .scenario-row.no-meta { grid-template-areas: "title title" "aside aside" "body body"; }
   .scenario-row.no-meta .scenario-row-aside { justify-content: flex-start; }
+  /* Several badges get a full-width line of their own under the meta. */
+  .scenario-row:has(.scenario-row-aside > :nth-child(2)) { grid-template-areas: "title title" "meta meta" "aside aside" "body body"; }
+  .scenario-row:has(.scenario-row-aside > :nth-child(2)) .scenario-row-aside { justify-content: flex-start; }
 }

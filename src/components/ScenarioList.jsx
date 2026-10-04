@@ -3,8 +3,9 @@ import { href } from "../router.js";
 // A compact list of scenarios: one row each, title on top, a meta line
 // (author, date…) underneath, and badges in a trailing column that drops
 // onto the meta line on narrow screens so rows never wrap into a jumble.
-export function ScenarioList({ children }) {
-  return <ul className="scenario-list">{children}</ul>;
+// `bare` drops the top rule, for a list that sits alone inside a card.
+export function ScenarioList({ bare, children }) {
+  return <ul className={`scenario-list${bare ? " bare" : ""}`}>{children}</ul>;
 }
 
 // `meta` defaults to the author; `aside` holds badges; `children` is an

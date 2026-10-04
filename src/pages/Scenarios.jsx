@@ -3,6 +3,7 @@ import { scenarios, axes, hasAxis, quadrantLabel, splitTags, policiesForScenario
 import { href } from "../router.js";
 import { goals, defaultGoal, assessScenario } from "../goals.js";
 import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
+import { ScenarioList, ScenarioRow } from "../components/ScenarioList.jsx";
 import { scenarioNotes, splitSections, renderMarkdown, POLICY_STANCES } from "../scenarioNotes.js";
 import { LIKELIHOOD, LikelihoodBadge, LikelihoodScale, likelihoodOf, byDateDesc, formatDate } from "../likelihood.jsx";
 
@@ -132,38 +133,40 @@ export function ScenariosList() {
         {rows.length} of {scenarios.length} scenarios
       </div>
 
-      <ul className="card-list">
+      <ScenarioList>
         {rows.map((s) => (
-          <li key={s.id}>
-            <a className="card" href={href(`/scenarios/${s.id}`)}>
-              <div className="card-head">
-                <h2 className="card-title">{s.title}</h2>
-                <div className="card-badges">
-                  <LikelihoodBadge s={s} />
-                  <RatingBadge s={s} />
-                  <PolicyBadge policy={s.policy} />
-                  <TypeBadge type={s.type} />
-                </div>
-              </div>
-              <div className="card-meta">
+          <ScenarioRow
+            key={s.id}
+            s={s}
+            meta={
+              <>
                 {formatDate(s.date, s.year)} · {s.author}
                 {s.framework && <> · {s.framework}</>}
-              </div>
-              <p className="card-body">{s.desc}</p>
-              <div className="card-tags">
-                {axes.map((a) => {
-                  const q = quadrantLabel(s, a);
-                  return (
-                    <span key={a.id} className={`tag${q ? "" : " tag-muted"}`} title={a.name}>
-                      {q || `${a.name}: not rated`}
-                    </span>
-                  );
-                })}
-              </div>
-            </a>
-          </li>
+              </>
+            }
+            aside={
+              <>
+                <LikelihoodBadge s={s} />
+                <RatingBadge s={s} />
+                <PolicyBadge policy={s.policy} />
+                <TypeBadge type={s.type} />
+              </>
+            }
+          >
+            <p className="scenario-row-desc">{s.desc}</p>
+            <div className="card-tags">
+              {axes.map((a) => {
+                const q = quadrantLabel(s, a);
+                return (
+                  <span key={a.id} className={`tag${q ? "" : " tag-muted"}`} title={a.name}>
+                    {q || `${a.name}: not rated`}
+                  </span>
+                );
+              })}
+            </div>
+          </ScenarioRow>
         ))}
-      </ul>
+      </ScenarioList>
       {rows.length === 0 && <div className="empty">No scenarios match these filters.</div>}
     </div>
   );
@@ -333,14 +336,13 @@ function ScenarioDetailInner({ id }) {
           {siblings.length > 0 && (
             <section className="section">
               <h2>Other scenarios in {s.framework}</h2>
-              <ul className="link-list">
+              <ScenarioList>
                 {siblings.map((o) => (
-                  <li key={o.id}>
-                    <a href={href(`/scenarios/${o.id}`)}>{o.title}</a>
-                    <span className="muted"> — {o.desc}</span>
-                  </li>
+                  <ScenarioRow key={o.id} s={o} meta={null} aside={<LikelihoodBadge s={o} />}>
+                    <p className="scenario-row-desc">{o.desc}</p>
+                  </ScenarioRow>
                 ))}
-              </ul>
+              </ScenarioList>
             </section>
           )}
         </div>
