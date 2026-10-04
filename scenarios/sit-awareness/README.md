@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Aschenbrenner |
-| **Year** | 2024 |
+| **Published** | 2024-06-04 |
 | **Type** | single |
 | **Source** | <https://situational-awareness.ai/> |
 | **Tags** | Extreme REP, CONC |
 | **Policy stance** | mixed |
+| **Likelihood** | possible — Scaling continues, but AGI by 2027 and a government-run project look less likely than when it was written. |
 
 AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Government Project takes over.
 

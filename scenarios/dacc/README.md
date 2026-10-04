@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Vitalik Buterin |
-| **Year** | 2023 |
+| **Published** | 2023-11-27 |
 | **Type** | single |
 | **Source** | <https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html> |
 | **Tags** | Mild AUG, DIFF (prescriptive) |
 | **Policy stance** | on |
+| **Likelihood** | possible — Defensive and open technology is being built, but it is not yet steering the frontier. |
 
 Defensive, decentralized, differential acceleration. Cautious on AI power but strongly prescribes building tech that diffuses power.
 

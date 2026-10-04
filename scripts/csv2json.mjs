@@ -11,52 +11,41 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { parseCsv } from '../src/lib/csv.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
 
-const csv = readFileSync(join(dataDir, 'scenarios.csv'), 'utf-8');
-const lines = csv.split('\n').filter(l => l.trim());
-const headers = lines[0].split(',').map(h => h.trim());
+const rows = parseCsv(readFileSync(join(dataDir, 'scenarios.csv'), 'utf-8'));
 
 const NUMERIC_FIELDS = ['year', 'x_labor', 'y_labor', 'x_fiscal', 'y_fiscal'];
-
-function parseCsvLine(line) {
-  const values = [];
-  let current = '';
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
-    if (ch === '"') {
-      inQuotes = !inQuotes;
-    } else if (ch === ',' && !inQuotes) {
-      values.push(current);
-      current = '';
-    } else {
-      current += ch;
-    }
-  }
-  values.push(current);
-  return values;
-}
+const LIKELIHOODS = JSON.parse(readFileSync(join(dataDir, 'likelihood.json'), 'utf-8')).scale.map((l) => l.key);
 
 const scenarios = [];
-for (let i = 1; i < lines.length; i++) {
-  const values = parseCsvLine(lines[i]);
+const errors = [];
+for (const row of rows) {
   const obj = {};
-  headers.forEach((h, idx) => {
-    let val = (values[idx] || '').trim();
+  for (const [h, val] of Object.entries(row)) {
     if (NUMERIC_FIELDS.includes(h)) {
-      if (val === '' || val === 'null' || val === 'undefined') {
-        obj[h] = null;
-      } else {
-        obj[h] = Number(val);
-      }
+      obj[h] = val === '' || val === 'null' || val === 'undefined' ? null : Number(val);
     } else {
       obj[h] = val;
     }
-  });
-  if (obj.id) scenarios.push(obj);
+  }
+  if (!obj.id) continue;
+  if (obj.likelihood && !LIKELIHOODS.includes(obj.likelihood)) {
+    errors.push(`${obj.id}: unknown likelihood "${obj.likelihood}" (use ${LIKELIHOODS.join(', ')})`);
+  }
+  if (obj.date && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(obj.date)) {
+    errors.push(`${obj.id}: date "${obj.date}" must be YYYY, YYYY-MM or YYYY-MM-DD`);
+  } else if (obj.date && obj.year != null && !obj.date.startsWith(String(obj.year))) {
+    errors.push(`${obj.id}: date ${obj.date} does not match year ${obj.year}`);
+  }
+  scenarios.push(obj);
+}
+if (errors.length) {
+  console.error(errors.join('\n'));
+  process.exit(1);
 }
 
 writeFileSync(

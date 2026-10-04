@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Brynjolfsson |
-| **Year** | 2022 |
+| **Published** | 2022-01 |
 | **Type** | framework — Brynjolfsson — Turing Trap |
 | **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
 | **Tags** | AUG (prescribes), DIFF |
 | **Policy stance** | on |
+| **Likelihood** | possible — Needs tax and training reforms that remain proposals. |
 
 Rebalanced tax and training incentives steer AI towards augmenting people, so workers stay indispensable and keep a share of the value.
 

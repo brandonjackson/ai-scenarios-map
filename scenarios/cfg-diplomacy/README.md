@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | CFG |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, CONC (licensed) |
 | **Policy stance** | on |
+| **Likelihood** | improbable — Needs a safety crisis and an IAEA-style regime with a 25% AI tax. |
 
 A safety crisis triggers an IAEA-style international regime: licensed labs, audits and a 25% AI tax that funds redistribution while growth reaches 7% a year.
 

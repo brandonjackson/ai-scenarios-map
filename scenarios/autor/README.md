@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Autor |
-| **Year** | 2024 |
+| **Published** | 2024-02 |
 | **Type** | single |
 | **Source** | <https://www.nber.org/papers/w32140> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | on |
+| **Likelihood** | possible — Needs deliberate investment in training and certification that few governments have started. |
 
 AI could restore middle-skill jobs by enabling less-trained workers to do expert work. Creates new tasks, net positive for labor demand — if policy steers it.
 

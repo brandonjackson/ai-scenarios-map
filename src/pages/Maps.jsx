@@ -5,6 +5,7 @@ import { href } from "../router.js";
 import { defaultGoal, assessScenario } from "../goals.js";
 import { scaleLabel } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
+import { LIKELIHOOD, LikelihoodBadge, likelihoodColor, formatDate } from "../likelihood.jsx";
 
 // Headline rating under the default goal, or null if not assessed.
 const ratingOf = (s) => assessScenario(defaultGoal, s.id)?.rating ?? null;
@@ -88,8 +89,10 @@ export default function Maps() {
 
   const active = hovered || selected;
   const byRating = colorBy === "rating";
+  const byLikelihood = colorBy === "likelihood";
   const typeColor = (s) => (s.type === "framework" ? "var(--framework)" : "var(--single)");
   const pointColor = (s) => {
+    if (byLikelihood) return likelihoodColor(s.likelihood);
     if (!byRating) return typeColor(s);
     const r = ratingOf(s);
     return r == null ? UNRATED : scoreColor(defaultGoal, r);
@@ -212,6 +215,7 @@ export default function Maps() {
           <select value={colorBy} onChange={(e) => setColorBy(e.target.value)}>
             <option value="type">Type</option>
             <option value="rating">{defaultGoal.name.replace(/^The /, "")} rating</option>
+            <option value="likelihood">Likelihood</option>
           </select>
         </label>
         <span className="map-hint">↗ best &nbsp; ↙ worst</span>
@@ -284,7 +288,7 @@ export default function Maps() {
               const p2 = toScreen(b);
               return (
                 <line key={`fw-${a.id}-${b.id}`} x1={p1.sx} y1={p1.sy} x2={p2.sx} y2={p2.sy}
-                  stroke={byRating ? "var(--muted)" : "var(--framework)"} strokeWidth={1.5} opacity={0.7}
+                  stroke={byRating || byLikelihood ? "var(--muted)" : "var(--framework)"} strokeWidth={1.5} opacity={0.7}
                 />
               );
             })}
@@ -377,13 +381,14 @@ export default function Maps() {
                   )}
                 </div>
                 <div className="map-tip-meta">
-                  {active.author} ({active.year})
+                  {active.author} ({formatDate(active.date, active.year)})
                 </div>
                 <div className="map-tip-desc">{active.desc}</div>
                 <div className="card-tags">
                   <span className={`badge badge-${active.type === "single" ? "single" : "framework"}`}>
                     {active.type === "single" ? "Single Vision" : "Framework"}
                   </span>
+                  <LikelihoodBadge s={active} />
                   {ratingOf(active) != null && (
                     <ScoreChip goal={defaultGoal} value={ratingOf(active)} label
                       title={`${defaultGoal.name} rating`} />
@@ -406,7 +411,18 @@ export default function Maps() {
       <div className="map-legend">
         <span>{filtered.length} sources plotted</span>
         {skipped > 0 && <span className="muted">({skipped} not rated on this axis)</span>}
-        {byRating ? (
+        {byLikelihood ? (
+          <>
+            <span>Likelihood:</span>
+            {LIKELIHOOD.map((l) => (
+              <span key={l.key} className="map-key" title={l.hint}>
+                <i style={{ background: likelihoodColor(l.key) }} />
+                {l.label}
+              </span>
+            ))}
+            <span>● single vision · ■ framework</span>
+          </>
+        ) : byRating ? (
           <>
             <span>{defaultGoal.name} rating:</span>
             {defaultGoal.scale.map((v) => (

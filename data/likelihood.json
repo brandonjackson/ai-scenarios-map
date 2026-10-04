@@ -1,0 +1,11 @@
+{
+  "note": "An editorial judgement of how likely the scenario's core dynamics are over its own horizon, given the evidence available. Not a probability forecast.",
+  "reviewed": "2026-10-04",
+  "scale": [
+    { "key": "improbable", "label": "Improbable", "hint": "Needs major breaks from current trends, or conditions with little support today" },
+    { "key": "possible", "label": "Possible", "hint": "Could happen, but several uncertain things must go its way" },
+    { "key": "plausible", "label": "Plausible", "hint": "Consistent with current trends; a credible path exists" },
+    { "key": "probable", "label": "Probable", "hint": "More likely than not on current evidence" },
+    { "key": "happening", "label": "Happening", "hint": "Its core dynamics are already observable" }
+  ]
+}

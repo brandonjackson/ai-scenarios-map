@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Kulveit, Douglas et al. |
-| **Year** | 2025 |
+| **Published** | 2025-01-29 |
 | **Type** | single |
 | **Source** | <https://gradual-disempowerment.ai/> |
 | **Tags** | Moderate REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | plausible — A slow structural drift is hard to rule out and hard to see; early signs exist but the full erosion lies years ahead. |
 
 Incremental AI erodes human economic participation. Institutions slowly misalign from human interests. No sudden break — a structural drift.
 

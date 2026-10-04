@@ -40,11 +40,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | ${s.author} |
-| **Year** | ${s.year} |
+| **Published** | ${s.date || s.year} |
 | **Type** | ${s.type}${s.framework ? ` — ${s.framework}` : ""} |
 | **Source** | ${s.url ? `<${s.url}>` : "Not public"} |
 | **Tags** | ${s.tags || "—"} |
 | **Policy stance** | ${s.policy || "—"} |
+| **Likelihood** | ${s.likelihood ? `${s.likelihood} — ${s.likelihood_reason}` : "—"} |
 
 ${s.desc}
 

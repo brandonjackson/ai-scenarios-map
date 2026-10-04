@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Amodei |
-| **Year** | 2024 |
+| **Published** | 2024-10-11 |
 | **Type** | single |
 | **Source** | <https://www.darioamodei.com/essay/machines-of-loving-grace> |
 | **Tags** | Strong REP, DIFF (aspirational) |
 | **Policy stance** | on |
+| **Likelihood** | possible — Needs both very fast capability gains and governance that spreads the benefits. |
 
 Country of geniuses in a datacenter. Strong replacement-level capability. Hopes for diffusion but depends on governance.
 

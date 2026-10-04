@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Kokotajlo, Alexander et al. |
-| **Year** | 2025 |
+| **Published** | 2025-04-03 |
 | **Type** | framework — AI 2027 |
 | **Source** | <https://ai-2027.com/> |
 | **Tags** | Extreme REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | improbable — Its own authors have since pushed their timelines out; superintelligence and takeover by 2030 is the tail. |
 
 Superhuman AI by ~2027 and an intelligence explosion; one lab dominates. In the race ending a misaligned superintelligence captures institutions and kills humanity by 2030.
 

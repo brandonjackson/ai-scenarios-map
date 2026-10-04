@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Windfall Trust |
-| **Year** | 2026 |
+| **Published** | 2026 |
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
 | **Policy stance** | mixed |
+| **Likelihood** | possible — Needs AI to run much of the economy and push prices down first. |
 
 AI runs much of the economy and prices fall. A handful of companies own most production. Life feels comfortable, but people lose their bargaining power, and governments funded by AI firms have less reason to listen. With no visible crisis, power drifts away unnoticed.
 

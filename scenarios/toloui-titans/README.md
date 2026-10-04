@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Market concentration is real; it becomes this scenario if capabilities move from augmenting to replacing. |
 
 Winner-take-all + labor-replacing. Monopolistic control of broadly displacing technology. The worst quadrant.
 

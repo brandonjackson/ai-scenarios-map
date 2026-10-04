@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | DSIT |
-| **Year** | 2023 |
+| **Published** | 2023-10-25 |
 | **Type** | framework — DSIT — AI 2030 |
 | **Source** | <https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c> |
 | **Tags** | Moderate AUG, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | improbable — The 2025 AI bust it imagines did not happen; capability and investment kept rising. |
 
 Capabilities improve more slowly than expected. A 2025 AI bust, disillusionment and mixed uptake; most jobs untouched. Policy interventions deliberately excluded.
 

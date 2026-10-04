@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | CFG |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Concentration among a few firms and a US–China race are already features of the field. |
 
 Fast capability growth controlled by a few dominant firms or states (CFG's Big AI and Arms Race scenarios). Unprecedented power concentration and misalignment risk.
 

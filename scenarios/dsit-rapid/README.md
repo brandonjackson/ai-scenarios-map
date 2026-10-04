@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | DSIT |
-| **Year** | 2023 |
+| **Published** | 2023-10-25 |
 | **Type** | framework — DSIT — AI 2030 |
 | **Source** | <https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Tech-giant control is real; sector-wide automation and backlash by 2030 is a credible path. |
 
 Capable narrow AI and robotics, controlled by tech giants, automate work across sectors. Unemployment, inequality and public backlash. Policy interventions deliberately excluded.
 

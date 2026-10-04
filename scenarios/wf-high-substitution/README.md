@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Windfall Trust |
-| **Year** | 2026 |
+| **Published** | 2026 |
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
 | **Policy stance** | off |
+| **Likelihood** | possible — Needs AI and robotics to take on most office and much physical work. |
 
 AI and robots take on most office and a growing share of physical work. Firms replace staff rather than support them. Incomes and income-tax revenue collapse just as demand for support soars, because our systems assume most people work.
 

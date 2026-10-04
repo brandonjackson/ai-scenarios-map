@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Brynjolfsson |
-| **Year** | 2022 |
+| **Published** | 2022-01 |
 | **Type** | framework — Brynjolfsson — Turing Trap |
 | **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
 | **Tags** | REP, CONC (warns) |
 | **Policy stance** | off |
+| **Likelihood** | probable — Incentives still reward substitution: firms cite AI in cuts and entry-level hiring in exposed jobs has fallen. |
 
 The trap: AI built to imitate humans substitutes for workers, who lose economic and political bargaining power. Where today's incentives lead.
 

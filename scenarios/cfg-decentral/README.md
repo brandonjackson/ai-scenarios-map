@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | CFG |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | possible — Misuse of open models is growing, but not yet at a scale that prompts bans. |
 
 Open-weight models spread widely; guardrails are breached and misuse (hacking, disinformation) escalates until governments ban high-scale open models. CFG ending under Plateau; CFG has no full fast-and-decentralised scenario.
 

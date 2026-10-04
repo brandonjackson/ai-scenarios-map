@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Tony Blair Institute |
-| **Year** | 2024 |
+| **Published** | 2024-11 |
 | **Type** | single |
 | **Source** | <https://institute.global/insights/economic-prosperity/the-impact-of-ai-on-the-labour-market> |
 | **Tags** | Moderate AUG, DIFF |
 | **Policy stance** | on |
+| **Likelihood** | plausible — Its moderate displacement offset by new demand is consistent with current trends, but the GDP gains are far off and unproven. |
 
 AI saves ~25% of UK workforce time. 1-3M jobs displaced but offset by new demand. GDP +11% by 2050.
 

@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Citrini Research |
-| **Year** | 2026 |
+| **Published** | 2026-02 |
 | **Type** | single |
 | **Source** | <https://citriniresearch.substack.com/> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | possible — A crash-and-displacement spiral by 2028 needs capability and adoption to arrive much faster than they have so far. |
 
 Fictional 2028: Ghost GDP, S&P down 38%, mass white-collar unemployment. Triggered 800-point Dow drop.
 

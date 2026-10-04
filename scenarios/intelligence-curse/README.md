@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Drago & Laine |
-| **Year** | 2025 |
+| **Published** | 2025-04 |
 | **Type** | single |
 | **Source** | <https://intelligence-curse.ai/> |
 | **Tags** | REP, CONC (default) |
 | **Policy stance** | off |
+| **Likelihood** | plausible — The rentier dynamic follows if AI substitutes for most labour; that condition has not arrived. |
 
 AI creates rentier-state dynamics: non-human factors dominate, powerful actors lose incentive to invest in people.
 

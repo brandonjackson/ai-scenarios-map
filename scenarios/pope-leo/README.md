@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Vatican (DDF & Dicastery for Culture and Education) / Pope Francis |
-| **Year** | 2025 |
+| **Published** | 2025-01-28 |
 | **Type** | single |
 | **Source** | <https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html> |
 | **Tags** | Strong AUG (prescriptive), DIFF (prescriptive) |
 | **Policy stance** | on |
+| **Likelihood** | possible — A moral prescription rather than a forecast; it needs firms and governments to put human agency ahead of cost-cutting. |
 
 AI is a tool, not a species. Emphatically augmentation: AI should enhance human dignity, not replace human agency.
 

@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Acemoglu |
-| **Year** | 2024 |
+| **Published** | 2024-05 |
 | **Type** | single |
 | **Source** | <https://www.nber.org/papers/w32487> |
 | **Tags** | Limited impact, CONC (warns) |
 | **Policy stance** | off |
+| **Likelihood** | probable — Measured productivity gains remain modest and the gains that exist are going mainly to capital. |
 
 Skeptical of large GDP gains. Only modest share of tasks automatable. But what gains exist concentrate with capital owners without active policy.
 
