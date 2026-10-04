@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Matt Shumer |
-| **Year** | 2026 |
+| **Published** | 2026-02 |
 | **Type** | single |
 | **Source** | <https://fortune.com/2026/02/09/something-big-is-happening-ai-matt-shumer/> |
 | **Tags** | REP, CONC |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Capability jumps in coding agents are real, but economy-wide displacement on a February 2020 timeline has not followed yet. |
 
 This is February 2020 for AI. CEO says he's no longer needed for technical work. 85M views. Personal testimony.
 

@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Aguirre |
-| **Year** | 2025 |
+| **Published** | 2025-03 |
 | **Type** | framework — Aguirre — Keep the Future Human |
 | **Source** | <https://keepthefuturehuman.ai/essay/docs> |
 | **Tags** | REP (warns), CONC (warns) |
 | **Policy stance** | off |
+| **Likelihood** | plausible — The frontier race it warns of is under way; whether it ends in replacement and loss of control is uncertain. |
 
 The current path Aguirre warns of: an unchecked race to AGI that replaces people and concentrates power in a few companies, ending in loss of control.
 

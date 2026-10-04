@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC |
 | **Policy stance** | off |
+| **Likelihood** | probable — A few platforms own the frontier while humans stay in the loop: close to today's market. |
 
 Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but humans remain essential.
 

@@ -1,4 +1,5 @@
 import { scenarios } from "../data.js";
+import { LikelihoodBadge } from "../likelihood.jsx";
 import { defaultGoal as goal, assessScenario } from "../goals.js";
 import { scaleLabel } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
@@ -188,6 +189,7 @@ export default function Overview() {
                 <ScoreChip goal={goal} value={a.rating} label />
                 <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
                 <span className="muted">{s.author}</span>
+                <LikelihoodBadge s={s} />
               </li>
             ))}
         </ul>

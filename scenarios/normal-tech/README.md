@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Narayanan & Kapoor |
-| **Year** | 2025 |
+| **Published** | 2025-04-15 |
 | **Type** | single |
 | **Source** | <https://knightcolumbia.org/content/ai-as-normal-technology> |
 | **Tags** | AUG, DIFF |
 | **Policy stance** | mixed |
+| **Likelihood** | probable — Adoption so far is broad but shallow, and the OECD finds no sign of widespread displacement; the slow-diffusion story fits the evidence best. |
 
 AI is a GPT like electricity. Meaningful productivity impact but slow diffusion — decades, not years. No superintelligence. Existing institutions can adapt.
 

@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | CFG |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Moderate AUG, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | possible — Capabilities keep improving, but cheaper, smaller and open models are a real trend. |
 
 AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A bright winter.
 

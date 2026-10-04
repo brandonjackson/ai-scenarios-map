@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Agrawal, Gans & Goldfarb |
-| **Year** | 2023 |
+| **Published** | 2023-10 |
 | **Type** | single |
 | **Source** | <https://hdsr.mitpress.mit.edu/pub/wy5a8llx> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Early studies find AI tools help less-experienced workers most, but there is little sign yet of a wider fall in the skill premium. |
 
 Task automation enhances jobs and reduces inequality by lowering the skill premium — opening tasks locked behind rare skills to a wider pool.
 

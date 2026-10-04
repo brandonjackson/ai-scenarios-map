@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Windfall Trust |
-| **Year** | 2026 |
+| **Published** | 2026 |
 | **Type** | framework — Windfall Trust Radar |
 | **Source** | Not public |
 | **Tags** | — |
 | **Policy stance** | off |
+| **Likelihood** | happening — Entry-level hiring in AI-exposed jobs has already fallen, with software developers aged 22–25 hit hardest. |
 
 AI absorbs the tasks junior staff learned on. Firms keep hiring experienced people but stop hiring beginners. Young people take whatever work they can find while rent, childcare and healthcare outpace their pay. The headline figures hide the problem until a generation has fallen behind.
 

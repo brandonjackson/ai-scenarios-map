@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Altman |
-| **Year** | 2021 |
+| **Published** | 2021-03-16 |
 | **Type** | single |
 | **Source** | <https://moores.samaltman.com/> |
 | **Tags** | Strong REP, DIFF (prescriptive) |
 | **Policy stance** | on |
+| **Likelihood** | improbable — No country is moving towards a national equity fund paid for by taxing company value. |
 
 AI replaces most labor, costs tend to zero. Default is concentrated; proposes American Equity Fund.
 

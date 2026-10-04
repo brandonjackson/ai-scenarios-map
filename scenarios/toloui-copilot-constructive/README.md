@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC (checked) |
 | **Policy stance** | on |
+| **Likelihood** | possible — Needs antitrust, interoperability and tax reform that are only partly in motion. |
 
 Few dominant platforms own the AI layer, but antitrust guardrails, interoperability and labour-tax reform keep their power in check and spread the gains.
 

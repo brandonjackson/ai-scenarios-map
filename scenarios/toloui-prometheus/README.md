@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | on |
+| **Likelihood** | possible — Open models are close behind, but labour-augmenting diffusion with low prices everywhere needs both trends to hold. |
 
 Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Competition keeps prices low.
 

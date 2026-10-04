@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Korinek / IMF |
-| **Year** | 2023 |
+| **Published** | 2023-12 |
 | **Type** | framework — Korinek / IMF |
 | **Source** | <https://www.imf.org/en/publications/fandd/issues/2023/12/scenario-planning-for-an-agi-future-anton-korinek> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | plausible — Matches much current use, though gains are not yet spreading clearly through wages. |
 
 AI makes workers more productive without replacing them. Standard productivity boost. Gains spread through labor markets.
 

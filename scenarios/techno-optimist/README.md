@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Andreessen |
-| **Year** | 2023 |
+| **Published** | 2023-10-16 |
 | **Type** | single |
 | **Source** | <https://a16z.com/the-techno-optimist-manifesto/> |
 | **Tags** | AUG (via markets), DIFF (asserted) |
 | **Policy stance** | off |
+| **Likelihood** | possible — Rests on markets spreading gains on their own; the labour share and hiring data so far point the other way. |
 
 Technology makes everyone more productive, anyone can build. Gains diffuse naturally through competition. Pure faith.
 

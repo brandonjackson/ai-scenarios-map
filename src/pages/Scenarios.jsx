@@ -4,12 +4,21 @@ import { href } from "../router.js";
 import { goals, defaultGoal, assessScenario } from "../goals.js";
 import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
 import { scenarioNotes, splitSections, renderMarkdown, POLICY_STANCES } from "../scenarioNotes.js";
+import { LIKELIHOOD, LikelihoodBadge, LikelihoodScale, likelihoodOf, byDateDesc, formatDate } from "../likelihood.jsx";
 
 const TYPES = [
   { key: "all", label: "All" },
   { key: "single", label: "Single Vision" },
   { key: "framework", label: "Framework Sub-scenario" },
 ];
+
+const SORTS = {
+  newest: { label: "Newest first", cmp: byDateDesc },
+  oldest: { label: "Oldest first", cmp: (a, b) => -byDateDesc(a, b) },
+  likely: { label: "Most likely first", cmp: (a, b) => (likelihoodOf(b)?.level || 0) - (likelihoodOf(a)?.level || 0) || byDateDesc(a, b) },
+  unlikely: { label: "Least likely first", cmp: (a, b) => (likelihoodOf(a)?.level || 9) - (likelihoodOf(b)?.level || 9) || byDateDesc(a, b) },
+  title: { label: "Title A–Z", cmp: (a, b) => a.title.localeCompare(b.title) },
+};
 
 const typeLabel = (t) => (t === "framework" ? "Framework" : "Single Vision");
 
@@ -31,12 +40,15 @@ export function ScenariosList() {
   const [query, setQuery] = useState("");
   const [type, setType] = useState("all");
   const [policy, setPolicy] = useState("all");
+  const [likelihood, setLikelihood] = useState("all");
+  const [sort, setSort] = useState("newest");
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
     return scenarios
       .filter((s) => type === "all" || s.type === type)
       .filter((s) => policy === "all" || s.policy === policy)
+      .filter((s) => likelihood === "all" || s.likelihood === likelihood)
       .filter(
         (s) =>
           !q ||
@@ -45,8 +57,8 @@ export function ScenariosList() {
             .toLowerCase()
             .includes(q)
       )
-      .sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title));
-  }, [query, type, policy]);
+      .sort(SORTS[sort].cmp);
+  }, [query, type, policy, likelihood, sort]);
 
   return (
     <div>
@@ -68,6 +80,14 @@ export function ScenariosList() {
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Search scenarios"
         />
+        <label className="select">
+          Sort
+          <select value={sort} onChange={(e) => setSort(e.target.value)}>
+            {Object.entries(SORTS).map(([k, v]) => (
+              <option key={k} value={k}>{v.label}</option>
+            ))}
+          </select>
+        </label>
         <div className="chips" role="group" aria-label="Filter by type">
           {TYPES.map((t) => (
             <button
@@ -93,6 +113,19 @@ export function ScenariosList() {
             </button>
           ))}
         </div>
+        <div className="chips" role="group" aria-label="Filter by likelihood">
+          {[{ key: "all", label: "Any likelihood" }, ...LIKELIHOOD].map((l) => (
+            <button
+              key={l.key}
+              className={`chip${likelihood === l.key ? " active" : ""}`}
+              onClick={() => setLikelihood(l.key)}
+              title={l.hint}
+            >
+              {l.level && <span className={`dot dot-lk lk-${l.level}`} />}
+              {l.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="result-count">
@@ -106,13 +139,14 @@ export function ScenariosList() {
               <div className="card-head">
                 <h2 className="card-title">{s.title}</h2>
                 <div className="card-badges">
+                  <LikelihoodBadge s={s} />
                   <RatingBadge s={s} />
                   <PolicyBadge policy={s.policy} />
                   <TypeBadge type={s.type} />
                 </div>
               </div>
               <div className="card-meta">
-                {s.author} · {s.year}
+                {formatDate(s.date, s.year)} · {s.author}
                 {s.framework && <> · {s.framework}</>}
               </div>
               <p className="card-body">{s.desc}</p>
@@ -217,11 +251,12 @@ function ScenarioDetailInner({ id }) {
         <div className="detail-kicker">
           <TypeBadge type={s.type} />
           <PolicyBadge policy={s.policy} />
+          <LikelihoodBadge s={s} />
           {s.framework && <span className="muted">{s.framework}</span>}
         </div>
         <h1>{s.title}</h1>
         <div className="detail-meta">
-          {s.author} · {s.year}
+          {s.author} · {formatDate(s.date, s.year)}
         </div>
       </header>
 
@@ -256,6 +291,11 @@ function ScenarioDetailInner({ id }) {
                 </a>
               </p>
             )}
+          </section>
+
+          <section className="section">
+            <h2>Likelihood</h2>
+            <LikelihoodScale s={s} />
           </section>
 
           {goals.map((g) => {

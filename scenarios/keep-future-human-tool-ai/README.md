@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Aguirre |
-| **Year** | 2025 |
+| **Published** | 2025-03 |
 | **Type** | framework — Aguirre — Keep the Future Human |
 | **Source** | <https://keepthefuturehuman.ai/essay/docs> |
 | **Tags** | AUG (prescribes), DIFF (prescribes) |
 | **Policy stance** | on |
+| **Likelihood** | improbable — Compute caps and binding international agreements have little political backing today. |
 
 Governments close the gates to AGI with compute caps, liability and international agreements, and build powerful, controllable Tool AI that empowers people instead.
 

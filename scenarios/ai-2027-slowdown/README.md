@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Kokotajlo, Alexander et al. |
-| **Year** | 2025 |
+| **Published** | 2025-04-03 |
 | **Type** | framework — AI 2027 |
 | **Source** | <https://ai-2027.com/slowdown> |
 | **Tags** | Extreme REP, CONC |
 | **Policy stance** | on |
+| **Likelihood** | improbable — Rests on the same very fast timeline plus a pause and a US–China deal. |
 
 A government–company Oversight Committee pauses, builds aligned models and strikes a deal with China. Abundance and a generous basic income, but work disappears and power sits with a small committee.
 

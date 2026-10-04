@@ -7,11 +7,12 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Year** | 2025 |
+| **Published** | 2025 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong REP, DIFF |
 | **Policy stance** | off |
+| **Likelihood** | possible — Needs replacement-level capability and rapid commoditisation at the same time. |
 
 Fast-follower + labor-replacing. Rapid diffusion, commoditization. Massive displacement but no single actor captures gains.
 
