@@ -16,6 +16,17 @@ export function indexScores(rows) {
   return out;
 }
 
+// Group policies.csv rows into { [policySlug]: [{ criterion, reason }] }:
+// which criteria each policy is meant to strengthen.
+export function indexPolicyCriteria(rows) {
+  const out = {};
+  for (const r of rows) {
+    if (!r.policy || !r.criterion) continue;
+    (out[r.policy] ||= []).push({ criterion: r.criterion, reason: r.reason || "" });
+  }
+  return out;
+}
+
 // Turn one set of criterion scores into an assessment: the (weighted)
 // average, the weakest criterion, and the headline rating.
 export function assess(goal, entry) {
@@ -57,7 +68,7 @@ export function describeAggregation(goal) {
 }
 
 // Returns a list of human-readable problems; empty means the goal is valid.
-export function validateGoal(goal, rows, { scenarioIds, policySlugs } = {}) {
+export function validateGoal(goal, rows, { scenarioIds, policySlugs, policyRows = [] } = {}) {
   const errors = [];
   const req = (cond, msg) => { if (!cond) errors.push(msg); };
   req(goal.id, "missing id");
@@ -88,6 +99,17 @@ export function validateGoal(goal, rows, { scenarioIds, policySlugs } = {}) {
     const key = `${r.scenario}|${r.policy}|${r.criterion}`;
     req(!seen.has(key), `${where}: duplicate score for ${key}`);
     seen.add(key);
+  });
+
+  const mapped = new Set();
+  policyRows.forEach((r, i) => {
+    const where = `policies.csv row ${i + 2}`;
+    req(r.policy, `${where}: missing policy`);
+    req(critIds.has(r.criterion), `${where}: unknown criterion "${r.criterion}"`);
+    if (policySlugs && r.policy) req(policySlugs.has(r.policy), `${where}: unknown policy "${r.policy}"`);
+    const key = `${r.policy}|${r.criterion}`;
+    req(!mapped.has(key), `${where}: duplicate mapping for ${key}`);
+    mapped.add(key);
   });
   return errors;
 }

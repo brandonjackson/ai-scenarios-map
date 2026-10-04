@@ -116,6 +116,17 @@ export function GoalDetail({ id }) {
       base: assessScenario(goal, sid),
     }))
   );
+  // The distribution shows where scenarios land without new policy, so it
+  // counts only scenarios that assume policy is absent, lagging or captured.
+  const policyOff = baseline.filter((r) => scenarioById[r.key].policy === "off");
+  const policiesByCriterion = goal.criteria
+    .map((c) => ({
+      c,
+      rows: Object.entries(goal.policyCriteria)
+        .flatMap(([slug, ms]) => ms.filter((m) => m.criterion === c.id).map((m) => ({ slug, reason: m.reason })))
+        .sort((x, y) => (policyBySlug[x.slug]?.title || x.slug).localeCompare(policyBySlug[y.slug]?.title || y.slug)),
+    }))
+    .filter((g) => g.rows.length);
   const unassessed = scenarios.length - ids.length;
   const hasThreats = goal.criteria.some((c) => c.threats?.length || c.opportunities?.length);
   const hasAnchors = goal.criteria.some((c) => c.anchors && Object.keys(c.anchors).length);
@@ -188,14 +199,15 @@ export function GoalDetail({ id }) {
         </section>
       </div>
 
-      {baseline.length > 1 && (
+      {policyOff.length > 1 && (
         <section className="section">
           <h2>Which {goal.criteriaNoun || "criteria"} are most at risk</h2>
           <p className="muted small chart-intro">
-            Share of the {baseline.length} assessed scenarios at each score. Worse scores extend left of the
-            centre line, better ones right. Hover a segment to see the scenarios.
+            Share of the {policyOff.length} assessed policy-off scenarios (those that assume policy is absent,
+            lagging or captured) at each score. Worse scores extend left of the centre line, better ones right.
+            Hover a segment to see the scenarios.
           </p>
-          <RiskChart goal={goal} assessments={baseline.map((r) => ({ title: r.label, a: r.a }))} />
+          <RiskChart goal={goal} assessments={policyOff.map((r) => ({ title: r.label, a: r.a }))} />
         </section>
       )}
 
@@ -219,6 +231,44 @@ export function GoalDetail({ id }) {
           <h2>Policy tests</h2>
           <p className="muted small">Each scenario rescored with a policy in place; changes are shown against its baseline.</p>
           <Scorecard goal={goal} rows={policyTests} />
+        </section>
+      )}
+
+      {policiesByCriterion.length > 0 && (
+        <section className="section">
+          <h2>Policies by {(goal.criteriaNoun || "criteria").replace(/s$/, "")}</h2>
+          <p className="muted small">
+            Which policies are meant to strengthen each {(goal.criteriaNoun || "criteria").replace(/s$/, "")}. Many
+            serve more than one. Mapped in <code>goals/{goal.id}/policies.csv</code>.
+          </p>
+          <div className="table-wrap">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>Criterion</th>
+                  <th>Policies</th>
+                </tr>
+              </thead>
+              <tbody>
+                {policiesByCriterion.map(({ c, rows }) => (
+                  <tr key={c.id}>
+                    <th scope="row">
+                      {c.name} <span className="muted">({rows.length})</span>
+                    </th>
+                    <td>
+                      <div className="card-tags">
+                        {rows.map(({ slug, reason }) => (
+                          <a key={slug} className="tag" href={href(`/policies/${slug}`)} title={reason}>
+                            {policyBySlug[slug]?.title || slug}
+                          </a>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
 

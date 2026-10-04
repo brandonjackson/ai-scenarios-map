@@ -32,14 +32,21 @@ for (const id of ids) {
   const goal = readJson(goalPath);
   const scoresPath = join(goalsDir, id, 'scores.csv');
   const rows = existsSync(scoresPath) ? parseCsv(readFileSync(scoresPath, 'utf-8')) : [];
-  const errors = validateGoal(goal, rows, { scenarioIds, policySlugs });
+  const policiesPath = join(goalsDir, id, 'policies.csv');
+  const policyRows = existsSync(policiesPath) ? parseCsv(readFileSync(policiesPath, 'utf-8')) : [];
+  const errors = validateGoal(goal, rows, { scenarioIds, policySlugs, policyRows });
   if (goal.id !== id) errors.push(`id "${goal.id}" must match its folder name "${id}"`);
   if (errors.length) {
     failed = true;
     console.error(`goals/${id}:\n  ${errors.join('\n  ')}`);
   } else {
     const scenarios = new Set(rows.map((r) => r.scenario)).size;
-    console.log(`Goal "${goal.name}": ${goal.criteria.length} criteria, ${scenarios} scenarios assessed`);
+    const mapped = new Set(policyRows.map((r) => r.policy));
+    console.log(`Goal "${goal.name}": ${goal.criteria.length} criteria, ${scenarios} scenarios assessed, ${mapped.size} policies mapped`);
+    const unmapped = [...policySlugs].filter((s) => !mapped.has(s));
+    if (policyRows.length && unmapped.length) {
+      console.warn(`  warning: goals/${id}/policies.csv does not map ${unmapped.length} policies: ${unmapped.join(', ')}`);
+    }
   }
 }
 
