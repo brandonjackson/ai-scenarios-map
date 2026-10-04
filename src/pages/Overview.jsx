@@ -3,6 +3,7 @@ import { LikelihoodBadge } from "../likelihood.jsx";
 import { defaultGoal as goal, assessScenario } from "../goals.js";
 import { scaleLabel } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
+import { ScenarioGroup, ScenarioRow } from "../components/ScenarioList.jsx";
 import { href } from "../router.js";
 
 const values = goal.scale.map((s) => s.value).sort((a, b) => a - b);
@@ -37,6 +38,14 @@ const summarise = (rows) => ({
 
 const offSum = summarise(off);
 const onSum = summarise(on);
+
+// Policy-off scenarios grouped by headline rating, worst first.
+const groups = [...new Set(off.map((r) => r.a.rating))]
+  .sort((x, y) => x - y)
+  .map((rating) => ({
+    rating,
+    rows: off.filter((r) => r.a.rating === rating).sort((x, y) => x.a.average - y.a.average),
+  }));
 
 // Nearest scale label for a fractional score, e.g. 2.4 → "Broken for some".
 const nearest = (v) => scaleLabel(goal, Math.min(hi, Math.max(lo, Math.round(v))));
@@ -181,18 +190,19 @@ export default function Overview() {
 
       <section className="section">
         <h2>Policy-off scenarios</h2>
-        <ul className="sc-list">
-          {[...off]
-            .sort((x, y) => x.a.rating - y.a.rating || x.a.average - y.a.average)
-            .map(({ s, a }) => (
-              <li key={s.id}>
-                <ScoreChip goal={goal} value={a.rating} label />
-                <a href={href(`/scenarios/${s.id}`)}>{s.title}</a>
-                <span className="muted">{s.author}</span>
-                <LikelihoodBadge s={s} />
-              </li>
-            ))}
-        </ul>
+        <div className="scenario-groups">
+          {groups.map(({ rating, rows }) => (
+            <ScenarioGroup
+              key={rating}
+              heading={<ScoreChip goal={goal} value={rating} label />}
+              count={`${rows.length} scenario${rows.length === 1 ? "" : "s"}`}
+            >
+              {rows.map(({ s }) => (
+                <ScenarioRow key={s.id} s={s} aside={<LikelihoodBadge s={s} />} />
+              ))}
+            </ScenarioGroup>
+          ))}
+        </div>
         <p className="muted small">
           Scores are provisional; see <a href={href(`/goals/${goal.id}`)}>{goal.name}</a> for how they are made, or
           explore every scenario on the <a href={href("/maps")}>maps</a>.
