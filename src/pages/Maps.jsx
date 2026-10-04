@@ -22,10 +22,14 @@ scenariosData.forEach((s) => {
 const toNorm = (v) => (v + 1) / 2;
 
 const FILTERS = [
-  { key: "all", label: "All" },
-  { key: "single", label: "Single Vision", dot: "single" },
-  { key: "framework", label: "Framework Sub-scenario", dot: "framework" },
+  { key: "all", label: "All types" },
+  { key: "single", label: "Single Vision" },
+  { key: "framework", label: "Framework Sub-scenario" },
 ];
+
+// Below this chart width the detail card becomes a bottom sheet instead of
+// a floating card, which has no room to sit beside the point.
+const SHEET_BELOW = 600;
 
 export default function Maps() {
   const [selected, setSelected] = useState(null);
@@ -42,7 +46,7 @@ export default function Maps() {
     const measure = () => {
       if (chartRef.current) {
         const r = chartRef.current.getBoundingClientRect();
-        setDims({ w: r.width, h: Math.max(480, r.height) });
+        setDims({ w: r.width, h: Math.max(360, r.height) });
       }
     };
     measure();
@@ -52,6 +56,13 @@ export default function Maps() {
     ro.observe(chartRef.current);
     return () => ro.disconnect();
   }, []);
+
+  useEffect(() => {
+    if (!selected) return;
+    const onKey = (e) => e.key === "Escape" && setSelected(null);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [selected]);
 
   const filtered = useMemo(
     () =>
@@ -172,54 +183,38 @@ export default function Maps() {
         </p>
       </header>
 
-      {/* Axis picker */}
-      <div className="axis-picker" role="group" aria-label="Axis pair">
-        {axesData.map((a, i) => (
-          <button
-            key={a.id}
-            className={`axis-btn${axisIdx === i ? " active" : ""}`}
-            aria-pressed={axisIdx === i}
-            onClick={() => {
-              setAxisIdx(i);
+      {/* Controls: compact dropdowns so the chart stays above the fold on phones */}
+      <div className="map-controls">
+        <label className="map-select map-select-axes">
+          <span>Axes</span>
+          <select
+            value={axisIdx}
+            onChange={(e) => {
+              setAxisIdx(Number(e.target.value));
               setSelected(null);
             }}
           >
-            {a.name}
-          </button>
-        ))}
-      </div>
-
-      {/* Filters */}
-      <div className="map-controls">
-        <div className="chips" role="group" aria-label="Filter by type">
-          {FILTERS.map((f) => (
-            <button
-              key={f.key}
-              className={`chip${filter === f.key ? " active" : ""}`}
-              aria-pressed={filter === f.key}
-              onClick={() => setFilter(f.key)}
-            >
-              {f.dot && <span className={`dot${f.dot === "framework" ? " dot-framework" : ""}`} />}
-              {f.label}
-            </button>
-          ))}
-        </div>
-        <div className="chips" role="group" aria-label="Colour points by" style={{ marginLeft: "auto" }}>
-          {[
-            { key: "type", label: "Colour by type" },
-            { key: "rating", label: `Colour by ${defaultGoal.name.replace(/^The /, "").toLowerCase()} rating` },
-          ].map((c) => (
-            <button
-              key={c.key}
-              className={`chip${colorBy === c.key ? " active" : ""}`}
-              aria-pressed={colorBy === c.key}
-              onClick={() => setColorBy(c.key)}
-            >
-              {c.label}
-            </button>
-          ))}
-        </div>
-        <span className="map-hint">↗ best &nbsp;&nbsp; ↙ worst</span>
+            {axesData.map((a, i) => (
+              <option key={a.id} value={i}>{a.name}</option>
+            ))}
+          </select>
+        </label>
+        <label className="map-select">
+          <span>Show</span>
+          <select value={filter} onChange={(e) => { setFilter(e.target.value); setSelected(null); }}>
+            {FILTERS.map((f) => (
+              <option key={f.key} value={f.key}>{f.label}</option>
+            ))}
+          </select>
+        </label>
+        <label className="map-select">
+          <span>Colour</span>
+          <select value={colorBy} onChange={(e) => setColorBy(e.target.value)}>
+            <option value="type">Type</option>
+            <option value="rating">{defaultGoal.name.replace(/^The /, "")} rating</option>
+          </select>
+        </label>
+        <span className="map-hint">↗ best &nbsp; ↙ worst</span>
       </div>
 
       {/* Chart */}
@@ -305,8 +300,9 @@ export default function Maps() {
               <g key={s.id}
                 style={{ cursor: "pointer", transition: "opacity 0.2s" }}
                 opacity={isFaded ? 0.18 : 1}
-                onMouseEnter={() => setHovered(s)}
-                onMouseLeave={() => setHovered(null)}
+                // Hover previews only for mice; on touch a tap selects.
+                onPointerEnter={(e) => e.pointerType === "mouse" && setHovered(s)}
+                onPointerLeave={() => setHovered(null)}
                 onClick={(e) => {
                   e.stopPropagation();
                   setSelected(selected?.id === s.id ? null : s);
@@ -342,20 +338,35 @@ export default function Maps() {
           active[axes.xField] !== null &&
           active[axes.xField] !== "" &&
           (() => {
-            const { sx, sy } = toScreen(active);
-            const cardW = 310;
-            let cx = sx + 16,
-              cy = sy - 50;
-            if (cx + cardW > dims.w - 12) cx = sx - cardW - 16;
-            if (cy < 8) cy = 8;
-            if (cy + 290 > dims.h - 8) cy = dims.h - 298;
+            const sheet = dims.w < SHEET_BELOW;
+            let style;
+            if (sheet) {
+              style = {};
+            } else {
+              const { sx, sy } = toScreen(active);
+              const cardW = 310;
+              let cx = sx + 16,
+                cy = sy - 50;
+              if (cx + cardW > dims.w - 12) cx = sx - cardW - 16;
+              cx = Math.max(8, cx);
+              if (cy + 290 > dims.h - 8) cy = dims.h - 298;
+              cy = Math.max(8, cy);
+              style = { left: cx, top: cy, width: cardW, pointerEvents: selected ? "auto" : "none" };
+            }
 
             return (
               <div
-                className="map-tip"
-                style={{ left: cx, top: cy, width: cardW, pointerEvents: selected ? "auto" : "none" }}
+                className={`map-tip${sheet ? " map-sheet" : ""}`}
+                style={style}
+                role={sheet ? "dialog" : undefined}
+                aria-label={sheet ? active.title : undefined}
                 onClick={(e) => e.stopPropagation()}
               >
+                {sheet && (
+                  <button className="map-sheet-close" aria-label="Close" onClick={() => setSelected(null)}>
+                    ×
+                  </button>
+                )}
                 <div className="map-tip-title">
                   {active.url ? (
                     <a href={active.url} target="_blank" rel="noopener noreferrer">
