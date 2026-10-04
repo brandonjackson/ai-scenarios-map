@@ -552,8 +552,14 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
   gap: 4px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 28px;
+  /* overflow-x alone makes overflow-y compute to auto too, so on touch
+     devices the tab strip could be dragged vertically inside itself. */
   overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
 }
+.tabs::-webkit-scrollbar { display: none; }
 .tab {
   background: none;
   border: none;
