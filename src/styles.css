@@ -241,6 +241,7 @@ button, input, select { font-family: inherit; }
   white-space: nowrap;
 }
 .tag-muted { color: var(--faint); border-style: dashed; }
+.tag-goal { color: var(--text-strong); border-color: var(--accent); }
 .badge { font-weight: 600; flex: none; align-self: flex-start; border-color: transparent; }
 .badge-single { background: var(--wf-blue); color: #fff; }
 .badge-framework { background: var(--wf-yellow); color: var(--bg); }

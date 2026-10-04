@@ -10,7 +10,7 @@ A left nav is shared across all pages (hash routes, so deep links work on GitHub
 - **Goals** (`#/goals`) — goal functions that scenarios are assessed against; each goal has a detail page (`#/goals/<id>`) with its criteria, scale and a scorecard of assessed scenarios. Scenario pages show their assessment under each goal.
 - **Maps** (`#/maps`) — the interactive 2×2 scatter plot
 - **Scenarios** (`#/scenarios`) — searchable list, filterable by type and policy stance; each scenario has a detail page (`#/scenarios/<id>`) with tabs for an overview (position on every axis pair, goal assessments), its social contract summary (with draft scores beside each promise) and its assumptions analysis, read from `scenarios/<id>/`
-- **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`)
+- **Policies** (`#/policies`) — the Windfall Policy Atlas, filterable by category, horizon and who it affects; each policy has a detail page (`#/policies/<slug>`) showing the social contract promises it serves; the list can be filtered by promise
 
 ## Data Model
 
@@ -32,9 +32,10 @@ goals/
   social-contract/
     goal.json              ← criteria, scale, rules, aggregation
     scores.csv             ← scenario,policy,criterion,score,reason
+    policies.csv           ← policy,criterion,reason (which promises each policy serves)
 ```
 
-The default goal is **The Social Contract** (Windfall Trust): five promises — hard work pays, affordable essentials, reliable safety net, responsive government, time for what matters — each scored 1–5 for the worst-off group, averaged, and capped by the weakest-link rule (the headline rating can sit at most one point above the weakest promise).
+The default goal is **The Social Contract** (Windfall Trust): five promises — hard work pays, affordable essentials, reliable safety net, responsive government, time for what matters — each scored 1–5 for the worst-off group, averaged, and capped by the weakest-link rule (the headline rating can sit at most one point above the weakest promise). Every Policy Atlas policy is mapped to the promises it is meant to strengthen, and the goal page's rating distribution counts only policy-off scenarios.
 
 To add your own goal, copy `goals/social-contract/`, edit it, and see [`goals/README.md`](goals/README.md) for the full format. `npm run goals:check` validates every goal (it also runs before `dev` and `build`).
 
