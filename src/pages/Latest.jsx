@@ -1,5 +1,6 @@
 import { scenarios } from "../data.js";
 import { href } from "../router.js";
+import { ScenarioList, ScenarioRow } from "../components/ScenarioList.jsx";
 import { POLICY_STANCES } from "../scenarioNotes.js";
 import { LikelihoodBadge, byDateDesc, dateKey, formatDate } from "../likelihood.jsx";
 
@@ -98,15 +99,13 @@ function Publication({ pub }) {
           </>
         )}
       </div>
-      <ul className="pub-items">
+      <ScenarioList>
         {pub.items.map((s) => (
-          <li key={s.id}>
-            <a href={href(`/scenarios/${s.id}`)} className="pub-item-title">{s.title}</a>
-            <LikelihoodBadge s={s} />
+          <ScenarioRow key={s.id} s={s} meta={null} aside={<LikelihoodBadge s={s} />}>
             <p className="pub-item-desc">{s.desc}</p>
-          </li>
+          </ScenarioRow>
         ))}
-      </ul>
+      </ScenarioList>
     </div>
   );
 }
