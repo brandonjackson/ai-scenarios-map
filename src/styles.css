@@ -602,24 +602,55 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 
 /* ---------- Maps ---------- */
 
-.axis-picker { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
-.axis-btn {
-  background: transparent;
+.map-controls { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.map-hint { margin-left: auto; font-size: 13px; color: var(--muted); white-space: nowrap; }
+
+/* A pill holding a small label and a native select: compact, and the
+   phone's own picker handles the options. */
+.map-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  padding-left: 14px;
   border: 1px solid var(--border-strong);
   border-radius: 999px;
-  color: var(--text);
-  padding: 9px 20px;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  font-size: 12px;
+  color: var(--faint);
+  transition: border-color 0.15s;
 }
-.axis-btn:hover { border-color: var(--blush); color: var(--text-strong); }
-.axis-btn.active { background: var(--blush); border-color: var(--blush); color: var(--bg); font-weight: 600; }
-
-.map-controls { display: flex; gap: 8px 12px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
-.map-hint { font-size: 13px; color: var(--muted); }
+.map-select:hover, .map-select:focus-within { border-color: var(--blush); }
+.map-select > span { flex: none; }
+.map-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 0;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  background: transparent;
+  border: none;
+  color: var(--text-strong);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 30px 7px 0;
+  cursor: pointer;
+}
+.map-select select:focus { outline: none; }
+.map-select select option { background: var(--bg); color: var(--text-strong); }
+.map-select::after {
+  content: "";
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  margin-top: -5px;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
 
 .map-chart {
   position: relative;
@@ -661,6 +692,48 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--text-strong); }
 .map-tip-meta { font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 10px; }
 .map-tip-desc { font-size: 13.5px; line-height: 1.45; color: var(--text); margin-bottom: 12px; }
 .map-tip-link { display: inline-block; margin-top: 12px; font-size: 13.5px; font-weight: 600; }
+
+/* Narrow screens: the detail card docks to the bottom of the viewport. */
+.map-tip.map-sheet {
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+  border-width: 1px 0 0;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.6);
+  animation: sheet-in 0.18s ease-out;
+}
+.map-sheet .map-tip-title { padding-right: 36px; }
+.map-sheet-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text-strong);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.map-sheet .map-tip-link { padding: 8px 0; }
+@keyframes sheet-in { from { transform: translateY(100%); } }
+@media (prefers-reduced-motion: reduce) { .map-tip.map-sheet { animation: none; } }
+
+@media (max-width: 720px) {
+  .map-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .map-select-axes { grid-column: 1 / -1; }
+  .map-select select { flex: 1; width: 100%; font-size: 13.5px; }
+  .map-hint { display: none; }
+  .map-chart { height: clamp(420px, 62vh, 620px); }
+}
 
 .map-legend {
   display: flex;
