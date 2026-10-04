@@ -14,7 +14,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Policy stance** | off |
 | **Likelihood** | possible — Needs near-total automation of cognitive work within four years. |
 
-A completely transformed economy: GDP 32% above baseline by 2030, but the labour share falls from 60% to 45% and unemployment among knowledge workers reaches historic levels.
+AI performs almost half of today's cognitive work by 2030 and growth reaches 15% a year. GDP is 32% above baseline, but the labour share falls from 60% to 45%, cognitive wages fall and unemployment reaches 11.9% (17.9% for cognitive workers), above any post-war US peak.
 
 ## Map position
 
@@ -27,12 +27,13 @@ A completely transformed economy: GDP 32% above baseline by 2030, but the labour
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Cognitive wages fall and 17.9% of cognitive workers are unemployed, while other workers' wages rise by a third. |
+| Affordable essentials | 2 | Output soars, but displaced knowledge workers lose the income to share in it. |
+| Reliable safety net | 2 | Unemployment passes any post-war peak, and compensating losers would need transfers of about 9% of GDP that have no precedent. |
+| Responsive government | 2 | Fifteen per cent of GDP moves from wages to capital income, concentrating economic power. |
+| Time for what matters | 2 | Lost work brings insecurity rather than free time. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

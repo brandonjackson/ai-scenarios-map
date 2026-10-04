@@ -7,7 +7,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | | |
 | --- | --- |
 | **Author** | Toloui |
-| **Published** | 2025 |
+| **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC |

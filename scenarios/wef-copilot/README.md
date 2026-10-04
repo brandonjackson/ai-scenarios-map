@@ -12,9 +12,9 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Source** | <https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | on |
-| **Likelihood** | plausible — Matches how many firms use AI today; it depends on training investment that is only partly in place. |
+| **Likelihood** | possible — Its human-led, gradual use of AI matches many firms today, but it starts from an AI bubble bursting in the mid-2020s, which has not happened. |
 
-AI improves gradually and skills keep pace. Firms embed AI in human-led workflows rather than automating wholesale, and early investment in training, infrastructure and responsible AI preserves job stability.
+The AI bubble bursts in the mid-2020s and progress turns gradual, while skills keep pace. Firms embed AI in human-led workflows rather than automating wholesale; early investment in training, infrastructure and AI governance lifts productivity growth without an automation shock.
 
 ## Map position
 
@@ -27,17 +27,19 @@ AI improves gradually and skills keep pace. Firms embed AI in human-led workflow
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 4 | Human–AI teams augment work and skills keep pace, though job quality varies with who leads the AI. |
+| Affordable essentials | 3 | Inflation stabilises somewhat, but essentials are not otherwise transformed. |
+| Reliable safety net | 3 | Job churn rises but is absorbed through reskilling and mobility. |
+| Responsive government | 3 | Rules multiply and diverge, and misinformation pushes trust towards curated sources. |
+| Time for what matters | 3 | Remote and flexible work open opportunities, without a broader change in time for what matters. |
 
 ## Policies from the atlas
 
 - **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Early investment in employee development keeps skills in step with AI
 - **AI Infrastructural Investments** (`ai-infrastructural-investments`): Early commitments to technological infrastructure enable adoption
+- **AI Literacy Training** (`ai-literacy`): AI literacy initiatives make AI skills as common as digital literacy was in the early 2020s
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

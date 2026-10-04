@@ -27,12 +27,13 @@ AI has roughly the impact the internet did. US GDP is 1.6% above a no-AI baselin
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 3 | Cognitive employment dips 0.5% and unemployment rises a tenth of a point, within normal churn. |
+| Affordable essentials | 3 | Gains are internet-sized and gradual, so the cost of essentials is broadly unchanged. |
+| Reliable safety net | 3 | Small labour-market effects stay well within existing capacity. |
+| Responsive government | 3 | The labour share slips only slightly, so the balance of power is unchanged. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

@@ -27,11 +27,11 @@ After AI automates white-collar work in 2027–28, an international deal with fu
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Most white-collar professions are disrupted by 2028, and the scenario says little about those displaced. |
+| Affordable essentials | 3 | The scenario does not address the cost of essentials. |
+| Reliable safety net | 3 | No income-support mechanism is described, though the slowdown gives institutions time to adapt. |
+| Responsive government | 3 | An international deal restores some collective control, but power still sits with a president and a few tech CEOs. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Policies from the atlas
 
@@ -40,4 +40,5 @@ After AI automates white-collar work in 2027–28, an international deal with fu
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

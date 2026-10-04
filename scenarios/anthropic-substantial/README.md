@@ -14,7 +14,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Policy stance** | off |
 | **Likelihood** | plausible — Coding and agent capability trends put half of knowledge work within reach by 2030 if adoption speeds up. |
 
-AI can do half of all knowledge work by 2030. GDP is 8.3% above baseline, the labour share falls about four points to capital, knowledge workers' wages go flat while other workers gain, and unemployment is elevated but historically normal.
+AI could do half of all knowledge work by 2030 but is used for only about a fifth of it. GDP is 8.3% above a no-AI baseline, the labour share falls about four points to capital, cognitive wages go flat while other workers gain, and cognitive unemployment rises by half to 4.5%.
 
 ## Map position
 
@@ -27,12 +27,13 @@ AI can do half of all knowledge work by 2030. GDP is 8.3% above baseline, the la
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 3 | Cognitive wages go flat and cognitive unemployment rises to 4.5%, but other workers' wages rise about 6%. |
+| Affordable essentials | 3 | GDP is 8% higher, but nothing specific changes the cost of essentials. |
+| Reliable safety net | 3 | Reallocation is costly but of a size the US labour market has absorbed before. |
+| Responsive government | 3 | About four points of income shift from labour to capital, a real but manageable change. |
+| Time for what matters | 3 | No particular change to time for what matters. |
 
 ## Files
 
-- (none yet)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

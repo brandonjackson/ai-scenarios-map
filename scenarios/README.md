@@ -23,7 +23,7 @@ Each source was read (full text where accessible) and summarised under the five 
 - **Tensions and weak points**, including mismatches between the source and how the map describes it.
 - **Scoring notes** comparing the draft scores with the text.
 
-Sources that couldn't be read directly are marked in their folder: the IMF article (Korinek; read via Korinek & Suh, NBER w32255), the TBI report (read via press coverage), and CFG (read via an AI summary of the page). The Windfall Trust Radar scenarios have no public source yet.
+Sources that couldn't be read directly are marked in their folder: the IMF article (Korinek; read via Korinek & Suh, NBER w32255), the TBI report (read via press coverage), and CFG (read via an AI summary of the page). The Windfall Trust Radar scenarios have no public source yet. Of the 2026 additions, GO-Science was read from the GOV.UK HTML report, the Anthropic Institute and WEF scenarios from their full PDFs, and AI 2040 from its website.
 
 ## Index
 
@@ -69,6 +69,19 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Lost Generation (Windfall) | Off: policy can't see the problem | [summary](wf-lost-generation/summary.md) | [analysis](wf-lost-generation/analysis.md) |
 | High Substitution (Windfall) | Off | [summary](wf-high-substitution/summary.md) | [analysis](wf-high-substitution/analysis.md) |
 | Disempowered Abundance (Windfall) | Partly on: material redistribution without political redistribution | [summary](wf-disempowered-abundance/summary.md) | [analysis](wf-disempowered-abundance/analysis.md) |
+| Slow Burn (GO-Science) | Off by design | [summary](gos-slow-burn/summary.md) | [analysis](gos-slow-burn/analysis.md) |
+| Open Frontier (GO-Science) | Off by design | [summary](gos-open-frontier/summary.md) | [analysis](gos-open-frontier/analysis.md) |
+| Augmented Growth (GO-Science) | Off by design | [summary](gos-augmented-growth/summary.md) | [analysis](gos-augmented-growth/analysis.md) |
+| Transformation Economy (GO-Science) | Off by design | [summary](gos-transformation-economy/summary.md) | [analysis](gos-transformation-economy/analysis.md) |
+| Take-Off (GO-Science) | Off by design | [summary](gos-take-off/summary.md) | [analysis](gos-take-off/analysis.md) |
+| Modest (Anthropic Institute) | Off: policy left out of the model | [summary](anthropic-modest/summary.md) | [analysis](anthropic-modest/analysis.md) |
+| Substantial (Anthropic Institute) | Off: policy left out of the model | [summary](anthropic-substantial/summary.md) | [analysis](anthropic-substantial/analysis.md) |
+| Extreme (Anthropic Institute) | Off: sizes the transfers needed (~9% of GDP) | [summary](anthropic-extreme/summary.md) | [analysis](anthropic-extreme/analysis.md) |
+| Supercharged Progress (WEF) | Mostly off: safety nets lag | [summary](wef-supercharged/summary.md) | [analysis](wef-supercharged/analysis.md) |
+| Age of Displacement (WEF) | Off, or overwhelmed | [summary](wef-displacement/summary.md) | [analysis](wef-displacement/analysis.md) |
+| Co-Pilot Economy (WEF) | On: early investment in skills and infrastructure | [summary](wef-copilot/summary.md) | [analysis](wef-copilot/analysis.md) |
+| Stalled Progress (WEF) | Off in effect: no fiscal space | [summary](wef-stalled/summary.md) | [analysis](wef-stalled/analysis.md) |
+| AI 2040: Plan A (AI Futures Project) | Strongly on: verified US–China slowdown | [summary](ai-2040-plan-a/summary.md) | [analysis](ai-2040-plan-a/analysis.md) |
 
 ## Fork scenarios
 
