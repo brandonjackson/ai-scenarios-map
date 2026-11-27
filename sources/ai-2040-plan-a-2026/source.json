@@ -1,0 +1,35 @@
+{
+  "slug": "ai-2040-plan-a-2026",
+  "title": "AI 2040: Plan A",
+  "authors": [
+    "Thomas Larsen",
+    "Romeo Dean",
+    "Brendan Halstead",
+    "Eli Lifland",
+    "Ryan Greenblatt",
+    "Daniel Kokotajlo"
+  ],
+  "publisher": "AI Futures Project",
+  "date": "2026-07-09",
+  "url": "https://ai-2040.com/",
+  "archive_url": "https://web.archive.org/web/20261124134819/https://ai-2040.com/",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "unknown",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "ai-2040-plan-a"
+  ],
+  "related": [
+    {
+      "title": "Economics of Plan A",
+      "authors": [
+        "Romeo Dean",
+        "Thomas Larsen"
+      ],
+      "url": "https://ai-2040.com/supplements/economics-of-plan-a",
+      "note": "Companion analysis of the economic assumptions and model outputs"
+    }
+  ]
+}

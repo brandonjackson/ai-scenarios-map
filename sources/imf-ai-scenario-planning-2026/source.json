@@ -25,7 +25,7 @@
   "format": "pdf",
   "licence": "© 2026 International Monetary Fund",
   "fulltext": "private",
-  "read": "full (30-page PDF)",
+  "read": "full (30-page PDF, including visual review of Figures 1–6)",
   "scenarios": [
     "imf-baseline",
     "imf-runaway"

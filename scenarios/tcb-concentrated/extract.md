@@ -5,8 +5,8 @@ AI “delivers significant productivity and employment gains, but those gains ar
 
 ## Key details
 - **Source:** *AI & the Labor Force: Scenarios for Stakeholders*, no named authors, The Conference Board (Solutions Brief, Policy Watch series), 15 September 2026. `sources/conference-board-ai-labor-force-2026/`
-- **Other sources for this scenario:** The Conference Board press release “AI Could Reshape the US Workforce in 4 Very Different Ways” restates the four scenarios (listed in `source.json`; not read for this extract).
-- **Reading notes:** Full text of the report as published on the HTML publication page (`private/fulltext.txt`); cookie, navigation, sign-in and registration text skipped; the downloadable PDF was not used. No page numbers: claims are cited by section heading, with the report's inline endnote number where one is given (`n. 36`). Figures 1–3 are images: only their captions, notes and source lines are in the text, no data values. The endnote list in the text file is unnumbered; numbers were matched by order (80 entries). The press release, the companion chart/infographic and the webcast were not read.
+- **Other sources for this scenario:** The Conference Board press release “AI Could Reshape the US Workforce in 4 Very Different Ways” restates the four scenarios and the shared recommendations (press release, 15 September 2026).
+- **Reading notes:** Full publisher PDF (pp. 1–20, including endnotes), HTML report, and press release checked. The report’s figures were read visually from the PDF. Figure readings are approximate where there are no numeric data labels. Report claims are cited by section, endnote number or page.
 - **Scenario set:** Four scenarios in one framework: **Gradual augmentation**, **Concentrated gains**, **Significant displacement** and **Uneven disruption** (“Impact Scenarios” section). The report names no axes or drivers; each is defined in one line: “Gradual augmentation: AI primarily aids rather than replaces workers and impacts are slow to materialize.” / “Concentrated gains: AI has relatively modest employment impacts overall but leads to significant productivity gains for a limited subset of industries and occupations.” / “Significant displacement: AI leads to significant job loss across a broad range of occupations.” / “Uneven disruption: AI leads to significant displacement but in a limited subset of occupations.” (“Impact Scenarios” section). *[Inference: the four differ mainly in the size and breadth of job loss and in how concentrated the gains are.]* The report ranks severity only in places: Uneven disruption is “a less severe—though still disruptive—scenario” than Significant displacement (“Uneven disruption” section), and the policy section groups “scenarios with modest negative employment impacts” apart from “more significant impacts—such as the concentrated gains and uneven disruption scenarios” (“UI and public benefits” section).
 - **Geography:** United States. A few data points are global: more than 1.2 billion people have used an AI tool (“Adoption trends”, n. 8); 25% of global employment is exposed to AI (“Significant displacement” section, n. 47).
 - **Authors' framing:** Planning scenarios for stakeholders (policymakers, educators, CEOs), paired with recommendations. “Given the stakes, it is important to consider several possible scenarios and consider their potential implications for policymakers, educators, and employers.” (“Introduction”). “While the labor market effects of AI are uncertain, waiting to take action until the outlook is clear could leave policymakers and CEOs ill-prepared to respond to quickly changing conditions.” (“Recommendations”). “Despite widespread concerns about largescale disruptions, the evidence to date supports neither complacency nor alarm.” (“Conclusion”).
@@ -15,7 +15,7 @@ AI “delivers significant productivity and employment gains, but those gains ar
 ### Timeline
 No horizon year for the scenario.
 - 2021–2025 — Phoenix, with a concentration of call-centre and back-office jobs, shed nearly 24,000 customer service jobs (“Concentrated gains”)
-- 2024 — Conference Board AI & Automation Risk Index (O*NET data): about 48% of STEM tasks highly exposed vs 23% in manual trades and production (“Concentrated gains”, n. 44; Figure 3 dated 2026, no values in text)
+- 2024 — Conference Board AI & Automation Risk Index (O*NET data): about 48% of STEM tasks highly exposed vs 23% in manual trades and production (“Concentrated gains”, n. 44; Figure 3 dated 2026, see the visual readings in Key figures)
 
 **Applies across the set (no horizon year is given for the set; background dates in order):**
 - 1987 — Robert Solow: “You can see the computer age everywhere but in the productivity statistics.” (“Introduction”, n. 1)
@@ -92,7 +92,7 @@ No horizon year for the scenario.
 - Capture of gains, investment and job growth depends on being “positioned” for AI adoption (“Concentrated gains”).
 
 **Applies across the set:**
-- “By some estimates, AI is the quickest-adopted general-purpose technology in human history”, with more than 1.2 billion users (“Adoption trends”, n. 8; Figure 1 compares AI from 2022 with the PC from 1981 and the internet from 1995, no values in text).
+- “By some estimates, AI is the quickest-adopted general-purpose technology in human history”, with more than 1.2 billion users (“Adoption trends”, n. 8; Figure 1 compares AI from 2022 with the PC from 1981 and the internet from 1995, see the visual readings in Key figures).
 - About 18% of US firms and 41% of US workers reported using AI through end-2025, more at larger firms and in professional services (including scientific and technical services), finance and insurance (“Adoption trends”, n. 9). A mid-2026 survey: 47% of US employees say their organisation has adopted AI (“Adoption trends”, n. 10).
 - Higher adoption among younger workers, those with more education and higher earners (“Adoption trends”, n. 11).
 - Regional readiness varies: about one-third of US metro areas are in the top tier of AI preparedness (talent, innovation infrastructure, adoption) (“Adoption trends”, n. 12).
@@ -126,7 +126,7 @@ AI “delivers significant productivity and employment gains”, concentrated in
 - Wages: trades' wage gains have lagged those of college-educated workers “in recent decades” (background) (“Concentrated gains”).
 
 **Applies across the set (evidence the report reviews):**
-- Net labour-market effect so far “appears, at least so far, to be muted”; analyses through early 2026 find no link between AI exposure and job vacancies and no evidence of lower aggregate labour demand (“Employment Impacts”, n. 24–25; Figure 2, no values in text).
+- Net labour-market effect so far “appears, at least so far, to be muted”; analyses through early 2026 find no link between AI exposure and job vacancies and no evidence of lower aggregate labour demand (“Employment Impacts”, n. 24–25; Figure 2, see the visual readings in Key figures).
 - 2023 survey: more than half of employees used AI at work; 4% expected it to replace their job (“Employment Impacts”, n. 26).
 - No significant negative wage effects found so far in AI-exposed occupations; possible wage gains for lower-skilled workers (“Employment Impacts”, n. 28–29).
 - Data through 2023: tasks exposed to AI saw reduced labour demand, with modest overall employment effects (“Employment Impacts”, n. 30).
@@ -252,6 +252,10 @@ Society: these trends “have the potential to significantly remake society” (
 | *Across set:* community-college enrollment response | ~2% | rise in first-time enrollment per 1 pp local unemployment | — | “Education and training”, n. 73 |
 | *Across set:* federal receipts, first year of Great Recession | −~17% (individual income tax −20%) | change | 2009 fiscal year | “Fiscal impacts”, n. 79 |
 | *Across set:* pandemic UI benefits, first year | ~$800 billion | US$ | 2020–21 | “Fiscal impacts” (marked n. 70) |
+| *Applies across the set:* AI adoption by year after mass-market introduction | ~45% in year 3, ~58% in year 5 | visually estimated share on the adoption chart | start 2022 | Fig. 1, p. 5 |
+| *Applies across the set:* internet and PC adoption in year 5 | ~35% internet, ~22% PC | visually estimated shares for comparison with AI | internet start 1995, PC start 1981 | Fig. 1, p. 5 |
+| *Applies across the set:* unemployment in AI-exposed and synthetic unexposed occupations | exposed series has lower log unemployment throughout the plotted observations. Both rise around 2009–10 and generally decline thereafter, with a gap in the plotted series around 2020 | quarterly log rate | Q1 2005–Q1 2026 | Fig. 2, p. 7 |
+| Productivity and replacement by occupation group | management is near the 90th productivity and 37th replacement percentiles. Computer and mathematics is near the 86th and 64th. Office and administrative support is near the 42nd and 88th. Health care support is near the 24th and 53rd | approximate percentile pairs (productivity, replacement). Bubble sizes represent current employment | 2026 | Fig. 3, p. 10 |
 
 ## Key quotes
 | Quote (verbatim) | Topic | Locator |
