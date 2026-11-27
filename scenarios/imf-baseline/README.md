@@ -6,7 +6,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 
 | | |
 | --- | --- |
-| **Author** | IMF (with EconTAI, University of Virginia) |
+| **Author** | Tamirisa et al. (IMF) |
 | **Published** | 2026-04-03 |
 | **Type** | framework — IMF — AI Scenario Planning Exercise |
 | **Source** | <https://www.imf.org/en/publications/imf-notes/issues/2026/04/03/global-economic-and-financial-implications-of-artificial-intelligence-lessons-from-a-574924> |
@@ -14,7 +14,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Policy stance** | off |
 | **Likelihood** | plausible — Uneven, friction-bound adoption describes today, and the OECD sees no broad displacement yet; it needs those frictions to hold into the 2030s. |
 
-AI can do a wide range of tasks by the early 2030s, but regulation, job protection, licensing rules and infrastructure bottlenecks keep adoption slow and uneven. Growth gains are weak and lopsided across industries, and a 2027 correction hits debt-funded AI firms when returns disappoint.
+AI can do a wide range of tasks by the early 2030s, but regulation, job protection, licensing rules and infrastructure bottlenecks keep adoption slow and uneven. Older workers keep their jobs but younger ones face higher displacement risk and discouraged workers drop out. Growth gains are weak and lopsided across industries, and a 2027 correction hits debt-funded AI firms when returns disappoint.
 
 ## Map position
 
@@ -27,7 +27,7 @@ AI can do a wide range of tasks by the early 2030s, but regulation, job protecti
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Strong job protection and licensing rules keep AI from displacing many workers. |
+| Hard work pays | 2 | Older workers are protected by licensing and unions, but younger workers face higher displacement risk and discouraged workers leave the labour force. |
 | Affordable essentials | 3 | Growth gains are weak and uneven, so the cost of essentials does not fall. |
 | Reliable safety net | 3 | With little displacement, existing safety nets and tax bases hold. |
 | Responsive government | 3 | Governments regulate firmly and adopt AI cautiously; a 2027 market correction is the main shock. |
@@ -35,5 +35,6 @@ AI can do a wide range of tasks by the early 2030s, but regulation, job protecti
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

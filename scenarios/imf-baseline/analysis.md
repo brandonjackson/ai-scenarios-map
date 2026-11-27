@@ -14,9 +14,10 @@
 - AI investment runs ahead of measurable returns.
 
 ## Tensions and weak points
-- The note says almost nothing about wages, prices or inequality in this scenario, so its map position leans on the shape of the story rather than numbers.
+- An earlier version of this entry (built from a model summary, not the full text) put the young-worker displacement in the runaway scenario; p. 14 places it in the baseline.
+- The note says little about wages, prices or inequality in this scenario, so its map position leans on the shape of the story rather than numbers.
 - The 2027 correction is written in the past tense in a note dated April 2026, a sign that the scenario was written as a narrative from a future vantage point.
 - Close to `gos-slow-burn` and `dsit-steady`, and to `normal-tech`'s slow-diffusion argument, but from a fiscal and financial-stability angle.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3: manageable disruption within existing capacity on every promise, because the source describes no concentrated harm and no broad gain.
+Draft scores are 2/3/3/3/3. Work is 2 because the source names a group that loses out: younger, less-experienced workers face higher displacement risk while older workers are protected, and discouraged workers leave the labour force (p. 14). The rest are 3: manageable disruption within existing capacity.

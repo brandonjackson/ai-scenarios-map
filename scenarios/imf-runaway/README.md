@@ -6,7 +6,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 
 | | |
 | --- | --- |
-| **Author** | IMF (with EconTAI, University of Virginia) |
+| **Author** | Tamirisa et al. (IMF) |
 | **Published** | 2026-04-03 |
 | **Type** | framework — IMF — AI Scenario Planning Exercise |
 | **Source** | <https://www.imf.org/en/publications/imf-notes/issues/2026/04/03/global-economic-and-financial-implications-of-artificial-intelligence-lessons-from-a-574924> |
@@ -14,7 +14,7 @@ goals/social-contract/scores.csv. Edit those, then re-run
 | **Policy stance** | off |
 | **Likelihood** | possible — Needs capability to keep climbing and adoption to outrun regulation and organisational friction, which it has not so far. |
 
-Lightly regulated AI agents and robots spread across services and industry and humans become optional in much of the economy. Displacement comes early and hits the young hardest, a few firms with the most data and compute capture the gains, and labour tax bases erode as demand for social spending rises.
+Lightly regulated AI agents and robots spread across services and industry and humans become optional in much of the economy. Routine cognitive and physical jobs are displaced early and widely, a few firms with the most data and compute capture the gains, and labour tax bases erode as demand for social spending rises.
 
 ## Map position
 
@@ -27,7 +27,7 @@ Lightly regulated AI agents and robots spread across services and industry and h
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Early, broad displacement hits young and less-experienced workers hardest while capital owners take the gains. |
+| Hard work pays | 2 | Routine cognitive and physical jobs are displaced early and widely while capital owners take the gains. |
 | Affordable essentials | 3 | Automation expands supply but displaced households cut demand; the net effect on prices is unclear. |
 | Reliable safety net | 2 | Labour tax bases erode just as social-spending needs rise, straining employment-linked social insurance. |
 | Responsive government | 2 | A few firms dominate data and compute and gains pool in metro hubs, with minimal regulation. |
@@ -35,5 +35,6 @@ Lightly regulated AI agents and robots spread across services and industry and h
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

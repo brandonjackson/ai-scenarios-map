@@ -20,4 +20,4 @@
 - Development pathways for poorer countries erode, a theme the map otherwise covers lightly.
 
 ## Scoring notes
-Draft scores are 2/3/2/2/3. Work, safety net and government are 2 because the source names specific losers (young workers, labour-taxed public finances, regions outside AI hubs). Essentials and time are 3 because the source is ambiguous or silent.
+Draft scores are 2/3/2/2/3. Work, safety net and government are 2 because the source names specific losers (routine workers, labour-taxed public finances, regions outside AI hubs). Essentials and time are 3 because the source is ambiguous or silent.
