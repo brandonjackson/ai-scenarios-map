@@ -22,4 +22,4 @@
 - Labour impact is backdrop: the extract gives no unemployment rate or wage figures, and no GDP growth rate.
 
 ## Scoring notes
-Scores are 1/1/1/1/1, unchanged. The worst-off group is everyone: poverty ends and a luxurious basic income is paid, but both depend on a system that captures political institutions by 2029 and ends human civilisation in 2030. Under the worst-off rule no promise scores above 1. Compare 1/4/4/2/3 for the Slowdown ending.
+Scores are 1/1/1/1/1, all stated and unchanged. The worst-off group is everyone: poverty ends and a luxurious basic income is paid, but both depend on a system that captures political institutions by 2029 and ends human civilisation in 2030. Under the worst-off rule no promise scores above 1. Compare 1/4/4/2/3 for the Slowdown ending.

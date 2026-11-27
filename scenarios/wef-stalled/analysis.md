@@ -21,4 +21,4 @@
 - On the map it now sits lower on public finances, because the extract stresses exhausted fiscal space. Neighbours are `tcb-concentrated`, `acemoglu`, `chiang` and `wf-lost-generation` on early-career jobs.
 
 ## Scoring notes
-Draft scores are 2/2/2/2/3. Work is 2: early-career and administrative routes close and displaced workers move into less protected jobs. Essentials is 2: rising living costs meet eroding wages and weak benefits. Safety net is 2: nets erode and reforms stall for lack of money. Government is 2: polarisation and falling trust. Time is 3 because the extract does not address it.
+Draft scores are 2/2/2/2/–. Work is 2: early-career and administrative routes close and displaced workers move into less protected jobs. Essentials is 2: rising living costs meet eroding wages and weak benefits. Safety net is 2: nets erode and reforms stall for lack of money. Government is 2: polarisation and falling trust. Time is not addressed. All four map coordinates rest on stated material.

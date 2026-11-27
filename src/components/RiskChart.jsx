@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { scaleLabel } from "../lib/goals.js";
+import { scaleLabel, isScored } from "../lib/goals.js";
 import { scoreColor } from "./Assessment.jsx";
 
 // Diverging stacked bar (Likert-style) per criterion: scores below the
@@ -15,9 +15,10 @@ export default function RiskChart({ goal, assessments }) {
       const byValue = Object.fromEntries(values.map((v) => [v, []]));
       for (const { title, a } of assessments) {
         const s = a.scores[c.id];
-        if (s && byValue[s.score]) byValue[s.score].push(title);
+        if (isScored(s) && byValue[s.score]) byValue[s.score].push(title);
       }
-      const n = assessments.filter(({ a }) => a.scores[c.id]).length || 1;
+      // Only scenarios that address the criterion count towards its shares.
+      const n = assessments.filter(({ a }) => isScored(a.scores[c.id])).length || 1;
       const share = (v) => byValue[v].length / n;
       const half = (v) => (v === mid ? share(v) / 2 : share(v));
       return {

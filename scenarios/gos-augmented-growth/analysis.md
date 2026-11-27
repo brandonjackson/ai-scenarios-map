@@ -18,9 +18,9 @@
 ## Tensions and weak points
 - It takes the favourable outcome on most uncertainties at once, which makes it the least robust of the five.
 - Several US firms lead and fast-adopting nations and firms pull ahead, yet workers in exposed jobs gain wages. Within a country it reads as mildly diffuse, so it moves from x 0.15 (tagged concentrated) to x 0.3, beside `korinek-aug` and `wef-copilot`.
-- Government finances are not addressed; the strong fiscal placement (y 0.5) is inferred from the growth boom.
+- Government finances are not addressed, here or in the full report; the strong fiscal placement (y 0.5) is inferred from a boom with stable unemployment and rising real wages, which widens the labour tax base without adding to benefit claims.
 - The extract labels the stance mixed while the catalogue says policy is excluded; see above.
 - The authors flag that augmentation may be temporary, so this could be an early stage of Transformation Economy.
 
 ## Scoring notes
-Draft scores are 4/4/3/4/3. Work is 4 for stable unemployment, new jobs and 2000s-level real-wage growth, held below 5 because low-variety roles are displaced and some lower-skilled work gets worse. Essentials is 4 for better healthcare through public services. The safety net is 3: not addressed and not tested. Government is 4 on indirect evidence (better public services, reasonably high trust, allied safety standards), although the extract's social-contract section does not address it. Time is 3: not addressed, with deskilling as the only signal.
+Draft scores are 4/4/3*/4*/–. Work is 4 for stable unemployment, new jobs and 2000s-level real-wage growth, held below 5 because low-variety roles are displaced and some lower-skilled work gets worse. Essentials is 4 for better healthcare through public services. The safety net is 3*, inferred from stable unemployment: existing support is not tested. Government is 4*, inferred from AI-transformed public services, reasonably high public trust and allied safety standards, although the extract's social-contract section does not address it. Time is not addressed; deskilling bears on work, not on time.

@@ -19,8 +19,8 @@
 - **The bust has not happened.** As of late 2026, investment and capability are still rising. The human-led, task-level use of AI matches many firms today, but the starting assumption does not, hence Possible.
 - Who pays for the training is unclear: the extract describes redesigned education and industry training but does not say how much is public.
 - It is the benign scenario, yet wage polarisation still rises in Table 1 and the excluded fall further behind. That is why it sits closer to the centre than before on distribution and jobs.
-- Government finances are not addressed; the fiscal placement leans on growth breaking out of stagnation.
+- Government finances are not addressed; the fiscal placement is inferred from growth breaking out of stagnation with unemployment flat, so the point is drawn hollow.
 - Neighbours are `tcb-augmentation`, `korinek-aug`, `cfg-plateau` and `normal-tech`, all slower, augmenting paths.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3. Work drops from 4 to 3: most workers gain from mobility and augmentation, but scoring for the worst-off means weighing the groups the extract says are excluded and the jobs whose quality worsens. Essentials, safety net and time are 3 because the extract does not address them. Government is 3: diverging rules and disinformation are offset by people staying in key decisions and trust moving to verified sources.
+Draft scores are 3/–/3*/3/–. Work drops from 4 to 3: most workers gain from mobility and augmentation, but scoring for the worst-off means weighing the groups the extract says are excluded and the jobs whose quality worsens. Essentials is not addressed; easing inflation says nothing about housing, food, energy or care. Safety net is 3, inferred: churn rises but unemployment is flat in the illustrative table, so the load stays within existing capacity. Government is 3: diverging rules and disinformation are offset by people staying in key decisions and trust moving to verified sources. Time is not addressed. On the map, `y_fiscal` is inferred from productivity growth breaking prolonged weak GDP growth with unemployment flat.

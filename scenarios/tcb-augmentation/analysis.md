@@ -18,4 +18,4 @@
 - US-only.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3. Work stays at 3 rather than 4 because gains for experienced workers are offset by losses for beginners.
+Draft scores are 3/–/3*/–/–. Work stays at 3 rather than 4 because gains for experienced workers are offset by losses for beginners. Safety net is 3, inferred: employment effects are minimal or slow, and the report says modest job losses would look like an ordinary recession that existing systems can handle. Essentials, government and time are not addressed (the clinicians' reduced after-hours notes are too narrow to score time), so only two promises are scored, short of the three a headline rating needs. On the map, `x_labor` is inferred from AI becoming a standard tool for most employees, and `y_fiscal` from the report's case that higher productivity with preserved employment keeps revenue neutral to positive.

@@ -30,9 +30,9 @@ AI can do most tasks a remote worker could, but humans stay in the loop. Many ne
 | --- | --- | --- |
 | Hard work pays | 4 | Augmentation dominates, unemployment stays stable, new jobs appear and real wages grow at 2000s rates, though low-variety roles are displaced and some lower-skilled work becomes less rewarding. |
 | Affordable essentials | 4 | Transformed public services improve healthcare access and outcomes through AI-supported care, treatments and diagnostics. |
-| Reliable safety net | 3 | Not addressed; stable unemployment means existing support is not tested. |
-| Responsive government | 4 | Not addressed directly, but public trust is reasonably high given improved public services and allies agree shared safety standards. |
-| Time for what matters | 3 | Not addressed; the only signal is deskilling that leaves some workers dependent on AI. |
+| Reliable safety net | 3 | Most firms use AI to raise output and overall unemployment stays stable, so existing support is not tested. |
+| Responsive government | 4 | AI-transformed public services keep public trust reasonably high and allies agree shared safety standards after serious incidents, implying collective problems are being solved. |
+| Time for what matters |  | Not addressed: the extract's only related signal is deskilling that leaves some workers dependent on AI, which bears on work, not time. |
 
 ## Files
 

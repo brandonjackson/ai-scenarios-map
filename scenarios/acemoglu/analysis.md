@@ -17,8 +17,8 @@
 ## Tensions and weak points
 - The estimates rest on 2023–24 evidence and are framed as upper bounds conditional on the model. If capability has grown faster since, as `shumer` and `citrini` argue, they understate the effect; the framework also cannot show sudden cross-sector change.
 - The concentration is between capital and labour, not among firms: the paper does not analyse market concentration, beyond noting that tools concentrated in few suppliers can slow adoption by small firms.
-- The extract is silent on government finances. The weak negative `y_fiscal` (−0.1) is inferred from the shift of income from wages to capital.
+- The extract is silent on government finances, and a shift of income from wages to capital settles nothing about revenue without knowing how each is taxed, so the fiscal pair is left blank.
 - Its finding that complementarity need not narrow inequality directly challenges `turing-transform` and `autor`. Nearest on the map are `chiang`, `tcb-concentrated` and `wef-stalled`.
 
 ## Scoring notes
-Draft scores are 2/3/3/3/3, rated 2 (the mean of 2.6 is floored). Work is 2 because the extract names a group that loses: some low-education women see real wage declines while the capital share rises. The other four are 3 because the extract's social-contract sections say `Not addressed.` and its economic results (small growth effects, manipulation counted in GDP) are too modest to move them.
+Draft scores are 2/3*/–/–/–, too few for a headline rating. Work is 2, stated: some low-education women see real wage declines while the capital share rises. Essentials is 3, inferred: GDP gains of about 1% over ten years are too small to move living costs either way. Safety net, government and time are not addressed: the extract's social-contract sections say `Not addressed.`, and manipulation and misinformation appear only as harms counted in GDP, not as political effects.

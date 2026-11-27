@@ -29,10 +29,10 @@ The AI bubble bursts in the mid-2020s and progress turns gradual, while skills k
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Mobility, reskilling and entrepreneurship expand, but churn rises, routine tasks are hollowed out and those without education, infrastructure or employer support are left behind. |
-| Affordable essentials | 3 | Not addressed; lower cost pressures stabilise inflation somewhat. |
-| Reliable safety net | 3 | Not addressed; churn rises but unemployment is flat in the illustrative table. |
+| Affordable essentials |  | Not addressed: the extract says lower cost pressures stabilise inflation somewhat, but nothing about housing, food, energy or care. |
+| Reliable safety net | 3 | Churn and displacement rise, but unemployment is flat in the illustrative table, so the load stays within existing capacity. |
 | Responsive government | 3 | Rules diverge and disinformation raises polarisation, but people stay in key decisions and trust shifts to verified sources. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: the extract says nothing about time outside work. |
 
 ## Policies from the atlas
 

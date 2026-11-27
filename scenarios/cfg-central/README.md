@@ -29,7 +29,7 @@ Fast capability growth controlled by a few dominant firms or states (CFG's Big A
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Routine white-collar work, entry-level software, paralegals and digital-media workers face substitution and rising unemployment while AI-skilled workers pull ahead. |
-| Affordable essentials | 2 | Chip prices rise with inference demand and in Silicon Blackmail Europe struggles to maintain digital infrastructure and services when US providers withdraw. |
+| Affordable essentials | 2 | Rising chip prices and, in Silicon Blackmail, a Europe struggling to maintain digital infrastructure and services when US providers withdraw put pressure on access to services. |
 | Reliable safety net | 2 | Automation-hit communities fall behind and Arms Race diverts public money to strategic projects, with only job-guarantee and levy pilots in the Agent Economy. |
 | Responsive government | 1 | Platforms lobby, lock in users and threaten to withdraw essential services, while Arms Race puts secrecy and war ahead of public voice. |
 | Time for what matters | 2 | Emotional dependency and social withdrawal among some young people, and workers withdrawing from careers out of uncertainty in Multipolar World. |

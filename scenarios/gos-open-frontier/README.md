@@ -22,17 +22,17 @@ Open- and closed-weight systems become similarly capable and China becomes the d
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.4 | 0.35 |
-| Public finances × job quality | -0.3 | 0 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Substitution causes significant layoffs among junior staff and some middle managers in exposed sectors, and most re-employment is at substantially lower pay. |
-| Affordable essentials | 3 | Not addressed; AI itself stays cheap but nothing changes the cost of essentials. |
-| Reliable safety net | 3 | Not addressed; displaced workers mostly find new work, so the cost lands as lower pay rather than as a test of benefits. |
+| Affordable essentials |  | Not addressed: AI itself stays cheap, but the extract says nothing on the cost of housing, food, energy or care. |
+| Reliable safety net | 3 | Displaced workers generally find new work, so the cost lands as lower pay rather than as a test of benefits. |
 | Responsive government | 2 | Western regulators have little influence over leading Chinese systems and AI-generated material contributes to international incidents. |
-| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on it. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on family, community or free time. |
 
 ## Files
 

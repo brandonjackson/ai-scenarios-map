@@ -20,4 +20,4 @@ Not addressed. The advice to stress-test taxation, fiscal sustainability and oth
 Not addressed.
 
 ## Bottom line
-The continuity case: AI as a normal productivity technology whose gains reach workers because human labour stays scarce. Every promise holds; work improves slowly.
+The continuity case: AI as a normal productivity technology whose gains reach workers because human labour stays scarce. Work improves slowly and the safety net is not tested; the article is silent on the other promises.

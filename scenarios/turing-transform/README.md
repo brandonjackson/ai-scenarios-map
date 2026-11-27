@@ -22,17 +22,17 @@ Task automation enhances jobs and reduces inequality by lowering the skill premi
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.45 | -0.5 |
-| Public finances × job quality | 0.5 | 0.2 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 4 | Automating a rare ancillary skill opens paid work to people previously shut out, and sector employment rises, though displaced specialists lose their premium. |
-| Affordable essentials | 3 | Not addressed; cheaper navigation and translation do not touch housing, food, energy or care. |
-| Reliable safety net | 3 | Not addressed. |
-| Responsive government | 3 | Not addressed; the only policy point is how to evaluate AI. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: cheaper navigation and translation are the only price effects, and nothing touches housing, food, energy or care. |
+| Reliable safety net |  | Not addressed: the model has no government sector and the extract says nothing on support for displaced specialists. |
+| Responsive government |  | Not addressed: the only policy point is how to evaluate AI. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Files
 

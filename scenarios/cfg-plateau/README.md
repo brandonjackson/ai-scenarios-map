@@ -22,7 +22,7 @@ AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.48 | -0.42 |
-| Public finances × job quality | 0.25 | 0.1 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
@@ -30,9 +30,9 @@ AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A
 | --- | --- | --- |
 | Hard work pays | 4 | Accountants, coders, game developers and creators work alongside specialised agents and the slow pace provides adjustment time; the only named losers are failed startups. |
 | Affordable essentials | 3 | AI diagnostics where regulators allow and cheap AI apps, with energy concerns eased by efficiency, leave the cost of essentials broadly unchanged. |
-| Reliable safety net | 3 | Not addressed; with no mass displacement in the extract the existing net is not tested. |
-| Responsive government | 3 | Not addressed directly; power stays dispersed as the arms-race framing recedes, and rising cybercrime is met by effective defences. |
-| Time for what matters | 3 | Not addressed; addictive digital companions are noted but nothing else bears on time. |
+| Reliable safety net | 3 | Slow progress and augmentation with time to adjust mean no mass displacement, so the existing net is not tested. |
+| Responsive government | 3 | Governments coordinate biosecurity through the OECD, pilot local models in public services and see essential services adopt effective cyber defences, while the arms-race framing recedes. |
+| Time for what matters |  | Not addressed: addictive digital companions are noted, but nothing bears on time for family, community or meaning. |
 
 ## Files
 

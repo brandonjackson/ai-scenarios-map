@@ -32,7 +32,7 @@ Steady AI progress meets persistent talent shortages. Gains are uneven and autom
 | Affordable essentials | 2 | Households face rising costs of living alongside eroding wages and weak benefits. |
 | Reliable safety net | 2 | Safety nets erode as informal work grows, and efforts to extend protection stall under exhausted budgets. |
 | Responsive government | 2 | Job insecurity and fading prospects heighten polarisation and weaken trust, while oversight capacity diverges. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: the extract says nothing about time outside work. |
 
 ## Files
 

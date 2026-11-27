@@ -14,7 +14,7 @@ Not addressed.
 Patchy. The report suggests targeted help, such as Trade Adjustment Assistance-style support or benefits extended by occupation or region, rather than a general expansion.
 
 ## Responsive government
-Strained by geography. Thirty of 195 US metro areas account for nearly 70% of AI-skill job postings, so gains and political voice concentrate in a few places.
+Not addressed. Thirty of 195 US metro areas account for nearly 70% of AI-skill job postings, but the report says nothing about what that means for political voice or government.
 
 ## Time for what matters
 Not addressed.

@@ -29,10 +29,10 @@ Fast-follower + labor-replacing. Rapid diffusion, commoditization. Massive displ
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Replacement at prevailing wages, falling entry-level employment and the precedent of decades of stagnant working-class wages. |
-| Affordable essentials | 3 | Not addressed: only the cost of AI falls, and the historical food-price cut came from Corn Law repeal, a policy response. |
-| Reliable safety net | 2 | Strong displacement meets supports built for short job losses; the larger supports are only recommended. |
-| Responsive government | 3 | Not addressed beyond the priority of maintaining social cohesion; no single actor captures the state. |
-| Time for what matters | 2 | The analogues show worsening health and deteriorating social indicators in displaced communities. |
+| Affordable essentials |  | Not addressed: only the cost of AI falls, and the historical food-price cut came from Corn Law repeal, a policy response. |
+| Reliable safety net | 2 | Strong displacement meets supports built for short job losses; the extract says larger supports would be needed with strong displacement but only recommends them. |
+| Responsive government |  | Not addressed: the extract says nothing about political voice in this quadrant beyond the priority of social cohesion. |
+| Time for what matters | 2 | The analogues show worsening health and deteriorating social indicators in displaced communities, implying less room for family and community life. |
 
 ## Files
 

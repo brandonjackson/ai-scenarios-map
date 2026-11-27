@@ -29,8 +29,8 @@ Capabilities improve more slowly than expected. A 2025 AI bust, disillusionment 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Most jobs remain untouched by unreliable AI, though people without AI skills or training miss out on its limited benefits. |
-| Affordable essentials | 3 | Not addressed; the extract only says stagnation is adverse for living standards. |
-| Reliable safety net | 3 | Not addressed; there is no mass displacement, and stagnation is adverse for public finances without specified benefit changes. |
+| Affordable essentials |  | Not addressed: the extract says stagnation is adverse for living standards but nothing about the cost of housing, food, energy or care. |
+| Reliable safety net | 3 | Unreliable AI leaves most jobs untouched, so there is no displacement to load the safety net, though stagnation is adverse for public finances. |
 | Responsive government | 3 | Misuse, bias and less scrutiny of unbranded AI are balanced by safety progress, growing international cooperation and public calls for regulation. |
 | Time for what matters | 2 | Less scrutiny of AI embedded in online services worsens online addiction and polarisation. |
 

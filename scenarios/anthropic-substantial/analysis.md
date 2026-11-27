@@ -20,8 +20,8 @@
 - The scenario is close to what the public expects, which makes it a useful anchor but not evidence of likelihood.
 - Capital takes about nine tenths of the added income (capital income up 18.9% on a 40% share, labour up 1.4% on 60%), so the map now puts it further towards concentrated gains (x −0.3, from −0.2).
 - The model leaves out demand feedback, financial disruption and robotics; the authors also say worker-level displacement costs are coarse, so outcomes for the worst-off are probably worse than modelled.
-- Government finances are not addressed; the fiscal y position (0.2) is inferred from faster growth.
+- Government finances are not addressed; the fiscal y position (0.2) is inferred: GDP grows fast, labour income rises 1.4% and capital income 18.9%, while total unemployment rises less than a point, so the tax base widens faster than benefit demand.
 - Close neighbours: `gradual-disemp`, `turing-trap`, `tcb-uneven` and `wef-supercharged`.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3. Work could be 2 for knowledge workers pushed into new occupations, but cognitive unemployment of 4.5% is historically normal and other workers' wages rise, so it is manageable disruption. Government stays 3: the four-point shift to capital is real but the extract says nothing about political power. The rest are 3 because the extract does not address them.
+Draft scores are 3/–/3*/–/–, so only two promises are scored, below the three a headline rating needs. Work could be 2 for knowledge workers pushed into new occupations, but cognitive unemployment of 4.5% is historically normal and other workers' wages rise, so it is manageable disruption. The safety net is 3*, inferred from the authors' view that reallocation at this scale is costly for those affected but within what the US labour market has absorbed. Essentials, government and time are not addressed: the model has no prices for essentials, no political channel and nothing on time; the earlier 3 for government leaned on the shift to capital, which says nothing about whether votes matter.

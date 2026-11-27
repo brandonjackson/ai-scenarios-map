@@ -29,10 +29,10 @@ Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | The extract makes polarisation a key dynamic: in the computing precedent high-skill wages surged while lower-skill wages stagnated or fell. |
-| Affordable essentials | 2 | Monopolists can use captive customers, exclusivity and switching barriers to extract rents on a layer the economy depends on. |
-| Reliable safety net | 3 | Employment holds, so larger supports are not needed at scale. |
-| Responsive government | 2 | Historical monopolists cultivated political allies, and nothing in the quadrant checks that. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials | 2 | Monopolists can use captive customers, exclusivity and switching barriers to extract rents on a layer the economy depends on, which raises costs for users. |
+| Reliable safety net | 3 | Augmentation keeps employment up, and the extract reserves larger supports for strong displacement, so the existing net is not tested at scale. |
+| Responsive government | 2 | Entrenched market power plus the precedent of monopolists cultivating political allies, with antitrust and organised labour as the only historical checks. |
+| Time for what matters |  | Not addressed: the extract has no evidence on time for family, community or meaning. |
 
 ## Files
 

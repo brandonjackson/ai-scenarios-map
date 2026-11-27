@@ -29,10 +29,10 @@ Exponential AI meets a ready workforce. An agentic leap pushes global growth tow
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Displacement and job-quality degradation stay widespread and many workers lose bargaining power as wages fall, while the AI-ready premium nearly doubles. |
-| Affordable essentials | 3 | Possible breakthroughs in services, health and longevity are set against grid and critical-material risks, with nothing concrete on household costs. |
+| Affordable essentials |  | Not addressed: the extract lists possible health and service breakthroughs and energy and materials risks, but nothing about what households pay for essentials. |
 | Reliable safety net | 2 | Existing safety nets struggle with the pace of disruption; only some governments try dividends, wage insurance or basic income while others face tightening fiscal space. |
 | Responsive government | 2 | Ethical and regulatory frameworks lag behind workplace deployment. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: the extract says nothing about time outside work. |
 
 ## Policies from the atlas
 

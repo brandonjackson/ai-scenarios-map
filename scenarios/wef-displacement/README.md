@@ -32,7 +32,7 @@ AI advances faster than workers can adapt. Firms automate aggressively, upskilli
 | Affordable essentials | 2 | Poverty reaches historic levels and public provision of basic services comes under fiscal pressure. |
 | Reliable safety net | 1 | Tax bases shrink as unemployment and retraining costs rise, and safety nets exceed capacity. |
 | Responsive government | 2 | Regulation becomes untenable, trust falls with misinformation and democratic oversight of autonomous decisions is questioned, but not lost. |
-| Time for what matters | 2 | Polarisation erodes the informal support people rely on. |
+| Time for what matters |  | Not addressed: the extract's time section is silent; polarisation eroding informal support is told as a safety-net strain, not a loss of time for family or community. |
 
 ## Files
 

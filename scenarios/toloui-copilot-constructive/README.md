@@ -29,10 +29,10 @@ Few dominant platforms own the AI layer, but antitrust guardrails, interoperabil
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Training, apprenticeships and lower labour taxes can make complementarity more attractive, but they are options and the polarisation precedent still applies to lower-skill workers. |
-| Affordable essentials | 3 | Interoperability, portability and limits on exclusivity curb bottleneck abuse and rents on the AI layer. |
-| Reliable safety net | 3 | Employment holds, and a lower hiring wedge and stronger supports can respond to actual displacement. |
+| Affordable essentials | 3 | Interoperability, portability and limits on exclusivity curb bottleneck abuse and rents on the AI layer, so the rent pressure of the policy-off quadrant is checked. |
+| Reliable safety net | 3 | Augmentation keeps employment up, and a lower hiring wedge and stronger supports can respond to actual displacement. |
 | Responsive government | 3 | Enforcement relies on AI and cloud expertise at DOJ and FTC, with disclosure, human review and appeals for consequential decisions. |
-| Time for what matters | 3 | Not addressed. |
+| Time for what matters |  | Not addressed: the extract has no evidence on time for family, community or meaning. |
 
 ## Policies from the atlas
 

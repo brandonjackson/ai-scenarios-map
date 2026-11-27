@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import scenariosData from "../../data/scenarios.json";
 import axesData from "../../data/axes.json";
 import { href } from "../router.js";
+import { isInferredOn } from "../data.js";
 import { defaultGoal, assessScenario } from "../goals.js";
 import { scaleLabel } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
@@ -321,15 +322,18 @@ export default function Maps() {
                     <animate attributeName="opacity" values="0.4;0.08;0.4" dur="2s" repeatCount="indefinite" />
                   </circle>
                 )}
+                {/* Hollow marker: at least one coordinate is inferred, not stated. */}
                 {s.type === "framework" ? (
                   <rect x={sx - 6.5} y={sy - 6.5} width={13} height={13} rx={2.5}
-                    fill={pointColor(s)}
-                    stroke={isActive || isSibling ? "var(--blush)" : "var(--bg)"}
-                    strokeWidth={isActive ? 2 : 1.5}
+                    fill={isInferredOn(s, axes) ? "var(--bg)" : pointColor(s)}
+                    stroke={isInferredOn(s, axes) ? pointColor(s) : isActive || isSibling ? "var(--blush)" : "var(--bg)"}
+                    strokeWidth={isInferredOn(s, axes) ? 2.5 : isActive ? 2 : 1.5}
                   />
                 ) : (
-                  <circle cx={sx} cy={sy} r={7.5} fill={pointColor(s)}
-                    stroke={isActive ? "var(--blush)" : "var(--bg)"} strokeWidth={2}
+                  <circle cx={sx} cy={sy} r={7.5}
+                    fill={isInferredOn(s, axes) ? "var(--bg)" : pointColor(s)}
+                    stroke={isInferredOn(s, axes) ? pointColor(s) : isActive ? "var(--blush)" : "var(--bg)"}
+                    strokeWidth={isInferredOn(s, axes) ? 2.5 : 2}
                   />
                 )}
               </g>
@@ -411,6 +415,11 @@ export default function Maps() {
       <div className="map-legend">
         <span>{filtered.length} sources plotted</span>
         {skipped > 0 && <span className="muted">({skipped} not rated on this axis)</span>}
+        {filtered.some((s) => isInferredOn(s, axes)) && (
+          <span className="map-key">
+            <span className="dot dot-inferred" /> hollow = position partly inferred
+          </span>
+        )}
         {byLikelihood ? (
           <>
             <span>Likelihood:</span>

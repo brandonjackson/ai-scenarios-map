@@ -28,9 +28,9 @@ Defensive, decentralized, differential acceleration. Cautious on AI power but st
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Not addressed beyond AI complementing human cognition; no jobs or wage effects are given. |
+| Hard work pays |  | Not addressed: beyond AI complementing human cognition, the extract gives no jobs or wage effects. |
 | Affordable essentials | 3 | Public-health resilience and self-sufficient access to necessities help communities withstand crises, without lowering costs. |
-| Reliable safety net | 3 | Not addressed in the extract. |
+| Reliable safety net |  | Not addressed: nothing on support for people who lose work or income. |
 | Responsive government | 4 | Defensive capacity, privacy-preserving identity and deliberation tools deliberately keep power spread out and widen democratic options. |
 | Time for what matters | 3 | A better future keeps meaningful choices, but the concern for purpose is a warning about an AI-run world rather than a gain in time. |
 

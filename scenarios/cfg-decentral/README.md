@@ -22,17 +22,17 @@ Open-weight models spread widely; guardrails are breached and misuse (hacking, d
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.1 | -0.2 |
-| Public finances × job quality | -0.05 | -0.2 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Not addressed; the ending projects no employment or wage effects and the common Plateau path is augmentation. |
-| Affordable essentials | 3 | Open models help public services and healthcare, but retail, logistics and municipal services are disrupted and cybersecurity becomes a continuing cost. |
-| Reliable safety net | 3 | Not addressed; nothing in the extract describes displacement or benefits. |
+| Hard work pays |  | Not addressed: the ending projects no employment or wage effects. |
+| Affordable essentials | 3 | Open models help public services and healthcare, but retail, logistics and municipal services are disrupted and cybersecurity becomes a continuing cost, roughly offsetting each other. |
+| Reliable safety net |  | Not addressed: nothing in the extract describes displacement or benefits. |
 | Responsive government | 2 | Misleading content and cybercrime erode trust, older adults fall behind in the information environment and governments react only after harm. |
-| Time for what matters | 3 | Not addressed; only the closing 'constant vigilance' hints at a cost. |
+| Time for what matters |  | Not addressed: only the closing 'constant vigilance' hints at a cost to daily life. |
 
 ## Policies from the atlas
 

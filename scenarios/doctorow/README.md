@@ -22,17 +22,17 @@ AI is a bubble and a worker-frightening machine. Can't do your job, but the narr
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.65 | 0.1 |
-| Public finances × job quality | -0.4 | -0.25 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Workers lose jobs to systems that cannot do the whole job, and experienced staff are targeted because they cost most. |
-| Affordable essentials | 3 | Not addressed; the only related point is customers paying more for worse services such as radiology. |
-| Reliable safety net | 3 | Not addressed; bubble losses hit retirement savings, but nothing is said about public support. |
-| Responsive government | 3 | Not addressed as a state story; the lecture looks to worker-user alliances and sectoral bargaining instead. |
-| Time for what matters | 2 | Those kept on are monitored, lack practice to catch rare errors, and must sign off and take the blame. |
+| Affordable essentials |  | Not addressed: the extract says nothing about housing, food, energy or care; dearer, worse services such as radiology are the only price point. |
+| Reliable safety net |  | Not addressed: bubble losses hit retirement savings, but nothing is said about public support for those who lose work. |
+| Responsive government |  | Not addressed: the lecture looks to worker-user alliances and sectoral bargaining, not to what the state does. |
+| Time for what matters | 2 | Fewer workers are made to oversee more output under monitoring and carry the blame for machine errors, which intensifies work for those kept on. |
 
 ## Files
 

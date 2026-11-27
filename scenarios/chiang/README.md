@@ -22,17 +22,17 @@ AI's danger is whom it serves, not what it can do: like McKinsey, it is “capit
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.52 | 0.05 |
-| Public finances × job quality | -0.35 | -0.1 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | AI makes layoffs easier and productivity gains need not reach pay, as with IT after 1980. |
-| Affordable essentials | 2 | Housing, college and health care outran incomes despite IT, and augmentation alone will not reverse that. |
+| Affordable essentials | 2 | Gains concentrate with owners, so the post-1980 pattern of housing, college and health care outrunning incomes continues; augmentation alone will not reverse it. |
 | Reliable safety net | 2 | No UBI exists for displaced workers, and waiting for one leaves them exposed in the interim. |
-| Responsive government | 2 | AI legitimises management decisions and diffuses accountability, while redistribution depends on uncertain politics. |
-| Time for what matters | 3 | Only an idealised far future of fulfilling time is discussed, with no AI-specific effect now. |
+| Responsive government | 2 | The scenario assumes government does not act to distribute gains or cushion displacement, leaving redistribution to uncertain politics while AI diffuses accountability. |
+| Time for what matters |  | Not addressed: only an idealised future a century out is described, with no effect on time in the scenario itself. |
 
 ## Files
 

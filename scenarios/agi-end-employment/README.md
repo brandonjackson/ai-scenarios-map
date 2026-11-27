@@ -29,10 +29,10 @@ AGI working at near-zero marginal cost replaces both cognitive and physical labo
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Wages fall toward zero, so work stops being a route to income or mobility for anyone. |
-| Affordable essentials | 3 | Housing, food, energy and care are not discussed. |
+| Affordable essentials |  | Not addressed: the paper says consumers cannot afford goods in general but says nothing on the prices of housing, food, energy or care. |
 | Reliable safety net | 1 | Income systems built on employment fail and no alternative mechanism exists in the scenario. |
-| Responsive government | 1 | Human economic power collapses and a technological aristocracy of AGI owners controls all output. |
-| Time for what matters | 3 | Not addressed. |
+| Responsive government | 1 | Voting and institutions are not discussed, but the paper's complete collapse of human economic power, with AGI capital owners controlling all output, leaves citizens no leverage over collective decisions. |
+| Time for what matters |  | Not addressed: the paper says nothing on time for family, community or meaning. |
 
 ## Files
 

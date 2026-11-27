@@ -29,10 +29,10 @@ Lightly regulated AI agents and robots spread across services and industry and h
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Routine cognitive and physical jobs are displaced early and widely while capital owners take the gains. |
-| Affordable essentials | 3 | Automation expands supply but displaced households cut demand; the net effect on prices is unclear. |
+| Affordable essentials |  | Not addressed: the note gives only an uncertain aggregate price effect, nothing on the cost of housing, food, energy or care. |
 | Reliable safety net | 2 | Labour tax bases erode just as social-spending needs rise, straining employment-linked social insurance. |
-| Responsive government | 2 | A few firms dominate data and compute and gains pool in metro hubs, with minimal regulation. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Responsive government | 2 | AI is at the centre of public debate yet no strong steps are taken to slow it, while a few firms dominate data and compute and gains pool in metro hubs. |
+| Time for what matters |  | Not addressed: the note says nothing on time for family, community or meaning. |
 
 ## Files
 

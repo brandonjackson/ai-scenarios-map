@@ -18,8 +18,8 @@
 ## Tensions and weak points
 - The essay's own trade parallel cuts against it: bigger aggregate gains did not by themselves secure compensation for losers, and the reforms here need the political will that the trap erodes.
 - Written in 2022; frontier AI has since aimed at human-like generality, which may narrow the gap between augmenting and replacing.
-- The extract says little about fiscal cost. Favouring wage income is a tax expenditure, but a broad wage base keeps revenue, so public finances sit mildly positive (0.3).
+- The extract gives tax measures but no fiscal cost. Favouring wage income is a tax expenditure, but growing employment keeps a broad wage base, so public finances sit mildly positive (0.3); `y_fiscal` is marked inferred.
 - Mirrors `turing-trap` on both maps, as a fork should. Close to `turing-transform`, `toloui-prometheus` and `wef-copilot`; unlike `turing-transform`, it depends on policy.
 
 ## Scoring notes
-Draft scores are 4/3/3/4/3, rated 3. Work is 4: new job categories and bargaining power give more people a path up. Government is 4: dispersed knowledge decentralises political power and institutions are built to stay robust. Essentials falls to 3 (was 4) because the new extract's only example of new value is retail variety, not essentials. Safety net stays 3: a larger earned income tax credit and retraining help, but nothing changes for people who lose their jobs outright. Time is 3, not addressed.
+Draft scores are 4/–/3/4/–, rated 3. Work is 4: new job categories and bargaining power give more people a path up. Government is 4: dispersed knowledge decentralises political power and institutions are built to stay robust. Safety net is 3: a larger earned income tax credit and retraining help, but nothing changes for people who lose their jobs outright. Essentials is not addressed: the essay's only example of new value is retail variety, not essentials. Time is not addressed.

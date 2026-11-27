@@ -22,17 +22,17 @@ The current path Aguirre warns of: an unchecked race to AGI that replaces people
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.55 | 0.5 |
-| Public finances × job quality | -0.5 | -0.35 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Firms race to replace labour, with cognitive and then physical work automated faster than society can adapt. |
-| Affordable essentials | 2 | Benefits concentrate in companies and states while job loss and income inequality rise; prices of essentials are not discussed. |
-| Reliable safety net | 2 | Job loss rises while social disruption limits adjustment, and the essay's basic-income ideas belong only to the alternative path. |
+| Affordable essentials |  | Not addressed: the extract says nothing about prices of housing, food, energy or care. |
+| Reliable safety net | 2 | Unemployment rises faster than society can adapt and no income support exists on this path (basic income belongs to the alternative), so displaced workers land badly. |
 | Responsive government | 1 | Synthetic media, surveillance and delegation erode self-government until, in the extreme case, humans lose the capacity to steer the future. |
-| Time for what matters | 2 | Lost work brings insecurity and pervasive persuasion weakens trust and human cultural production; time itself is not addressed. |
+| Time for what matters |  | Not addressed: the extract says nothing about time for family, community or meaning. |
 
 ## Files
 

@@ -56,7 +56,8 @@
     { "value": 5, "label": "Thriving", "meaning": "Profound progress for the next generation" }
   ],
   "rules": [
-    { "name": "Score each promise", "text": "Each scenario gets a score from 1 to 5 on every promise, with a one-sentence reason." },
+    { "name": "Score each promise", "text": "Each scenario gets a score from 1 to 5 on every promise its source addresses, with a one-sentence reason. A score is marked inferred when the source implies it without saying it." },
+    { "name": "Leave silence blank", "text": "Where the source says nothing that bears on a promise, it is marked not addressed rather than given a score. Unaddressed promises are left out of the average, and a headline rating needs at least three of the five scored." },
     { "name": "Judge for the worst-off", "text": "Scores reflect the group that fares worst, not the average citizen." },
     { "name": "Average the five", "text": "The average gives a quick read across promises." },
     { "name": "Apply the weakest-link rule", "text": "A scenario's headline rating can sit no more than one point above its weakest promise. Material plenty cannot make up for citizens losing their say." }
@@ -64,7 +65,8 @@
   "aggregation": {
     "method": "mean",
     "rounding": "floor",
-    "weakestLink": 1
+    "weakestLink": 1,
+    "minScored": 3
   },
   "notes": [
     "All scores are provisional and meant for discussion.",

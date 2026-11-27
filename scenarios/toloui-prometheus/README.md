@@ -29,10 +29,10 @@ Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Co
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 4 | Augmentation raises demand for operators and integration workers, cheaper output expands demand and new industries, and early evidence favours less experienced workers. |
-| Affordable essentials | 4 | Competition cuts the unit cost of AI and, as in the historical analogues, lower costs pass to final prices, with a warning against shifting utility costs onto households. |
-| Reliable safety net | 3 | Larger supports are reserved for strong displacement, which this augmenting quadrant largely avoids. |
-| Responsive government | 3 | Not addressed: the extract says nothing about political voice in this quadrant. |
-| Time for what matters | 3 | Not addressed for AI; the only evidence is the historical appliance analogue. |
+| Affordable essentials | 4 | Competition cuts the unit cost of AI, and the extract's historical mechanism passes lower production costs on to final prices, as with sanitation, farming and appliances. |
+| Reliable safety net | 3 | The extract reserves larger supports for strong displacement, and this quadrant's augmentation raises labour demand rather than displacing workers, so the existing net is not strained. |
+| Responsive government |  | Not addressed: the extract says nothing about political voice or collective problem-solving in this quadrant. |
+| Time for what matters |  | Not addressed: the only evidence is the historical appliance analogue, which traded housework for paid work and says nothing about time under AI. |
 
 ## Policies from the atlas
 

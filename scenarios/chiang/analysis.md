@@ -18,9 +18,9 @@
 ## Tensions and weak points
 - **Map description (fixed earlier):** the catalogue once said Chiang calls AI "technically overhyped". The essay makes no capability claim; its point is whom AI serves. The old "Limited impact" tag carried the same mistake, so the tags now read "Mixed AUG/REP" and `y_labor` moves just past centre (0.05): the essay covers both layoffs and augmentation whose gains go to owners.
 - It is a diagnosis more than a forecast: no timeline or mechanism for how bad things get, and the hopeful path is only sketched.
-- Essentials and time rest on historical comparison and an idealised far future, not on AI-specific mechanisms.
-- The extract is silent on government finances; the fiscal placement (−0.35, −0.1) rests on weaker job quality alone.
+- Essentials rests on historical comparison rather than an AI-specific mechanism, and time on an idealised far future that is not scored.
+- The extract is silent on government finances and nothing in the essay implies a direction for them, so the fiscal pair is left blank.
 - Close to `doctorow` (AI as a tool against labour) and `acemoglu` (direction of technology is a choice); sits next to `tcb-concentrated` and `wef-stalled` on the labour map.
 
 ## Scoring notes
-Draft scores 2/2/2/2/3. Work is 2: layoffs are easier and productivity gains need not reach pay. Essentials is 2: housing, college and health care have outrun incomes and augmentation will not reverse that. Safety net is 2: no UBI exists and waiting for one leaves displaced workers exposed. Government is 2: AI diffuses accountability for management decisions and redistribution depends on uncertain politics. Time is 3: only the idealised future is discussed.
+Draft scores 2/2*/2/2*/–. Work is 2: layoffs are easier and productivity gains need not reach pay. Essentials is 2, inferred: gains concentrate with owners, so the post-1980 pattern of housing, college and health care outrunning incomes carries on. Safety net is 2: no UBI exists and waiting for one leaves displaced workers exposed. Government is 2, inferred: the scenario assumes government does not act to distribute gains, leaving redistribution to uncertain politics while AI diffuses accountability. Time is not addressed: only an idealised future a century out is described.

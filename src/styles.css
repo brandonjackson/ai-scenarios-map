@@ -192,6 +192,7 @@ button, input, select { font-family: inherit; }
 
 .dot { flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--single); }
 .dot-framework { border-radius: 2px; background: var(--framework); }
+.dot-inferred { background: transparent; box-shadow: inset 0 0 0 1.5px var(--muted); }
 
 .result-count { font-size: 11.5px; color: var(--faint); margin-bottom: 10px; font-family: var(--mono); }
 .empty {
@@ -438,6 +439,8 @@ button, input, select { font-family: inherit; }
 .score-3 { --s: var(--score-3); --ink: var(--ink-light); }
 .score-4 { --s: var(--score-4); --ink: var(--ink-dark); }
 .score-na { color: var(--faint); background: var(--panel-2); }
+/* Inferred: the source implies the score but doesn't state it. Outlined, not filled. */
+.score.score-inferred { color: var(--text); background: transparent; box-shadow: inset 0 0 0 1.5px var(--s); }
 
 .card-badges { display: flex; gap: 6px; flex: none; align-items: flex-start; }
 .small { font-size: 13px; margin-top: 8px; }

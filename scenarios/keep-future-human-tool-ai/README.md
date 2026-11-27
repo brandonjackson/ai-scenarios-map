@@ -22,7 +22,7 @@ Governments close the gates to AGI with compute caps, liability and internationa
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.2 | -0.25 |
-| Public finances × job quality | 0.15 | 0.1 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
@@ -30,9 +30,9 @@ Governments close the gates to AGI with compute caps, liability and internationa
 | --- | --- | --- |
 | Hard work pays | 3 | Fewer jobs are replaced outright, but task displacement remains probable and displaced workers face lower pay; support for human-centred work is only recommended. |
 | Affordable essentials | 3 | Automatable goods get cheaper while other services rise in relative cost, so household welfare depends on income support. |
-| Reliable safety net | 3 | Universal basic assets or income could protect displaced workers, but they are proposed without a cost or funding model. |
+| Reliable safety net | 3 | Caps mean fewer jobs are replaced outright and displacement comes as gradual task loss over years, keeping pressure within existing capacity; basic income or assets are only proposed. |
 | Responsive government | 4 | Human supervision, accountable institutions, better deliberation and public say over more autonomous systems are central to the path. |
-| Time for what matters | 3 | Not addressed; nothing in the extract bears on time for what matters. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on time for what matters. |
 
 ## Policies from the atlas
 

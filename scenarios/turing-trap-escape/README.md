@@ -29,10 +29,10 @@ Rebalanced tax and training incentives steer AI towards augmenting people, so wo
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 4 | New products create new job categories, and indispensable workers keep the bargaining power to share in gains. |
-| Affordable essentials | 3 | Not addressed; the essay's example of new value is retail selection and access, not essentials. |
+| Affordable essentials |  | Not addressed: the essay's example of new value is retail selection and access, not essentials. |
 | Reliable safety net | 3 | A larger earned income tax credit and retraining ease adjustment, but nothing changes for people who lose their jobs outright. |
 | Responsive government | 4 | Workers with indispensable knowledge demand a voice, dispersed knowledge decentralises political power and institutions are built to stay robust. |
-| Time for what matters | 3 | Not addressed. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Policies from the atlas
 

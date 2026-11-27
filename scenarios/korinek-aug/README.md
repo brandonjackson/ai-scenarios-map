@@ -29,10 +29,10 @@ AI automates a growing range of cognitive tasks. Workers move into new, on avera
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 4 | Displaced workers move to more productive jobs and the competitive wage nearly doubles over 30 years, with no group named as left behind. |
-| Affordable essentials | 3 | Not addressed; ordinary growth continues with nothing said about the cost of essentials. |
-| Reliable safety net | 3 | Employment and wages hold, so the safety net is not stretched; the advice to stress-test it applies across the set. |
-| Responsive government | 3 | Not addressed for this scenario; institutions are not challenged. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: the article says nothing on the cost of housing, food, energy or care. |
+| Reliable safety net | 3 | Employment and wages hold as displaced workers move to more productive jobs, so the safety net is not stretched; the advice to stress-test it applies across the set. |
+| Responsive government |  | Not addressed: the article says nothing about government or institutions in this scenario. |
+| Time for what matters |  | Not addressed: the article says nothing on working time or leisure. |
 
 ## Files
 

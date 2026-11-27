@@ -17,9 +17,9 @@
 
 ## Tensions and weak points
 - **Timing:** written in April 2025, before the step-change in agentic coding described by `shumer` and `citrini`. If diffusion in software and office work takes years rather than decades, the core claim is under pressure, though the argument is strongest in regulated sectors.
-- The essay names who loses (arts, journalism, workers in automatable tasks) and suggests compensation, but says nothing about household incomes, so the gain-distribution coordinate (now 0.3, down from 0.38) leans on the shape of the argument.
-- Government finances: the extract gives levers (taxing AI firms) but no budget path, so the fiscal y-value (0.15) is weakly grounded.
+- The essay names who loses (arts, journalism, workers in automatable tasks) and suggests compensation, but says nothing about household incomes, so the gain-distribution coordinate (0.3) is inferred from gradual diffusion and a shift into new roles.
+- Government finances: the extract gives levers (taxing AI firms) as recommendations but no budget path or mechanism, so the fiscal pair is left blank.
 - Its rejection of drastic intervention and preference for resilience sits close to `dacc` in spirit; on the map it sits beside `dsit-steady` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3. Work is 3: harms to arts and journalism are named, but the gradual pace and shift to oversight and new roles keep disruption within existing capacity; a reading weighted on those groups could give 2. Safety net is 3 because a stronger net is recommended, not assumed; adopted, it could be 4. Government is 3: adaptive institutions are expected, with the warning that premature deployment can erode trust. Essentials and time are 3 because the extract does not address them.
+Draft scores are 3*/–/3*/3/–, rated 3. Work is 3, inferred: the extract's effort section is silent, but harms to arts and journalism are named while the decades-long pace and shift to oversight and new roles keep disruption within existing capacity; a reading weighted on those groups could give 2. Safety net is 3, inferred from the same gradual pace: a stronger net is recommended, not assumed, and disruption arrives slowly enough for existing provision; adopted, it could be 4. Government is 3: adaptive institutions are expected, with the warning that premature deployment can erode trust. Essentials and time are not addressed.

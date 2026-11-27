@@ -22,8 +22,8 @@
 - The brief is a synthesis: its scenarios are borrowed from the IMF (Cazzaniga et al.), so the map point describes the uneven present more than one modelled future.
 - Exposure figures are a snapshot of capability; faster progress would raise them, especially for non-routine cognitive work.
 - An earlier catalogue description claimed "1 in 4 workers exposed" and a documented falling labour share; neither is in this extract, and the likelihood reason no longer relies on the labour share.
-- The extract is silent on government finances, so the fiscal placement (−0.2, −0.2) rests on job quality and unequal gains.
+- The extract is silent on government finances, so the fiscal pair is left blank.
 - The map now places it on the mild-augmentation side (`y_labor` −0.1): automation potential is low and complementarity is the brief's central lens. Neighbours are `imf-baseline`, `tcb-uneven` and `anthropic-modest`; the global, low-income view sets it apart from US-centred scenarios.
 
 ## Scoring notes
-Draft scores 2/3/3/3/3. Work is 2: exposed clerical workers, disproportionately women, are least likely to get reskilling. Safety net moves from 2 to 3 because this extract only recommends transition support and says nothing about gaps in existing protection. Essentials is 3 (not addressed). Government is 3: worker voice is at risk but proposed, not lost. Time is 3: safer work and more monitoring roughly offset.
+Draft scores 2/–/–/–/3*. Work is 2: exposed clerical workers, disproportionately women, are least likely to get reskilling. Time is 3, inferred: safer hazardous work from sensors and robotics roughly offsets strain from constant alerts and monitoring. Essentials is not addressed. Safety net is not addressed: the brief only recommends transition support and says nothing about how existing protection holds up. Government is not addressed: worker participation is recommended, but nothing is said about whether governments respond. With only two promises scored, there is no headline rating.

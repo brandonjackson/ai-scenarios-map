@@ -29,7 +29,7 @@ The trap: AI built to imitate humans substitutes for workers, who lose economic 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Workers without indispensable skills lose bargaining power, face lower wages and a declining income share. |
-| Affordable essentials | 3 | Automation drives the price of existing products towards zero, but nothing is said about housing, food, energy or care. |
+| Affordable essentials |  | Not addressed: automation drives the price of existing products towards zero, but nothing is said about housing, food, energy or care. |
 | Reliable safety net | 2 | A firm with no employees pays no payroll or labour-income tax, and transfers to displaced workers can be cut or ended. |
 | Responsive government | 2 | Concentrated technological and economic power turns into concentrated political power, weakening the influence of those displaced. |
 | Time for what matters | 2 | Leisure rises, but declining paid work harms community well-being and health for those displaced. |

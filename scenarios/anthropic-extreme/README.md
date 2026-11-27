@@ -22,17 +22,17 @@ AI performs almost half of today's cognitive work by 2030 and growth reaches 15%
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.6 | 0.65 |
-| Public finances × job quality | -0.55 | 0.1 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Cognitive employment falls 21.5% and cognitive unemployment hits 17.9% while other workers' wages rise by a third: severe harm concentrated on knowledge workers. |
-| Affordable essentials | 3 | Not addressed; the extract says nothing on the cost of essentials. |
-| Reliable safety net | 2 | Total unemployment of 11.9% passes any post-war peak and the 9%-of-GDP transfer needed has no precedent. |
-| Responsive government | 2 | The labour share falls from 60% to 45% and capital income takes almost all the added output. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: the extract says nothing on the cost of essentials. |
+| Reliable safety net | 2 | Total unemployment of 11.9% passes any post-war peak and the 9%-of-GDP transfer needed to compensate has no precedent, with its design left outside the model. |
+| Responsive government |  | Not addressed: the model has no political channel; the fall in the labour share bears on a fair share, not on whether votes matter. |
+| Time for what matters |  | Not addressed: the extract says nothing on hours, family or community. |
 
 ## Files
 

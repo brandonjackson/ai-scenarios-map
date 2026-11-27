@@ -16,10 +16,10 @@
 
 ## Tensions and weak points
 - The model is conditional: the same automation can complement one group and substitute for another, and under other assumptions employment is unchanged or falls. The map places the main case.
-- The extract says nothing on household incomes or government finances. The fiscal y-coordinate is inferred from rising output and employment and is now much lower than before (0.2, was 0.55).
-- More jobs at a compressed wage are not necessarily better jobs; the extract gives no evidence on pay or conditions in the opened-up work, so `x_fiscal` is placed below the earlier value (0.5, was 0.65).
+- The model has no government sector, and the full text is silent on public finances, so the fiscal pair is left blank. The extract now records what the paper says on household incomes: total labour income rises and generic workers earn above their outside wage (§2, Table 1).
+- More jobs at a compressed wage are not necessarily better jobs; the extract gives no evidence on pay or conditions in the opened-up work.
 - If the remaining generic task is automated next, the transformation is temporary; the model does not consider a second step.
 - Shares its mechanism with `autor` (decision support widening access to expert work) and argues against the framing of `turing-trap`, where human-like AI is the problem. Nearest on the map are `turing-trap-escape`, `toloui-prometheus` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores are 4/3/3/3/3, rated 3. Work is 4 because the extract's cases show rare-skill barriers falling and sector employment rising; the specialists who lose their premium are worse off but not severely harmed. The other four are 3 because the extract says `Not addressed.` for each and nothing elsewhere bears on them. Work would drop to 3 if the opened-up work proved low-paid or insecure.
+Draft scores are 4/–/–/–/–, too few for a headline rating. Work is 4, stated: the extract's cases show rare-skill barriers falling and sector employment rising; the specialists who lose their premium are worse off but not severely harmed. Essentials, safety net, government and time are not addressed: the extract says `Not addressed.` for each, and cheaper navigation and translation do not reach housing, food, energy or care. Work would drop to 3 if the opened-up work proved low-paid or insecure.

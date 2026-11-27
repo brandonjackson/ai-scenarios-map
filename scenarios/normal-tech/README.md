@@ -22,17 +22,17 @@ AI spreads over decades as firms and public institutions invest, test and reorga
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.3 | -0.38 |
-| Public finances × job quality | 0.2 | 0.15 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Work shifts gradually to oversight, coordination and new roles; arts and journalism face harms, but the decades-long pace keeps disruption manageable. |
-| Affordable essentials | 3 | Not addressed; automation cheapens tasks but the extract does not link this to essentials. |
-| Reliable safety net | 3 | Stronger safety nets are recommended rather than assumed, and gradual disruption stays within existing capacity. |
+| Hard work pays | 3 | Arts and journalism face harms, but decades-long diffusion and a shift to oversight, coordination and new roles keep disruption within existing capacity. |
+| Affordable essentials |  | Not addressed: automation cheapens tasks but the extract does not link this to housing, food, energy or care. |
+| Reliable safety net | 3 | Stronger safety nets are recommended rather than assumed, and the decades-long pace of disruption stays within existing provision. |
 | Responsive government | 3 | Institutions adapt liability and oversight as experience accumulates, though premature deployment can undermine trust. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Policies from the atlas
 

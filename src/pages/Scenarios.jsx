@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { scenarios, axes, hasAxis, quadrantLabel, splitTags, policiesForScenario, policyNoteForScenario } from "../data.js";
+import { scenarios, axes, hasAxis, quadrantLabel, splitTags, policiesForScenario, policyNoteForScenario, isInferredOn, inferredFields } from "../data.js";
 import { href } from "../router.js";
 import { goals, defaultGoal, assessScenario } from "../goals.js";
 import { AssessmentCard, ScoreChip } from "../components/Assessment.jsx";
@@ -189,6 +189,7 @@ function MiniQuadrant({ s, a }) {
   const ny = rated ? (s[a.yField] + 1) / 2 : 0;
   const cy = pad + (a.yInvert ? 1 - ny : ny) * inner;
   const color = s.type === "framework" ? "var(--framework)" : "var(--single)";
+  const inferred = rated && isInferredOn(s, a);
   return (
     <figure className="mini">
       <figcaption>{a.name}</figcaption>
@@ -202,9 +203,11 @@ function MiniQuadrant({ s, a }) {
           <line x1={pad} y1={pad + inner / 2} x2={pad + inner} y2={pad + inner / 2} className="mini-axis" />
           {rated &&
             (s.type === "framework" ? (
-              <rect x={cx - 6} y={cy - 6} width={12} height={12} rx={2.5} fill={color} />
+              <rect x={cx - 6} y={cy - 6} width={12} height={12} rx={2.5}
+                fill={inferred ? "var(--bg)" : color} stroke={inferred ? color : "none"} strokeWidth={2.5} />
             ) : (
-              <circle cx={cx} cy={cy} r={7} fill={color} />
+              <circle cx={cx} cy={cy} r={7}
+                fill={inferred ? "var(--bg)" : color} stroke={inferred ? color : "none"} strokeWidth={2.5} />
             ))}
           {!rated && (
             <text x={size / 2} y={size / 2 + 4} textAnchor="middle" className="mini-na">not rated</text>
@@ -216,7 +219,16 @@ function MiniQuadrant({ s, a }) {
           <span>{a.xLabel[1]} →</span>
         </div>
       </div>
-      {rated && <div className="mini-quad">{quadrantLabel(s, a)}</div>}
+      {rated && (
+        <div className="mini-quad">
+          {quadrantLabel(s, a)}
+          {inferred && (
+            <span className="muted" title={`Inferred, not stated in the source: ${inferredFields(s).filter((f) => f === a.xField || f === a.yField).join(", ")}`}>
+              {" "}· partly inferred
+            </span>
+          )}
+        </div>
+      )}
     </figure>
   );
 }
@@ -383,7 +395,7 @@ function SocialContractSummary({ s, md }) {
         return (
           <section key={sec.heading} className={`note-section${c ? " note-promise" : ""}`}>
             <h2>
-              {c && <ScoreChip goal={defaultGoal} value={score?.score} label={!!score} />}
+              {c && <ScoreChip goal={defaultGoal} value={score?.score} label={score?.score != null} basis={score?.basis} />}
               <span>{sec.heading}</span>
             </h2>
             <div className="md" dangerouslySetInnerHTML={renderMarkdown(sec.body)} />

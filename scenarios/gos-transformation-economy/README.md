@@ -32,7 +32,7 @@ Two US companies command unprecedented market share in a winner-takes-all econom
 | Affordable essentials | 3 | AI-assisted diagnosis and care improve healthcare, offset by falling wages and purchasing power. |
 | Reliable safety net | 2 | Lower labour income tax and rising welfare spending squeeze public finances, with no new benefit and further deterioration without reform. |
 | Responsive government | 2 | Large protests make AI a decisive political issue, people intervene less in decisions and the UK loses autonomy and leverage as a technology importer. |
-| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on it. |
+| Time for what matters |  | Not addressed: neither the extract nor the full report says anything on family, community or free time in this scenario. |
 
 ## Files
 

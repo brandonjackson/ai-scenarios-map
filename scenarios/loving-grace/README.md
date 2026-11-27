@@ -22,7 +22,7 @@ Country of geniuses in a datacenter. Strong replacement-level capability. Hopes 
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.15 | 0.5 |
-| Public finances × job quality | -0.1 | 0.2 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 

@@ -13,6 +13,11 @@ export const policySource = { name: atlas.source, url: atlas.source_url, scraped
 export const hasAxis = (s, a) =>
   s[a.xField] !== null && s[a.xField] !== "" && s[a.yField] !== null && s[a.yField] !== "";
 
+// Coordinates the source implies but doesn't state are listed (space-separated
+// field names) in the scenario's `inferred` column.
+export const inferredFields = (s) => (s.inferred ? s.inferred.split(/\s+/).filter(Boolean) : []);
+export const isInferredOn = (s, a) => inferredFields(s).some((f) => f === a.xField || f === a.yField);
+
 // qLabels are ordered [top-left, top-right, bottom-left, bottom-right].
 // "Top" is negative y unless the axis pair sets yInvert.
 export function quadrantLabel(s, a) {

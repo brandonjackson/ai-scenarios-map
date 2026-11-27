@@ -30,9 +30,9 @@ AI can relieve people of repetitive tasks and support human judgement. Its use a
 | --- | --- | --- |
 | Hard work pays | 4 | The world argued for expands meaningful employment and keeps judgement and responsibility with workers (§§66–70). |
 | Affordable essentials | 3 | AI can improve care, but the note warns access may depend on wealth and only calls for care for all (§§71–76). |
-| Reliable safety net | 3 | Not addressed in the extract. |
+| Reliable safety net |  | Not addressed: the note says nothing on support for people who lose work. |
 | Responsive government | 3 | Subsidiarity and human responsibility are defended against concentrated control and surveillance, but no new mechanism is proposed (§§47, 52–55). |
-| Time for what matters | 4 | The section is not addressed, but the scenario assumes meaningful relationships are preserved and warns against simulated companionship in care and schooling (§§56–63, 71–74). |
+| Time for what matters | 4 | The scenario assumes people preserve meaningful relationships, keeping human care and schooling against simulated companionship (§§56–63, 69–74). |
 
 ## Policies from the atlas
 

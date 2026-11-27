@@ -32,7 +32,7 @@ AI creates rentier-state dynamics: non-human factors dominate, powerful actors l
 | Affordable essentials | 2 | A benign variant keeps living standards, but in a worse one incomes fall below subsistence. |
 | Reliable safety net | 1 | Fiscal and competitive pressure block a broad UBI once states no longer need workers. |
 | Responsive government | 1 | As states depend less on labour and taxes, citizens lose the leverage that made states invest in them. |
-| Time for what matters | 2 | Time is not addressed, but the authors note lost ambition and status when achievements are cheaply reproducible. |
+| Time for what matters |  | Not addressed: the authors note lost ambition and status when achievements are cheaply reproducible, but say nothing about time for family, community or meaning. |
 
 ## Files
 
