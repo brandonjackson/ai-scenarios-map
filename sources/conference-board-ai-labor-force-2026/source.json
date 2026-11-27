@@ -1,0 +1,27 @@
+{
+  "slug": "conference-board-ai-labor-force-2026",
+  "title": "AI & the Labor Force: Scenarios for Stakeholders",
+  "authors": [],
+  "publisher": "The Conference Board",
+  "date": "2026-09-15",
+  "url": "https://www.conference-board.org/publications/AI-and-the-Labor-Force-Scenarios-for-Stakeholders",
+  "archive_url": "",
+  "retrieved": "2026-11-27",
+  "format": "html",
+  "licence": "© The Conference Board, all rights reserved",
+  "fulltext": "private",
+  "read": "full (report text on the publication page; downloadable PDF not used)",
+  "scenarios": [
+    "tcb-augmentation",
+    "tcb-concentrated",
+    "tcb-displacement",
+    "tcb-uneven"
+  ],
+  "related": [
+    {
+      "title": "AI Could Reshape the US Workforce in 4 Very Different Ways (press release)",
+      "url": "https://www.conference-board.org/press/ai-could-reshape-the-us-workforce-in-4-very-different-ways",
+      "note": "Press release; calls the third scenario 'massive displacement'."
+    }
+  ]
+}

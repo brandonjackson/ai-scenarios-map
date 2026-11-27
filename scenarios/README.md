@@ -6,6 +6,7 @@ One folder per scenario in [`data/scenarios.csv`](../data/scenarios.csv), named 
 scenarios/
   <id>/
     README.md     ← generated: metadata, map position, draft social-contract scores
+    extract.md    ← everything the source says, in a fixed structure; summaries and scores derive from it
     summary.md    ← the scenario read through the five promises of the social contract (≤500 words)
     analysis.md   ← big assumptions: policy on or off? what must be true for it to happen?
     …             ← anything else you want to keep alongside it

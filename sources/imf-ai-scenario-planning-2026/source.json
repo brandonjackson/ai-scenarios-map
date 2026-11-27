@@ -1,0 +1,47 @@
+{
+  "slug": "imf-ai-scenario-planning-2026",
+  "title": "Global Economic and Financial Implications of Artificial Intelligence: Lessons from a Scenario-Planning Exercise (IMF Note 2026/002)",
+  "authors": [
+    "Karim Barhoumi",
+    "Fabia de Carvalho",
+    "Michael Gorbanyov",
+    "Yosuke Kido",
+    "David Koll",
+    "Anh Dinh Minh Nguyen",
+    "Dragana Ostojic",
+    "Baoping Shang",
+    "Natalia Tamirisa (lead)",
+    "Sally Toms",
+    "Yunhui Zhao",
+    "Era Dabla-Norris (guidance)"
+  ],
+  "publisher": "International Monetary Fund",
+  "date": "2026-04-03",
+  "url": "https://www.imf.org/en/publications/imf-notes/issues/2026/04/03/global-economic-and-financial-implications-of-artificial-intelligence-lessons-from-a-574924",
+  "pdf_url": "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026002.pdf",
+  "doi": "https://doi.org/10.5089/9798229042482.068",
+  "archive_url": "http://web.archive.org/web/20260414065228/https://www.imf.org/en/publications/imf-notes/issues/2026/04/03/global-economic-and-financial-implications-of-artificial-intelligence-lessons-from-a-574924",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© 2026 International Monetary Fund",
+  "fulltext": "private",
+  "read": "full (30-page PDF)",
+  "scenarios": [
+    "imf-baseline",
+    "imf-runaway"
+  ],
+  "related": [
+    {
+      "title": "AI futures: Planning for transformative scenarios before they hit",
+      "authors": [
+        "Era Dabla-Norris",
+        "Anton Korinek"
+      ],
+      "publisher": "PIIE Realtime Economics",
+      "date": "2026-02-03",
+      "url": "https://www.piie.com/blogs/realtime-economics/2026/ai-futures-planning-transformative-scenarios-they-hit",
+      "archive_url": "http://web.archive.org/web/20260818031302/https://www.piie.com/blogs/realtime-economics/2026/ai-futures-planning-transformative-scenarios-they-hit",
+      "note": "Restates the same two workshop scenarios (uneven adoption / runaway); Dabla-Norris guided the note and both helped convene the workshop. Text in private/related-piie.txt."
+    }
+  ]
+}
