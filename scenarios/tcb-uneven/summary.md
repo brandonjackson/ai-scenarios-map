@@ -5,7 +5,7 @@
 **The scenario.** "AI displaces workers in certain occupations while supporting job growth in others." Some sectors and roles lose heavily, but growth in AI-using roles may offset them and aggregate employment might even rise. The report calls it "less severe—though still disruptive".
 
 ## Hard work pays
-Broken for the displaced. Past evidence is grim: of workers displaced by trade, about 60% were re-employed after four years and those who were earned only slightly more than half their old pay. About 40% of long-tenured workers displaced in 2021–2023 who found new jobs earned less.
+Broken for the displaced. Past evidence is grim: of workers displaced by trade, about 60% were re-employed after four years and those who were earned only slightly more than half their old pay. Of long-tenured workers displaced in 2021–2023, about 16% were still unemployed and 18% had left the labour force in 2024, and about 40% of those re-employed earned less than before.
 
 ## Affordable essentials
 Not addressed.

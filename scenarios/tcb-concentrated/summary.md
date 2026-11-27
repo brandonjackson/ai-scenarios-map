@@ -5,7 +5,7 @@
 **The scenario.** "AI raises productivity unevenly, benefiting certain industries and occupations." Aggregate employment disruption is limited or moderate, but the firms, roles and workers best placed to capture the gains pull ahead, and an "AI underclass" of excluded workers, firms and communities may form.
 
 ## Hard work pays
-Broken for some. About 48% of tasks in STEM fields have high AI exposure against 23% in manual trades and production, so trades may gain relatively while exposed office work stalls. Phoenix lost nearly 24,000 customer-service jobs between 2021 and 2025.
+Broken for some. About 48% of tasks in STEM fields have high AI exposure against 23% in manual trades and production, so trades may gain relatively while exposed office work stalls. The report points to Phoenix, which shed nearly 24,000 customer-service jobs between 2021 and 2025, as the kind of place at risk; it does not attribute those losses to AI.
 
 ## Affordable essentials
 Not addressed.
