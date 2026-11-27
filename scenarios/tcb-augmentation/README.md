@@ -35,5 +35,6 @@ AI mostly helps workers rather than replacing them, changing the task mix inside
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

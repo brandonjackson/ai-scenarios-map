@@ -35,5 +35,6 @@ Labour demand falls across many sectors, starting with clerical, production, tra
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

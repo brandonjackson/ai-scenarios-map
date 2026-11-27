@@ -35,5 +35,6 @@ AI wipes out jobs in some occupations while creating them in others, and total e
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

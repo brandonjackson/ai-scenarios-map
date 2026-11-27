@@ -35,5 +35,6 @@ Aggregate job losses are modest, but the firms, roles and metro areas best place
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)
