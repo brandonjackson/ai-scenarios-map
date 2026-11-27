@@ -1,0 +1,39 @@
+{
+  "slug": "gradual-disempowerment-2025",
+  "title": "Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development",
+  "authors": [
+    "Jan Kulveit",
+    "Raymond Douglas",
+    "Nora Ammann",
+    "Deger Turan",
+    "David Krueger",
+    "David Duvenaud"
+  ],
+  "publisher": "arXiv",
+  "date": "2025-01-29",
+  "url": "https://arxiv.org/abs/2501.16946",
+  "archive_url": "https://web.archive.org/web/20261117145820/https://arxiv.org/abs/2501.16946",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "arXiv nonexclusive distribution licence",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "gradual-disemp"
+  ],
+  "related": [
+    {
+      "title": "Gradual Disempowerment",
+      "authors": [
+        "Jan Kulveit",
+        "Raymond Douglas",
+        "Nora Ammann",
+        "Deger Turan",
+        "David Krueger",
+        "David Duvenaud"
+      ],
+      "url": "https://gradual-disempowerment.ai/",
+      "note": "Author-maintained summary linking to the full paper."
+    }
+  ]
+}

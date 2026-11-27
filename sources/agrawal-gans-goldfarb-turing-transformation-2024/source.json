@@ -1,0 +1,33 @@
+{
+  "slug": "agrawal-gans-goldfarb-turing-transformation-2024",
+  "title": "The Turing Transformation: Artificial Intelligence, Intelligence Augmentation, and Skill Premiums",
+  "authors": [
+    "Ajay Agrawal",
+    "Joshua Gans",
+    "Avi Goldfarb"
+  ],
+  "publisher": "Harvard Data Science Review / MIT Press",
+  "date": "2024-05-31",
+  "url": "https://hdsr.mitpress.mit.edu/pub/wy5a8llx",
+  "archive_url": "https://web.archive.org/web/20261030031940/https://hdsr.mitpress.mit.edu/pub/wy5a8llx/release/2",
+  "retrieved": "2026-11-27",
+  "format": "html",
+  "licence": "CC BY 4.0",
+  "fulltext": "committed",
+  "read": "full",
+  "scenarios": [
+    "turing-transform"
+  ],
+  "related": [
+    {
+      "title": "The Turing Transformation (NBER working paper)",
+      "authors": [
+        "Ajay Agrawal",
+        "Joshua Gans",
+        "Avi Goldfarb"
+      ],
+      "url": "https://www.nber.org/papers/w31767",
+      "note": "October 2023 working-paper version"
+    }
+  ]
+}

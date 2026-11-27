@@ -1,0 +1,71 @@
+{
+  "slug": "cfg-advanced-ai-possible-futures-2025",
+  "title": "Advanced AI: Possible futures",
+  "authors": [
+    "Bengüsu Özcan",
+    "Daan Juijn",
+    "Jakob Graabak",
+    "Sam Bogerd"
+  ],
+  "publisher": "Centre for Future Generations",
+  "date": "2025-07-10",
+  "url": "https://cfg.eu/advanced-ai-possible-futures/",
+  "archive_url": "https://web.archive.org/web/20261023082817/https://cfg.eu/advanced-ai-possible-futures/",
+  "retrieved": "2026-11-27",
+  "format": "html",
+  "licence": "© Centre for Future Generations. Redistribution permission unverified.",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "cfg-plateau",
+    "cfg-central",
+    "cfg-diplomacy",
+    "cfg-decentral"
+  ],
+  "related": [
+    {
+      "title": "Advanced AI: Possible futures (scenario narratives)",
+      "authors": [
+        "Bengüsu Özcan",
+        "Daan Juijn",
+        "Jakob Graabak",
+        "Sam Bogerd"
+      ],
+      "url": "https://cfg.eu/wp-content/uploads/AAIPF_scenarios_only.pdf",
+      "note": "Publisher PDF with all five core scenarios and ten endings."
+    },
+    {
+      "title": "Methodology: How we came up with these scenarios",
+      "authors": [
+        "Bengüsu Özcan",
+        "Daan Juijn",
+        "Jakob Graabak",
+        "Sam Bogerd"
+      ],
+      "url": "https://cfg.eu/advanced-ai-possible-futures/methodology/",
+      "note": "Companion methodology and qualitative assumptions for the compute and automation projections."
+    },
+    {
+      "title": "Context: Current AI trends and uncertainties",
+      "authors": [
+        "Bengüsu Özcan",
+        "Daan Juijn",
+        "Jakob Graabak",
+        "Sam Bogerd"
+      ],
+      "url": "https://cfg.eu/advanced-ai-possible-futures/context/",
+      "note": "Companion discussion of the trends grounding the scenarios."
+    },
+    {
+      "title": "The closing window for AI governance",
+      "authors": [
+        "Bengüsu Özcan",
+        "Daan Juijn",
+        "Jakob Graabak",
+        "Sam Bogerd"
+      ],
+      "url": "https://cfg.eu/the-closing-window-for-ai-governance/",
+      "note": "Companion analysis of policy implications across the scenario set."
+    }
+  ]
+}

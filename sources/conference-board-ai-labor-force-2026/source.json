@@ -7,10 +7,10 @@
   "url": "https://www.conference-board.org/publications/AI-and-the-Labor-Force-Scenarios-for-Stakeholders",
   "archive_url": "",
   "retrieved": "2026-11-27",
-  "format": "html",
+  "format": "pdf",
   "licence": "© The Conference Board, all rights reserved",
   "fulltext": "private",
-  "read": "full (report text on the publication page; downloadable PDF not used)",
+  "read": "full (20-page publisher PDF, figures visually checked, and publisher HTML publication and press release)",
   "scenarios": [
     "tcb-augmentation",
     "tcb-concentrated",
@@ -21,7 +21,12 @@
     {
       "title": "AI Could Reshape the US Workforce in 4 Very Different Ways (press release)",
       "url": "https://www.conference-board.org/press/ai-could-reshape-the-us-workforce-in-4-very-different-ways",
-      "note": "Press release; calls the third scenario 'massive displacement'."
+      "note": "Press release; calls the third scenario 'massive displacement'.",
+      "authors": [
+        "The Conference Board"
+      ],
+      "archive_url": "https://web.archive.org/web/20260923170157/https://www.conference-board.org//press/ai-could-reshape-the-us-workforce-in-4-very-different-ways"
     }
-  ]
+  ],
+  "pdf_url": "https://www.conference-board.org/pdfdownload.cfm?masterProductID=88756"
 }

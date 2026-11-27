@@ -1,0 +1,30 @@
+{
+  "slug": "brynjolfsson-turing-trap-2022",
+  "title": "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence",
+  "authors": [
+    "Erik Brynjolfsson"
+  ],
+  "publisher": "Dædalus / American Academy of Arts & Sciences",
+  "date": "2022-04-19",
+  "url": "https://www.amacad.org/publication/daedalus/turing-trap-promise-peril-human-artificial-intelligence",
+  "archive_url": "https://web.archive.org/web/20261105182415/https://www.amacad.org/publication/daedalus/turing-trap-promise-peril-human-artificial-intelligence",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "CC BY-NC 4.0",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "turing-trap",
+    "turing-trap-escape"
+  ],
+  "related": [
+    {
+      "title": "The Turing Trap (author preprint)",
+      "authors": [
+        "Erik Brynjolfsson"
+      ],
+      "url": "https://arxiv.org/abs/2201.04200",
+      "note": "January 2022 preprint, with matching main argument"
+    }
+  ]
+}

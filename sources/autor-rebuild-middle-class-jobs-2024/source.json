@@ -1,0 +1,29 @@
+{
+  "slug": "autor-rebuild-middle-class-jobs-2024",
+  "title": "Applying AI to Rebuild Middle Class Jobs",
+  "authors": [
+    "David Autor"
+  ],
+  "publisher": "National Bureau of Economic Research",
+  "date": "2024-02-12",
+  "url": "https://www.nber.org/papers/w32140",
+  "archive_url": "https://web.archive.org/web/20261009024356/https://www.nber.org/papers/w32140",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© David Autor, all rights reserved",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "autor"
+  ],
+  "related": [
+    {
+      "title": "AI Could Actually Help Rebuild The Middle Class",
+      "authors": [
+        "David Autor"
+      ],
+      "url": "https://www.noemamag.com/how-ai-could-help-rebuild-the-middle-class/",
+      "note": "Magazine version of the working paper"
+    }
+  ]
+}

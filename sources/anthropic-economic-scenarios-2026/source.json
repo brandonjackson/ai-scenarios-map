@@ -1,0 +1,41 @@
+{
+  "slug": "anthropic-economic-scenarios-2026",
+  "title": "Economic Scenarios for Transformative AI",
+  "authors": [
+    "Anton Korinek",
+    "Charles I. Jones",
+    "Szymon Sacher",
+    "Tess Cotter",
+    "Peter McCrory"
+  ],
+  "publisher": "The Anthropic Institute",
+  "date": "2026-09",
+  "url": "https://www.anthropic.com/institute/econ-scenarios",
+  "pdf_url": "https://assets.claude.com/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+  "archive_url": "https://web.archive.org/web/20261118054423/https://www.anthropic.com/institute/econ-scenarios",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "No redistribution licence stated in working paper. Explorer © 2026 Anthropic PBC.",
+  "fulltext": "private",
+  "read": "full: 57-page working paper, companion explorer text and policy framework",
+  "scenarios": [
+    "anthropic-modest",
+    "anthropic-substantial",
+    "anthropic-extreme"
+  ],
+  "related": [
+    {
+      "title": "Scenarios for our Economic Future",
+      "authors": [
+        "Anton Korinek",
+        "Charles I. Jones",
+        "Szymon Sacher",
+        "Tess Cotter",
+        "Peter McCrory",
+        "Santi Ruiz"
+      ],
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "note": "Interactive companion presents the same three scenarios and reports an accompanying survey."
+    }
+  ]
+}

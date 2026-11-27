@@ -1,0 +1,25 @@
+{
+  "slug": "ai-2027",
+  "title": "AI 2027",
+  "authors": [
+    "Daniel Kokotajlo",
+    "Scott Alexander",
+    "Thomas Larsen",
+    "Eli Lifland",
+    "Romeo Dean"
+  ],
+  "publisher": "AI Futures Project",
+  "date": "2025-04-03",
+  "url": "https://ai-2027.com/",
+  "archive_url": "https://web.archive.org/web/20261127004903/https://ai-2027.com/",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "unknown",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "ai-2027",
+    "ai-2027-slowdown"
+  ],
+  "related": []
+}

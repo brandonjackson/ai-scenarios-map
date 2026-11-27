@@ -1,0 +1,21 @@
+{
+  "slug": "go-science-ai-2030-scenarios-annex-c-2025",
+  "title": "AI 2030 Scenarios: Helping policy makers plan for the future of AI (Annex C)",
+  "authors": [
+    "Government Office for Science"
+  ],
+  "publisher": "Department for Science, Innovation and Technology (GOV.UK)",
+  "date": "2025-04-28",
+  "url": "https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c",
+  "archive_url": "https://web.archive.org/web/20260413212350/https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c",
+  "retrieved": "2026-11-27",
+  "format": "html",
+  "licence": "Open Government Licence v3.0, except where otherwise stated",
+  "fulltext": "committed",
+  "read": "full",
+  "scenarios": [
+    "dsit-steady",
+    "dsit-rapid"
+  ],
+  "related": []
+}

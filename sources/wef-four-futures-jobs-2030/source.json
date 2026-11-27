@@ -1,0 +1,37 @@
+{
+  "slug": "wef-four-futures-jobs-2030",
+  "title": "Four Futures for Jobs in the New Economy: AI and Talent in 2030",
+  "authors": [
+    "World Economic Forum"
+  ],
+  "publisher": "World Economic Forum",
+  "date": "2026-01-07",
+  "url": "https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/",
+  "pdf_url": "https://reports.weforum.org/docs/WEF_Four_Futures_for_Jobs_in_the_New_Economy_AI_and_Talent_in_2030_2025.pdf",
+  "capture_url": "https://data-il.org/wp-content/uploads/2026/01/WEF_Four_Futures_for_Jobs_in_the_New_Economy_AI_and_Talent_in_2030_2025.pdf",
+  "archive_url": "https://web.archive.org/web/20261012022834/https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© 2026 World Economic Forum, all rights reserved (white paper, p. 2)",
+  "fulltext": "private",
+  "read": "full: 20-page white paper, including visual indicators in Table 1",
+  "scenarios": [
+    "wef-supercharged",
+    "wef-displacement",
+    "wef-copilot",
+    "wef-stalled"
+  ],
+  "related": [
+    {
+      "title": "Here are four ways AI and talent trends could reshape jobs by 2030",
+      "authors": [
+        "Sam Grayling",
+        "Kateryna Karunska"
+      ],
+      "publisher": "World Economic Forum",
+      "date": "2026-01-07",
+      "url": "https://www.weforum.org/stories/economic-growth/four-ways-ai-impact-job-markets",
+      "note": "Two contributors (p. 17) summarize the four scenarios."
+    }
+  ]
+}
