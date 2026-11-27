@@ -30,8 +30,8 @@ Under effective adoption, AI could save almost a quarter of UK private-sector wo
 | --- | --- | --- |
 | Hard work pays | 2 | Tailwind displaces about 1.5 million workers, led by administration and sales and disproportionately women, with unemployment peaking at 340,000 around 2040. |
 | Affordable essentials | 3 | AI may improve diagnosis, prevention and care, but housing, energy and food are not addressed. |
-| Reliable safety net | 3 | Temporary unemployment stays within existing capacity; the LIFESPAN fund is only proposed. |
-| Responsive government | 3 | Only a permissive deployment policy is assumed; transparency, guidance on automated decisions and stronger regulators remain recommendations. |
+| Reliable safety net | 3 | Additional unemployment peaks at 340,000 around 2040 and unwinds by 2045, within existing capacity; the LIFESPAN fund is only proposed. |
+| Responsive government |  | Not addressed: the extract has only recommendations on transparency, automated decisions and regulators, not what happens to voice or state capacity in Tailwind. |
 | Time for what matters | 3 | Fewer mundane tasks are offset by more intensive monitoring and new work pressures. |
 
 ## Policies from the atlas

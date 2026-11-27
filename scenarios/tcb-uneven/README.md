@@ -22,17 +22,17 @@ AI wipes out jobs in some occupations while creating them in others, and total e
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.15 | 0.15 |
-| Public finances × job quality | -0.05 | -0.05 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Displaced workers take years to find work and often earn barely half what they did. |
-| Affordable essentials | 3 | Not addressed. |
-| Reliable safety net | 2 | Benefits triggered by statewide unemployment miss shocks concentrated in particular occupations and places. |
-| Responsive government | 3 | Not addressed. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: neither the scenario nor the rest of the report covers prices. |
+| Reliable safety net | 2 | The report names this scenario as needing targeted help because benefits triggered by statewide unemployment miss shocks concentrated in particular occupations and places. |
+| Responsive government |  | Not addressed: the extract says nothing about politics or public institutions in this scenario. |
+| Time for what matters |  | Not addressed: the extract says nothing about time outside work. |
 
 ## Files
 

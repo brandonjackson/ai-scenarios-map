@@ -29,10 +29,10 @@ Capable narrow AI and robotics, controlled by tech giants, automate work across 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Net employment losses and significant wage declines hit exposed cognitive and physical jobs, while AI managers and owners gain. |
-| Affordable essentials | 3 | Goods and services get cheaper while poverty rises; the extract does not address essentials directly. |
-| Reliable safety net | 2 | Structural unemployment rises and the report asks how to help, but no new support is put in place. |
+| Affordable essentials |  | Not addressed: the extract says goods and services get cheaper while poverty rises, but nothing about housing, food, energy or care costs. |
+| Reliable safety net | 2 | Structural unemployment and rising poverty meet existing support, since the scenario puts no new help in place for displaced workers. |
 | Responsive government | 2 | Protests and strikes have little leverage in automated sectors, amid concerns over surveillance and biased recruitment. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: the extract says social cohesion erodes but nothing about time for family, community or meaning. |
 
 ## Files
 

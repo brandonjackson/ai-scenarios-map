@@ -22,17 +22,17 @@ AI can complement workers, create jobs and improve occupational safety, while au
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.18 | -0.1 |
-| Public finances × job quality | -0.2 | -0.2 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Exposed clerical workers, disproportionately women, are among the least likely to get reskilling. |
-| Affordable essentials | 3 | Not addressed, and nothing elsewhere in the extract bears on it. |
-| Reliable safety net | 3 | The brief only recommends transition support and says nothing about gaps in existing protection. |
-| Responsive government | 3 | Worker voice in deploying AI is at risk but proposed through dialogue and audit, not lost. |
-| Time for what matters | 3 | Not addressed directly; safer hazardous work and added monitoring strain roughly offset. |
+| Affordable essentials |  | Not addressed: the extract says nothing about the cost of housing, food, energy or care. |
+| Reliable safety net |  | Not addressed: the brief only recommends transition support and says nothing about how existing protection holds up. |
+| Responsive government |  | Not addressed: worker participation, dialogue and audit are recommended, but nothing is said about whether governments respond. |
+| Time for what matters | 3 | Safer hazardous work from sensors and robotics roughly offsets strain from constant alerts and monitoring. |
 
 ## Policies from the atlas
 

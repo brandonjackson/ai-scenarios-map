@@ -29,10 +29,10 @@ AI can do a wide range of tasks by the early 2030s, but regulation, job protecti
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Older workers are protected by licensing and unions, but younger workers face higher displacement risk and discouraged workers leave the labour force. |
-| Affordable essentials | 3 | Growth gains are weak and uneven, so the cost of essentials does not fall. |
-| Reliable safety net | 3 | With little displacement, existing safety nets and tax bases hold. |
-| Responsive government | 3 | Governments regulate firmly and adopt AI cautiously; a 2027 market correction is the main shock. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Affordable essentials |  | Not addressed: the note discusses aggregate price pressures only, not the cost of housing, food, energy or care. |
+| Reliable safety net | 3 | Strong job protection programmes are in force and fiscal pressures are only gradual, within current frameworks. |
+| Responsive government | 3 | Governments answer societal pushback with restrictive regulation, licensing and job protection, so institutions keep control of the pace of change; a 2027 market correction is the main shock. |
+| Time for what matters |  | Not addressed: the note says nothing on time for family, community or meaning. |
 
 ## Files
 

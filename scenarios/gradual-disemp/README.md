@@ -32,7 +32,7 @@ Incremental AI erodes human economic participation. Institutions slowly misalign
 | Affordable essentials | 2 | In the absolute variant AI outbids people for land, energy and materials, making essentials inaccessible. |
 | Reliable safety net | 2 | Transfers hold incomes only for a while, and AI escapes the payroll taxes that fund support. |
 | Responsive government | 1 | Votes and consumer choice lose force as decision systems rely less on people. |
-| Time for what matters | 2 | Synthetic culture and relationships displace shared discourse, though the time section itself is not addressed. |
+| Time for what matters | 2 | Synthetic culture and relationships satisfy immediate preferences while displacing shared discourse and human connection. |
 
 ## Files
 

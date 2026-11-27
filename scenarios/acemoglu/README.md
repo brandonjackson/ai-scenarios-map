@@ -22,17 +22,17 @@ Skeptical of large GDP gains. Only modest share of tasks automatable. But what g
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.4 | -0.05 |
-| Public finances × job quality | -0.15 | -0.1 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Automation cuts labour demand in affected tasks and the wage exercise finds real wage declines for some low-education women as the capital share rises. |
-| Affordable essentials | 3 | Not addressed; GDP gains of about 1% over ten years do little for living costs. |
-| Reliable safety net | 3 | Not addressed. |
-| Responsive government | 3 | Not addressed; manipulation and misinformation are flagged only as GDP-counted harms, not political ones. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials | 3 | GDP gains of about 1% over ten years are too small to move living costs either way. |
+| Reliable safety net |  | Not addressed: the extract gives no unemployment figures or anything on support for those whose wages fall. |
+| Responsive government |  | Not addressed: manipulation and misinformation are flagged only as GDP-counted harms, not political ones. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Files
 

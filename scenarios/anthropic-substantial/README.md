@@ -29,10 +29,10 @@ AI could do half of all knowledge work by 2030 but is used for only about a fift
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Cognitive wages are flat and cognitive unemployment rises to 4.5% with costly job switching, but other wages rise 5.9%. |
-| Affordable essentials | 3 | Not addressed. |
-| Reliable safety net | 3 | Not addressed; the authors call the reallocation costly but within what the US labour market has absorbed. |
-| Responsive government | 3 | Not addressed directly; the labour share falls four points to capital, a real but manageable shift. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: the model has no prices for housing, food, energy or care. |
+| Reliable safety net | 3 | The authors call the reallocation costly for affected workers but within what the US labour market has absorbed, so existing support copes. |
+| Responsive government |  | Not addressed: the model has no political channel, and the four-point shift to capital says nothing about whether votes matter. |
+| Time for what matters |  | Not addressed: the extract says nothing on hours, family or community. |
 
 ## Files
 

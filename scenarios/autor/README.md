@@ -22,7 +22,7 @@ AI could restore middle-skill jobs by enabling less-trained workers to do expert
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.25 | -0.5 |
-| Public finances × job quality | 0.55 | 0.2 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
@@ -30,9 +30,9 @@ AI could restore middle-skill jobs by enabling less-trained workers to do expert
 | --- | --- | --- |
 | Hard work pays | 4 | Workers with relevant foundations and practical expertise gain access to better-paid decision-making roles, expanding the middle class. |
 | Affordable essentials | 4 | Decision support could extend medical expertise, widening access to routine primary care as nurse practitioners did. |
-| Reliable safety net | 3 | Not addressed; labour shortages in ageing economies cushion displacement. |
-| Responsive government | 3 | The paper names surveillance, suppression of dissent and concentrated AI ownership as possible uses, not the scenario's outcome. |
-| Time for what matters | 3 | Not addressed. |
+| Reliable safety net | 3 | Labour shortages in ageing economies, which the extract calls the more immediate challenge, absorb displaced workers within existing capacity. |
+| Responsive government |  | Not addressed: the paper names surveillance, suppression of dissent and concentrated AI ownership only as possible uses, not as what happens to government in the scenario. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Policies from the atlas
 

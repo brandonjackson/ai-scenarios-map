@@ -22,17 +22,17 @@ AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Gover
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.5 | 0.68 |
-| Public finances × job quality | -0.55 | -0.35 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Drop-in remote workers automate essentially all remote work and robotics later physical work, with no career paths or compensation described. |
-| Affordable essentials | 2 | Household prices are not addressed, but clusters drawing over 20% of US electricity output make power a scarce input that competes with households. |
-| Reliable safety net | 2 | Safety net is not addressed and tax bases are not modelled, while the investment case rests on replacing white-collar pay. |
+| Affordable essentials | 2 | Household prices are not discussed, but the scenario's own build-out of clusters drawing over 20% of US electricity output makes power a scarce input that competes with households. |
+| Reliable safety net | 2 | The investment case rests on substituting for tens of trillions of white-collar pay, and the essay describes no income support or tax base for those displaced. |
 | Responsive government | 2 | Strategic control concentrates in a national-security programme, defended by appeal to constitutional checks. |
-| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on time. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on time for family, community or meaning. |
 
 ## Policies from the atlas
 

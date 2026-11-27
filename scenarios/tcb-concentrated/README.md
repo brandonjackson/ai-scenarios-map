@@ -22,17 +22,17 @@ Aggregate job losses are modest, but the firms, roles and metro areas best place
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.45 | 0.05 |
-| Public finances × job quality | -0.2 | -0.05 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Exposed occupations and regions fall behind as gains go to firms and workers best placed to use AI. |
-| Affordable essentials | 3 | Not addressed. |
-| Reliable safety net | 3 | Aggregate job losses are modest, so only targeted help is needed. |
-| Responsive government | 2 | Gains and influence concentrate in a few dozen metros, leaving an 'AI underclass' of places behind. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: neither the scenario nor the rest of the report covers prices. |
+| Reliable safety net | 2 | The report names this scenario as one where severe occupational and regional shocks need targeted help that benefits triggered by statewide unemployment do not give. |
+| Responsive government |  | Not addressed: the extract shows AI hiring concentrated in a few metros but says nothing about political voice or how government responds. |
+| Time for what matters |  | Not addressed: the extract says nothing about time outside work. |
 
 ## Files
 

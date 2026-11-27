@@ -22,17 +22,17 @@ Under 20-year and five-year timelines for AGI, machines eventually perform the f
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.45 | 0.72 |
-| Public finances × job quality | -0.6 | -0.35 |
+| Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Competitive wages collapse for all workers as machines substitute for scarce labour near full automation. |
-| Affordable essentials | 3 | Not addressed; the article says nothing on the cost of essentials, though workers face labour-income losses. |
-| Reliable safety net | 1 | The paths are explicitly pre-policy and labour-income losses are economy-wide, with no compensation in the scenario. |
-| Responsive government | 2 | The article flags returns to capital, inequality and political stability as at risk and leaves sharing the gains to institutions it doesn't describe. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: the article says nothing on the cost of essentials. |
+| Reliable safety net | 1 | The paths are explicitly pre-policy and labour-income losses are economy-wide, so nothing in the scenario catches workers whose wages collapse. |
+| Responsive government |  | Not addressed: the article only lists political stability and inequality among outcomes that differ across scenarios, without describing how government responds. |
+| Time for what matters |  | Not addressed: the article says nothing on working time or leisure. |
 
 ## Files
 

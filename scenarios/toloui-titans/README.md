@@ -29,10 +29,10 @@ Winner-take-all + labor-replacing. Monopolistic control of broadly displacing te
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Broad replacement reduces labour demand at prevailing wages while capital controlling the technology takes the gains. |
-| Affordable essentials | 2 | Concentration brings pricing power, with the compulsory-milling analogue of high user fees. |
-| Reliable safety net | 1 | Displacement and concentrated gains meet a tax code that favours capital, with larger supports only recommended. |
+| Affordable essentials | 2 | Concentration brings pricing power and rent extraction, with the compulsory-milling analogue of high user fees. |
+| Reliable safety net | 1 | Broad displacement and concentrated gains meet a tax code that favours capital, eroding the base for supports, and the larger supports are only recommended. |
 | Responsive government | 1 | Alliances between government and AI corporate interests could distort democratic control, as authorities enforced monopolies historically. |
-| Time for what matters | 3 | Not addressed: the extract has no evidence on time for family, community or meaning. |
+| Time for what matters |  | Not addressed: the extract has no evidence on time for family, community or meaning. |
 
 ## Files
 

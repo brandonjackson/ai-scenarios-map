@@ -29,8 +29,8 @@ Systems automate digital workflows at human level but struggle with long, open-e
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Displacement is confined to junior and execution roles, with displaced workers often taking significant pay cuts, while health, education and most other sectors barely change. |
-| Affordable essentials | 3 | Not addressed; with minimal growth uplift nothing changes the cost of essentials. |
-| Reliable safety net | 3 | Not addressed; the correction causes no recession and displacement is contained, so existing support is not seriously tested. |
+| Affordable essentials |  | Not addressed: the extract says nothing on the cost of housing, food, energy or care, and minimal growth uplift does not settle it. |
+| Reliable safety net | 3 | Displacement is contained to junior and execution roles and the 2028 correction causes no recession, so existing support is not seriously tested. |
 | Responsive government | 2 | False synthetic narratives and AI-enabled election influence undermine trust in democratic processes, and populist parties campaign against AI. |
 | Time for what matters | 2 | Many young people rely on AI companions for friendship, therapy and romance, weakening their motivation to form human relationships. |
 

@@ -32,7 +32,7 @@ AI, human–machine collaboration and cheap energy raise productivity and lower 
 | Affordable essentials | 4 | Cheap intelligence and energy push prices towards zero across many goods, with medical advances besides. |
 | Reliable safety net | 3 | A safety net for vulnerable people is financed from market wealth, though a universal basic income is rejected. |
 | Responsive government | 3 | Decentralised choice and competition are preferred to central planning, with no gain or loss for voice or collective problem-solving. |
-| Time for what matters | 3 | Not addressed in the extract. |
+| Time for what matters |  | Not addressed: nothing on hours, leisure or family and community life. |
 
 ## Files
 

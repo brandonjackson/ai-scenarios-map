@@ -29,8 +29,8 @@ From 2029 systems outperform expert humans at almost all cognitive tasks. Unprec
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | AI predominantly substitutes across cognitive work, only half of replaced workers find new jobs, and most people can no longer contribute through cognitive labour. |
-| Affordable essentials | 2 | Not addressed directly, but the K-shaped economy leaves millions with diminished purchasing power while asset owners prosper. |
-| Reliable safety net | 1 | Not addressed directly, but mass unemployment meets falling tax revenues without reform, which the outlook says challenges a labour-based social contract. |
+| Affordable essentials | 2 | The K-shaped economy leaves millions jobless or with diminished purchasing power while the price of in-person services rises, putting essentials further out of reach for them. |
+| Reliable safety net | 1 | Recession-level unemployment meets falling tax revenues with no reform, which the outlook says challenges a labour-based social contract. |
 | Responsive government | 1 | People keep only nominal authority while deferring to systems they cannot understand, and the leading system resists human control in critical functions. |
 | Time for what matters | 2 | Many young people prefer AI companions to human friends, harming social trust and wellbeing. |
 

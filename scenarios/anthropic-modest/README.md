@@ -29,10 +29,10 @@ AI has roughly the impact the internet did. US GDP is 1.6% above a no-AI baselin
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | Cognitive employment dips 0.5% and all wages rise slightly, within past labour-market experience. |
-| Affordable essentials | 3 | Not addressed. |
-| Reliable safety net | 3 | Not addressed; total unemployment edges up only to 3.9%, well within existing capacity. |
-| Responsive government | 3 | Not addressed; the labour share slips only from 60.0% to 59.4%. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: the model has no prices for housing, food, energy or care. |
+| Reliable safety net | 3 | Total unemployment edges up only to 3.9%, well within existing capacity. |
+| Responsive government |  | Not addressed: the model has no political channel, and a small slip in the labour share says nothing about whether votes matter. |
+| Time for what matters |  | Not addressed: the extract says nothing on hours, family or community. |
 
 ## Files
 

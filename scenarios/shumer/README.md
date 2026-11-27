@@ -29,10 +29,10 @@ A software founder describes delegating his technical work to AI and expects sim
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 2 | Fewer programming roles and broad disruption in law, finance, writing and customer service, with fewer screen-based fields to retrain into. |
-| Affordable essentials | 3 | Not addressed; the extract says nothing about the cost of essentials. |
-| Reliable safety net | 2 | The only cushion named is personal savings and financial room; no public support for displaced workers is assumed. |
-| Responsive government | 3 | Not addressed beyond a high-level mention of surveillance and loss of control; government plays no part. |
-| Time for what matters | 3 | Not addressed; AI companionship is mentioned without effect on time or relationships. |
+| Affordable essentials |  | Not addressed: the extract says nothing about the cost of essentials. |
+| Reliable safety net | 2 | Fast, broad displacement meets no government response, and the author's advice to save and self-insure implies no public cushion for those displaced. |
+| Responsive government |  | Not addressed: surveillance and loss of control are mentioned only in passing and government plays no part. |
+| Time for what matters |  | Not addressed: AI companionship is mentioned without any effect on time or relationships. |
 
 ## Files
 

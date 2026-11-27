@@ -29,8 +29,8 @@ Labour demand falls across many sectors, starting with clerical, production, tra
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 1 | Persistent unemployment across clerical, manual and professional work, with big pay cuts for those re-employed. |
-| Affordable essentials | 3 | Prices and cost of living are not discussed. |
-| Reliable safety net | 1 | Unemployment insurance covers few workers and buckles under claims as the tax base shrinks. |
+| Affordable essentials |  | Not addressed: neither the scenario nor the rest of the report covers prices. |
+| Reliable safety net | 1 | Broad, persistent unemployment and rising reliance on public benefits meet a UI system that reaches about 28% of laid-off workers and replaces about 40% of earnings. |
 | Responsive government | 2 | Substantial social and political turmoil, with benefit agencies lacking capacity. |
 | Time for what matters | 2 | Prolonged job loss worsens health and family stability. |
 

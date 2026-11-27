@@ -29,10 +29,10 @@ AI mostly helps workers rather than replacing them, changing the task mix inside
 | Promise | Score | Reason |
 | --- | --- | --- |
 | Hard work pays | 3 | AI mostly assists, but early-career workers lose ground to experienced staff. |
-| Affordable essentials | 3 | Not addressed. |
-| Reliable safety net | 3 | A mild shock looks like an ordinary recession that existing systems can handle. |
-| Responsive government | 3 | Not addressed. |
-| Time for what matters | 3 | Not addressed. |
+| Affordable essentials |  | Not addressed: neither the scenario nor the rest of the report covers prices. |
+| Reliable safety net | 3 | Employment effects are minimal or slow, and the report says modest job losses would look like an ordinary recession that existing systems can handle. |
+| Responsive government |  | Not addressed: the extract says nothing about politics or public institutions in this scenario. |
+| Time for what matters |  | Not addressed: beyond clinicians spending less time on after-hours notes, the extract says nothing about time outside work. |
 
 ## Files
 
