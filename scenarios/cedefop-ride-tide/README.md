@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2025-11 |
 | **Type** | framework — Cedefop — Preparing for 2040 |
 | **Source** | <https://www.cedefop.europa.eu/en/publications/5614> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Mixed AUG/REP, CONC (warns) |
+| **Policy stance** | off |
+| **Likelihood** | plausible — Platform and non-standard work, employer underinvestment in broad training and AI skills premiums are visible today; it needs extensive adoption to hollow out standard employment across the EU by 2040. |
+| **Assessed** | 2026-11-27 |
 
 Successive waves of AI transform most jobs while the state and employers retreat from skills development. A two-tier workforce emerges: the already advantaged thrive while others drift into low-quality work or inactivity, and stable employment becomes a privilege of the few.
 
@@ -21,19 +21,21 @@ Successive waves of AI transform most jobs while the state and employers retreat
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | -0.4 | -0.05 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Tier-2 workers who cannot use AI tools are pushed into low-skilled, low-quality jobs and initial disadvantages become harder to overcome, while the advantaged thrive. |
+| Affordable essentials |  | Not addressed: the extract says nothing on the cost of housing, food, energy or care. |
+| Reliable safety net | 2 | The state and employers step back, weakened unions cannot support those lagging behind, and people with mental-health problems are pushed into unemployment and inactivity. |
+| Responsive government | 2 | Regulation fails to address quality, privacy and ethics concerns, social dialogue fragments into company-level damage control and labour relations are tense, though new forms of representation emerge. |
+| Time for what matters | 2 | Rapid change brings rising cognitive load, stress, burnout and anxiety, with only some workers able to choose purpose-driven work. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

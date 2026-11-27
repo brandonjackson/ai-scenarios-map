@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-02-24 |
 | **Type** | framework — Catalini, Hui & Wu — Some Simple Economics of AGI |
 | **Source** | <https://arxiv.org/abs/2602.20946> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Strong AUG, DIFF (prescribes) |
+| **Policy stance** | on |
+| **Likelihood** | possible — Insured, certified AI agents are starting to appear, but broad liability regimes, synthetic apprenticeships and verification scaling faster than automation remain unbuilt, and the authors call the condition exceptionally hard to achieve. |
+| **Assessed** | 2026-11-27 |
 
 Society deliberately scales verification alongside AI through liability, insurance, provenance and AI-assisted training, so agents multiply human capacity. Human consumption rises structurally and healthcare, education and public administration become broadly affordable.
 
@@ -21,19 +21,27 @@ Society deliberately scales verification alongside AI through liability, insuran
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | 0.3 | -0.4 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 3 | Proven aptitude replaces credentials and simulated practice rebuilds the entry ladder, but measurable work is re-priced at compute cost and displaced workers are told to exit. |
+| Affordable essentials | 4 | Diagnostic-quality healthcare and individualised education become universally affordable and physical service costs collapse, though housing and food are not discussed. |
+| Reliable safety net |  | Not addressed: the strategic human capital reserve is a pool of crisis experts, not income support. |
+| Responsive government | 4 | Augmentation keeps humans the architects with sovereignty over the agentic economy, government funds verification public goods and public administration becomes expert-level and universal. |
+| Time for what matters | 4 | The authors foresee a radical elevation of human purpose, with teaching, mentoring and human connection gaining value, though hours and leisure are not discussed. |
+
+## Policies from the atlas
+
+- **AI Liability** (`ai-liability`): Liability and insurance raise the verification budget, so the unverified-output externality is partly internalised.
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Simulation investment raises human experience through synthetic practice, rebuilding the apprenticeship pipeline.
+- **Regulatory Agencies** (`regulatory-agencies`): A jagged-frontier deployment rule caps agent deployment so the unverified leak stays within a risk budget.
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

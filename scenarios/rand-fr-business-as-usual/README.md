@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-08 |
 | **Type** | framework — RAND — Federal Revenue When AI Replaces Labor |
 | **Source** | <https://www.rand.org/pubs/research_reports/RRA4980-1.html> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | REP (offset by new tasks), CONC |
+| **Policy stance** | off |
+| **Likelihood** | plausible — Frontier AI is concentrated in a few firms pricing above cost and past waves created new job titles, but labour-replacing AI across all existing jobs is still hypothetical and none of Nordhaus's singularity indicators has triggered. |
+| **Assessed** | 2026-11-27 |
 
 AI replaces human labour in existing industries but people find new tasks at similar wages, while a few firms in each market earn monopoly profits from AI. Federal revenue holds up and corporate tax receipts rise.
 
@@ -21,19 +21,21 @@ AI replaces human labour in existing industries but people find new tasks at sim
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.3 | 0.45 |
+| Public finances × job quality | -0.05 | 0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Displaced workers eventually find new tasks at the same average wages, but the worst-off face a five-year spell at 14.2% unemployment that would feel like a recession, and pay across the new jobs is unspecified. |
+| Affordable essentials |  | Not addressed: the extract says nothing on housing, food, energy or care, and slightly below-baseline simulated inflation does not settle it. |
+| Reliable safety net | 3 | Transfers are assumed to sustain the unemployed at 60% of prior consumption through the spell, and this is the only scenario where federal revenue rises, so existing capacity holds. |
+| Responsive government |  | Not addressed: the extract describes no political or institutional response; regulating or taxing AI monopolies is only an illustrative option. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on family, community or free time. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

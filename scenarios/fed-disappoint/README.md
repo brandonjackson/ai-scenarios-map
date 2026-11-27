@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-11-16 |
 | **Type** | framework — Federal Reserve Board — SI Scenarios |
 | **Source** | <https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Limited impact, AI bust |
+| **Policy stance** | off |
+| **Likelihood** | plausible — AI valuations and capital spending are high and returns are contested, so a correction is credible, though as of late 2026 investment is still rising and no bust has begun. |
+| **Assessed** | 2026-11-27 |
 
 After heavy AI investment and stock-market gains, expected returns turn down and equity valuations fall, causing a slowdown and a notable rise in unemployment. The economy eventually recovers but without the productivity gains.
 
@@ -22,18 +22,20 @@ After heavy AI investment and stock-market gains, expected returns turn down and
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Public finances × job quality | -0.2 | -0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Falling valuations bring a slowdown and a more notable rise in unemployment, and the recovery comes without the productivity gains. |
+| Affordable essentials |  | Not addressed: the speech says nothing about the cost of housing, food, energy or care. |
+| Reliable safety net | 3 | Job losses come from a cyclical slowdown that ends in recovery, so they are temporary rather than permanent and stay within existing capacity. |
+| Responsive government |  | Not addressed: the scenario includes no political or institutional response. |
+| Time for what matters |  | Not addressed: the speech says nothing about time outside work. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

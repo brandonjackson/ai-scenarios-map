@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-10-31 |
 | **Type** | framework — Imas, Koh & Legg — Four Regimes of AGI |
 | **Source** | <https://arxiv.org/abs/2611.05417> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Strong REP, CONC |
+| **Policy stance** | off |
+| **Likelihood** | possible — Needs AI to cross both the superhuman-competence and the supercooperative-coordination thresholds; today's coordination is subcritical and the authors call crossing it an open empirical question, though no date is required. |
+| **Assessed** | 2026-11-27 |
 
 AI surpasses humans in both competence and coordination: giant AI firms dominate deep markets and lean AI firms take niche markets too. Most goods become cheap commodities and society grows much richer in real terms, with human work shifting toward relational sectors such as care, education and craft.
 
@@ -21,19 +21,21 @@ AI surpasses humans in both competence and coordination: giant AI firms dominate
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | -0.25 | 0.75 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | In the example coordinators are unemployed and specialists earn barely above the outside option (0.27 against 0.25), with commoditised pay anchored to compute, though the essay suggests the relational sector may employ much of the workforce at high real wages. |
+| Affordable essentials |  | Not addressed: most goods may be commoditised, but the extract does not link this to housing, food, energy or care. |
+| Reliable safety net | 2 | The model has no transfers while coordinators lose their jobs and the task-model variant takes human employment to zero, leaving displaced workers reliant on a relational sector the model does not include. |
+| Responsive government |  | Not addressed: the model has no government; regulation appears only as a real-world brake on a firm singularity. |
+| Time for what matters |  | Not addressed: nothing on hours, family or community. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

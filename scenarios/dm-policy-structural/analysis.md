@@ -16,7 +16,7 @@
 - The NIT floor is high enough to live on while capital stakes build up.
 
 ## Tensions and weak points
-- UBC grows slowly, like the Anthropic framework's capital accounts, which that framework says "cannot alone compensate for permanent job loss that happens soon". This essay leans on the NIT for the near term but gives no benefit level.
+- UBC grows slowly: its wealth "compounds automatically alongside the broader economy", so it pays off only over time. The essay relies on the NIT for immediate protection but gives no benefit level.
 - The authors call deploying UBC now "premature", yet a stake seeded only on trigger has little time to compound. The extract does not resolve this.
 - Funding is open. A sovereign fund could draw on "increased corporate tax rates", but UBC's funding is deferred to the unread SSRN paper, so the fiscal axis is blank.
 - The diffuse reading (x = −0.15) depends on UBC working as intended. The policy-off branch the authors warn of would sit near `korinek-agi` and `anthropic-epf-tier3`. Nearest neighbours with policy: `ai-2027-slowdown` (with a UBI floor) and `cfg-diplomacy`.

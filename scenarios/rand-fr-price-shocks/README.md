@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-08 |
 | **Type** | framework — RAND — Federal Revenue When AI Replaces Labor |
 | **Source** | <https://www.rand.org/pubs/research_reports/RRA4980-1.html> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | REP (offset by new tasks), DIFF (via prices) |
+| **Policy stance** | off |
+| **Likelihood** | possible — Open-weight models trailing the frontier make at-cost AI credible, but economy-wide labour replacement and a decade of zero service profits and 2% deflation would be a sharp break from today. |
+| **Assessed** | 2026-11-27 |
 
 Cheap, competitively supplied AI drives profits and prices down across automated sectors while displaced workers find new tasks. Persistent deflation shrinks nominal GDP and business and capital-gains revenue, making the national debt harder to service.
 
@@ -21,19 +21,21 @@ Cheap, competitively supplied AI drives profits and prices down across automated
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | 0.5 | 0.45 |
+| Public finances × job quality | 0 | -0.4 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Humans find new jobs over time, but the worst-off face a five-year spell at 14.2% unemployment first, and nothing is said about pay in the new work. |
+| Affordable essentials | 3 | Automated services deflate sharply and consumption could rise substantially, but physical goods may see Baumol-style inflation and essentials are not discussed by name. |
+| Reliable safety net | 3 | Transfers are assumed at 60% of prior consumption through the spell; revenue falls about a quarter versus monopolistic pricing and debt service gets harder, but the labour tax base holds. |
+| Responsive government |  | Not addressed: no political or institutional response is described; demand stabilisation and AI excise taxes are only options. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on family, community or free time. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

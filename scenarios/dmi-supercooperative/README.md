@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-10-31 |
 | **Type** | framework — Imas, Koh & Legg — Four Regimes of AGI |
 | **Source** | <https://arxiv.org/abs/2611.05417> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Strong REP, Strong CONC |
+| **Policy stance** | off |
+| **Likelihood** | improbable — Multi-agent systems still fail on 41–87% of workflows and competence is already running ahead of coordination, so crossing the coordination threshold at merely average competence, unchecked by regulation or rival providers, is the least likely ordering. |
+| **Assessed** | 2026-11-27 |
 
 AI agents coordinate far better than humans, breaking the old ceiling on firm size. Deep markets undergo a phase transition into one or a few giant AI-only firms, wages fall abruptly, human coordinators become redundant and workers crowd into niche and relational sectors.
 
@@ -21,19 +21,21 @@ AI agents coordinate far better than humans, breaking the old ceiling on firm si
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | -0.5 | 0.6 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | Wages drop abruptly to the outside option once AI firms undercut human employers, coordinators are made redundant, and workers crowding into niche and relational sectors push wages down there too. |
+| Affordable essentials |  | Not addressed: deep-market unit costs tend to zero, but the extract says nothing on housing, food, energy or care. |
+| Reliable safety net | 2 | The model has no transfers while human employment in deep markets disappears and about half the coordinators in the example are unemployed, so displaced groups have nothing to land on; niche specialists stay employed. |
+| Responsive government |  | Not addressed: the model has no government; regulation is named only as a real-world brake outside the scenario. |
+| Time for what matters |  | Not addressed: nothing on hours, family or community. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026 |
 | **Type** | framework — RAND — Infinite Potential: Economic and Societal Impacts |
 | **Source** | <https://www.rand.org/pubs/research_reports/RRA4767-4.html> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Strong REP, Strong CONC |
+| **Policy stance** | off |
+| **Likelihood** | improbable — It needs AGI and mass US unemployment by late 2027 and then a global AI-driven cyberattack crippling infrastructure, a stack of fast and extreme events with no sign yet of the first. |
+| **Assessed** | 2026-11-27 |
 
 AGI deployment by a US frontier lab sharply raises productivity while the US faces mass unemployment, inequality and unrest and China wins manufacturing dominance. In 2028 a massive AI-linked cyberattack of unclear origin cripples infrastructure and robotics.
 
@@ -21,19 +21,21 @@ AGI deployment by a US frontier lab sharply raises productivity while the US fac
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.6 | 0.72 |
+| Public finances × job quality | -0.75 | -0.75 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | Mass unemployment spreads from entry-level knowledge work to blue-collar work through robotics, and players struggled to see a role for most humans' labour. |
+| Affordable essentials | 2 | A cyberattack that cripples critical infrastructure worldwide, on top of mass unemployment, implies energy and supplies falling out of reach for the worst-off, though prices are not discussed. |
+| Reliable safety net | 1 | Revenue erodes as needs rise, players asked when government would run out of money, and basic services, let alone an expanded safety net, may go unfunded. |
+| Responsive government | 1 | The scenario is defined by governance failures, a contest between states and AI firms, and AGI that may have become uncontrollable. |
+| Time for what matters |  | Not addressed: the caring society and shorter working week are player recommendations, not part of the scenario. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

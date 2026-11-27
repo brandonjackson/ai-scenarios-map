@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-08 |
 | **Type** | framework — RAND — Federal Revenue When AI Replaces Labor |
 | **Source** | <https://www.rand.org/pubs/research_reports/RRA4980-1.html> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Extreme REP, Strong CONC |
+| **Policy stance** | off |
+| **Likelihood** | possible — Closed-weight leaders do hold a lead and pricing power today, but it needs essentially all human labour to lose market value with no new tasks emerging, which no current indicator shows. |
+| **Assessed** | 2026-11-27 |
 
 AI replaces most human work, there are no new tasks for people, and one or a few AI owners turn the replaced wages into profit. Mass unemployment collapses labour-based tax revenue, about two-thirds of the federal total.
 
@@ -21,19 +21,21 @@ AI replaces most human work, there are no new tasks for people, and one or a few
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.85 | 0.85 |
+| Public finances × job quality | -0.9 | -0.75 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | No new economically valuable tasks emerge and unemployment spikes to encompass the vast majority of the population. |
+| Affordable essentials | 2 | Because monopolists keep collecting profits, prices 'may still be too high for many', and the displaced face a dramatic loss of consumption even with transfers, with simulated inflation reaching 3.5%. |
+| Reliable safety net | 1 | Existing programmes exclude some, have time limits and fall short of full-time living standards, while labour-tied revenue (65% of the total) collapses and transfer spending rises. |
+| Responsive government |  | Not addressed: no political or institutional response is described; regulating or nationalising the monopolists is only an option. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on family, community or free time. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

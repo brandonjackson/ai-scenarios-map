@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06 |
 | **Type** | framework — Anthropic — Economic Policy Framework |
 | **Source** | <https://www.anthropic.com/policy-on-the-ai-exponential/epf> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Mild REP, Mild CONC |
+| **Policy stance** | off |
+| **Likelihood** | probable — US unemployment remains in this range and entry-level employment in AI-exposed occupations has weakened, though churn faster than workers can adapt is not yet clear in aggregate data. |
+| **Assessed** | 2026-11-27 |
 
 Unemployment stays around 5% but churn accelerates as AI automates tasks across many occupations at once and erodes the value of long-acquired skills. Capital accounts that can hold AI-company equity, wage insurance and retraining help workers move to new roles.
 
@@ -21,19 +21,21 @@ Unemployment stays around 5% but churn accelerates as AI automates tasks across 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | -0.15 | 0.15 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 3 | Unemployment stays near 5%, but AI steadily compresses the value of skills workers spent years acquiring and some displaced workers take lower-paid jobs. |
+| Affordable essentials |  | Not addressed: only that licensing raises prices; nothing on housing, food, energy or care in this tier. |
+| Reliable safety net | 3 | At about 5% unemployment the existing system is not facing the large shock the authors say UI is unprepared for, so it copes. |
+| Responsive government |  | Not addressed: the extract says nothing on government or voice in this tier. |
+| Time for what matters |  | Not addressed: the work-far-less hope applies across the framework over a longer horizon, not to this tier. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

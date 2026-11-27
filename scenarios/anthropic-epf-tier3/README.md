@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06 |
 | **Type** | framework — Anthropic — Economic Policy Framework |
 | **Source** | <https://www.anthropic.com/policy-on-the-ai-exponential/epf> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Extreme REP, Strong CONC |
+| **Policy stance** | off |
+| **Likelihood** | possible — Needs AI to become a general substitute for labour so unemployment passes any historical peak alongside record output, which depends on rapid, broad capability gains not yet visible in labour data. |
+| **Assessed** | 2026-11-27 |
 
 Unemployment rises beyond any historical peak while the economy produces record output, as income shifts from labour to capital and the link between contributing and sharing in rewards breaks. Sustaining incomes requires new taxes and broad sharing such as basic income or sovereign wealth funds.
 
@@ -21,19 +21,21 @@ Unemployment rises beyond any historical peak while the economy produces record 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.65 | 0.8 |
+| Public finances × job quality | -0.8 | -0.6 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | The link between contributing to the economy and sharing in its rewards is strained or broken, a structural decoupling of contribution from income. |
+| Affordable essentials | 2 | The long-term unemployed draw down savings and rent is paid late, then not at all, with possible continued inflation. |
+| Reliable safety net | 1 | Traditional safety-net tools may not be sufficient, the tax system captures a shrinking share of a growing economy as support costs rise, and fiscal headroom may already be limited. |
+| Responsive government |  | Not addressed: the authors claim agency to shape the future but do not describe how government responds in this tier. |
+| Time for what matters |  | Not addressed: paid work kept available for those who want it is a recommendation, and working far less is a longer-horizon hope. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

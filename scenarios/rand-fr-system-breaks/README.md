@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-08 |
 | **Type** | framework — RAND — Federal Revenue When AI Replaces Labor |
 | **Source** | <https://www.rand.org/pubs/research_reports/RRA4980-1.html> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Extreme REP, Mild DIFF (no income) |
+| **Policy stance** | off |
+| **Likelihood** | improbable — It needs both full replacement of human labour and full commoditisation of AI leaving no profits anywhere, and none of the early-warning indicators of such a break has triggered. |
+| **Assessed** | 2026-11-27 |
 
 Human labour cannot compete and AI is priced at cost, so both wage and profit income vanish and the economy stops working as it has historically. Most federal revenue is at risk and no rate of productivity growth restores it.
 
@@ -21,19 +21,21 @@ Human labour cannot compete and AI is priced at cost, so both wage and profit in
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | 0.1 | 0.9 |
+| Public finances × job quality | -0.95 | -0.9 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | Automation is 'so cheap and productive that human labor cannot compete'; labour income goes away and no new tasks emerge. |
+| Affordable essentials | 2 | Consumer prices fall 2% a year, but with wage and capital income both gone, people without transfers struggle to buy goods from non-automated industries. |
+| Reliable safety net | 1 | Transfers become the only income, the authors doubt they can sustain 60% of consumption 'particularly in scenario 4', and 83% of federal tax revenue is directly vulnerable. |
+| Responsive government |  | Not addressed: the extract says the economy 'fails to work as it has historically' but describes no political or institutional response. |
+| Time for what matters |  | Not addressed: nothing in the extract bears on family, community or free time. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

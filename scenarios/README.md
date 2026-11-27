@@ -92,6 +92,35 @@ Since the November 2026 re-extraction, the Korinek IMF article, the TBI report a
 | Significant Displacement (Conference Board) | Off: shows today's systems unprepared | [summary](tcb-displacement/summary.md) | [analysis](tcb-displacement/analysis.md) |
 | Uneven Disruption (Conference Board) | Off: targeted help suggested, not assumed | [summary](tcb-uneven/summary.md) | [analysis](tcb-uneven/analysis.md) |
 | AGI and the End of Human Employment (Stiefenhofer) | Off: a warning; UBI and AGI ownership prescribed | [summary](agi-end-employment/summary.md) | [analysis](agi-end-employment/analysis.md) |
+| A Rising Tide Lifts All Boats Proportionally (Dynan, Elmendorf & Sheiner) | Off: current-law fiscal projection, gains shared | [summary](des-rising-tide/summary.md) | [analysis](des-rising-tide/analysis.md) |
+| Income Inequality Increases (Dynan, Elmendorf & Sheiner) | Off: current-law projection, more progressivity an option | [summary](des-inequality/summary.md) | [analysis](des-inequality/analysis.md) |
+| Jobs Are Lost and New Jobs Emerge (Dynan, Elmendorf & Sheiner) | Off: current law; UI, wage insurance and training as options | [summary](des-jobs-churn/summary.md) | [analysis](des-jobs-churn/analysis.md) |
+| Capital Wins Amid Major Permanent Job Displacement (Dynan, Elmendorf & Sheiner) | Off: current law; UBI, capital taxes and public ownership as options | [summary](des-capital-wins/summary.md) | [analysis](des-capital-wins/analysis.md) |
+| Business as Usual (RAND) | Off: options to tax or regulate AI monopolies sit outside the scenario | [summary](rand-fr-business-as-usual/summary.md) | [analysis](rand-fr-business-as-usual/analysis.md) |
+| Hyperconcentration (RAND) | Off: universal income and taxing monopolists offered as options | [summary](rand-fr-hyperconcentration/summary.md) | [analysis](rand-fr-hyperconcentration/analysis.md) |
+| Price Shocks (RAND) | Off: price stabilisation and AI excise taxes offered as options | [summary](rand-fr-price-shocks/summary.md) | [analysis](rand-fr-price-shocks/analysis.md) |
+| System Breaks (RAND) | Off: universal income offered, no revenue-neutral path exists | [summary](rand-fr-system-breaks/summary.md) | [analysis](rand-fr-system-breaks/analysis.md) |
+| Economic Crisis (RAND) | Off: gridlock and ill-suited tools; player recommendations not assumed | [summary](rand-ip-economic-crisis/summary.md) | [analysis](rand-ip-economic-crisis/analysis.md) |
+| Business and Civil Society (RAND) | Off: governance failures and a cyber shock; player playbooks not assumed | [summary](rand-ip-business-civil/summary.md) | [analysis](rand-ip-business-civil/analysis.md) |
+| A Future of Opportunities (Cedefop) | On: inclusive skills policy and tripartite social dialogue | [summary](cedefop-opportunities/summary.md) | [analysis](cedefop-opportunities/analysis.md) |
+| Left Alone to Ride the Tide (Cedefop) | Off: state and employers step back | [summary](cedefop-ride-tide/summary.md) | [analysis](cedefop-ride-tide/analysis.md) |
+| Staying Afloat (Cedefop) | Mixed: protective AI regulation, little push to adopt | [summary](cedefop-afloat/summary.md) | [analysis](cedefop-afloat/analysis.md) |
+| AI Unleashed (Cedefop) | Off: policymakers captured by AI owners | [summary](cedefop-unleashed/summary.md) | [analysis](cedefop-unleashed/analysis.md) |
+| The Hollow Economy (Catalini, Hui & Wu) | Off: a warning; liability pricing and verification investment prescribed | [summary](catalini-hollow/summary.md) | [analysis](catalini-hollow/analysis.md) |
+| The Augmented Economy (Catalini, Hui & Wu) | On: priced liability, provenance infrastructure and simulated apprenticeships | [summary](catalini-augmented/summary.md) | [analysis](catalini-augmented/analysis.md) |
+| Broadly Shared SI Gains (Federal Reserve) | Off: SI growth shared broadly at full employment | [summary](fed-shared-gains/summary.md) | [analysis](fed-shared-gains/analysis.md) |
+| SI-Driven Expansion with Labour Disruption (Federal Reserve) | Off: SI growth with job displacement | [summary](fed-displacement/summary.md) | [analysis](fed-displacement/analysis.md) |
+| SI Disappoints (Federal Reserve) | Off: AI investment bust and recession | [summary](fed-disappoint/summary.md) | [analysis](fed-disappoint/analysis.md) |
+| Minimal AGI (Imas, Koh & Legg) | Off: theoretical regime with no government | [summary](dmi-minimal-agi/summary.md) | [analysis](dmi-minimal-agi/analysis.md) |
+| Supercompetent AI (Imas, Koh & Legg) | Off: theoretical regime with no government | [summary](dmi-supercompetent/summary.md) | [analysis](dmi-supercompetent/analysis.md) |
+| Supercooperative AI (Imas, Koh & Legg) | Off: theoretical regime with no government | [summary](dmi-supercooperative/summary.md) | [analysis](dmi-supercooperative/analysis.md) |
+| Artificial Superintelligence (Imas, Koh & Legg) | Off: theoretical regime with no government | [summary](dmi-asi/summary.md) | [analysis](dmi-asi/analysis.md) |
+| Mild Disruption (Jacobs & Imas) | Mixed: preemptive UI, EITC and retraining stabilizers assumed | [summary](dm-policy-mild/summary.md) | [analysis](dm-policy-mild/analysis.md) |
+| Moderate Displacement and Wage Compression (Jacobs & Imas) | Mixed: EITC converted to a negative income tax on trigger | [summary](dm-policy-moderate/summary.md) | [analysis](dm-policy-moderate/analysis.md) |
+| Structural Labour-Capital Decoupling (Jacobs & Imas) | Mixed: universal basic capital and NIT floor deployed on trigger | [summary](dm-policy-structural/summary.md) | [analysis](dm-policy-structural/analysis.md) |
+| Baseline Economy (Anthropic EPF) | Off: tier conditions arise anyway; policies are recommendations | [summary](anthropic-epf-tier1/summary.md) | [analysis](anthropic-epf-tier1/analysis.md) |
+| Recession-Level Disruption (Anthropic EPF) | Off: recession-level disruption meets today's safety net; reforms proposed | [summary](anthropic-epf-tier2/summary.md) | [analysis](anthropic-epf-tier2/analysis.md) |
+| Transformative Disruption (Anthropic EPF) | Off: decoupling arrives; new taxes and sharing left as open research | [summary](anthropic-epf-tier3/summary.md) | [analysis](anthropic-epf-tier3/analysis.md) |
 
 ## Fork scenarios
 

@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-09-16 |
 | **Type** | framework — Jacobs & Imas — Economic Policy for AGI |
 | **Source** | <https://institute.deepmind.com/essays/economic-policy-for-agi/> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Moderate REP, Mild CONC (with NIT floor) |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Weaker entry-level hiring in AI-exposed jobs shows the channel, but durable displacement with falling median wages and converting the EITC into a negative income tax both need to go its way. |
+| **Assessed** | 2026-11-27 |
 
 Automation outpaces the creation of new jobs, bringing heavy churn, long unemployment spells, possibly permanent under-employment and falling median wages. Safety nets shift from temporary support to durable income support through a negative income tax.
 
@@ -21,19 +21,27 @@ Automation outpaces the creation of new jobs, bringing heavy churn, long unemplo
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | -0.2 | 0.4 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Prolonged unemployment spells, possibly permanent under-employment and falling median wages cut the long-term displaced off from advancement, while human-centred roles gain. |
+| Affordable essentials |  | Not addressed: the inflation warning applies to UBI, which the scenario rejects; prices are not described. |
+| Reliable safety net | 3 | Support shifts to durable income support through an NIT paid on income rather than cause, guaranteeing a basic standard of living at an unstated level. |
+| Responsive government |  | Not addressed: only panel scores (NIT political support 22.9); nothing on how government works in the scenario. |
+| Time for what matters |  | Not addressed: the extract says nothing on working time, family or community in this scenario. |
+
+## Policies from the atlas
+
+- **Tax Credit Expansion** (`tax-credit-expansion`): The EITC "transitions to a negative income tax (NIT) if Scenario 2 thresholds are triggered".
+- **Unemployment Benefits** (`unemployment-benefits`): Expanded EITC and UI are already in place from Scenario 1.
+- **Fiscal Automatic Stabilizers** (`fiscal-automatic-stabilizers`): The NIT is activated by a data trigger: prolonged unemployment spells and falling median wages that outpace job reinstatement.
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

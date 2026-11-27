@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2025-11 |
 | **Type** | framework — Cedefop — Preparing for 2040 |
 | **Source** | <https://www.cedefop.europa.eu/en/publications/5614> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Extreme REP, Strong CONC (warns) |
+| **Policy stance** | off |
+| **Likelihood** | improbable — Frontier AI is already concentrated in a few firms, but replacing most jobs at every skill level by 2040 and the EU abandoning rights-based AI regulation for authoritarian capture both need major breaks from current trends. |
+| **Assessed** | 2026-11-27 |
 
 AI takes over most areas of work and life, causing unprecedented job losses at every skill level. A few AI owners dominate the economy and capture policymakers, remaining workers do precarious gig work, and inequality, poverty and regional polarisation grow.
 
@@ -21,19 +21,21 @@ AI takes over most areas of work and life, causing unprecedented job losses at e
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.85 | 0.8 |
+| Public finances × job quality | -0.8 | -0.55 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 1 | Unprecedented job losses across all sectors and skill levels, recruitment limited to the highly AI-skilled and remaining work precarious, low-paid and without benefits. |
+| Affordable essentials |  | Not addressed: poverty spreads, but the extract does not discuss the cost of housing, food, energy or care. |
+| Reliable safety net | 1 | Large segments are pushed into unemployment, poverty and exclusion, with no measures safeguarding workers' rights and unions powerless to protect them. |
+| Responsive government | 1 | Democracy is undermined, AI owners dominate public institutions, authoritarian powers rise and algorithmic manipulation creates filter bubbles. |
+| Time for what matters | 2 | People prioritise survival, purpose-driven careers stall and AI tools bring isolation and anxiety, though some respondents expected more time for volunteering and family. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

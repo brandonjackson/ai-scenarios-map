@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06 |
 | **Type** | framework — Anthropic — Economic Policy Framework |
 | **Source** | <https://www.anthropic.com/policy-on-the-ai-exponential/epf> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Moderate REP, CONC |
+| **Policy stance** | off |
+| **Likelihood** | possible — Roughly doubling unemployment through AI needs displacement well beyond today's, where no systemic employment effect is yet measured, though weaker entry-level hiring in exposed jobs shows the channel. |
+| **Assessed** | 2026-11-27 |
 
 AI pushes US unemployment to around 10%, hitting tens of millions of families: expertise loses value, job searches stretch into years and communities lose their job base. Expanded unemployment insurance, sector transition support and basic-needs relief carry people through.
 
@@ -21,19 +21,21 @@ AI pushes US unemployment to around 10%, hitting tens of millions of families: e
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | -0.4 | 0.5 |
+| Public finances × job quality | -0.45 | -0.35 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Pathways from effort to advancement become less reliable and for many impassable, with careers ending early, starting late and expertise devalued. |
+| Affordable essentials | 2 | Consumption drops sharply when workers exhaust UI and existing programmes only partly fill the gap, so food and housing slip out of reach for that group; families revise plans for homes. |
+| Reliable safety net | 2 | Extended Benefits triggers fire late and unevenly, legacy systems buckle and those exhausting UI fall into a gap existing programmes only partly fill. |
+| Responsive government |  | Not addressed: the extract says nothing on government responsiveness or voice in this tier beyond slow emergency extensions. |
+| Time for what matters | 2 | Families revise or abandon plans for children's education and retirements as job searches stretch into years. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

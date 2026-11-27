@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-11-16 |
 | **Type** | framework — Federal Reserve Board — SI Scenarios |
 | **Source** | <https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Mild AUG, DIFF |
+| **Policy stance** | off |
+| **Likelihood** | possible — US productivity growth has been reasonably strong but has not yet broken out structurally, so persistently above-trend growth at full employment with gains shared broadly needs both a productivity surge and broad sharing to arrive within several years. |
+| **Assessed** | 2026-11-27 |
 
 Super intelligence raises US productivity and the gains are shared broadly between workers and owners of capital. Real GDP growth stays above its long-run average and the economy remains near full employment.
 
@@ -21,19 +21,21 @@ Super intelligence raises US productivity and the gains are shared broadly betwe
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
-| Public finances × job quality | — | — |
+| Labor demand × gain distribution | 0.35 | -0.3 |
+| Public finances × job quality | 0.3 | 0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 4 | The US stays close to full employment and productivity gains are shared broadly across labour and capital owners, with no group named as losing out. |
+| Affordable essentials |  | Not addressed: the speech says only that the marginal cost of satisfying curiosity is falling, nothing about housing, food, energy or care. |
+| Reliable safety net | 3 | Near full employment leaves little load on support and above-trend growth widens the tax base, but nothing says the safety net itself changes. |
+| Responsive government |  | Not addressed: the scenario has no political or institutional content beyond Warsh's general remarks across the set. |
+| Time for what matters |  | Not addressed: the speech says nothing about time outside work. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)

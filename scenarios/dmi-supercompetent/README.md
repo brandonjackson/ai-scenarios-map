@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-10-31 |
 | **Type** | framework — Imas, Koh & Legg — Four Regimes of AGI |
 | **Source** | <https://arxiv.org/abs/2611.05417> |
-| **Tags** | — |
-| **Policy stance** | — |
-| **Likelihood** | — |
-| **Assessed** | — |
+| **Tags** | Moderate REP, DIFF |
+| **Policy stance** | off |
+| **Likelihood** | possible — Progress is running mostly along competence as the authors say, but AI beating every human expert at every task while multi-agent coordination stays subcritical needs a large further leap with no date attached. |
+| **Assessed** | 2026-11-27 |
 
 AI beats every human expert on every task but still cannot coordinate large organisations. Firms become far more productive without growing and headcounts shrink: abundance without concentration, with human coordinators running AI teams while wages fall.
 
@@ -21,19 +21,21 @@ AI beats every human expert on every task but still cannot coordinate large orga
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | — | — |
+| Labor demand × gain distribution | 0.2 | 0.4 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | — |  |
-| Affordable essentials | — |  |
-| Reliable safety net | — |  |
-| Responsive government | — |  |
-| Time for what matters | — |  |
+| Hard work pays | 2 | Everyone in the example keeps a job, but specialist pay falls to 0.39 and coordinator pay to 0.48, close to the 0.25 outside option; coordinators directing AI teams keep a premium, so the harm is severe but not universal. |
+| Affordable essentials |  | Not addressed: goods and services grow cheap and abundant, but the extract says nothing on housing, food, energy or care. |
+| Reliable safety net | 3 | The model has no transfers, but in the example specialists are displaced into niche markets rather than unemployment, so the net is not stretched, though the essay expects headcounts to shrink. |
+| Responsive government |  | Not addressed: the model has no government. |
+| Time for what matters |  | Not addressed: nothing on hours, family or community. |
 
 ## Files
 
 - [`extract.md`](extract.md)
+- [`summary.md`](summary.md)
+- [`analysis.md`](analysis.md)
