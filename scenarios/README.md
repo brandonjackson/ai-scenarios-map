@@ -23,7 +23,7 @@ Each source was read (full text where accessible) and summarised under the five 
 - **Tensions and weak points**, including mismatches between the source and how the map describes it.
 - **Scoring notes** comparing the draft scores with the text.
 
-Sources that couldn't be read directly are marked in their folder: the IMF article (Korinek; read via Korinek & Suh, NBER w32255), the TBI report (read via press coverage), and CFG (read via an AI summary of the page). The Windfall Trust Radar scenarios have no public source yet. Of the 2026 additions, GO-Science was read from the GOV.UK HTML report, the Anthropic Institute and WEF scenarios from their full PDFs, and AI 2040 from its website.
+Sources that couldn't be read directly are marked in their folder: the IMF article (Korinek; read via Korinek & Suh, NBER w32255), the TBI report (read via press coverage), and CFG (read via an AI summary of the page). The Windfall Trust Radar scenarios have no public source yet. Of the 2026 additions, GO-Science was read from the GOV.UK HTML report, the Anthropic Institute and WEF scenarios from their full PDFs, and AI 2040 from its website. The IMF scenario-planning note and the Conference Board report were read from their full texts.
 
 ## Index
 
@@ -82,6 +82,12 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Co-Pilot Economy (WEF) | On: early investment in skills and infrastructure | [summary](wef-copilot/summary.md) | [analysis](wef-copilot/analysis.md) |
 | Stalled Progress (WEF) | Off in effect: no fiscal space | [summary](wef-stalled/summary.md) | [analysis](wef-stalled/analysis.md) |
 | AI 2040: Plan A (AI Futures Project) | Strongly on: verified US–China slowdown | [summary](ai-2040-plan-a/summary.md) | [analysis](ai-2040-plan-a/analysis.md) |
+| Baseline Diffusion (IMF) | Off: regulation slows adoption | [summary](imf-baseline/summary.md) | [analysis](imf-baseline/analysis.md) |
+| Runaway Diffusion (IMF) | Off: minimal regulation by assumption | [summary](imf-runaway/summary.md) | [analysis](imf-runaway/analysis.md) |
+| Gradual Augmentation (Conference Board) | Off: recommendations cut across scenarios | [summary](tcb-augmentation/summary.md) | [analysis](tcb-augmentation/analysis.md) |
+| Concentrated Gains (Conference Board) | Off: targeted help suggested, not assumed | [summary](tcb-concentrated/summary.md) | [analysis](tcb-concentrated/analysis.md) |
+| Significant Displacement (Conference Board) | Off: shows today's systems unprepared | [summary](tcb-displacement/summary.md) | [analysis](tcb-displacement/analysis.md) |
+| Uneven Disruption (Conference Board) | Off: targeted help suggested, not assumed | [summary](tcb-uneven/summary.md) | [analysis](tcb-uneven/analysis.md) |
 
 ## Fork scenarios
 

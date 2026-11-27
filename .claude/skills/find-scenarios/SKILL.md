@@ -39,9 +39,23 @@ node scripts/scenario-catalogue.mjs check <file.json>
 - **CHECK** — same site and author. Confirm it's a different publication before keeping it.
 - **NEW** — keep.
 
-## 4. Present the shortlist before writing
+## 4. Decide — don't ask
 
-Show the user a table of the keepers: title, author, date, one-line description, URL, why it's worth adding, proposed policy stance and likelihood. Ask which to add. Don't edit the CSV until they choose (if they already said "just add them", go ahead).
+Making the call is the job. Sort every candidate into **add**, **hold** or **skip** yourself and carry on; the user reviews the result in the diff. Ask only if the user asked to approve a shortlist first.
+
+**Add** when all of these hold:
+- It describes a distinct future for jobs, who gains, or public finances — not a forecast number, survey or critique of other scenarios.
+- It's from a credible author or institution, or it's a widely discussed essay that people bring to workshops.
+- It adds something the map lacks: a new publisher type, region, mechanism or quadrant. A scenario that restates one already on the map (same mechanism, same conclusion) isn't worth a row.
+- You've read enough of the primary source to place it on at least one axis pair and write the summary honestly. A press release or one-line description is not enough.
+
+**Dig before you hold.** If the primary page is thin (press release, landing page, gated), search for the detail before giving up: the PDF by exact title (`"<title>" filetype:pdf`), the publisher's other pages for it (report, summary, webinar, blog), the authors' own posts, working-paper or preprint versions, and secondary coverage that quotes the scenarios at length. Note in `analysis.md` which source the detail came from.
+
+**Hold** only when that search still doesn't yield enough to place the scenario and write its summary. Don't write a row; list it in the final report with what's missing and where you looked.
+
+**Skip** everything else, with a one-line reason.
+
+For a framework, decide on the whole set: add all of its sub-scenarios or none, so the map doesn't show half a framework.
 
 ## 5. Add rows to `data/scenarios.csv`
 
@@ -90,4 +104,4 @@ npm run goals:check
 npm run scenarios:check-policies
 ```
 
-All three must pass. Then summarise what was added (and what was skipped and why), and commit if the user wants.
+All three must pass. Then report three lists — **added** (with coordinates, policy, likelihood), **held** (what's missing to add it) and **skipped** (one-line reason each) — and commit if the user wants.
