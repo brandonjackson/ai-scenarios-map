@@ -1,6 +1,6 @@
 ---
 name: find-scenarios
-description: Search for published AI-and-economy scenarios that aren't on the map yet, capture their sources, write a standardised extract for each, and add them to data/scenarios.csv with coordinates, policy stance, likelihood and draft scores. Use when asked to find, discover, scout or add more scenarios or scenario literature.
+description: Search for published AI-and-economy scenarios that aren't on the map yet, capture their sources, write a standardised extract for each and add them to the catalogue in data/scenarios.csv, then hand them to assess-scenarios for rating. Also re-captures sources and re-writes extracts for scenarios already on the map. Use when asked to find, discover, scout, add, re-scrape or re-extract scenarios or scenario literature.
 ---
 
 # Find new scenarios
@@ -11,7 +11,11 @@ Each scenario has three layers:
 
 1. **Source** — `sources/<slug>/`: a manifest, and the full text where we can keep it.
 2. **Extract** — `scenarios/<id>/extract.md`: everything the source says about this scenario, in a fixed framework-neutral structure ([extract-template.md](extract-template.md)).
-3. **Derived** — the CSV row, `summary.md`, `analysis.md`, scores. These follow today's framework and can be regenerated from the extract.
+3. **Assessment** — tags, coordinates, policy stance, likelihood, scores, `summary.md`, `analysis.md`. These follow today's frameworks and are produced from the extract by the **assess-scenarios** skill, not here.
+
+This skill writes layers 1 and 2 and the scenario's catalogue row in `data/scenarios.csv`. It never edits `data/assessments.csv`, `data/scenario-policies.csv`, goal scores, `summary.md` or `analysis.md`.
+
+**Re-extracting a scenario already on the map:** skip steps 2–4, do steps 5–6 for it, fix any catalogue fields (title, author, date, desc, url) the full text shows are wrong, and commit the new extract. Its assessments then show as stale in `node scripts/assessment-status.mjs` until assess-scenarios is re-run.
 
 ## 1. See what's already covered
 
@@ -90,11 +94,9 @@ Save under `sources/<slug>/` (one folder per publication; a framework's sub-scen
 
 Read [extract-template.md](extract-template.md) and follow it exactly: write `scenarios/<id>/extract.md` for each scenario, from the full text. For several sources or a large framework, write extracts in parallel with subagents, giving each the template path, the text file path and the scenario name.
 
-## 7. Derive the map entry
+## 7. Add the catalogue row
 
-Everything here comes from the extract. If something you need isn't there, improve the extract first.
-
-Add a row to `data/scenarios.csv`:
+Add a row to `data/scenarios.csv`. These are facts about the scenario and its source, not ratings:
 
 | Column | Rule |
 | --- | --- |
@@ -103,27 +105,10 @@ Add a row to `data/scenarios.csv`:
 | `year`, `date` | `date` is `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` when that's all that's known |
 | `type` | `single`, or `framework` for one of several scenarios from the same source |
 | `framework` | for `framework` rows: `Author — Framework name`; empty otherwise |
-| `tags` | `AUG`/`REP` (augmentation/replacement), `DIFF`/`CONC` (diffuse/concentrated gains), with qualifiers like `Strong`, `Mild`, `(warns)`, `(prescribes)` |
-| `desc` | 1–3 plain sentences describing the future, not the paper |
+| `desc` | 1–3 plain sentences describing the future, not the paper, from the extract's *Summary* |
 | `url` | primary source |
-| `x_labor` | `-1` gains concentrated → `+1` gains diffuse |
-| `y_labor` | `-1` strong augmentation → `+1` strong replacement |
-| `x_fiscal` | `-1` fewer good jobs → `+1` more good jobs |
-| `y_fiscal` | `-1` weaker public finances → `+1` stronger public finances |
-| `policy` | `off`, `on` or `mixed` |
-| `likelihood` | `improbable`, `possible`, `plausible`, `probable` or `happening` (hints in `data/likelihood.json`) |
-| `likelihood_reason` | one sentence grounded in current evidence |
 
-Calibrate coordinates against similar existing rows. Leave an axis pair blank if the extract has nothing on it. Quote fields containing commas.
-
-Then:
-
-- For `on` or `mixed` scenarios, add rows to `data/scenario-policies.csv` (`scenario,policy,evidence`) using slugs from `data/policy-atlas/policies.json`. If it names no atlas policy, add one row with an empty `policy` and name the levers it does use.
-- Run `npm run scenarios:folders` to create `scenarios/<id>/`.
-- Write `summary.md` (≤500 words, the scenario read through the promises in `goals/social-contract/goal.json`) and `analysis.md` (Policy on or off? / Big assumptions / What must be true / Tensions and weak points / Scoring notes), both from the extract. Follow `scenarios/autor/` as the model.
-- Add draft scores to `goals/social-contract/scores.csv`: one row per criterion in `goal.json`, score 1–5 for the worst-off group, empty `policy` column, one-sentence reason. Score 3 where the extract says `Not addressed.`
-- Add the scenario to the index table at the end of `scenarios/README.md`.
-- Re-run `npm run scenarios:folders` so the generated README picks up the scores.
+Quote fields containing commas. Then run `npm run scenarios:folders` to create `scenarios/<id>/`, and commit the sources, extracts and catalogue rows.
 
 ## 8. Check
 
@@ -131,12 +116,10 @@ Then:
 npm run data:csv2json
 ```
 
-```bash
-npm run goals:check
-```
+It must pass, and will list the new ids as not yet assessed.
 
-```bash
-npm run scenarios:check-policies
-```
+## 9. Hand over to assess-scenarios
 
-All three must pass. Then report four lists — **added** (with coordinates, policy, likelihood), **attached** (to which scenario), **held** (what's missing, where you looked) and **skipped** (one-line reason each) — and commit if the user wants.
+Run the **assess-scenarios** skill on the new (or re-extracted) ids, unless the user asked only to find or extract. It rates them, writes summaries and analyses, and adds them to the `scenarios/README.md` index.
+
+Then report four lists — **added** (with the policy and likelihood assess-scenarios gave them), **attached** (to which scenario), **held** (what's missing, where you looked) and **skipped** (one-line reason each) — and commit if the user wants.

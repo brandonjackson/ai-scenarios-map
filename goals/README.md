@@ -107,6 +107,6 @@ and warns about policies left unmapped.
 ## Rating distribution
 
 The "most at risk" chart on a goal page counts only scenarios whose `policy`
-in `data/scenarios.csv` is `off`, so it shows where the social contract lands
+in `data/assessments.csv` is `off`, so it shows where the social contract lands
 if governments do nothing new. The scorecard below it still lists every
 assessed scenario.
