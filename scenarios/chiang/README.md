@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2023-05-04 |
 | **Type** | single |
 | **Source** | <https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey> |
-| **Tags** | Limited impact, CONC (warns) |
+| **Tags** | Mixed AUG/REP, CONC (warns) |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Firms citing AI to justify cuts is observable; how far it shifts power is still open. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Firms citing AI to justify cuts is observable; how far it shifts power towards management is still open. |
+| **Assessed** | 2026-11-27 |
 
 AI's danger is whom it serves, not what it can do: like McKinsey, it is “capital’s willing executioners”, laundering accountability so firms can cut workers and concentrate wealth.
 
@@ -21,20 +21,21 @@ AI's danger is whom it serves, not what it can do: like McKinsey, it is “capit
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.52 | -0.08 |
+| Labor demand × gain distribution | -0.52 | 0.05 |
 | Public finances × job quality | -0.35 | -0.1 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Firms fire workers even when AI does not work, using it as cover. |
-| Affordable essentials | 3 | No particular change to the cost of essentials. |
-| Reliable safety net | 3 | Layoffs stay within the safety net's existing capacity. |
-| Responsive government | 2 | Accountability laundering makes decisions harder to contest. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | AI makes layoffs easier and productivity gains need not reach pay, as with IT after 1980. |
+| Affordable essentials | 2 | Housing, college and health care outran incomes despite IT, and augmentation alone will not reverse that. |
+| Reliable safety net | 2 | No UBI exists for displaced workers, and waiting for one leaves them exposed in the interim. |
+| Responsive government | 2 | AI legitimises management decisions and diffuses accountability, while redistribution depends on uncertain politics. |
+| Time for what matters | 3 | Only an idealised far future of fulfilling time is discussed, with no AI-specific effect now. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

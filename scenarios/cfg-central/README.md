@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | CFG |
-| **Published** | 2025 |
+| **Author** | Bengüsu Özcan, Daan Juijn, Jakob Graabak & Sam Bogerd (Centre for Future Generations) |
+| **Published** | 2025-07-10 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
-| **Tags** | Strong REP, CONC |
-| **Policy stance** | off |
-| **Likelihood** | plausible — Concentration among a few firms and a US–China race are already features of the field. |
-| **Assessed** | — |
+| **Tags** | Moderate REP, Strong CONC |
+| **Policy stance** | mixed |
+| **Likelihood** | plausible — A few US firms already dominate frontier models and distribution and US–China chip controls are in force, though Arms Race's secret state programmes and war go well beyond current evidence. |
+| **Assessed** | 2026-11-27 |
 
 Fast capability growth controlled by a few dominant firms or states (CFG's Big AI and Arms Race scenarios). Unprecedented power concentration and misalignment risk.
 
@@ -21,20 +21,32 @@ Fast capability growth controlled by a few dominant firms or states (CFG's Big A
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.62 | 0.62 |
-| Public finances × job quality | -0.75 | -0.7 |
+| Labor demand × gain distribution | -0.6 | 0.5 |
+| Public finances × job quality | -0.55 | -0.4 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Fast capability growth under one actor replaces human labour. |
-| Affordable essentials | 2 | Access to essentials depends on one actor's choices. |
-| Reliable safety net | 1 | Unprecedented concentration leaves the safety net without a tax base. |
-| Responsive government | 1 | One dominant actor holds unprecedented power. |
-| Time for what matters | 2 | People lose say over how their lives are shaped. |
+| Hard work pays | 2 | Routine white-collar work, entry-level software, paralegals and digital-media workers face substitution and rising unemployment while AI-skilled workers pull ahead. |
+| Affordable essentials | 2 | Chip prices rise with inference demand and in Silicon Blackmail Europe struggles to maintain digital infrastructure and services when US providers withdraw. |
+| Reliable safety net | 2 | Automation-hit communities fall behind and Arms Race diverts public money to strategic projects, with only job-guarantee and levy pilots in the Agent Economy. |
+| Responsive government | 1 | Platforms lobby, lock in users and threaten to withdraw essential services, while Arms Race puts secrecy and war ahead of public voice. |
+| Time for what matters | 2 | Emotional dependency and social withdrawal among some young people, and workers withdrawing from careers out of uncertainty in Multipolar World. |
+
+## Policies from the atlas
+
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Arms Race includes state-led compute and industrial mobilization.
+- **Job Guarantees & Public Works Programs** (`job-guarantees-and-public-works-programs`): In Agent Economy some governments test job guarantees and levies to fund retraining.
+- **Automation/Robot Taxes** (`automation-robot-taxes`): In Agent Economy some governments test job guarantees and levies to fund retraining.
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): In Agent Economy some governments test job guarantees and levies to fund retraining.
+- **Procurement Policies** (`government-procurement-policies`): In Agent Economy, Europe requires openness for publicly funded models and pilots use agents in public services.
+- **Regulatory Agencies** (`regulatory-agencies`): In Silicon Blackmail the EU intensifies AI Act, Digital Services Act and Digital Markets Act enforcement and plans domestic investment.
+- **Antitrust Law** (`antitrust-law`): In Silicon Blackmail the EU intensifies AI Act, Digital Services Act and Digital Markets Act enforcement.
+- **Restructuring International Organizations** (`restructuring-international-organizations`): In Multipolar World, conditional pauses, trade concessions, independent monitoring and commercial restrictions.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

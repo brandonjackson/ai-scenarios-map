@@ -6,35 +6,36 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Korinek / IMF |
+| **Author** | Anton Korinek (IMF) |
 | **Published** | 2023-12 |
 | **Type** | framework — Korinek / IMF |
 | **Source** | <https://www.imf.org/en/publications/fandd/issues/2023/12/scenario-planning-for-an-agi-future-anton-korinek> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | possible — Needs AGI-level capability, which remains uncertain on any near horizon. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs AI to reach the ceiling of human task complexity within 5 to 20 years of 2023, which remains uncertain despite fast progress. |
+| **Assessed** | 2026-11-27 |
 
-AGI replaces most cognitive labor. Capital owners benefit enormously. Without redistribution, extreme inequality.
+Under 20-year and five-year timelines for AGI, machines eventually perform the full range of human tasks. Returns shift towards capital owners, with the faster transition bringing earlier falls in wages and a greater risk of disruption.
 
 ## Map position
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.45 | 0.62 |
+| Labor demand × gain distribution | -0.45 | 0.72 |
 | Public finances × job quality | -0.6 | -0.35 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | AGI replaces most cognitive labour. |
-| Affordable essentials | 2 | Output soars, but without redistribution the worst-off cannot afford its fruits. |
-| Reliable safety net | 1 | Without redistribution, there is nothing to catch those left behind. |
-| Responsive government | 2 | Enormous gains to capital owners translate into political influence. |
-| Time for what matters | 2 | Lost work brings insecurity rather than free time. |
+| Hard work pays | 1 | Competitive wages collapse for all workers as machines substitute for scarce labour near full automation. |
+| Affordable essentials | 3 | Not addressed; the article says nothing on the cost of essentials, though workers face labour-income losses. |
+| Reliable safety net | 1 | The paths are explicitly pre-policy and labour-income losses are economy-wide, with no compensation in the scenario. |
+| Responsive government | 2 | The article flags returns to capital, inequality and political stability as at risk and leaves sharing the gains to institutions it doesn't describe. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

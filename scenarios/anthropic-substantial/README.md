@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-09-10 |
 | **Type** | framework — Anthropic — Economic Scenarios for Transformative AI |
 | **Source** | <https://www.anthropic.com/institute/econ-scenarios> |
-| **Tags** | Moderate REP, Mild CONC |
+| **Tags** | Moderate REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Coding and agent capability trends put half of knowledge work within reach by 2030 if adoption speeds up. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Coding-agent progress makes a doubling of AI's task reach by 2030 credible, though use would need to rise fourfold from mid-2026 levels. |
+| **Assessed** | 2026-11-27 |
 
 AI could do half of all knowledge work by 2030 but is used for only about a fifth of it. GDP is 8.3% above a no-AI baseline, the labour share falls about four points to capital, cognitive wages go flat while other workers gain, and cognitive unemployment rises by half to 4.5%.
 
@@ -21,20 +21,21 @@ AI could do half of all knowledge work by 2030 but is used for only about a fift
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.2 | 0.3 |
+| Labor demand × gain distribution | -0.3 | 0.3 |
 | Public finances × job quality | -0.15 | 0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Cognitive wages go flat and cognitive unemployment rises to 4.5%, but other workers' wages rise about 6%. |
-| Affordable essentials | 3 | GDP is 8% higher, but nothing specific changes the cost of essentials. |
-| Reliable safety net | 3 | Reallocation is costly but of a size the US labour market has absorbed before. |
-| Responsive government | 3 | About four points of income shift from labour to capital, a real but manageable change. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Cognitive wages are flat and cognitive unemployment rises to 4.5% with costly job switching, but other wages rise 5.9%. |
+| Affordable essentials | 3 | Not addressed. |
+| Reliable safety net | 3 | Not addressed; the authors call the reallocation costly but within what the US labour market has absorbed. |
+| Responsive government | 3 | Not addressed directly; the labour share falls four points to capital, a real but manageable shift. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

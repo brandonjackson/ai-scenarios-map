@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | DSIT |
-| **Published** | 2023-10-25 |
+| **Author** | Government Office for Science (DSIT) |
+| **Published** | 2025-04-28 |
 | **Type** | framework — DSIT — AI 2030 |
 | **Source** | <https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c> |
-| **Tags** | Moderate AUG, DIFF |
+| **Tags** | Limited impact, Mild CONC |
 | **Policy stance** | off |
-| **Likelihood** | improbable — The 2025 AI bust it imagines did not happen; capability and investment kept rising. |
-| **Assessed** | — |
+| **Likelihood** | improbable — The 2025 AI bust and disinvestment it starts from did not happen; capability and AI investment kept rising through 2026. |
+| **Assessed** | 2026-11-27 |
 
 Capabilities improve more slowly than expected. A 2025 AI bust, disillusionment and mixed uptake; most jobs untouched. Policy interventions deliberately excluded.
 
@@ -21,20 +21,21 @@ Capabilities improve more slowly than expected. A 2025 AI bust, disillusionment 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.25 | -0.32 |
-| Public finances × job quality | 0.3 | 0.25 |
+| Labor demand × gain distribution | -0.1 | -0.2 |
+| Public finances × job quality | 0.05 | -0.15 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Gradual adoption gives workers time to adjust. |
-| Affordable essentials | 3 | Steady progress leaves the cost of essentials broadly unchanged. |
-| Reliable safety net | 3 | Disruption stays within existing capacity. |
-| Responsive government | 3 | Existing institutions adapt. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Most jobs remain untouched by unreliable AI, though people without AI skills or training miss out on its limited benefits. |
+| Affordable essentials | 3 | Not addressed; the extract only says stagnation is adverse for living standards. |
+| Reliable safety net | 3 | Not addressed; there is no mass displacement, and stagnation is adverse for public finances without specified benefit changes. |
+| Responsive government | 3 | Misuse, bias and less scrutiny of unbranded AI are balanced by safety progress, growing international cooperation and public calls for regulation. |
+| Time for what matters | 2 | Less scrutiny of AI embedded in online services worsens online addiction and polarisation. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

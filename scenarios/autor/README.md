@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Autor |
-| **Published** | 2024-02 |
+| **Author** | David Autor |
+| **Published** | 2024-02-12 |
 | **Type** | single |
 | **Source** | <https://www.nber.org/papers/w32140> |
-| **Tags** | Strong AUG, DIFF |
-| **Policy stance** | on |
-| **Likelihood** | possible — Needs deliberate investment in training and certification that few governments have started. |
-| **Assessed** | — |
+| **Tags** | Strong AUG, DIFF (conditional) |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — AI assistance lifts less-experienced workers most in early studies, but scope-of-practice reform and employers choosing complementarity at scale have barely begun. |
+| **Assessed** | 2026-11-27 |
 
 AI could restore middle-skill jobs by enabling less-trained workers to do expert work. Creates new tasks, net positive for labor demand — if policy steers it.
 
@@ -21,25 +21,25 @@ AI could restore middle-skill jobs by enabling less-trained workers to do expert
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.22 | -0.52 |
-| Public finances × job quality | 0.6 | 0.45 |
+| Labor demand × gain distribution | 0.25 | -0.5 |
+| Public finances × job quality | 0.55 | 0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | Less-trained workers can do expert work, restoring middle-skill jobs and new tasks. |
-| Affordable essentials | 3 | Cheaper expertise helps at the margin, but housing and energy are untouched. |
-| Reliable safety net | 3 | Net-positive labour demand keeps the safety net within capacity. |
-| Responsive government | 3 | Outcome depends on policy steering, which is assumed but not guaranteed. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 4 | Workers with relevant foundations and practical expertise gain access to better-paid decision-making roles, expanding the middle class. |
+| Affordable essentials | 4 | Decision support could extend medical expertise, widening access to routine primary care as nurse practitioners did. |
+| Reliable safety net | 3 | Not addressed; labour shortages in ageing economies cushion displacement. |
+| Responsive government | 3 | The paper names surveillance, suppression of dissent and concentrated AI ownership as possible uses, not the scenario's outcome. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Policies from the atlas
 
-- **Vocational Training & Apprenticeships** (`vocational-training-apprenticeships`): Nurse-practitioner model: new training programmes and a certification regime let mid-skill workers do expert work
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Workers need foundational expertise to use AI decision support; training is the precondition
+- None named. Workers have relevant expertise, employers organise AI around complementarity and permission to perform some work can extend to less-credentialled practitioners (scope-of-practice reform; no matching atlas policy).
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

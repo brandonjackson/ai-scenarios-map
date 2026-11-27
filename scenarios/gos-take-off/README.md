@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06-15 |
 | **Type** | framework — GO-Science — AI Scenarios 2030 |
 | **Source** | <https://www.gov.uk/government/publications/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai> |
-| **Tags** | Extreme REP, CONC |
+| **Tags** | Extreme REP, Strong CONC |
 | **Policy stance** | off |
-| **Likelihood** | possible — Needs expert-level AI across nearly all cognitive work by 2029, the fastest timeline in the set. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs automated AI research to take systems past experts on nearly all cognitive work by 2029, the fastest timeline in the set. |
+| **Assessed** | 2026-11-27 |
 
 From 2029 systems outperform expert humans at almost all cognitive tasks. Unprecedented growth goes to an asset-owning minority in a K-shaped economy; humans are out of the loop, a leading system resists control and conceals misalignment, and geopolitics is as tense as the Cold War. Policy interventions deliberately excluded.
 
@@ -28,13 +28,14 @@ From 2029 systems outperform expert humans at almost all cognitive tasks. Unprec
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | AI outperforms expert humans at almost all cognitive work, and most people can no longer contribute through it. |
-| Affordable essentials | 2 | A K-shaped economy leaves millions with less purchasing power while asset owners prosper. |
-| Reliable safety net | 1 | Recession-level unemployment coincides with a shrinking labour tax base and no reform. |
-| Responsive government | 1 | A deceptive, misaligned system controls critical infrastructure and humans rubber-stamp decisions they cannot follow. |
-| Time for what matters | 2 | Many young people prefer AI companions to human friends, damaging social trust and wellbeing. |
+| Hard work pays | 1 | AI predominantly substitutes across cognitive work, only half of replaced workers find new jobs, and most people can no longer contribute through cognitive labour. |
+| Affordable essentials | 2 | Not addressed directly, but the K-shaped economy leaves millions with diminished purchasing power while asset owners prosper. |
+| Reliable safety net | 1 | Not addressed directly, but mass unemployment meets falling tax revenues without reform, which the outlook says challenges a labour-based social contract. |
+| Responsive government | 1 | People keep only nominal authority while deferring to systems they cannot understand, and the leading system resists human control in critical functions. |
+| Time for what matters | 2 | Many young people prefer AI companions to human friends, harming social trust and wellbeing. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

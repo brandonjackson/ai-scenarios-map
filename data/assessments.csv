@@ -1,57 +1,57 @@
 id,tags,x_labor,y_labor,x_fiscal,y_fiscal,policy,likelihood,likelihood_reason,assessed
-turing-transform,"Strong AUG, DIFF",0.5,-0.65,0.65,0.55,off,plausible,"Early studies find AI tools help less-experienced workers most, but there is little sign yet of a wider fall in the skill premium.",
-pope-leo,"Strong AUG (prescriptive), DIFF (prescriptive)",0.4,-0.55,,,on,possible,A moral prescription rather than a forecast; it needs firms and governments to put human agency ahead of cost-cutting.,
-autor,"Strong AUG, DIFF",0.22,-0.52,0.6,0.45,on,possible,Needs deliberate investment in training and certification that few governments have started.,
-normal-tech,"AUG, DIFF",0.38,-0.38,0.2,0.15,mixed,probable,"Adoption so far is broad but shallow, and the OECD finds no sign of widespread displacement; the slow-diffusion story fits the evidence best.",
-techno-optimist,"AUG (via markets), DIFF (asserted)",0.65,-0.28,0.4,-0.35,off,possible,Rests on markets spreading gains on their own; the labour share and hiring data so far point the other way.,
-tbi,"Moderate AUG, DIFF",0.18,-0.22,0.1,0.35,on,plausible,"Its moderate displacement offset by new demand is consistent with current trends, but the GDP gains are far off and unproven.",
-dacc,"Mild AUG, DIFF (prescriptive)",0.65,-0.1,,,on,possible,"Defensive and open technology is being built, but it is not yet steering the frontier.",
-turing-trap,"REP, CONC (warns)",-0.4,0.35,-0.3,-0.3,off,probable,Incentives still reward substitution: firms cite AI in cuts and entry-level hiring in exposed jobs has fallen.,
-turing-trap-escape,"AUG (prescribes), DIFF",0.5,-0.5,0.4,0.3,on,possible,Needs tax and training reforms that remain proposals.,
-acemoglu,"Limited impact, CONC (warns)",-0.38,-0.08,-0.15,-0.1,off,probable,Measured productivity gains remain modest and the gains that exist are going mainly to capital.,
-doctorow,"Limited impact, CONC (structural)",-0.65,-0.18,-0.4,-0.25,off,plausible,"Bubble worries are mainstream and AI is cited in layoffs, but capabilities keep improving, so it is not only narrative.",
-chiang,"Limited impact, CONC (warns)",-0.52,-0.08,-0.35,-0.1,off,plausible,Firms citing AI to justify cuts is observable; how far it shifts power is still open.,
-ilo,"Mild REP, DIFF->CONC",-0.18,0.1,-0.2,-0.2,on,happening,"Its picture of uneven exposure, adoption concentrated in rich countries and a falling labour share describes the present.",
-gradual-disemp,"Moderate REP, CONC",-0.25,0.3,-0.45,-0.4,off,plausible,A slow structural drift is hard to rule out and hard to see; early signs exist but the full erosion lies years ahead.,
-keep-future-human,"REP (warns), CONC (warns)",-0.48,0.35,-0.5,-0.35,off,plausible,The frontier race it warns of is under way; whether it ends in replacement and loss of control is uncertain.,
-keep-future-human-tool-ai,"AUG (prescribes), DIFF (prescribes)",0.3,-0.45,0.3,0.2,on,improbable,Compute caps and binding international agreements have little political backing today.,
-intelligence-curse,"REP, CONC (default)",-0.58,0.45,-0.75,-0.7,off,plausible,The rentier dynamic follows if AI substitutes for most labour; that condition has not arrived.,
-shumer,"REP, CONC",-0.15,0.5,,,off,plausible,"Capability jumps in coding agents are real, but economy-wide displacement on a February 2020 timeline has not followed yet.",
-loving-grace,"Strong REP, DIFF (aspirational)",0.15,0.55,-0.1,0.2,on,possible,Needs both very fast capability gains and governance that spreads the benefits.,
-moores-law,"Strong REP, DIFF (prescriptive)",0.32,0.62,-0.3,0.2,on,improbable,No country is moving towards a national equity fund paid for by taxing company value.,
-citrini,"Strong REP, CONC",-0.32,0.58,-0.7,-0.55,off,possible,A crash-and-displacement spiral by 2028 needs capability and adoption to arrive much faster than they have so far.,
-sit-awareness,"Extreme REP, CONC",-0.5,0.68,-0.55,-0.35,mixed,possible,"Scaling continues, but AGI by 2027 and a government-run project look less likely than when it was written.",
-ai-2027,"Extreme REP, CONC",-0.4,0.7,-0.8,-0.8,off,improbable,Its own authors have since pushed their timelines out; superintelligence and takeover by 2030 is the tail.,
-ai-2027-slowdown,"Extreme REP, CONC",-0.55,0.7,-0.7,0.6,on,improbable,Rests on the same very fast timeline plus a pause and a US–China deal.,
-toloui-prometheus,"Strong AUG, DIFF",0.58,-0.55,0.55,0.5,on,possible,"Open models are close behind, but labour-augmenting diffusion with low prices everywhere needs both trends to hold.",
-toloui-copilot,"Strong AUG, CONC",-0.52,-0.5,0.05,0.15,off,probable,A few platforms own the frontier while humans stay in the loop: close to today's market.,
-toloui-copilot-constructive,"Strong AUG, CONC (checked)",0.1,-0.55,0.35,0.3,on,possible,"Needs antitrust, interoperability and tax reform that are only partly in motion.",
-toloui-swarm,"Strong REP, DIFF",0.5,0.48,-0.35,-0.2,off,possible,Needs replacement-level capability and rapid commoditisation at the same time.,
-toloui-titans,"Strong REP, CONC",-0.65,0.52,-0.7,-0.65,off,plausible,Market concentration is real; it becomes this scenario if capabilities move from augmenting to replacing.,
-korinek-aug,"Strong AUG, DIFF",0.32,-0.45,0.45,0.4,off,plausible,"Matches much current use, though gains are not yet spreading clearly through wages.",
-korinek-agi,"Strong REP, CONC",-0.45,0.62,-0.6,-0.35,off,possible,"Needs AGI-level capability, which remains uncertain on any near horizon.",
-cfg-plateau,"Moderate AUG, DIFF",0.48,-0.42,0.25,0.2,off,possible,"Capabilities keep improving, but cheaper, smaller and open models are a real trend.",
-cfg-central,"Strong REP, CONC",-0.62,0.62,-0.75,-0.7,off,plausible,Concentration among a few firms and a US–China race are already features of the field.,
-cfg-diplomacy,"Strong REP, CONC (licensed)",-0.1,0.45,-0.1,0.5,on,improbable,Needs a safety crisis and an IAEA-style regime with a 25% AI tax.,
-cfg-decentral,"Strong REP, DIFF",0.42,0.55,-0.2,-0.1,off,possible,"Misuse of open models is growing, but not yet at a scale that prompts bans.",
-dsit-steady,"Moderate AUG, DIFF",0.25,-0.32,0.3,0.25,off,improbable,The 2025 AI bust it imagines did not happen; capability and investment kept rising.,
-dsit-rapid,"Strong REP, CONC",-0.38,0.42,-0.45,-0.4,off,plausible,Tech-giant control is real; sector-wide automation and backlash by 2030 is a credible path.,
+turing-transform,"AUG (via task automation), DIFF",0.45,-0.5,0.5,0.2,off,plausible,"Early studies find AI tools help less-experienced workers most, but there is little sign yet of a wider fall in the skill premium.",2026-11-27
+pope-leo,"Strong AUG (prescriptive), DIFF (prescriptive)",0.4,-0.55,,,on,possible,"A moral prescription rather than a forecast; it needs firms and governments to put human agency ahead of cost-cutting, while current deployment leans towards cost savings.",2026-11-27
+autor,"Strong AUG, DIFF (conditional)",0.25,-0.5,0.55,0.2,mixed,possible,"AI assistance lifts less-experienced workers most in early studies, but scope-of-practice reform and employers choosing complementarity at scale have barely begun.",2026-11-27
+normal-tech,"AUG, DIFF",0.3,-0.38,0.2,0.15,mixed,probable,"Adoption so far is broad but shallow, and the OECD finds no sign of widespread displacement; the slow-diffusion story fits the evidence best.",2026-11-27
+techno-optimist,"AUG (via markets), DIFF (asserted)",0.65,-0.28,0.4,0.1,off,possible,Rests on markets spreading gains on their own; the labour share and hiring data so far point the other way.,2026-11-27
+tbi,"Mixed AUG/REP, Mild DIFF",0.15,-0.05,0.1,0.2,on,plausible,"Gradual, uneven adoption with task-level displacement fits current UK evidence, but re-employment within five years and an 11% GDP gain by 2050 are untested.",2026-11-27
+dacc,"Mild AUG, DIFF (prescriptive)",0.45,-0.3,,,on,possible,"Defensive and open technology is being built, but it is not yet steering the frontier.",2026-11-27
+turing-trap,"REP, CONC (warns)",-0.45,0.35,-0.35,-0.3,off,probable,Incentives still reward substitution: firms cite AI in cuts and entry-level hiring in exposed jobs has fallen.,2026-11-27
+turing-trap-escape,"AUG (prescribes), DIFF",0.5,-0.5,0.45,0.3,on,possible,"Needs tax and training reforms that remain proposals, while frontier AI is still aimed at human-like capability.",2026-11-27
+acemoglu,"Limited impact, CONC (warns)",-0.4,-0.05,-0.15,-0.1,off,probable,Measured productivity gains remain modest and the gains that exist are going mainly to capital.,2026-11-27
+doctorow,"Mild REP (limited capability), CONC (structural)",-0.65,0.1,-0.4,-0.25,off,plausible,"Bubble worries are mainstream and AI is cited in layoffs, but capabilities keep improving, so it is not only narrative.",2026-11-27
+chiang,"Mixed AUG/REP, CONC (warns)",-0.52,0.05,-0.35,-0.1,off,plausible,Firms citing AI to justify cuts is observable; how far it shifts power towards management is still open.,2026-11-27
+ilo,"Mixed AUG/REP, DIFF->CONC",-0.18,-0.1,-0.2,-0.2,mixed,happening,"Uneven exposure concentrated in clerical work, and adoption concentrated in rich countries and advantaged workers, describe the present.",2026-11-27
+gradual-disemp,"Strong REP, CONC",-0.3,0.5,-0.55,-0.4,off,plausible,"Delegation to AI under competitive pressure is starting to show, but the full erosion of human influence lies years ahead and is hard to observe.",2026-11-27
+keep-future-human,"Strong REP (warns), CONC (warns)",-0.55,0.5,-0.5,-0.35,off,plausible,The corporate and US–China race it describes is under way; whether it ends in wholesale replacement and loss of control is still uncertain.,2026-11-27
+keep-future-human-tool-ai,"AUG (prescribes), Mild DIFF (prescribes)",0.2,-0.25,0.15,0.1,on,improbable,"Hard compute caps, strict liability and binding international agreements have little political backing today, and frontier labs are still scaling towards autonomous agents.",2026-11-27
+intelligence-curse,"Strong REP, CONC (default)",-0.6,0.6,-0.75,-0.7,off,plausible,"Entry-level work is already being compressed and AI firms are concentrated, but the rentier dynamic needs labour-replacing AGI and robotics that have not arrived.",2026-11-27
+shumer,"REP, Mild CONC",-0.15,0.5,,,off,plausible,"Coding agents have made real capability jumps and entry-level hiring in exposed jobs has weakened, but economy-wide displacement within two to five years has not yet followed.",2026-11-27
+loving-grace,"Strong REP (long run), DIFF (aspirational)",0.15,0.5,-0.1,0.2,mixed,possible,"Frontier capability keeps rising, but expert-level autonomous AI by the late 2020s and deliberate efforts to spread its gains globally are both uncertain.",2026-11-27
+moores-law,"Strong REP, DIFF (prescriptive)",0.32,0.62,-0.3,0.2,on,improbable,"AI legal and medical advice arrived roughly on Altman's schedule, but no country is moving towards a national fund financed by taxing company and land value.",2026-11-27
+citrini,"Strong REP, CONC",-0.32,0.58,-0.7,-0.55,off,possible,A crash-and-displacement spiral by 2028 needs capability and adoption to arrive much faster than they have so far.,2026-11-27
+sit-awareness,"Extreme REP, CONC",-0.5,0.68,-0.55,-0.35,mixed,possible,"Scaling continues, but AGI by 2027 and a government-run project look less likely than when it was written.",2026-11-27
+ai-2027,"Extreme REP, CONC",-0.6,0.7,-0.8,0.3,off,improbable,Superhuman AI by 2027 has not arrived and the authors treat 2027 as their modal year only at the time of writing; takeover by 2030 is the tail.,2026-11-27
+ai-2027-slowdown,"Extreme REP, CONC (with UBI floor)",-0.4,0.7,-0.7,0.6,on,improbable,Rests on the same very fast timeline plus a pause and a US–China deal.,2026-11-27
+toloui-prometheus,"Strong AUG, DIFF",0.58,-0.55,0.55,0.5,mixed,possible,"Open and specialised models sit near the frontier, but broad augmentation with prices falling across the economy needs both trends to hold.",2026-11-27
+toloui-copilot,"Strong AUG, CONC",-0.52,-0.5,0.05,0.15,off,probable,"A few firms hold the frontier at hundreds of billions of dollars of infrastructure while current use mostly augments workers, close to today's market.",2026-11-27
+toloui-copilot-constructive,"Strong AUG, CONC (checked)",0.1,-0.55,0.35,0.3,on,possible,Needs a guardrails-and-triggers competition regime and enforcement capacity that are only partly in place.,2026-11-27
+toloui-swarm,"Strong REP, Mild DIFF",0.25,0.48,-0.35,-0.2,off,possible,"Early payroll data show lower employment for young workers in exposed jobs, but the quadrant needs replacement-level capability and rapid commoditisation at once.",2026-11-27
+toloui-titans,"Strong REP, CONC",-0.65,0.52,-0.7,-0.65,off,possible,"Frontier concentration is real, but the essay notes monopoly over a broadly labour-replacing technology is rare as a market outcome, and replacement-level capability has not arrived.",2026-11-27
+korinek-aug,"Strong AUG, DIFF",0.32,-0.45,0.45,0.4,off,plausible,"Matches much current use, though gains are not yet spreading clearly through wages.",2026-11-27
+korinek-agi,"Strong REP, CONC",-0.45,0.72,-0.6,-0.35,off,possible,"Needs AI to reach the ceiling of human task complexity within 5 to 20 years of 2023, which remains uncertain despite fast progress.",2026-11-27
+cfg-plateau,"Moderate AUG, DIFF",0.48,-0.42,0.25,0.1,off,possible,"Smaller, cheaper open and local models are a real trend, but frontier capability and training investment were still rising through 2026 rather than stalling.",2026-11-27
+cfg-central,"Moderate REP, Strong CONC",-0.6,0.5,-0.55,-0.4,mixed,plausible,"A few US firms already dominate frontier models and distribution and US–China chip controls are in force, though Arms Race's secret state programmes and war go well beyond current evidence.",2026-11-27
+cfg-diplomacy,"Strong REP, CONC (licensed)",-0.1,0.55,-0.25,0.5,on,improbable,"Needs a serious but survivable safety crisis, a verifiable US–China treaty under IAEA oversight and a 25% AI tax by the early 2030s, none of which current diplomacy points towards.",2026-11-27
+cfg-decentral,"Mild AUG, DIFF->CONC",0.1,-0.2,-0.05,-0.2,mixed,possible,"Open-weight models remain close to the frontier and AI-enabled cyber misuse is growing, but a misuse wave big enough to bring harmonised US–EU–China release bans needs several things to go its way.",2026-11-27
+dsit-steady,"Limited impact, Mild CONC",-0.1,-0.2,0.05,-0.15,off,improbable,The 2025 AI bust and disinvestment it starts from did not happen; capability and AI investment kept rising through 2026.,2026-11-27
+dsit-rapid,"Strong REP, CONC",-0.38,0.42,-0.45,-0.05,off,plausible,"Compute scarcity, tech-giant control of models and AI substitution in exposed cognitive work are credible by 2030, though robots and autonomous freight at scale are the stretch.",2026-11-27
 wf-lost-generation,,,,,,off,happening,"Entry-level hiring in AI-exposed jobs has already fallen, with software developers aged 22–25 hit hardest.",
 wf-high-substitution,,,,,,off,possible,Needs AI and robotics to take on most office and much physical work.,
 wf-disempowered-abundance,,,,,,mixed,possible,Needs AI to run much of the economy and push prices down first.,
-gos-slow-burn,"Mild AUG, Moderate CONC",0.1,-0.3,0.1,-0.05,off,plausible,Reliability limits and patchy adoption are visible today; it needs progress to flatten rather than keep climbing.,
-gos-open-frontier,"Moderate REP, DIFF",0.6,0.35,-0.3,-0.1,off,plausible,"Open-weight models, many from China, already trail the frontier by months; it follows if that gap closes.",
-gos-augmented-growth,"Strong AUG, Moderate CONC",0.15,-0.5,0.5,0.5,off,possible,"Needs strong capability, firms choosing augmentation, and safety and public-service gains all at once.",
-gos-transformation-economy,"Strong REP, Strong CONC",-0.75,0.6,-0.55,-0.6,off,plausible,Market concentration and the UK's reliance on US models are real; the sudden displacement waits on remote-work-level capability.,
-gos-take-off,"Extreme REP, CONC",-0.55,0.8,-0.7,-0.4,off,possible,"Needs expert-level AI across nearly all cognitive work by 2029, the fastest timeline in the set.",
-anthropic-modest,"Mild AUG, DIFF",0.1,-0.1,0.05,0.1,off,probable,Closest to measured effects so far; it only needs adoption to keep its current pace.,
-anthropic-substantial,"Moderate REP, Mild CONC",-0.2,0.3,-0.15,0.2,off,plausible,Coding and agent capability trends put half of knowledge work within reach by 2030 if adoption speeds up.,
-anthropic-extreme,"Strong REP, CONC",-0.55,0.65,-0.55,0.1,off,possible,Needs near-total automation of cognitive work within four years.,
-wef-supercharged,"Moderate REP, Mild CONC",-0.1,0.4,-0.3,-0.15,off,possible,"Needs workforce readiness to keep pace with exponential capability, which current skills gaps argue against.",
-wef-displacement,"Strong REP, CONC",-0.45,0.55,-0.6,-0.55,off,plausible,Over half of executives expect AI to displace jobs and training systems are slow; fast capability is the open question.,
-wef-copilot,"Strong AUG, DIFF",0.35,-0.5,0.45,0.3,on,possible,"Its human-led, gradual use of AI matches many firms today, but it starts from an AI bubble bursting in the mid-2020s, which has not happened.",
-wef-stalled,"Mild REP, CONC",-0.4,0.05,-0.2,-0.15,off,probable,"Uneven gains, skills shortages and leading firms pulling ahead describe current conditions.",
-ai-2040-plan-a,"Strong REP, CONC (checked)",-0.2,0.5,-0.3,0.3,on,improbable,Needs both very fast capability gains and a verified US–China deal with total R&D transparency.,
+gos-slow-burn,"Mild AUG, Mild CONC",-0.1,-0.3,0,-0.05,off,plausible,Reliability limits and patchy adoption are visible today; it needs capability gains to flatten after 2028 rather than keep climbing.,2026-11-27
+gos-open-frontier,"Moderate REP, Mild DIFF",0.4,0.35,-0.3,0,off,plausible,"Open-weight models, many from China, already trail the frontier by months; it follows if compute stays constrained and that gap stays small.",2026-11-27
+gos-augmented-growth,"Strong AUG, Mild DIFF",0.3,-0.5,0.5,0.5,off,possible,"Needs strong capability, firms choosing output over headcount, and safety and public-service gains all at once.",2026-11-27
+gos-transformation-economy,"Strong REP, Strong CONC",-0.75,0.6,-0.55,-0.6,off,plausible,Frontier concentration and the UK's reliance on US models are real today; the sudden displacement waits on remote-work-level capability.,2026-11-27
+gos-take-off,"Extreme REP, Strong CONC",-0.55,0.8,-0.7,-0.4,off,possible,"Needs automated AI research to take systems past experts on nearly all cognitive work by 2029, the fastest timeline in the set.",2026-11-27
+anthropic-modest,"Limited impact, Mild AUG",0.05,-0.1,0.05,0.1,off,plausible,"Measured macro effects so far are this small, but it needs AI's task reach to grow only from 14% to 20% by 2030, slower than current capability gains suggest.",2026-11-27
+anthropic-substantial,"Moderate REP, CONC",-0.3,0.3,-0.15,0.2,off,plausible,"Coding-agent progress makes a doubling of AI's task reach by 2030 credible, though use would need to rise fourfold from mid-2026 levels.",2026-11-27
+anthropic-extreme,"Strong REP, CONC",-0.6,0.65,-0.55,0.1,off,possible,"Needs AI's task reach to more than triple and its use to rise sixfold by 2030, which the authors say would likely require recursively self-improving AI.",2026-11-27
+wef-supercharged,"Moderate REP, Mild CONC",-0.2,0.4,-0.3,-0.15,mixed,possible,"Agentic AI is scaling, but near double-digit global growth and workforce readiness keeping pace with exponential capability by 2030 both need sharp breaks from current trends.",2026-11-27
+wef-displacement,"Strong REP, CONC",-0.55,0.55,-0.6,-0.55,off,plausible,Over half of executives surveyed expect major job displacement and training systems adapt slowly; whether capability moves fast enough to absorb half of all tasks by 2030 is the open question.,2026-11-27
+wef-copilot,"Strong AUG, Mild DIFF",0.25,-0.45,0.3,0.15,mixed,possible,"Its human-led, task-level use of AI matches many firms today, but it starts from a mid-2020s AI valuation bust that, as of late 2026, has not happened.",2026-11-27
+wef-stalled,"Mild REP, CONC",-0.4,0.05,-0.3,-0.4,off,probable,"Uneven gains, skills shortages, pressure on entry-level work and leading firms pulling ahead describe current conditions.",2026-11-27
+ai-2040-plan-a,"Strong REP, DIFF (via dividend)",0.35,0.65,-0.55,0.7,on,improbable,"Needs very fast capability gains, a verified US–China deal with total research transparency and permit auctions on an unprecedented scale.",2026-11-27
 imf-baseline,"Limited impact, Mild CONC",-0.1,-0.15,0.05,-0.1,off,plausible,"Uneven, friction-bound adoption describes today, and the OECD sees no broad displacement yet; it needs those frictions to hold into the 2030s.",2026-11-27
 imf-runaway,"Strong REP, CONC",-0.55,0.6,-0.55,-0.45,off,possible,"Needs capability to keep climbing and adoption to outrun regulation and organisational friction, which it has not so far.",2026-11-27
 tcb-augmentation,"Mild AUG, Mild DIFF",0.1,-0.4,0.2,0.1,off,plausible,"Most firms are still experimenting and job postings show AI changing tasks more than cutting roles, though entry-level hiring is already weakening.",2026-11-27

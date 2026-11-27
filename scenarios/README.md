@@ -26,7 +26,7 @@ Each source was read (full text where accessible) and summarised under the five 
 - **Tensions and weak points**, including mismatches between the source and how the map describes it.
 - **Scoring notes** comparing the draft scores with the text.
 
-Sources that couldn't be read directly are marked in their folder: the IMF article (Korinek; read via Korinek & Suh, NBER w32255), the TBI report (read via press coverage), and CFG (read via an AI summary of the page). The Windfall Trust Radar scenarios have no public source yet. Of the 2026 additions, GO-Science was read from the GOV.UK HTML report, the Anthropic Institute and WEF scenarios from their full PDFs, and AI 2040 from its website. The IMF scenario-planning note and the Conference Board report were read from their full texts.
+Since the November 2026 re-extraction, the Korinek IMF article, the TBI report and the CFG scenarios are all read from their full texts. The Windfall Trust Radar scenarios have no public source yet. Of the 2026 additions, GO-Science was read from the GOV.UK HTML report, the Anthropic Institute and WEF scenarios from their full PDFs, and AI 2040 from its website. The IMF scenario-planning note and the Conference Board report were read from their full texts.
 
 ## Index
 
@@ -34,7 +34,7 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | --- | --- | --- | --- |
 | Turing Transformation (Agrawal, Gans & Goldfarb) | Off: market mechanism | [summary](turing-transform/summary.md) | [analysis](turing-transform/analysis.md) |
 | Antiqua et Nova (Vatican) | Prescriptive: moral programme | [summary](pope-leo/summary.md) | [analysis](pope-leo/analysis.md) |
-| Applying AI to Rebuild Middle Class Jobs (Autor) | On: needs design, training, scope-of-practice reform | [summary](autor/summary.md) | [analysis](autor/analysis.md) |
+| Applying AI to Rebuild Middle Class Jobs (Autor) | Mixed: firm design choices plus scope-of-practice reform | [summary](autor/summary.md) | [analysis](autor/analysis.md) |
 | AI as Normal Technology (Narayanan & Kapoor) | Light: slow by default, resilience policy prescribed | [summary](normal-tech/summary.md) | [analysis](normal-tech/analysis.md) |
 | Techno-Optimist Manifesto (Andreessen) | Off, as a principle | [summary](techno-optimist/summary.md) | [analysis](techno-optimist/analysis.md) |
 | Impact of AI on Labour Market (TBI) | Light-touch on | [summary](tbi/summary.md) | [analysis](tbi/analysis.md) |
@@ -44,19 +44,19 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Simple Macroeconomics of AI (Acemoglu) | Off for the estimate | [summary](acemoglu/summary.md) | [analysis](acemoglu/analysis.md) |
 | Reverse Centaur's Guide (Doctorow) | Off now; sectoral bargaining prescribed | [summary](doctorow/summary.md) | [analysis](doctorow/analysis.md) |
 | The New McKinsey (Chiang) | Off: the missing policy is the point | [summary](chiang/summary.md) | [analysis](chiang/analysis.md) |
-| Work Transformed (ILO) | Evidence plus on agenda | [summary](ilo/summary.md) | [analysis](ilo/analysis.md) |
+| Work Transformed (ILO) | Mixed: evidence, no common policy package | [summary](ilo/summary.md) | [analysis](ilo/analysis.md) |
 | Gradual Disempowerment (Kulveit et al.) | Off; policy only a stopgap | [summary](gradual-disemp/summary.md) | [analysis](gradual-disemp/analysis.md) |
 | Keep the Future Human: the AGI race (Aguirre) | Off: the race it warns of | [summary](keep-future-human/summary.md) | [analysis](keep-future-human/analysis.md) |
 | Keep the Future Human: Tool AI (Aguirre) | Strongly on: gates closed | [summary](keep-future-human-tool-ai/summary.md) | [analysis](keep-future-human-tool-ai/analysis.md) |
 | The Intelligence Curse (Drago & Laine) | Off is the curse; technology plus democracy is the cure | [summary](intelligence-curse/summary.md) | [analysis](intelligence-curse/analysis.md) |
 | Something Big Is Happening (Shumer) | Off, individualised | [summary](shumer/summary.md) | [analysis](shumer/analysis.md) |
-| Machines of Loving Grace (Amodei) | On, "if everything goes right" | [summary](loving-grace/summary.md) | [analysis](loving-grace/analysis.md) |
+| Machines of Loving Grace (Amodei) | Mixed: benefit-sharing assumed, UBI only recommended | [summary](loving-grace/summary.md) | [analysis](loving-grace/analysis.md) |
 | Moore's Law for Everything (Altman) | Strongly on (American Equity Fund) | [summary](moores-law/summary.md) | [analysis](moores-law/analysis.md) |
 | 2028 Global Intelligence Crisis (Citrini) | Off, then too late | [summary](citrini/summary.md) | [analysis](citrini/analysis.md) |
 | Situational Awareness (Aschenbrenner) | On for security, off for the social contract | [summary](sit-awareness/summary.md) | [analysis](sit-awareness/analysis.md) |
 | AI 2027: Race ending (Kokotajlo et al.) | Off | [summary](ai-2027/summary.md) | [analysis](ai-2027/analysis.md) |
 | AI 2027: Slowdown ending (Kokotajlo et al.) | On: improvised centralisation | [summary](ai-2027-slowdown/summary.md) | [analysis](ai-2027-slowdown/analysis.md) |
-| Promethean Fire (Toloui) | On: the policy target | [summary](toloui-prometheus/summary.md) | [analysis](toloui-prometheus/analysis.md) |
+| Promethean Fire (Toloui) | Mixed: infrastructure investment assumed, priorities recommended | [summary](toloui-prometheus/summary.md) | [analysis](toloui-prometheus/analysis.md) |
 | Copilot Empire (Toloui) | Off: platform rents | [summary](toloui-copilot/summary.md) | [analysis](toloui-copilot/analysis.md) |
 | Copilot Empire, constructive (Toloui) | On: antitrust, interoperability, labour-tax reform | [summary](toloui-copilot-constructive/summary.md) | [analysis](toloui-copilot-constructive/analysis.md) |
 | Disruption Swarm (Toloui) | Off for the transition | [summary](toloui-swarm/summary.md) | [analysis](toloui-swarm/analysis.md) |
@@ -64,9 +64,9 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | AI Augments Workers (Korinek) | Off: business as usual | [summary](korinek-aug/summary.md) | [analysis](korinek-aug/analysis.md) |
 | Full AGI Scenario (Korinek) | Off: warning baseline | [summary](korinek-agi/summary.md) | [analysis](korinek-agi/analysis.md) |
 | Plateau (CFG) | Off: the technical ceiling does the work | [summary](cfg-plateau/summary.md) | [analysis](cfg-plateau/analysis.md) |
-| Big AI / Arms Race (CFG) | Off, or policy as national security | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
+| Big AI / Arms Race (CFG) | Mixed: policy as national security and agent levies | [summary](cfg-central/summary.md) | [analysis](cfg-central/analysis.md) |
 | Diplomacy: Licensed Utopia (CFG) | Strongly on: treaty, licensing, AI tax | [summary](cfg-diplomacy/summary.md) | [analysis](cfg-diplomacy/analysis.md) |
-| Decentralised Mayhem (CFG) | Off until a crisis forces bans | [summary](cfg-decentral/summary.md) | [analysis](cfg-decentral/analysis.md) |
+| Decentralised Mayhem (CFG) | Mixed: off until a crisis forces bans | [summary](cfg-decentral/summary.md) | [analysis](cfg-decentral/analysis.md) |
 | AI Disappoints (DSIT) | Off by design | [summary](dsit-steady/summary.md) | [analysis](dsit-steady/analysis.md) |
 | AI Disrupts the Workforce (DSIT) | Off by design | [summary](dsit-rapid/summary.md) | [analysis](dsit-rapid/analysis.md) |
 | Lost Generation (Windfall) | Off: policy can't see the problem | [summary](wf-lost-generation/summary.md) | [analysis](wf-lost-generation/analysis.md) |
@@ -80,9 +80,9 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Modest (Anthropic Institute) | Off: policy left out of the model | [summary](anthropic-modest/summary.md) | [analysis](anthropic-modest/analysis.md) |
 | Substantial (Anthropic Institute) | Off: policy left out of the model | [summary](anthropic-substantial/summary.md) | [analysis](anthropic-substantial/analysis.md) |
 | Extreme (Anthropic Institute) | Off: sizes the transfers needed (~9% of GDP) | [summary](anthropic-extreme/summary.md) | [analysis](anthropic-extreme/analysis.md) |
-| Supercharged Progress (WEF) | Mostly off: safety nets lag | [summary](wef-supercharged/summary.md) | [analysis](wef-supercharged/analysis.md) |
+| Supercharged Progress (WEF) | Mixed: education redesigned, safety nets lag | [summary](wef-supercharged/summary.md) | [analysis](wef-supercharged/analysis.md) |
 | Age of Displacement (WEF) | Off, or overwhelmed | [summary](wef-displacement/summary.md) | [analysis](wef-displacement/analysis.md) |
-| Co-Pilot Economy (WEF) | On: early investment in skills and infrastructure | [summary](wef-copilot/summary.md) | [analysis](wef-copilot/analysis.md) |
+| Co-Pilot Economy (WEF) | Mixed: skills and infrastructure investment, divergent regulation | [summary](wef-copilot/summary.md) | [analysis](wef-copilot/analysis.md) |
 | Stalled Progress (WEF) | Off in effect: no fiscal space | [summary](wef-stalled/summary.md) | [analysis](wef-stalled/analysis.md) |
 | AI 2040: Plan A (AI Futures Project) | Strongly on: verified US–China slowdown | [summary](ai-2040-plan-a/summary.md) | [analysis](ai-2040-plan-a/analysis.md) |
 | Baseline Diffusion (IMF) | Off: regulation slows adoption | [summary](imf-baseline/summary.md) | [analysis](imf-baseline/analysis.md) |
@@ -118,6 +118,6 @@ These were fixed in the scenario data. Each fix is noted in the relevant `analys
 
 Still open (judgement calls, not fixed):
 
-- Map coordinates for `chiang`, `dsit-steady` and `cfg-decentral` were set under the old descriptions and may need revisiting.
+- Map coordinates for `chiang`, `dsit-steady` and `cfg-decentral` were revisited in the November 2026 re-assessment.
 - Other sources with a distinct policy-on path not yet split out into their own scenario: `korinek-agi`, `moores-law`, `doctorow`, `intelligence-curse`, `wf-high-substitution`.
 - The Windfall Trust Radar scenarios have no linked source.

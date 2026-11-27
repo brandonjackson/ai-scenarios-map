@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06-15 |
 | **Type** | framework — GO-Science — AI Scenarios 2030 |
 | **Source** | <https://www.gov.uk/government/publications/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai> |
-| **Tags** | Strong AUG, Moderate CONC |
+| **Tags** | Strong AUG, Mild DIFF |
 | **Policy stance** | off |
-| **Likelihood** | possible — Needs strong capability, firms choosing augmentation, and safety and public-service gains all at once. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs strong capability, firms choosing output over headcount, and safety and public-service gains all at once. |
+| **Assessed** | 2026-11-27 |
 
 AI can do most tasks a remote worker could, but humans stay in the loop. Many new jobs are created, real wages grow at 2000s rates, growth returns to early-2000s levels, systems are safe and trust is high thanks to transformed public services. Policy interventions deliberately excluded.
 
@@ -21,20 +21,21 @@ AI can do most tasks a remote worker could, but humans stay in the loop. Many ne
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.15 | -0.5 |
+| Labor demand × gain distribution | 0.3 | -0.5 |
 | Public finances × job quality | 0.5 | 0.5 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | AI stays mostly complementary, many new jobs appear and real wages grow at 2000s rates, though some lower-skilled roles become harder. |
-| Affordable essentials | 4 | Transformed public services bring better healthcare access and outcomes. |
-| Reliable safety net | 3 | Unemployment stays stable because firms use AI to raise output, so existing support is enough. |
-| Responsive government | 4 | Public trust in AI is reasonably high and allies agree shared safety standards. |
-| Time for what matters | 3 | Work shifts towards strategy and relationships for some, but reliance on AI erodes many workers' skills. |
+| Hard work pays | 4 | Augmentation dominates, unemployment stays stable, new jobs appear and real wages grow at 2000s rates, though low-variety roles are displaced and some lower-skilled work becomes less rewarding. |
+| Affordable essentials | 4 | Transformed public services improve healthcare access and outcomes through AI-supported care, treatments and diagnostics. |
+| Reliable safety net | 3 | Not addressed; stable unemployment means existing support is not tested. |
+| Responsive government | 4 | Not addressed directly, but public trust is reasonably high given improved public services and allies agree shared safety standards. |
+| Time for what matters | 3 | Not addressed; the only signal is deskilling that leaves some workers dependent on AI. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

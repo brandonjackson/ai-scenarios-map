@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | Brynjolfsson |
-| **Published** | 2022-01 |
+| **Published** | 2022-04-19 |
 | **Type** | framework — Brynjolfsson — Turing Trap |
-| **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
+| **Source** | <https://www.amacad.org/publication/daedalus/turing-trap-promise-peril-human-artificial-intelligence> |
 | **Tags** | REP, CONC (warns) |
 | **Policy stance** | off |
 | **Likelihood** | probable — Incentives still reward substitution: firms cite AI in cuts and entry-level hiring in exposed jobs has fallen. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
 The trap: AI built to imitate humans substitutes for workers, who lose economic and political bargaining power. Where today's incentives lead.
 
@@ -21,20 +21,21 @@ The trap: AI built to imitate humans substitutes for workers, who lose economic 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.4 | 0.35 |
-| Public finances × job quality | -0.3 | -0.3 |
+| Labor demand × gain distribution | -0.45 | 0.35 |
+| Public finances × job quality | -0.35 | -0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Machines substitute for workers, who lose their bargaining power and become dependent on those who control the technology. |
-| Affordable essentials | 3 | Cheaper versions of existing goods, but little of the far larger value that new goods and services would bring. |
-| Reliable safety net | 2 | A firm with no workers pays no payroll or income tax, so the tax base erodes as automation spreads. |
-| Responsive government | 2 | Concentrated economic power begets concentrated political power, trapping a powerless majority. |
-| Time for what matters | 2 | Leisure arrives without power; fading opportunities bring deaths of despair. |
+| Hard work pays | 2 | Workers without indispensable skills lose bargaining power, face lower wages and a declining income share. |
+| Affordable essentials | 3 | Automation drives the price of existing products towards zero, but nothing is said about housing, food, energy or care. |
+| Reliable safety net | 2 | A firm with no employees pays no payroll or labour-income tax, and transfers to displaced workers can be cut or ended. |
+| Responsive government | 2 | Concentrated technological and economic power turns into concentrated political power, weakening the influence of those displaced. |
+| Time for what matters | 2 | Leisure rises, but declining paid work harms community well-being and health for those displaced. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

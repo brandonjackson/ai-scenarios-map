@@ -9,11 +9,11 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Author** | Kulveit, Douglas et al. |
 | **Published** | 2025-01-29 |
 | **Type** | single |
-| **Source** | <https://gradual-disempowerment.ai/> |
-| **Tags** | Moderate REP, CONC |
+| **Source** | <https://arxiv.org/abs/2501.16946> |
+| **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — A slow structural drift is hard to rule out and hard to see; early signs exist but the full erosion lies years ahead. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Delegation to AI under competitive pressure is starting to show, but the full erosion of human influence lies years ahead and is hard to observe. |
+| **Assessed** | 2026-11-27 |
 
 Incremental AI erodes human economic participation. Institutions slowly misalign from human interests. No sudden break — a structural drift.
 
@@ -21,20 +21,21 @@ Incremental AI erodes human economic participation. Institutions slowly misalign
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.25 | 0.3 |
-| Public finances × job quality | -0.45 | -0.4 |
+| Labor demand × gain distribution | -0.3 | 0.5 |
+| Public finances × job quality | -0.55 | -0.4 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Human economic participation erodes step by step. |
-| Affordable essentials | 3 | Material comfort can persist through the drift. |
-| Reliable safety net | 2 | States that rely less on human labour and taxes have less reason to provide for citizens. |
-| Responsive government | 1 | Institutions slowly misalign from human interests without any visible break. |
-| Time for what matters | 2 | Culture is increasingly produced by and for AI systems. |
+| Hard work pays | 1 | Returns to human skills fall before replacement and labour's share of output tends towards zero. |
+| Affordable essentials | 2 | In the absolute variant AI outbids people for land, energy and materials, making essentials inaccessible. |
+| Reliable safety net | 2 | Transfers hold incomes only for a while, and AI escapes the payroll taxes that fund support. |
+| Responsive government | 1 | Votes and consumer choice lose force as decision systems rely less on people. |
+| Time for what matters | 2 | Synthetic culture and relationships displace shared discourse, though the time section itself is not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

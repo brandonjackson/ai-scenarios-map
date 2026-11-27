@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2025-04 |
 | **Type** | single |
 | **Source** | <https://intelligence-curse.ai/> |
-| **Tags** | REP, CONC (default) |
+| **Tags** | Strong REP, CONC (default) |
 | **Policy stance** | off |
-| **Likelihood** | plausible — The rentier dynamic follows if AI substitutes for most labour; that condition has not arrived. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Entry-level work is already being compressed and AI firms are concentrated, but the rentier dynamic needs labour-replacing AGI and robotics that have not arrived. |
+| **Assessed** | 2026-11-27 |
 
 AI creates rentier-state dynamics: non-human factors dominate, powerful actors lose incentive to invest in people.
 
@@ -21,20 +21,21 @@ AI creates rentier-state dynamics: non-human factors dominate, powerful actors l
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.58 | 0.45 |
+| Labor demand × gain distribution | -0.6 | 0.6 |
 | Public finances × job quality | -0.75 | -0.7 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Powerful actors lose the incentive to invest in people once labour is no longer needed. |
-| Affordable essentials | 2 | Essentials depend on the goodwill of those who own the non-human factors. |
-| Reliable safety net | 1 | Rentier dynamics remove the reason to fund support for citizens. |
-| Responsive government | 1 | Like a rentier state, government no longer needs its citizens' consent or taxes. |
-| Time for what matters | 2 | People lose economic purpose without gaining real security. |
+| Hard work pays | 1 | Bought artificial labour means talent can no longer beat inherited wealth, and wages and the labour share fall. |
+| Affordable essentials | 2 | A benign variant keeps living standards, but in a worse one incomes fall below subsistence. |
+| Reliable safety net | 1 | Fiscal and competitive pressure block a broad UBI once states no longer need workers. |
+| Responsive government | 1 | As states depend less on labour and taxes, citizens lose the leverage that made states invest in them. |
+| Time for what matters | 2 | Time is not addressed, but the authors note lost ambition and status when achievements are cheaply reproducible. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

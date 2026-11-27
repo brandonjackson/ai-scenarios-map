@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | Aguirre |
-| **Published** | 2025-03 |
+| **Published** | 2025-03-05 |
 | **Type** | framework — Aguirre — Keep the Future Human |
 | **Source** | <https://keepthefuturehuman.ai/essay/docs> |
-| **Tags** | AUG (prescribes), DIFF (prescribes) |
+| **Tags** | AUG (prescribes), Mild DIFF (prescribes) |
 | **Policy stance** | on |
-| **Likelihood** | improbable — Compute caps and binding international agreements have little political backing today. |
-| **Assessed** | — |
+| **Likelihood** | improbable — Hard compute caps, strict liability and binding international agreements have little political backing today, and frontier labs are still scaling towards autonomous agents. |
+| **Assessed** | 2026-11-27 |
 
 Governments close the gates to AGI with compute caps, liability and international agreements, and build powerful, controllable Tool AI that empowers people instead.
 
@@ -21,26 +21,27 @@ Governments close the gates to AGI with compute caps, liability and internationa
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.3 | -0.45 |
-| Public finances × job quality | 0.3 | 0.2 |
+| Labor demand × gain distribution | 0.2 | -0.25 |
+| Public finances × job quality | 0.15 | 0.1 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | With the gates to AGI closed, Tool AI makes human experts and institutions more effective rather than replacing them. |
-| Affordable essentials | 4 | Tool AI still transforms medicine, science and education, without the risks of autonomous AGI. |
-| Reliable safety net | 3 | Tool AI remains highly disruptive; mechanisms to share its benefits more broadly are proposed rather than specified. |
-| Responsive government | 3 | Compute caps, liability and international agreements keep AI in human hands, enforced through a few chipmakers. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Fewer jobs are replaced outright, but task displacement remains probable and displaced workers face lower pay; support for human-centred work is only recommended. |
+| Affordable essentials | 3 | Automatable goods get cheaper while other services rise in relative cost, so household welfare depends on income support. |
+| Reliable safety net | 3 | Universal basic assets or income could protect displaced workers, but they are proposed without a cost or funding model. |
+| Responsive government | 4 | Human supervision, accountable institutions, better deliberation and public say over more autonomous systems are central to the path. |
+| Time for what matters | 3 | Not addressed; nothing in the extract bears on time for what matters. |
 
 ## Policies from the atlas
 
-- **AI Liability** (`ai-liability`): Strict liability for high-autonomy, high-generality, high-intelligence systems, with safe harbours for tools
-- **Regulatory Agencies** (`regulatory-agencies`): Compute accounting and tiered, risk-based regulation
-- **Restructuring International Organizations** (`restructuring-international-organizations`): International agreements to contain AI, on the model of nuclear non-proliferation
+- **AI Liability** (`ai-liability`): Apply strict liability to the highest-risk systems and safe harbours where justified.
+- **Regulatory Agencies** (`regulatory-agencies`): Track and certify training and operational compute, impose hard limits, and require safety cases with oversight proportional to risk.
+- **Restructuring International Organizations** (`restructuring-international-organizations`): Coordinate internationally and use the concentrated specialised hardware supply chain to help implement the limits.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

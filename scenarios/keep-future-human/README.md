@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | Aguirre |
-| **Published** | 2025-03 |
+| **Published** | 2025-03-05 |
 | **Type** | framework — Aguirre — Keep the Future Human |
 | **Source** | <https://keepthefuturehuman.ai/essay/docs> |
-| **Tags** | REP (warns), CONC (warns) |
+| **Tags** | Strong REP (warns), CONC (warns) |
 | **Policy stance** | off |
-| **Likelihood** | plausible — The frontier race it warns of is under way; whether it ends in replacement and loss of control is uncertain. |
-| **Assessed** | — |
+| **Likelihood** | plausible — The corporate and US–China race it describes is under way; whether it ends in wholesale replacement and loss of control is still uncertain. |
+| **Assessed** | 2026-11-27 |
 
 The current path Aguirre warns of: an unchecked race to AGI that replaces people and concentrates power in a few companies, ending in loss of control.
 
@@ -21,20 +21,21 @@ The current path Aguirre warns of: an unchecked race to AGI that replaces people
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.48 | 0.35 |
+| Labor demand × gain distribution | -0.55 | 0.5 |
 | Public finances × job quality | -0.5 | -0.35 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | An unchecked race to AGI replaces human labour. |
-| Affordable essentials | 2 | Gains accrue to a few developers rather than lowering costs for everyone. |
-| Reliable safety net | 2 | Systems built for temporary job loss cannot cope with replacement. |
-| Responsive government | 1 | Power concentrates in whoever controls the most capable systems. |
-| Time for what matters | 2 | Human roles shrink alongside human agency. |
+| Hard work pays | 1 | Firms race to replace labour, with cognitive and then physical work automated faster than society can adapt. |
+| Affordable essentials | 2 | Benefits concentrate in companies and states while job loss and income inequality rise; prices of essentials are not discussed. |
+| Reliable safety net | 2 | Job loss rises while social disruption limits adjustment, and the essay's basic-income ideas belong only to the alternative path. |
+| Responsive government | 1 | Synthetic media, surveillance and delegation erode self-government until, in the extreme case, humans lose the capacity to steer the future. |
+| Time for what matters | 2 | Lost work brings insecurity and pervasive persuasion weakens trust and human cultural production; time itself is not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

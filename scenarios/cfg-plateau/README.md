@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | CFG |
-| **Published** | 2025 |
+| **Author** | Bengüsu Özcan, Daan Juijn, Jakob Graabak & Sam Bogerd (Centre for Future Generations) |
+| **Published** | 2025-07-10 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Moderate AUG, DIFF |
 | **Policy stance** | off |
-| **Likelihood** | possible — Capabilities keep improving, but cheaper, smaller and open models are a real trend. |
-| **Assessed** | — |
+| **Likelihood** | possible — Smaller, cheaper open and local models are a real trend, but frontier capability and training investment were still rising through 2026 rather than stalling. |
+| **Assessed** | 2026-11-27 |
 
 AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A bright winter.
 
@@ -22,19 +22,20 @@ AI hits technical limits. Smaller, cheaper, local models. Open-source thrives. A
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.48 | -0.42 |
-| Public finances × job quality | 0.25 | 0.2 |
+| Public finances × job quality | 0.25 | 0.1 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | Cheap local models augment workers and small firms. |
-| Affordable essentials | 3 | Modest gains leave the cost of essentials broadly unchanged. |
-| Reliable safety net | 3 | Limited disruption stays within existing capacity. |
-| Responsive government | 3 | Open source keeps power spread out, but institutions are unchanged. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 4 | Accountants, coders, game developers and creators work alongside specialised agents and the slow pace provides adjustment time; the only named losers are failed startups. |
+| Affordable essentials | 3 | AI diagnostics where regulators allow and cheap AI apps, with energy concerns eased by efficiency, leave the cost of essentials broadly unchanged. |
+| Reliable safety net | 3 | Not addressed; with no mass displacement in the extract the existing net is not tested. |
+| Responsive government | 3 | Not addressed directly; power stays dispersed as the arms-race framing recedes, and rising cybercrime is met by effective defences. |
+| Time for what matters | 3 | Not addressed; addictive digital companions are noted but nothing else bears on time. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

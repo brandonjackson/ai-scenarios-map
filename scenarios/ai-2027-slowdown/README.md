@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2025-04-03 |
 | **Type** | framework — AI 2027 |
 | **Source** | <https://ai-2027.com/slowdown> |
-| **Tags** | Extreme REP, CONC |
+| **Tags** | Extreme REP, CONC (with UBI floor) |
 | **Policy stance** | on |
 | **Likelihood** | improbable — Rests on the same very fast timeline plus a pause and a US–China deal. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
 A government–company Oversight Committee pauses, builds aligned models and strikes a deal with China. Abundance and a generous basic income, but work disappears and power sits with a small committee.
 
@@ -21,26 +21,31 @@ A government–company Oversight Committee pauses, builds aligned models and str
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.55 | 0.7 |
+| Labor demand × gain distribution | -0.4 | 0.7 |
 | Public finances × job quality | -0.7 | 0.6 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Almost all work is done by AIs and robots; people take makeshift government jobs or none. |
-| Affordable essentials | 4 | Poverty ends even in developing countries, though scarce goods move further out of reach. |
-| Reliable safety net | 4 | Both parties promise, and deliver, a generous basic income. |
-| Responsive government | 2 | A small Oversight Committee holds hard power and may or may not return it to democratic institutions. |
-| Time for what matters | 2 | A society of superconsumers in an opium haze of AI-provided entertainment. |
+| Hard work pays | 1 | Almost all tasks pass to AI and robots within a few years; displaced people take government-created roles or live on basic income. |
+| Affordable essentials | 4 | Cures, energy innovation and income support end poverty even in poorer countries, though scarce housing such as Manhattan penthouses moves further out of reach. |
+| Reliable safety net | 4 | Both parties promise a basic income for anyone who loses their job, and a generous floor plus foreign aid become the main ways output is shared. |
+| Responsive government | 2 | A small committee controls the most powerful systems and surveillance, and may share power with Congress or entrench an oligarchy. |
+| Time for what matters | 3 | With work automated people choose between entertainment, religion and anti-consumerist lives, and government leaves the choice to them. |
 
 ## Policies from the atlas
 
-- **Universal Basic Income** (`universal-basic-income`): Both parties promise a basic income for anyone who loses their job; later, a generous basic income for all
-- **Public-Private Partnerships** (`public-private-partnerships`): A joint government–company Oversight Committee takes control of the leading lab
-- **Restructuring International Organizations** (`restructuring-international-organizations`): A US–China deal, then a federalised world government under UN branding
+- **Unemployment Benefits** (`unemployment-benefits`): The White House initially uses retraining and unemployment insurance.
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): The White House initially uses retraining and unemployment insurance.
+- **Public-Private Partnerships** (`public-private-partnerships`): The committee slows scaling, centralizes some frontier-development controls and undertakes safer research.
+- **Restructuring International Organizations** (`restructuring-international-organizations`): The US and China agree on jointly monitored replacement of their models.
+- **Universal Basic Income** (`universal-basic-income`): The government ultimately funds basic income, makeshift employment and foreign aid.
+- **Job Guarantees & Public Works Programs** (`job-guarantees-and-public-works-programs`): The government ultimately funds basic income, makeshift employment and foreign aid.
+- **Benefit-Sharing** (`benefit-sharing`): The government ultimately funds basic income, makeshift employment and foreign aid.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

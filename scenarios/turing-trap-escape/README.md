@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | Brynjolfsson |
-| **Published** | 2022-01 |
+| **Published** | 2022-04-19 |
 | **Type** | framework — Brynjolfsson — Turing Trap |
-| **Source** | <https://digitaleconomy.stanford.edu/wp-content/uploads/2022/06/The-Turing-Trap-The-Promise-Peril-of-Human-Like-Artificial-Intelligence.pdf> |
+| **Source** | <https://www.amacad.org/publication/daedalus/turing-trap-promise-peril-human-artificial-intelligence> |
 | **Tags** | AUG (prescribes), DIFF |
 | **Policy stance** | on |
-| **Likelihood** | possible — Needs tax and training reforms that remain proposals. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs tax and training reforms that remain proposals, while frontier AI is still aimed at human-like capability. |
+| **Assessed** | 2026-11-27 |
 
 Rebalanced tax and training incentives steer AI towards augmenting people, so workers stay indispensable and keep a share of the value.
 
@@ -22,26 +22,27 @@ Rebalanced tax and training incentives steer AI towards augmenting people, so wo
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | 0.5 | -0.5 |
-| Public finances × job quality | 0.4 | 0.3 |
+| Public finances × job quality | 0.45 | 0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | With incentives rebalanced towards augmentation, workers stay indispensable and keep the power to insist on a share of the value. |
-| Affordable essentials | 4 | Augmentation creates new goods and services, which is where most economic value has come from since ancient times. |
-| Reliable safety net | 3 | Equal tax treatment of labour and capital and an expanded earned income tax credit keep the tax base broad. |
-| Responsive government | 3 | Useful knowledge stays in human heads, which keeps economic and political power decentralised. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 4 | New products create new job categories, and indispensable workers keep the bargaining power to share in gains. |
+| Affordable essentials | 3 | Not addressed; the essay's example of new value is retail selection and access, not essentials. |
+| Reliable safety net | 3 | A larger earned income tax credit and retraining ease adjustment, but nothing changes for people who lose their jobs outright. |
+| Responsive government | 4 | Workers with indispensable knowledge demand a voice, dispersed knowledge decentralises political power and institutions are built to stay robust. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Policies from the atlas
 
-- **Automation/Robot Taxes** (`automation-robot-taxes`): Remove the tax code's bias toward capital over labour
-- **Tax Credit Expansion** (`tax-credit-expansion`): Favour wage income, for instance by expanding the earned income tax credit
-- **Employer Tax Breaks** (`employer-tax-breaks`): Incentives for corporate training to offset the externality of labour mobility
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Government should provide training directly or incentivise it
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Education and labour markets support the skills needed for complementary jobs.
+- **Employer Tax Breaks** (`employer-tax-breaks`): Public provision of skills or incentives for employer-financed retraining can offset the effects of mobility and credit constraints.
+- **Tax Credit Expansion** (`tax-credit-expansion`): The social benefits from more widely shared prosperity may justify favourable treatment for wage income, including a larger earned income tax credit.
+- **Automation/Robot Taxes** (`automation-robot-taxes`): Changes to tax policy rebalance effective taxes on labour and capital, removing the incentive to automate rather than employ.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

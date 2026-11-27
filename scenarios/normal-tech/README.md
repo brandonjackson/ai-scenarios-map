@@ -9,39 +9,38 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Author** | Narayanan & Kapoor |
 | **Published** | 2025-04-15 |
 | **Type** | single |
-| **Source** | <https://knightcolumbia.org/content/ai-as-normal-technology> |
+| **Source** | <https://knightcolumbia.org/research/ai-as-normal-technology> |
 | **Tags** | AUG, DIFF |
 | **Policy stance** | mixed |
 | **Likelihood** | probable — Adoption so far is broad but shallow, and the OECD finds no sign of widespread displacement; the slow-diffusion story fits the evidence best. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
-AI is a GPT like electricity. Meaningful productivity impact but slow diffusion — decades, not years. No superintelligence. Existing institutions can adapt.
+AI spreads over decades as firms and public institutions invest, test and reorganise around it. People spend less time on existing tasks and more on oversight, coordination and new work. Institutions adapt liability, safety rules and investment as experience accumulates.
 
 ## Map position
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.38 | -0.38 |
+| Labor demand × gain distribution | 0.3 | -0.38 |
 | Public finances × job quality | 0.2 | 0.15 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Slow diffusion over decades gives workers time to adjust. |
-| Affordable essentials | 3 | Meaningful but gradual productivity gains leave costs broadly unchanged. |
-| Reliable safety net | 3 | Gradual disruption stays within existing capacity. |
-| Responsive government | 3 | Existing institutions can adapt at the pace of change. |
-| Time for what matters | 3 | Daily life changes slowly. |
+| Hard work pays | 3 | Work shifts gradually to oversight, coordination and new roles; arts and journalism face harms, but the decades-long pace keeps disruption manageable. |
+| Affordable essentials | 3 | Not addressed; automation cheapens tasks but the extract does not link this to essentials. |
+| Reliable safety net | 3 | Stronger safety nets are recommended rather than assumed, and gradual disruption stays within existing capacity. |
+| Responsive government | 3 | Institutions adapt liability and oversight as experience accumulates, though premature deployment can undermine trust. |
+| Time for what matters | 3 | Not addressed in the extract. |
 
 ## Policies from the atlas
 
-- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Public goods the private sector underprovides: accessible datasets and energy infrastructure
-- **AI Liability** (`ai-liability`): Clarify how liability law applies to AI to enable diffusion, as FAA rules did for drones
-- **Data Compensation** (`data-compensation`): Mandatory negotiation, with regulatory oversight, between AI companies and publishers
-- **Regulatory Agencies** (`regulatory-agencies`): Reduce uncertainty: evidence gathering, transparency and monitoring as a first-rate policy goal
+- **AI Liability** (`ai-liability`): Existing institutions and rules of liability continue to matter, and oversight can evolve as automation becomes more capable.
+- **Regulatory Agencies** (`regulatory-agencies`): Existing institutions and rules of liability continue to matter, and oversight can evolve as automation becomes more capable.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

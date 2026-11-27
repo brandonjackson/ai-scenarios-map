@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | World Economic Forum |
-| **Published** | 2026-01-08 |
+| **Published** | 2026-01-07 |
 | **Type** | framework — WEF — Four Futures for Jobs |
 | **Source** | <https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/> |
 | **Tags** | Moderate REP, Mild CONC |
-| **Policy stance** | off |
-| **Likelihood** | possible — Needs workforce readiness to keep pace with exponential capability, which current skills gaps argue against. |
-| **Assessed** | — |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Agentic AI is scaling, but near double-digit global growth and workforce readiness keeping pace with exponential capability by 2030 both need sharp breaks from current trends. |
+| **Assessed** | 2026-11-27 |
 
 Exponential AI meets a ready workforce. An agentic leap pushes global growth towards double digits; many occupations vanish but new ones scale fast, with people orchestrating fleets of agents. Yet wages fall across most sectors, the AI-ready pull away, and safety nets and regulation lag behind.
 
@@ -21,20 +21,28 @@ Exponential AI meets a ready workforce. An agentic leap pushes global growth tow
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.1 | 0.4 |
+| Labor demand × gain distribution | -0.2 | 0.4 |
 | Public finances × job quality | -0.3 | -0.15 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | New occupations scale fast, but job quality degrades and wages fall across most sectors. |
-| Affordable essentials | 3 | Growth nears double digits, but nothing specific changes the cost of essentials. |
-| Reliable safety net | 2 | Safety nets struggle to keep up and fiscal space tightens; only some governments try AI dividends or basic income. |
-| Responsive government | 2 | Regulation and ethics frameworks lag far behind the agentic transformation. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | Displacement and job-quality degradation stay widespread and many workers lose bargaining power as wages fall, while the AI-ready premium nearly doubles. |
+| Affordable essentials | 3 | Possible breakthroughs in services, health and longevity are set against grid and critical-material risks, with nothing concrete on household costs. |
+| Reliable safety net | 2 | Existing safety nets struggle with the pace of disruption; only some governments try dividends, wage insurance or basic income while others face tightening fiscal space. |
+| Responsive government | 2 | Ethical and regulatory frameworks lag behind workplace deployment. |
+| Time for what matters | 3 | Not addressed in the extract. |
+
+## Policies from the atlas
+
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Education and training are radically redesigned.
+- **National Dividend Funds** (`national-dividend-funds`): Some governments experiment with AI dividends, wage insurance and universal basic income.
+- **Wage Insurance** (`wage-insurance`): Some governments experiment with AI dividends, wage insurance and universal basic income.
+- **Universal Basic Income** (`universal-basic-income`): Some governments experiment with AI dividends, wage insurance and universal basic income.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)
