@@ -1,0 +1,35 @@
+{
+  "slug": "rand-infinite-potential-economic-2026",
+  "title": "Infinite Potential—Insights on Economic and Societal Impacts Across Two Scenarios: After-Action Report from a Series of Day After Artificial General Intelligence Games (RR-A4767-4)",
+  "authors": [
+    "Anton Shenk",
+    "Richard S. Girven",
+    "Gregory Smith",
+    "Tobias Sytsma"
+  ],
+  "publisher": "RAND Corporation",
+  "date": "2026",
+  "url": "https://www.rand.org/pubs/research_reports/RRA4767-4.html",
+  "archive_url": "",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© 2026 RAND Corporation, limited distribution rights",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "rand-ip-economic-crisis",
+    "rand-ip-business-civil"
+  ],
+  "related": [
+    {
+      "title": "Infinite Potential—Insights from the Business and Civil Society Scenario (RR-A4767-1)",
+      "authors": [
+        "Richard S. Girven",
+        "Beba Cibralic",
+        "Gregory Smith"
+      ],
+      "url": "https://www.rand.org/pubs/research_reports/RRA4767-1.html",
+      "note": "Earlier after-action report on one of the same scenarios; not captured"
+    }
+  ]
+}

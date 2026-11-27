@@ -1,0 +1,23 @@
+{
+  "slug": "rand-federal-revenue-ai-labor-2026",
+  "title": "Federal Revenue When AI Replaces Labor: An Examination of Economic Scenarios with Highly Capable AI",
+  "authors": [
+    "RAND Corporation (Rethink project)"
+  ],
+  "publisher": "RAND Corporation",
+  "date": "2026-08",
+  "url": "https://www.rand.org/pubs/research_reports/RRA4980-1.html",
+  "archive_url": "http://web.archive.org/web/20261104144115/https://www.rand.org/pubs/research_reports/RRA4980-1.html",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© 2026 RAND Corporation, limited distribution rights",
+  "fulltext": "private",
+  "read": "full",
+  "scenarios": [
+    "rand-fr-business-as-usual",
+    "rand-fr-hyperconcentration",
+    "rand-fr-price-shocks",
+    "rand-fr-system-breaks"
+  ],
+  "related": []
+}
