@@ -43,7 +43,9 @@ To add your own goal, copy `goals/social-contract/`, edit it, and see [`goals/RE
 
 ## Scenario folders
 
-Every scenario has a folder in `scenarios/<id>/` for context about it: a generated `README.md` (metadata, map position, draft scores), a `summary.md` reading the scenario through the five promises of the social contract, an `analysis.md` of its big assumptions (policy on or off, what must be true), and any notes or sources you add. See [`scenarios/README.md`](scenarios/README.md) for the index.
+Every scenario has a folder in `scenarios/<id>/` for context about it: a generated `README.md` (metadata, map position, draft scores), an `extract.md` recording everything the source says in a fixed, framework-neutral structure, a `summary.md` reading the scenario through the five promises of the social contract, an `analysis.md` of its big assumptions (policy on or off, what must be true), and any notes you add. The publications themselves are recorded in [`sources/`](sources/README.md). See [`scenarios/README.md`](scenarios/README.md) for the index.
+
+To find and add new scenarios, run the `/find-scenarios` Claude Code skill (`.claude/skills/find-scenarios/`).
 
 ### Adding a new scenario
 

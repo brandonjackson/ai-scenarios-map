@@ -4,3 +4,4 @@ dist/
 *.log
 *.xlsx
 data/scenarios.json
+sources/*/private/
