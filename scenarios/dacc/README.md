@@ -13,7 +13,7 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Tags** | Mild AUG, DIFF (prescriptive) |
 | **Policy stance** | on |
 | **Likelihood** | possible — Defensive and open technology is being built, but it is not yet steering the frontier. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
 Defensive, decentralized, differential acceleration. Cautious on AI power but strongly prescribes building tech that diffuses power.
 
@@ -21,24 +21,25 @@ Defensive, decentralized, differential acceleration. Cautious on AI power but st
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.65 | -0.1 |
+| Labor demand × gain distribution | 0.45 | -0.3 |
 | Public finances × job quality | — | — |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Technology that diffuses power keeps a path for individual effort. |
-| Affordable essentials | 3 | No particular change to the cost of essentials. |
-| Reliable safety net | 3 | Existing protections are neither strengthened nor eroded. |
-| Responsive government | 4 | Defensive, decentralised technology deliberately keeps power spread out. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Not addressed beyond AI complementing human cognition; no jobs or wage effects are given. |
+| Affordable essentials | 3 | Public-health resilience and self-sufficient access to necessities help communities withstand crises, without lowering costs. |
+| Reliable safety net | 3 | Not addressed in the extract. |
+| Responsive government | 4 | Defensive capacity, privacy-preserving identity and deliberation tools deliberately keep power spread out and widen democratic options. |
+| Time for what matters | 3 | A better future keeps meaningful choices, but the concern for purpose is a warning about an AI-run world rather than a gain in time. |
 
 ## Policies from the atlas
 
-- None named. Levers are funding defensive technology, open-source mandates and possibly banning extremely advanced AI research; none are atlas policies
+- None named. Development prioritises technologies that improve defence, resilience and decentralised coordination, chosen by researchers, firms and communities; no atlas policy is assumed.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

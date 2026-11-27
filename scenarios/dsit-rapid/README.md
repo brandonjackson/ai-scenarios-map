@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | DSIT |
-| **Published** | 2023-10-25 |
+| **Author** | Government Office for Science (DSIT) |
+| **Published** | 2025-04-28 |
 | **Type** | framework — DSIT — AI 2030 |
 | **Source** | <https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/ai-2030-scenarios-report-html-annex-c> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Tech-giant control is real; sector-wide automation and backlash by 2030 is a credible path. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Compute scarcity, tech-giant control of models and AI substitution in exposed cognitive work are credible by 2030, though robots and autonomous freight at scale are the stretch. |
+| **Assessed** | 2026-11-27 |
 
 Capable narrow AI and robotics, controlled by tech giants, automate work across sectors. Unemployment, inequality and public backlash. Policy interventions deliberately excluded.
 
@@ -22,19 +22,20 @@ Capable narrow AI and robotics, controlled by tech giants, automate work across 
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.38 | 0.42 |
-| Public finances × job quality | -0.45 | -0.4 |
+| Public finances × job quality | -0.45 | -0.05 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Fast capability gains bring significant displacement. |
-| Affordable essentials | 3 | No particular change to the cost of essentials. |
-| Reliable safety net | 2 | Displacement outpaces benefits built for short job losses. |
-| Responsive government | 2 | Government struggles to keep pace with a few dominant companies. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | Net employment losses and significant wage declines hit exposed cognitive and physical jobs, while AI managers and owners gain. |
+| Affordable essentials | 3 | Goods and services get cheaper while poverty rises; the extract does not address essentials directly. |
+| Reliable safety net | 2 | Structural unemployment rises and the report asks how to help, but no new support is put in place. |
+| Responsive government | 2 | Protests and strikes have little leverage in automated sectors, amid concerns over surveillance and biased recruitment. |
+| Time for what matters | 3 | Not addressed in the extract. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

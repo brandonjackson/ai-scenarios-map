@@ -1,23 +1,23 @@
 # AI as Normal Technology — summary
 
-*Arvind Narayanan & Sayash Kapoor, Knight First Amendment Institute, April 2025*
+*Arvind Narayanan and Sayash Kapoor, Knight First Amendment Institute at Columbia University, 15 April 2025. A general framework illustrated mainly with US evidence, offered as a description, a prediction and a prescription; the authors call it their median outcome. Read from the full text; see `extract.md`.*
 
-**The scenario.** AI is a transformative general-purpose technology, like electricity or the internet, but not "a separate species". "Normal technology" is offered as a description, a prediction and a prescription. Impact comes from *diffusion*, not capability. Methods, applications and adoption each move at their own pace, and adoption, held back by safety, regulation and organisational change, takes "decades". The authors call superintelligence "incoherent as usually conceptualized": humans *with* AI won't be meaningfully outclassed by AI alone. Their aim is to describe "the median outcome".
+**The scenario.** AI becomes powerful and widespread through decades of complementary investment, testing and organisational change, as factories once had to be redesigned around electricity. Methods may improve quickly, but applications and adoption compound slowly and unevenly, limited by reliability, workflow redesign, skills, infrastructure, legal clarity and trust. High-stakes uses face an enduring capability–reliability gap. Firms and public institutions reorganise work around AI, and governments adapt liability, safety rules and public investment as experience accumulates.
 
 ## Hard work pays
-Kept, though the work changes. In a world with advanced AI, "a greater and greater proportion of what people do in their jobs is AI control": auditing, monitoring and specifying. Humans keep control because the risks of unchecked automation are too high. The authors still list "massive job losses in specific occupations" and "worsening labor conditions" as serious systemic risks.
+Kept, though work changes. People spend less time on existing tasks and more on overseeing and coordinating systems, keep judgement in context-specific tasks and move into new roles. When a task becomes cheap to automate its value falls and people shift to tasks that newly command a premium, so "the goalpost of AGI will continually move further away". Arts and journalism are already facing harms, and the authors note a bargaining-power imbalance between AI firms and publishers.
 
 ## Affordable essentials
-Gradual gains. Productivity improves slowly as organisations reorganise around AI, as factories took decades to reorganise around electricity. Early evidence is modest: in 2024, generative AI covered only 0.5–3.5% of US work hours. No sudden abundance or collapse.
+Not addressed. Automation sharply lowers the cost of the tasks it covers, but the essay does not connect this to housing, food, energy or care.
 
 ## Reliable safety net
-Should be strengthened. Governments have "an important role to play in redistributing the benefits of AI ... and in compensating those who stand to lose", and stronger safety nets "will help to decrease the currently high levels of public anxiety about AI." They propose funding the arts and journalism "through taxes on AI companies."
+Recommended rather than assumed. Stronger safety nets "can compensate people who lose from automation and lower public anxiety about AI". Governments could tax AI firms to fund arts and journalism and support displaced workers; no budget forecast is given.
 
 ## Responsive government
-Central, and asked to be adaptive. The policy stance is **resilience** and reducing uncertainty, not non-proliferation, which they reject because it concentrates power and makes systems more fragile. Regulation should *enable* diffusion (as the ESIGN Act did for e-commerce) without freezing categories too early. The real dangers are "accumulative": entrenched bias, inequality, "concentration of power, erosion of social trust ... democratic backsliding, mass surveillance". AI amplifies existing instabilities "on the current path of capitalism."
+Asked to adapt, not freeze. Keeping the public sector able to adopt AI preserves accountability for basic public functions, while premature deployment can undermine trust and legitimacy. Control comes in many forms (setting rules, sampling decisions, monitoring outcomes, redesigning systems), with accountability for oversight. Regulation should reduce uncertainty through research, evaluation and incident reporting, and be designed around actual tasks and supply chains.
 
 ## Time for what matters
-Little change in the source. The essay doesn't project changes in hours or leisure.
+Not addressed.
 
 ## Bottom line
-The continuity scenario. The social contract isn't overturned by AI, but the slow, familiar harms of a powerful technology under today's capitalism still have to be governed.
+The continuity scenario: no sudden break in the social contract, a slow reshaping of work, and familiar harms to particular groups that institutions must govern as they go.

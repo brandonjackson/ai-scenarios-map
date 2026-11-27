@@ -1,27 +1,26 @@
 # Situational Awareness — assumptions analysis
 
 ## Policy on or off?
-**Policy on for national security, off for the social contract.** Aschenbrenner wants massive state action: a Manhattan-Project-style government AGI programme, lab security against state espionage, US-based clusters, a power-generation build-out, and alliances to "prevail" over China. There is no social policy: no labour transition, redistribution or safety-net reform. The domestic economy is treated as fuel for the race.
+**Mixed: on for national security, off for the social contract.** Private investment and scaling drive the early years; then a national-security project coordinates frontier work and pools resources as the race with China sharpens. That project is part of the scenario, not just a recommendation, so the stance is mixed. The author also recommends hardened lab security, more US power and industrial capacity, serious alignment work and accountable government control of superintelligence. There is no labour, income or safety-net policy anywhere in the essay.
 
 ## Big assumptions
-1. **Straight lines on a graph.** Compute, algorithmic efficiency and unhobbling trends continue through 2027 without hitting walls of data, energy or reliability. He acknowledges "the error bars are large."
-2. **AI research automates first.** It's virtual and needs no robotics, so AI-researcher-level AGI triggers recursive self-improvement (bottlenecked mainly by experiment compute).
-3. **Superintelligence gives decisive advantage.** Economically and militarily, whoever gets there first may dominate, so the race is existential for "the free world".
-4. **The US state is the right steward.** Centuries-old democratic checks and balances beat private lab governance, so nationalising control is the *conservative* choice.
-5. **Superalignment is solvable but tense.** Control of smarter-than-human systems "is a solvable problem" but "things could very easily go off the rails."
-6. **Society will adapt or be bypassed.** Regulation, human jobs and resistance are friction that slows GDP statistics, not things that change direction.
+1. **Capability.** Compute and algorithmic trends of about 0.5 orders of magnitude a year each continue to 2027, and agentic "unhobbling" turns models into remote workers. Automated AI research then adds five or more orders of magnitude of algorithmic progress in a year.
+2. **Adoption.** Drop-in remote workers replace roles directly rather than needing users to adapt, so economic value jumps. Regulation, preference and robotics slow adoption outside software and research, but only as friction.
+3. **Markets.** Revenue from labour-saving products justifies trillion-dollar clusters; electricity, chips and construction, with longer lead times than software, are the binding constraints.
+4. **Politics.** Washington recognises AGI as strategically decisive and takes over the frontier effort; China stays close enough to make the race urgent.
 
 ## What must be true for this to occur
-- Scaling and unhobbling reach drop-in remote workers by about 2027, and automated AI research multiplies progress.
-- Trillions in capital and tens of percent more US electricity are found within a few years.
-- Washington "wakes up" and takes over the frontier effort; labs and investors accept it.
-- China stays close enough to make the race urgent but not close enough to win.
+- Scaling and agency reach remote-worker level by about 2027 without hitting walls of data, reliability or power.
+- Trillions in capital and tens of gigawatts of new US generation are found within a few years.
+- Labs and investors accept a government project, and it keeps checks and balances while operating in secret at wartime pace.
+- Alignment holds well enough during an intelligence explosion.
 
 ## Tensions and weak points
-- **Social contract blind spot:** the scenario places "Extreme REP, CONC" on the map, yet has nothing on displaced workers. Under the goal's worst-off rule, that silence is itself the finding.
-- Trusting the state's checks and balances sits uneasily with secret projects "in a SCIF" and wartime urgency, which historically *suspend* those checks. Compare Buterin's fear of "a 5-person board" with an "iron fist".
-- Some forecasts have tracked well (huge capex, agents in 2025–26); the government-takeover forecast has not, as of late 2026.
-- The author left OpenAI to found an AGI-focused investment fund, which matters when weighing its framing.
+- **Social-contract blind spot.** Household incomes, essentials, safety net and time are all "Not addressed" in the extract. The scenario sits deep in replacement territory on the map, so under the worst-off rule that silence is itself the finding.
+- Trusting constitutional checks sits uneasily with a secret national-security project run under race conditions, which historically suspends those checks.
+- The fiscal placement (−0.55, −0.35) rests on inference: the essay frames feasibility through Manhattan-, Apollo- and wartime-scale spending and expects wage income to be replaced, but does not model receipts or debt. It is kept where it was and flagged as weakly grounded.
+- On the labour plot (−0.50, 0.68) it sits among `anthropic-extreme`, `korinek-agi`, `tcb-displacement` and `ai-2027`. It is placed slightly less extreme than `ai-2027` because the essay stops at superintelligence and allows some human jobs to survive.
+- Some forecasts tracked (very large AI capex, agents in 2025–26); the government project had not appeared as of late 2026.
 
 ## Scoring notes
-Draft scores (1/2/2/2/2). Government at 2 rather than 1 reflects that this is a *democratic* state project. If The Project operates as described (secret, wartime, concentrated), 1 is arguable.
+Scores are 1/2/2/2/3. Work is 1: the essay expects essentially all remote work to be automated, then physical work, with no career paths or compensation described. Essentials is 2 because the scarce inputs it names include electricity on a scale (over 20% of US output for one cluster) that competes with households. Safety net is 2: displacement on this scale with no income support described leaves displaced workers exposed. Government is 2: power concentrates in a national programme the public cannot see into, even if it is a democratic state's. Time moves from 2 to 3 because the new extract says nothing that bears on it, and the rules score silence as 3. The weakest-link rule caps the headline at 2.

@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06-15 |
 | **Type** | framework — GO-Science — AI Scenarios 2030 |
 | **Source** | <https://www.gov.uk/government/publications/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai> |
-| **Tags** | Mild AUG, Moderate CONC |
+| **Tags** | Mild AUG, Mild CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Reliability limits and patchy adoption are visible today; it needs progress to flatten rather than keep climbing. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Reliability limits and patchy adoption are visible today; it needs capability gains to flatten after 2028 rather than keep climbing. |
+| **Assessed** | 2026-11-27 |
 
 Systems automate digital workflows at human level but struggle with long, open-ended tasks. AI stays mostly complementary to labour and gives little economic uplift; a 2028 market correction and populist opposition slow adoption. Policy interventions deliberately excluded.
 
@@ -21,20 +21,21 @@ Systems automate digital workflows at human level but struggle with long, open-e
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.1 | -0.3 |
-| Public finances × job quality | 0.1 | -0.05 |
+| Labor demand × gain distribution | -0.1 | -0.3 |
+| Public finances × job quality | 0 | -0.05 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Displacement is contained to junior and execution roles or slower hiring; most sectors, such as health and education, are barely touched. |
-| Affordable essentials | 3 | AI gives minimal economic uplift, so the cost of essentials is broadly unchanged. |
-| Reliable safety net | 3 | A 2028 AI market correction drags on growth without causing a recession, so existing support copes. |
-| Responsive government | 2 | Synthetic media and hostile states' persuasion agents erode trust in elections, and populist parties campaign against AI. |
-| Time for what matters | 2 | Many young people come to depend on AI companions for friendship, therapy and romance, weakening real relationships. |
+| Hard work pays | 3 | Displacement is confined to junior and execution roles, with displaced workers often taking significant pay cuts, while health, education and most other sectors barely change. |
+| Affordable essentials | 3 | Not addressed; with minimal growth uplift nothing changes the cost of essentials. |
+| Reliable safety net | 3 | Not addressed; the correction causes no recession and displacement is contained, so existing support is not seriously tested. |
+| Responsive government | 2 | False synthetic narratives and AI-enabled election influence undermine trust in democratic processes, and populist parties campaign against AI. |
+| Time for what matters | 2 | Many young people rely on AI companions for friendship, therapy and romance, weakening their motivation to form human relationships. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

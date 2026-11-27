@@ -1,24 +1,25 @@
-# AI Augments Workers (business as usual) — assumptions analysis
+# AI Augments Workers — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** This is Korinek's business-as-usual baseline. Wages rise through market forces (capital accumulation and labour scarcity), not policy. Policy matters only as preparation for the other scenarios.
+**Off.** The illustrated path comes from technological progress and market reallocation, with no new intervention built into the model. The author's recommendations (a portfolio of scenarios, stress-tested institutions, tax and safety-net reform, a small scalable basic income, closer monitoring of AI progress and deployment) apply across all three scenarios and are aimed mainly at the AGI cases.
 
 ## Big assumptions
-1. **Human task complexity is unbounded, with a thick tail.** This is the whole scenario. Korinek and Suh show that a *thin* unbounded tail still ends in wage collapse, so it's not enough that some tasks stay human; enough work has to stay human to keep labour scarce.
-2. **Automation proceeds at a constant, steady rate,** like the past century, rather than in bursts. A sudden wave of cognitive automation pushes the economy into the region where labour loses scarcity value and wages fall, even if they recover later.
-3. **Capital accumulation keeps up.** Wages are set by a race between automation and capital. The scenario assumes investment, including compute, grows fast enough that labour stays the scarce factor.
-4. **No fixed-factor bottleneck.** In the paper, scarce land, minerals or energy drag wages down. The baseline assumes these don't bind.
-5. **Gains spread through the labour market.** The model has a representative agent, so distribution is assumed away. It doesn't ask who owns the capital.
+1. **Capability: no ceiling on human task complexity.** This is the whole scenario. However far automation moves, there are always more complex tasks for people to take up.
+2. **Adoption: steady, historical-pace automation.** Simpler tasks are automated at roughly the rate seen in past decades, not in a sudden burst.
+3. **Markets: labour stays scarce and is paid competitively.** Wages rise with output because displaced workers are re-employed in more productive jobs.
+4. **Politics: none needed.** Existing institutions cope; the article sets out no political dynamics for this case.
 
 ## What must be true for this to occur
-- Compute-limited AI progress hits the hard tail of human tasks (embodied skill, judgement, social and political roles) and stalls there for decades.
-- Hinton's 5–20-year AGI forecast, which Korinek uses to calibrate the other scenarios, is wrong.
-- Societies may also *choose* to keep some jobs human ("priests, judges, or lawmakers"). Korinek shows enough "nostalgic jobs" can keep wages rising even when full automation is technically possible.
+- AI progress plateaus, or keeps running into tasks only people can do, for decades.
+- New, more complex human tasks keep appearing as fast as old ones are automated.
+- Displaced workers can actually move into those tasks, so labour stays scarce.
 
 ## Tensions and weak points
-- The map labels this "AI Augments Workers", but Korinek's own term is the "traditional" or business-as-usual scenario. The mechanism is automation of a steady slice of tasks, not augmentation as such. Wages rise because displaced labour moves to un-automated tasks.
-- The F&D article doesn't say which scenario is most likely and urges preparing for all of them. The map shouldn't read this as Korinek's forecast.
-- The skill-heterogeneity extension (a shrinking group of "superstar" workers whose wages rise while most are devalued) means rising *average* wages can coexist with broken promises for the worst-off, which is the group this goal is scored for.
+- The map's label says "augments", but the mechanism is automation of simpler tasks plus reallocation of people to harder ones. Wages rise because labour stays scarce, not because AI makes each worker more productive in the same job. The tags and the y position (−0.45) reflect the outcome for labour rather than the mechanism.
+- The article does not say which scenario it expects and urges planning for all three; this is one of three cases, each given more than a 10% chance.
+- The extract has no distributional detail. Earlier versions of this entry drew on Korinek and Suh's NBER paper (a "superstar" split within labour, fixed-factor bottlenecks, Hinton's forecast as calibration); none of that is in the article, so it is no longer used here.
+- Government finances are discussed only across the set. The fiscal position (0.4) is inferred from steady growth in output and wages, not stated.
+- Close neighbours: `wef-copilot`, `keep-future-human-tool-ai`, `normal-tech` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores (4/3/3/3/3) fit the averages. Under the worst-off rule, work might be 3 if the superstar dynamic holds.
+Draft scores are 4/3/3/3/3. Work is 4 because the competitive wage nearly doubles over 30 years and displaced workers move to more productive jobs; the article names no group left behind, so the worst-off rule does not pull it down. The other four are 3 because the article does not address them for this scenario.

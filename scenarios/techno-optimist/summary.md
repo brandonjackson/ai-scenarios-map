@@ -1,23 +1,23 @@
 # The Techno-Optimist Manifesto — summary
 
-*Marc Andreessen, a16z, October 2023*
+*Marc Andreessen, Andreessen Horowitz, 16 October 2023. A normative manifesto advocating deliberate technological acceleration, global and ultimately multiplanetary in scope, with no dates or probabilities. Read from the full text; see `extract.md`.*
 
-**The scenario.** A creed rather than a forecast: "Techno-Optimists believe that societies, like sharks, grow or die." Technology is "the main source of growth, and perhaps the only cause". Free markets are "a discovery machine", and combining the two produces Nick Land's "techno-capital machine ... of perpetual material creation, growth, and abundance." AI is "our alchemy, our Philosopher's Stone", "a universal problem solver". The essay calls for "accelerationism" and treats any slowdown of AI as costing lives: "a form of murder."
+**The scenario.** A market economy uses increasingly powerful AI, human–machine collaboration and abundant energy (fission, then fusion) to raise productivity and cut prices. Lower prices free purchasing power, new demand calls forth new supply, and innovation creates more work. An undated intelligence takeoff and a 1,000-fold rise in energy use lead to widely shared material abundance, eventually supporting 50 billion people or more.
 
 ## Hard work pays
-Strongly affirmed, as economic law. Wages track marginal productivity, so "technology ... drives wages up, not down", backed by "300 years of history". Comparative advantage "guarantees high employment regardless of the level of technology". Because "human wants and needs are infinite ... job growth can continue forever." Work is a matter of dignity: "man was meant to be useful, to be productive, to be proud."
+Affirmed as economic law. Comparative advantage and endlessly expandable wants sustain employment, and rising worker productivity raises wages. Useful work is treated as a source of dignity. The extract names no group that loses.
 
 ## Affordable essentials
-The central promise. "The measure of abundance is falling prices." Make intelligence and energy "too cheap to meter" and "all physical goods become as cheap as pencils". Nuclear fission, and later fusion, provide the energy. Andreessen cites Nordhaus: inventors capture only about 2% of the value they create; the rest goes to society.
+The central promise: "We believe the measure of abundance is falling prices." Intelligence and energy become cheap enough to remove constraints on many physical goods, with near-zero prices the goal for as many goods and services as possible. Medicine and transport safety also improve. Citing Nordhaus, the manifesto says innovators capture about 2% of the value of their inventions and society the other 98%.
 
 ## Reliable safety net
-Funded by growth, distrusted in practice. Andreessen says "there is no conflict between capitalist profits and a social welfare system", since markets create the wealth that pays for it. But "a Universal Basic Income would turn people into zoo animals to be farmed by the state." The safety net that remains is the labour market.
+Supported, but not universal. Market-created wealth pays for a safety net for vulnerable people; the author rejects a universal basic income. No tax or spending figures are given.
 
 ## Responsive government
-Seen as the obstacle. The "enemy" list includes "statism ... central planning", "bureaucracy, vetocracy, gerontocracy", "the Precautionary Principle", and "existential risk", "trust and safety" and "tech ethics". It also names "regulatory capture, monopolies, cartels", on the assumption that "markets prevent monopolies". Government's legitimate role is national strength: "a technologically strong America is a force for good."
+Decentralised decision-making, freedom of choice and competitive discipline are valued, and centralised economic planning is rejected. Government's job is to clear barriers to building AI and energy; collective needs such as research, welfare and defence are financed from market wealth.
 
 ## Time for what matters
-Implied gain. Material abundance "opens the space for religion, for politics, and for choices of how to live." Fulfilment comes through "eudaimonia through arete", flourishing through excellence and building.
+Not addressed.
 
 ## Bottom line
-Every promise is kept, *automatically*, by markets and technology. The social contract is left to the techno-capital machine, with government mostly out of the way.
+Every promise is kept by markets and technology, on the author's assertion. The social contract rests on the labour market and falling prices doing the work, with a residual safety net and no fallback if they do not.

@@ -12,8 +12,8 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Source** | <https://moores.samaltman.com/> |
 | **Tags** | Strong REP, DIFF (prescriptive) |
 | **Policy stance** | on |
-| **Likelihood** | improbable — No country is moving towards a national equity fund paid for by taxing company value. |
-| **Assessed** | — |
+| **Likelihood** | improbable — AI legal and medical advice arrived roughly on Altman's schedule, but no country is moving towards a national fund financed by taxing company and land value. |
+| **Assessed** | 2026-11-27 |
 
 AI replaces most labor, costs tend to zero. Default is concentrated; proposes American Equity Fund.
 
@@ -28,20 +28,21 @@ AI replaces most labor, costs tend to zero. Default is concentrated; proposes Am
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | AI replaces most labour, so effort is no longer the path to a better life. |
-| Affordable essentials | 4 | Costs of goods and services fall towards zero. |
-| Reliable safety net | 3 | An equity fund pays dividends, but it is untested at scale. |
-| Responsive government | 2 | Production concentrates in AI firms, and the fund depends on their political will. |
-| Time for what matters | 3 | Time is freed, but without the structure work provided. |
+| Hard work pays | 1 | The price of many kinds of labour approaches zero and many jobs generate little value, so effort stops being the route to a better life. |
+| Affordable essentials | 4 | Housing, education, food and clothing are meant to halve in cost every two years, with a land tax curbing speculation. |
+| Reliable safety net | 4 | The Fund gives every adult a floor of about $13,500 a year that cannot be sold or pledged, though it fluctuates with the cycle. |
+| Responsive government | 2 | Power shifts from labour to capital, and a constitutional cap on the Fund's rates limits what voters can decide. |
+| Time for what matters | 4 | With AI making most basics, people gain time for relationships, care, art, nature and social good. |
 
 ## Policies from the atlas
 
-- **AI Equity Taxation** (`ai-equity-taxation`): 2.5% annual tax on large companies' market value, paid in shares
-- **National Dividend Funds** (`national-dividend-funds`): American Equity Fund pays every adult an annual distribution (about $13,500 within a decade)
-- **Universal Basic Capital / Equity** (`universal-basic-capital`): Distributions in company shares make every citizen an equity owner
-- **Wealth Taxes** (`wealth-taxes`): 2.5% tax on the value of privately held land (a land-value tax)
+- **AI Equity Taxation** (`ai-equity-taxation`): The Fund levies 2.5% annually on companies above a valuation threshold, payable in shares.
+- **Wealth Taxes** (`wealth-taxes`): The Fund levies 2.5% on all privately held land, payable in dollars.
+- **National Dividend Funds** (`national-dividend-funds`): Adult citizens receive cash and shares from the American Equity Fund that they can spend or invest as they choose.
+- **Universal Basic Capital / Equity** (`universal-basic-capital`): Distributions paid in company shares make every adult citizen an owner.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

@@ -10,36 +10,40 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-07-09 |
 | **Type** | single |
 | **Source** | <https://ai-2040.com/> |
-| **Tags** | Strong REP, CONC (checked) |
+| **Tags** | Strong REP, DIFF (via dividend) |
 | **Policy stance** | on |
-| **Likelihood** | improbable — Needs both very fast capability gains and a verified US–China deal with total R&D transparency. |
-| **Assessed** | — |
+| **Likelihood** | improbable — Needs very fast capability gains, a verified US–China deal with total research transparency and permit auctions on an unprecedented scale. |
+| **Assessed** | 2026-11-27 |
 
-After AI automates white-collar work in 2027–28, an international deal with full transparency over AI R&D slows the race: controlled scaling to expert level by 2035, a deliberate pause, then supervised progress to superintelligence by 2040, avoiding an unprecedented concentration of power.
+A US–China agreement keeps AI research public and delays superintelligence to 2040. Permits limit the expansion of compute and robotics and fund a Citizen’s Dividend as employment falls and output grows rapidly.
 
 ## Map position
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.2 | 0.5 |
-| Public finances × job quality | -0.3 | 0.3 |
+| Labor demand × gain distribution | 0.35 | 0.65 |
+| Public finances × job quality | -0.55 | 0.7 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Most white-collar professions are disrupted by 2028, and the scenario says little about those displaced. |
-| Affordable essentials | 3 | The scenario does not address the cost of essentials. |
-| Reliable safety net | 3 | No income-support mechanism is described, though the slowdown gives institutions time to adapt. |
-| Responsive government | 3 | An international deal restores some collective control, but power still sits with a president and a few tech CEOs. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | US employment falls from 62% to 12% by 2040 and construction work is automated too, though stigma fades and civic contribution offers meaning. |
+| Affordable essentials | 4 | Food, medicine and goods cheapen and malnutrition and homelessness become rare, while land in historic cities rises sharply in price. |
+| Reliable safety net | 4 | Permit auctions fund a legally assigned dividend of about $45,000 per adult in 2032 rising to $1 million by 2035, but support before 2032 is not described. |
+| Responsive government | 3 | Transparent AI helps better-informed voters and frontier power spreads, but labour loses leverage and control passes gradually to AIs. |
+| Time for what matters | 4 | Most people gain time for family, learning, hobbies and volunteering, though some miss feeling useful. |
 
 ## Policies from the atlas
 
-- **Restructuring International Organizations** (`restructuring-international-organizations`): An international deal with verification enforces guardrails on AI R&D
-- **Regulatory Agencies** (`regulatory-agencies`): Nation states enforce safety guardrails and total transparency over AI R&D
+- **Regulatory Agencies** (`regulatory-agencies`): Frontier developers disclose research, cooperate with monitoring, and justify progress through safety cases.
+- **Restructuring International Organizations** (`restructuring-international-organizations`): The 2027 US transparency law precedes a joint slow-down agreement.
+- **Automation/Robot Taxes** (`automation-robot-taxes`): Industrial expansion is restricted to monitored special economic zones and limited with tradable compute and robot permits.
+- **National Dividend Funds** (`national-dividend-funds`): The US channels a growing portion of receipts to equal shares in a Compute Dividend Corporation.
+- **Global Dividend Funds** (`global-dividend-funds`): The US ... shares part of the revenue abroad.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

@@ -1,26 +1,25 @@
 # d/acc: My Techno-Optimism — assumptions analysis
 
 ## Policy on or off?
-**Prescriptive, but "intention on" rather than state policy on.** Buterin wants deliberate, coordinated choices about *which* technologies to accelerate, made by builders, funders, open-source communities and sometimes governments. He's wary of top-down licensing regimes that could lead to "permanent lock-in to centralized totalitarianism", but floats a possibly more popular alternative: banning extremely advanced AI research (with biomedical exceptions) while requiring open-source release for permitted models. Decentralisation, he notes from Ethereum, "is not some automatic market process: it's the result of human intention and coordinated action."
+**On, through deliberate choices rather than a state programme.** Success depends on researchers, firms, organisations and communities choosing to build technologies that improve defence, resilience and decentralised coordination. Buterin weighs competing ways to govern advanced AI and does not prescribe one fully specified state policy, so no Policy Atlas policy applies.
 
 ## Big assumptions
-1. **The offence/defence balance can be steered** by funding the right technologies (cryptography, biosecurity, information tools), and a defence-favouring world sustains freer governance.
-2. **Decentralisation can be maintained deliberately.** It's fragile ("many markets have proven to be natural monopolies"), but social coordination can counter it, as Ethereum reduced one client's share from more than 70% to under 45%.
-3. **Augmentation can keep pace.** Human–AI merging (BCIs, tools that keep humans involved) can keep up with standalone AI.
-4. **Superintelligence risk is real but can be postponed.** It assumes there's time to build defensive infrastructure before recursive self-improvement lets "the strongest AI ... pull ahead very quickly."
-5. **Builders will choose differentially.** The essay addresses technologists, assuming enough of them and their funders will prioritise defence and decentralisation over profit.
+1. **Capability:** AI keeps getting more capable and is distinct from past technologies, but tools that keep humans involved, and perhaps brain–computer interfaces later, can extend human cognition enough to keep pace.
+2. **Adoption:** defensive tools can become built into products, buildings and public infrastructure, so protection spreads without people opting in.
+3. **Markets:** decentralisation is not automatic; AI providers may tend to natural monopoly, and people needing trusted defences can concentrate parts of the internet.
+4. **Politics:** a defence-favouring balance sustains freer government, and no single actor gains decisive control of advanced AI first.
 
 ## What must be true for this to occur
-- Defensive technologies attract enough investment and adoption to matter at scale, which is a public-goods problem (Buterin's quadratic funding work is one attempt).
-- No single actor gets a decisive AI lead before decentralised alternatives mature.
-- Cognitive-enhancement routes (BCI, interface design) move fast enough to keep humans "in the loop" meaningfully.
-- Governments and publics accept slower or restricted frontier AI rather than monopoly, as his polls suggest.
+- Defensive technologies attract enough investment and adoption to matter at scale.
+- Concentration among AI providers is resisted before it locks in.
+- Human-augmenting tools keep up with autonomous AI.
+- Enhancement tools spread widely enough not to entrench existing power.
 
 ## Tensions and weak points
-- **Economics is the gap.** The essay says almost nothing about jobs, wages or income. Its placement on the labour map ("Mild AUG") rests on the merge path, not on labour-market analysis. For the Windfall goal, work and safety-net scores are mostly inferred.
-- Buterin admits polytheistic AI is "an inherently unstable equilibrium", so the d/acc path depends on preventing superintelligence or merging with it, both uncertain.
-- The map's fiscal coordinates are blank, consistent with the essay saying nothing about public finances.
-- Compare Andreessen: both are techno-optimists, but Buterin rejects the idea that markets alone steer technology well, and names existential risk as real where Andreessen calls it an enemy.
+- **Economics is the gap.** GDP, government finances and financial markets are not addressed, and the labour section is a single qualitative line. The fiscal axis stays blank.
+- The essay concedes that enhancement could first widen gaps in power, so the gain-distribution coordinate moves from 0.65 to 0.45. The augmentation coordinate moves from −0.1 to −0.3, because the new extract is explicit that AI should complement cognition and keep people involved.
+- It admits a pluralistic AI world may be unstable, so the path depends on preventing or merging with superintelligence, both uncertain.
+- Compare `techno-optimist`: both are optimists, but Buterin denies that markets alone steer technology well. On the map it now sits near `cfg-plateau` and `normal-tech`.
 
 ## Scoring notes
-Draft scores (3/3/3/4/3). Government at 4 reflects the prescriptive, defence-favouring governance vision. The other promises sit at 3 by default, since the essay is mostly silent on them.
+Draft scores are 3/3/3/4/3. Government is 4 because the scenario deliberately builds tools for deliberation, verification and privacy that keep power spread out. Work is 3: the extract does not address it beyond AI complementing workers. Essentials is 3: resilience to crises, not lower costs. Safety net is 3 because it is not addressed. Time is 3: the concern for purpose is a warning about an AI-run world, not a gain in time.

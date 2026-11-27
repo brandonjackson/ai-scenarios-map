@@ -1,23 +1,23 @@
 # AI Disappoints — summary
 
-*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023)*
+*Government Office for Science / DSIT, "AI 2030 Scenarios: Helping policy makers plan for the future of AI" (Annex C), published on GOV.UK on 28 April 2025. The five scenarios were developed in 2023 for the November AI Safety Summit, and the report is dated January 2024. They are exploratory and deliberately leave out new policy so that policymakers can stress-test against them; no likelihoods are given. Read from the full HTML annex; see `extract.md`.*
 
-**The scenario.** DSIT's slowest scenario. By 2030 frontier AI has "improved somewhat ... but more slowly than many expected". Systems still make factual errors, struggle with multi-step reasoning and need close human oversight. A 2025 "AI bust", when high-profile launches slip, causes a brief financial crisis, start-ups fail, and the market consolidates toward big tech. Investors move to fusion and quantum. Open-source developers catch up in the space left behind. Most people "feel indifferent towards AI."
+**The scenario.** AI improves only modestly by 2030. Factual errors, multi-step reasoning and video generation stay hard, and close human oversight is usual. In 2025, delayed rollouts trigger rapid disinvestment, "a brief financial crisis", start-up failures and big-tech consolidation; investors move to fusion and quantum computing. AI has "over-promised and under-delivered across business sectors, with only marginal improvements in productivity". By 2030 it is quietly embedded in software and services without AI branding, and so attracts less scrutiny.
 
 ## Hard work pays
-Largely intact. "Most jobs remain uninfluenced by AI." The gap is in skills: those who master "temperamental" tools benefit, while many lack training. Firms that accept AI isn't the "silver bullet for ongoing productivity stagnation" start investing in human capital again.
+Largely intact. "Most jobs remain uninfluenced by AI" because the systems are unreliable and cannot complete complex tasks. Businesses and governments start reinvesting in people. The divide is over skills: those with AI skills gain advantages, while many others "struggle to get training or to use the tools", and lower-skilled people and SMEs adopt least.
 
 ## Affordable essentials
-Stable, not improving. Productivity gains are "only marginal", so AI does nothing for the UK's underlying stagnation. The environmental footprint stays small.
+Not addressed. The authors describe productivity stagnation as adverse for living standards, but say nothing about the cost of essentials.
 
 ## Reliable safety net
-Stable. There is no mass displacement to absorb. The new burden is redress: people subject to "unsound decisions" by inaccurate AI need a way to report and correct them. Misuse targeting vulnerable groups is "notable" but smaller in scale than in other scenarios.
+Not addressed. There is no mass displacement to absorb, but long-term stagnation is described as adverse for public finances, and no tax or benefit changes are specified.
 
 ## Responsive government
-Stable, with blind spots. Slow progress gives safety researchers room for breakthroughs, and international cooperation grows late in the decade, driven partly by climate change. But because AI is now rebranded and embedded "without much fanfare", there is "more limited scrutiny" of its use. The UK faces a skills shortage that may force it to compete for skilled migrants.
+Stable, with blind spots. Slow progress gives safety researchers room for breakthroughs, and international cooperation on climate and AI grows. Prominent misuse prompts public calls for regulation, but no enacted response is described. Misuse targeting vulnerable people, biased decisions and errors continue, and the report asks how people affected by inaccurate decisions could report them and get systems changed. The UK is short of AI and technical skills and may need skilled migrants.
 
 ## Time for what matters
-Slightly worse. Hidden, unscrutinised AI in online services leads to "worsening online addictions and polarisation", an attention-economy harm with no productivity payoff.
+Somewhat worse. Less scrutiny of AI embedded in online services contributes to "worsening online addiction and polarisation".
 
 ## Bottom line
-The social contract survives because AI underdelivers, not because institutions adapted. The UK stays stuck on its pre-AI problems: low productivity, skills gaps and a fragile information environment.
+The social contract holds because AI underdelivers, not because institutions adapted. The UK stays stuck with its pre-AI problems: stagnant productivity, skills gaps and a fragile information environment.

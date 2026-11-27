@@ -1,23 +1,23 @@
 # Keep the Future Human: Tool AI — summary
 
-*Anthony Aguirre, "Keep the Future Human", March 2025 · the policy-on branch; the race it warns of is [`keep-future-human`](../keep-future-human/summary.md)*
+*Anthony Aguirre, "Keep the Future Human: Why and How We Should Close the Gates to AGI and Superintelligence, and What We Should Build Instead", Keep The Future Human, 5 March 2025. This is the essay's policy-on path; the race it warns of is [`keep-future-human`](../keep-future-human/summary.md). Read from the full text; see `extract.md`.*
 
-**The scenario.** Governments "close the gates" to smarter-than-human, autonomous, general-purpose AI. They use standardised compute accounting, hard caps on training and inference compute built into AI chips, strict liability for systems combining high autonomy, generality and intelligence, tiered risk-based regulation and, eventually, international agreements like nuclear non-proliferation. Industry builds powerful **Tool AI** instead: very capable systems, controllable in proportion to their power.
+**The scenario.** Governments coordinate limits on AI that is at once highly autonomous, general and superhuman. They track and certify training and operating compute, impose hard caps, apply strict liability to the highest-risk systems with safe harbours elsewhere, require safety cases with oversight in proportion to risk, and use the concentrated chip supply chain to enforce international agreements. Investment shifts from scaling ever-larger models to smaller, specialised and verifiable tools in which "humans should be deeply and centrally involved in what the system is doing". These tools expand science, medicine and public capability, but "major labour displacement and concentration still require policy responses".
 
 ## Hard work pays
-Kept. Tool AI can "make human experts and institutions more effective rather than replacing them". The public, Aguirre notes, doesn't want AI that replaces them in their jobs, and on this path it doesn't.
+Partly kept. Fewer jobs are replaced outright by agents, but "substantial task displacement remains probable over years". Complementary workers may earn more while displaced workers face lower market pay. Aguirre wants to value and reward human-centred work and to compensate people whose data creates value for AI, but these are recommendations rather than part of the scenario.
 
 ## Affordable essentials
-Improving. Tool AI "can revolutionize medicine, accelerate scientific discovery, enhance education". Aguirre argues the benefits promised for AGI can mostly be had without it.
+Mixed. Automation makes some goods cheaper and more plentiful, while other services "rise in relative cost through cost disease". The source treats household welfare as depending on both effects and on income support. Tool AI also brings benefits for medicine and science.
 
 ## Reliable safety net
-Stable, with work to do. Tool AI systems "will still be highly disruptive and require careful management", and Aguirre calls for "mechanisms to distribute economic benefits more broadly".
+Proposed, not assumed. Universal basic assets or income "could protect people from economic suffering during task displacement", alongside royalties for data contributors. The essay gives no cost or funding model.
 
 ## Responsive government
-Stable. AI stays a tool "under meaningful human control", governed through the handful of companies in the chip supply chain, plus new public and non-profit models of AI development. AI tools can also help build better governance institutions.
+Strengthened. Human supervision, accountable institutions, better public deliberation and public participation in deciding whether to build more autonomous systems are "central to the proposal". International agreements ease the pressure to race. Risks remain: impersonation, manipulation and loss of privacy, to be handled by provenance, data rights, liability and oversight. Smaller developers have more room than in a winner-take-all race, and public and non-profit development can keep tools from being captured by a few firms or states.
 
 ## Time for what matters
-No particular change.
+Not addressed.
 
 ## Bottom line
-"Our destiny is not in the supposed inevitability of some technology or in the hands of a few CEOs." Keeping AI as a tool keeps the social contract governable.
+Keeping AI as a tool keeps collective control and avoids wholesale replacement, but not task displacement. Whether the worst-off share the gains depends on redistribution the essay recommends rather than assumes.

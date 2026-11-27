@@ -1,23 +1,23 @@
 # Antiqua et Nova — summary
 
-*Dicastery for the Doctrine of the Faith & Dicastery for Culture and Education (approved by Pope Francis), "Note on the Relationship Between Artificial Intelligence and Human Intelligence", 28 January 2025*
+*Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education (Holy See), "Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence", 28 January 2025, approved for publication by Pope Francis. Global in scope; ethical and anthropological guidance rather than a forecast, with no horizon or figures. Read from the full text; see `extract.md`.*
 
-**The scenario.** A normative vision, not a forecast. AI "must be understood for what it is: a tool, not a person." Human intelligence is embodied, relational and moral in ways no machine can be. The note judges AI by whether it promotes "human dignity, the vocation of the human person, and the common good" and warns against the "technocratic paradigm", which treats every problem as solvable by technology and sacrifices dignity "in the name of efficiency."
+**The scenario.** A normative vision. AI helps people perform tasks and can advance agriculture, education, healthcare and living standards when its use "respects human dignity and serves the common good" (§§40–47, 50–51). At work it relieves people of repetitive tasks while meaningful employment and room for judgement are preserved (§§66–70). The note sets this against the path it warns of: concentrated ownership and the pursuit of efficiency, which can increase inequality, monitoring and displacement (§§52–55, 64–70). People and institutions keep responsibility for AI-mediated decisions (§§44–48).
 
 ## Hard work pays
-Central and non-negotiable. Work is "not only a means of earning one's daily bread" but "an essential dimension of social life" and "a path to growth, human development and personal fulfillment." So "the goal should not be that technological progress increasingly replaces human work." AI should "assist, not replace, human judgment." The note warns that current AI "can paradoxically deskill workers, subject them to automated surveillance, and relegate them to rigid and repetitive tasks," and that replacement carries a "substantial risk of disproportionate benefit for the few at the price of the impoverishment of many."
+Central. Labour is "a path to growth, personal fulfilment and human development", and institutions should expand meaningful employment and use AI to support creativity (§§69–70). The note names the threat plainly: AI deployed chiefly to cut costs can deskill workers, make them conform to machine speed, enable surveillance and remove jobs. Its principle is that "the order of things must be subordinate to the order of persons" (§69).
 
 ## Affordable essentials
-Hopeful, conditional. AI could bring "important innovations in agriculture, education and culture, an improved level of life for entire nations." But "digital technologies have increased inequality", and AI could "create new forms of poverty, widen the 'digital divide'." The note's test: technology that doesn't improve "the quality of life of all humanity ... can never count as true progress."
+Conditional. AI can support diagnosis, care and administrative efficiency, but if access depends on wealth, or medical decisions put economics first, it could deepen gaps and harm the poor. The note calls for quality care for all (§§71–76).
 
 ## Reliable safety net
-Grounded in dignity, not output. "Human lives are intrinsically valuable, independent of their economic output." The note criticises a "current model" that doesn't "help the slow, the weak, or the less talented", and calls for "job security and just wages" to be "a high priority for the international community."
+Not addressed.
 
 ## Responsive government
-Threatened by concentration. Power over mainstream AI "in the hands of a few powerful companies" risks "manipulation of consciences and of the democratic process." The response follows **subsidiarity**: individuals, families, civil society, firms, governments and international bodies each act at their own level. "It is unworthy to transfer responsibility from man to a machine."
+Guided by subsidiarity and solidarity, with authority and responsibility held at the right level. Concentrated control by a few companies, surveillance and manipulated content threaten privacy, freedom and trust in the public sphere (§§47, 52–55, 85–94). The note asks for benefits to reach the poorest and most vulnerable, within and between nations (§§50–55).
 
 ## Time for what matters
-Strongly emphasised. AI may lead to "a harmful sense of isolation" and make it harder to know whether one is talking to a human. Anthropomorphised AI poses "specific challenges for the development of children." Authentic relationships require "being with others in their pain, their pleas, and their joy."
+Not addressed directly, though the note's wider argument bears on it: it stresses human relationships in care and schooling, warns about simulated empathy and companionship, and assumes meaningful relationships are preserved (§§56–63, 71–74).
 
 ## Bottom line
-The clearest *prescriptive* augmentation scenario: AI for human flourishing, with work, relationships and moral responsibility kept firmly human.
+The clearest prescriptive augmentation scenario on the map: AI kept as a tool, with work, relationships and moral responsibility kept human. It says nothing about public finances or safety nets.

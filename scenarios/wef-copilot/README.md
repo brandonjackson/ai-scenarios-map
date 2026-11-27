@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | World Economic Forum |
-| **Published** | 2026-01-08 |
+| **Published** | 2026-01-07 |
 | **Type** | framework — WEF — Four Futures for Jobs |
 | **Source** | <https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/> |
-| **Tags** | Strong AUG, DIFF |
-| **Policy stance** | on |
-| **Likelihood** | possible — Its human-led, gradual use of AI matches many firms today, but it starts from an AI bubble bursting in the mid-2020s, which has not happened. |
-| **Assessed** | — |
+| **Tags** | Strong AUG, Mild DIFF |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Its human-led, task-level use of AI matches many firms today, but it starts from a mid-2020s AI valuation bust that, as of late 2026, has not happened. |
+| **Assessed** | 2026-11-27 |
 
 The AI bubble bursts in the mid-2020s and progress turns gradual, while skills keep pace. Firms embed AI in human-led workflows rather than automating wholesale; early investment in training, infrastructure and AI governance lifts productivity growth without an automation shock.
 
@@ -21,26 +21,26 @@ The AI bubble bursts in the mid-2020s and progress turns gradual, while skills k
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.35 | -0.5 |
-| Public finances × job quality | 0.45 | 0.3 |
+| Labor demand × gain distribution | 0.25 | -0.45 |
+| Public finances × job quality | 0.3 | 0.15 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | Human–AI teams augment work and skills keep pace, though job quality varies with who leads the AI. |
-| Affordable essentials | 3 | Inflation stabilises somewhat, but essentials are not otherwise transformed. |
-| Reliable safety net | 3 | Job churn rises but is absorbed through reskilling and mobility. |
-| Responsive government | 3 | Rules multiply and diverge, and misinformation pushes trust towards curated sources. |
-| Time for what matters | 3 | Remote and flexible work open opportunities, without a broader change in time for what matters. |
+| Hard work pays | 3 | Mobility, reskilling and entrepreneurship expand, but churn rises, routine tasks are hollowed out and those without education, infrastructure or employer support are left behind. |
+| Affordable essentials | 3 | Not addressed; lower cost pressures stabilise inflation somewhat. |
+| Reliable safety net | 3 | Not addressed; churn rises but unemployment is flat in the illustrative table. |
+| Responsive government | 3 | Rules diverge and disinformation raises polarisation, but people stay in key decisions and trust shifts to verified sources. |
+| Time for what matters | 3 | Not addressed in the extract. |
 
 ## Policies from the atlas
 
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Early investment in employee development keeps skills in step with AI
-- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Early commitments to technological infrastructure enable adoption
-- **AI Literacy Training** (`ai-literacy`): AI literacy initiatives make AI skills as common as digital literacy was in the early 2020s
+- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Early training, mobility, digital infrastructure and governance help absorb AI, and regulatory responses diverge.
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Early training, mobility, digital infrastructure and governance help absorb AI, and regulatory responses diverge.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

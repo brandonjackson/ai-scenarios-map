@@ -1,23 +1,23 @@
 # Stalled Progress — summary
 
-*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (January 2026). Scenarios are global and built on two axes: AI advancement (exponential or incremental) and workforce readiness (widespread or limited).*
+*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (7 January 2026). Four exploratory global scenarios on two axes, incremental versus exponential AI advancement and limited versus widespread workforce readiness, built from research and workshops with chief strategy officers to stress-test business decisions. No probabilities; the directions of change in Table 1 are illustrative. Read from the full 20-page paper; see `extract.md`.*
 
-**The scenario.** "Steady AI progress meets a workforce lacking critical skills." Breakthroughs are "rare and costly", applications stay "brittle", and rising compute costs and talent shortages leave productivity gains unrealised. After a mid-2020s correction in AI valuations, regulators tighten guardrails and firms deploy AI cautiously, mostly to fill gaps where they cannot hire, "particularly in rapidly ageing geographies."
+**The scenario.** AI improves incrementally. Breakthroughs are rare and costly, compute and capital are expensive, and a shortage of AI-ready workers makes applications brittle. After a mid-2020s valuation correction, governments and firms deploy cautiously, mostly to fill gaps, especially in ageing regions. Gains cluster in a few frontier firms and well-prepared places. "Technological progress is visible, but it is far from transformative, with structural constraints stalling growth, resilience and societal progress."
 
 ## Hard work pays
-Broken for some. Firms use automation to backfill talent gaps, so occupations are "hollowed out rather than fully eliminated." "Many displaced workers shift into lower-productivity, lower-skill and less protected jobs – such as services and gig work." Early-career jobs and administrative work are most exposed, and "labour market entry pathways" narrow. Skilled trades and many high-skilled workers gain bargaining power.
+Broken for some. Routine work is hollowed out rather than eliminated, early-career and administrative routes narrow, and many workers move into lower-skill, lower-productivity and less protected service or gig jobs. Outdated training leaves few routes to more secure roles. High-skilled workers and some skilled trades gain scarcity value and bargaining power.
 
 ## Affordable essentials
-Worse. "Consumer confidence also declines amid rising costs of living, eroding wages and weak social benefits."
+Worse. Households face higher costs of living, declining wages and weak benefits, and consumer confidence falls. Individual essentials are not quantified.
 
 ## Reliable safety net
-Eroding. Labour-market policy expands to cover platform and informal work, but "execution is stalled by exhausted fiscal space and limited trust in institutions."
+Eroding. Safety nets weaken as informal and platform work grows. Labour policies try to cover platform and informal work, but exhausted fiscal space and low trust stall them.
 
 ## Responsive government
-Strained. "Chronic job insecurity, eroding opportunities and safety nets fuel polarization and declining trust. Societal frustration intensifies globally amid broken prosperity promises." AI oversight capacity diverges between countries.
+Strained. Governments tighten standards and guardrails, but international alignment is limited and supervision capacity, censorship and data rules diverge. Job insecurity and fading prospects heighten polarisation and weaken trust.
 
 ## Time for what matters
-No particular change described.
+Not addressed.
 
 ## Bottom line
-Neither boom nor transformation: just enough AI to hollow out jobs and widen inequality, not enough to deliver growth. "The hope of AI-enabled prosperity fades into frustration."
+Neither boom nor transformation: enough AI to hollow out routine jobs and widen inequality, not enough to deliver growth or pay for the response.

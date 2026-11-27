@@ -9,13 +9,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Author** | Matt Shumer |
 | **Published** | 2026-02 |
 | **Type** | single |
-| **Source** | <https://fortune.com/2026/02/09/something-big-is-happening-ai-matt-shumer/> |
-| **Tags** | REP, CONC |
+| **Source** | <https://somethingbig.ai/something-big-is-happening> |
+| **Tags** | REP, Mild CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Capability jumps in coding agents are real, but economy-wide displacement on a February 2020 timeline has not followed yet. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Coding agents have made real capability jumps and entry-level hiring in exposed jobs has weakened, but economy-wide displacement within two to five years has not yet followed. |
+| **Assessed** | 2026-11-27 |
 
-This is February 2020 for AI. CEO says he's no longer needed for technical work. 85M views. Personal testimony.
+A software founder describes delegating his technical work to AI and expects similar changes to reach other computer-based jobs.
 
 ## Map position
 
@@ -28,13 +28,14 @@ This is February 2020 for AI. CEO says he's no longer needed for technical work.
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Skilled technical work is automated faster than workers can adapt. |
-| Affordable essentials | 3 | No particular change to the cost of essentials. |
-| Reliable safety net | 2 | Rapid change outruns benefits built for short job losses. |
-| Responsive government | 3 | Little said about government; institutions are untested. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | Fewer programming roles and broad disruption in law, finance, writing and customer service, with fewer screen-based fields to retrain into. |
+| Affordable essentials | 3 | Not addressed; the extract says nothing about the cost of essentials. |
+| Reliable safety net | 2 | The only cushion named is personal savings and financial room; no public support for displaced workers is assumed. |
+| Responsive government | 3 | Not addressed beyond a high-level mention of surveillance and loss of control; government plays no part. |
+| Time for what matters | 3 | Not addressed; AI companionship is mentioned without effect on time or relationships. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

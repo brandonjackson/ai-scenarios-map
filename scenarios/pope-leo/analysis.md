@@ -1,26 +1,26 @@
 # Antiqua et Nova — assumptions analysis
 
 ## Policy on or off?
-**Prescriptive: a moral programme rather than a forecast.** The note describes what AI *should* be and what all levels of society must ensure. It assumes action by individuals, families, civil society, corporations, governments and international organisations "following the principle of subsidiarity". It says outright that the "current model" and current approaches to AI point the other way (deskilling, surveillance, concentration).
+**On: a moral programme rather than a forecast.** The future the note argues for depends on people and institutions keeping responsibility for AI-mediated decisions and preserving meaningful work and relationships (§§44–48, 69–74). Left to cost-cutting and concentrated ownership, the note expects the opposite: deskilling, surveillance and displacement (§§52–55, 64–70). It names no specific instrument, so the Policy Atlas link is a blank row describing these levers.
 
 ## Big assumptions
-1. **Augmentation is a choice.** Whether AI replaces or supports workers depends on human decisions, and those can be shaped by moral norms, institutions and law.
-2. **Human dignity can constrain markets.** Efficiency and profit can be subordinated to "the order of persons", as Catholic social teaching has long argued for labour rights and just wages.
-3. **AI is a tool, not an agent.** The note rejects the idea of AI as a new species or moral subject, so responsibility always stays with humans.
-4. **Work is essential to flourishing.** Unlike Altman or Amodei, the note doesn't accept a future where meaning separates from labour. Widespread replacement "would be detrimental to humanity" even if incomes were maintained.
-5. **Moral persuasion has purchase** with the companies, states and international bodies that set AI's direction.
+1. **Capability:** AI stays a tool. It simulates selected manifestations of reasoning but lacks moral understanding, and remains prone to bias and fabrication (§§7–35, 84–89), so responsibility always stays with humans.
+2. **Adoption:** uptake does not determine outcomes; design, objectives, accountability and conditions of deployment do (§§40–48, 64, 80).
+3. **Markets:** efficiency and profit can be subordinated to "the order of persons" (§69), against the pull of concentration among a few companies (§§52–55).
+4. **Politics:** moral persuasion and subsidiarity have purchase with the firms, states and international bodies that set AI's direction.
 
 ## What must be true for this to occur
-- Companies deploying AI choose complementarity over substitution, whether through norms, incentives (tax, procurement) or worker voice.
-- Power over AI is dispersed, or held accountable through democratic institutions.
-- Societies adopt protections for "job security and just wages" as AI spreads.
-- People keep embodied, face-to-face relationships despite AI companions and AI-mediated communication.
+- Firms deploying AI choose complementarity over cost-cutting substitution.
+- Control over widely used systems is dispersed or held accountable.
+- Access to AI-enabled care and education does not depend on wealth.
+- People keep human relationships in care and schooling despite simulated companionship.
 
 ## Tensions and weak points
-- **Attribution (fixed):** the map listed "Vatican / Pope Leo XIV". The document is from the Dicastery for the Doctrine of the Faith and the Dicastery for Culture and Education, dated 28 January 2025 and approved under **Pope Francis**. Leo XIV was elected in May 2025 and has since made AI a theme of his papacy, but this note isn't his. The CSV author now reflects this.
-- No mechanism or policy detail: no specific instruments for steering AI toward augmentation. It's a set of criteria, not a plan.
-- Fiscal coordinates on the map are blank, rightly: the note doesn't discuss public finances.
-- Its position that work matters for meaning, not just income, conflicts with UBI-centred scenarios (Altman, Amodei) and matches the Windfall "hard work pays" promise most directly.
+- **Attribution (fixed earlier):** the map once listed "Vatican / Pope Leo XIV". The note is from two dicasteries, dated 28 January 2025 and approved by **Pope Francis**; the catalogue author reflects this. The id `pope-leo` is a leftover.
+- No mechanism: the note is a set of criteria, not a plan, and gives no figures or horizon.
+- Fiscal coordinates stay blank: government finances are not addressed, and the labour market section says nothing about the number of good jobs beyond the aim of preserving them.
+- Its view that work matters for meaning, not only income, sets it against UBI-centred scenarios and makes it the closest match to the "hard work pays" promise.
+- Map neighbours are `turing-transform`, `toloui-prometheus` and `keep-future-human-tool-ai`, all strong augmentation; its gain distribution (0.4) is placed as prescribed, below the market-led optimists because the note itself warns gains may accrue to a few.
 
 ## Scoring notes
-Draft scores (4/3/3/3/4) score the world the note argues *for*. Work and time at 4 fit its emphasis. A policy-off reading (the "current model" it criticises) would look much like Chiang's or Doctorow's.
+Draft scores are 4/3/3/3/4, scoring the world the note argues for. Work is 4 because that world expands meaningful employment and keeps judgement with workers. Time is 4 because it explicitly preserves relationships and human care against AI substitutes, though the extract's own social-contract section is silent here. Essentials stays 3: better care is possible but conditional on access. Safety net is 3 because the extract does not address it. Government is 3: subsidiarity and human responsibility are defended in principle, with no new mechanism.

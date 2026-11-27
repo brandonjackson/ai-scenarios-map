@@ -14,256 +14,256 @@ wf-disempowered-abundance,,essentials,4,"Prices fall as AI runs much of the econ
 wf-disempowered-abundance,,safety-net,3,"Life feels comfortable and support holds, but it depends on the goodwill of a few owners."
 wf-disempowered-abundance,,government,1,"Governments funded by AI firms have less reason to listen; power drifts away unnoticed."
 wf-disempowered-abundance,,time,3,"Comfort leaves room for life outside work, but without a say in how it is shaped."
-turing-transform,,work,4,"Automation opens tasks once locked behind rare skills to a wider pool, so effort pays for more people."
-turing-transform,,essentials,3,"Lower skill premiums do little on their own for housing, food, energy or care."
-turing-transform,,safety-net,3,Narrower inequality eases pressure on the safety net without changing its design.
-turing-transform,,government,3,Institutions carry on much as now.
-turing-transform,,time,3,Little change to working hours or time for family and community.
-pope-leo,,work,4,AI is kept as a tool that enhances human work rather than replacing it.
-pope-leo,,essentials,3,No specific gains for the cost of essentials.
-pope-leo,,safety-net,3,"Existing protections hold, framed around human dignity."
-pope-leo,,government,3,"Human agency is defended in principle, but no new mechanisms are proposed."
-pope-leo,,time,4,Puts relationships and meaning ahead of AI substitutes for human connection.
-autor,,work,4,"Less-trained workers can do expert work, restoring middle-skill jobs and new tasks."
-autor,,essentials,3,"Cheaper expertise helps at the margin, but housing and energy are untouched."
-autor,,safety-net,3,Net-positive labour demand keeps the safety net within capacity.
-autor,,government,3,"Outcome depends on policy steering, which is assumed but not guaranteed."
-autor,,time,3,No particular change to time for what matters.
-normal-tech,,work,3,Slow diffusion over decades gives workers time to adjust.
-normal-tech,,essentials,3,Meaningful but gradual productivity gains leave costs broadly unchanged.
-normal-tech,,safety-net,3,Gradual disruption stays within existing capacity.
-normal-tech,,government,3,Existing institutions can adapt at the pace of change.
-normal-tech,,time,3,Daily life changes slowly.
-techno-optimist,,work,3,"Anyone can build, but displaced workers are left to market forces."
-techno-optimist,,essentials,4,Competition drives down the cost of goods and services.
-techno-optimist,,safety-net,2,Little role for collective support; those who fall behind rely on growth reaching them.
-techno-optimist,,government,2,"Direction is set by technologists, with regulation cast as an obstacle."
-techno-optimist,,time,3,Productivity gains are not tied to more time outside work.
-tbi,,work,2,"One to three million displaced mid-career workers bear the transition, even if offset in aggregate."
-tbi,,essentials,3,GDP gains of 11% by 2050 are too gradual to shift the cost of essentials.
-tbi,,safety-net,3,"New demand offsets job losses, keeping the safety net within capacity."
-tbi,,government,4,Workforce time savings are pitched as a route to AI-enabled public services.
-tbi,,time,3,Time saved goes to output rather than to people's own time.
-dacc,,work,3,Technology that diffuses power keeps a path for individual effort.
-dacc,,essentials,3,No particular change to the cost of essentials.
-dacc,,safety-net,3,Existing protections are neither strengthened nor eroded.
-dacc,,government,4,"Defensive, decentralised technology deliberately keeps power spread out."
-dacc,,time,3,No particular change to time for what matters.
-turing-trap,,work,2,"Machines substitute for workers, who lose their bargaining power and become dependent on those who control the technology."
-turing-trap,,essentials,3,"Cheaper versions of existing goods, but little of the far larger value that new goods and services would bring."
-turing-trap,,safety-net,2,"A firm with no workers pays no payroll or income tax, so the tax base erodes as automation spreads."
-turing-trap,,government,2,"Concentrated economic power begets concentrated political power, trapping a powerless majority."
-turing-trap,,time,2,Leisure arrives without power; fading opportunities bring deaths of despair.
-turing-trap-escape,,work,4,"With incentives rebalanced towards augmentation, workers stay indispensable and keep the power to insist on a share of the value."
-turing-trap-escape,,essentials,4,"Augmentation creates new goods and services, which is where most economic value has come from since ancient times."
-turing-trap-escape,,safety-net,3,Equal tax treatment of labour and capital and an expanded earned income tax credit keep the tax base broad.
-turing-trap-escape,,government,3,"Useful knowledge stays in human heads, which keeps economic and political power decentralised."
-turing-trap-escape,,time,3,No particular change to time for what matters.
-acemoglu,,work,2,"The gains that do appear flow to capital owners, while affected workers' wages stall."
-acemoglu,,essentials,3,Modest GDP gains bring no fall in the cost of essentials.
-acemoglu,,safety-net,3,Limited automation keeps disruption within existing capacity.
-acemoglu,,government,3,Active policy is needed but feasible.
-acemoglu,,time,3,No particular change to time for what matters.
-doctorow,,work,2,"AI cannot do the job, but the threat of it breaks workers' bargaining power."
-doctorow,,essentials,3,No particular change to the cost of essentials.
-doctorow,,safety-net,3,A bubble bursting strains but does not break existing support.
-doctorow,,government,3,Institutions are not directly undermined.
-doctorow,,time,2,"Workers become reverse centaurs, paced and monitored by machines."
-chiang,,work,2,"Firms fire workers even when AI does not work, using it as cover."
-chiang,,essentials,3,No particular change to the cost of essentials.
-chiang,,safety-net,3,Layoffs stay within the safety net's existing capacity.
-chiang,,government,2,Accountability laundering makes decisions harder to contest.
-chiang,,time,3,No particular change to time for what matters.
-ilo,,work,2,"A falling labour income share leaves exposed workers, especially in clerical work, behind."
-ilo,,essentials,3,No particular change to the cost of essentials.
-ilo,,safety-net,2,"Gains concentrate in rich countries, while workers elsewhere often lack social protection."
-ilo,,government,3,Institutions are stretched but functioning.
-ilo,,time,3,No particular change to time for what matters.
-gradual-disemp,,work,2,Human economic participation erodes step by step.
-gradual-disemp,,essentials,3,Material comfort can persist through the drift.
-gradual-disemp,,safety-net,2,States that rely less on human labour and taxes have less reason to provide for citizens.
-gradual-disemp,,government,1,Institutions slowly misalign from human interests without any visible break.
-gradual-disemp,,time,2,Culture is increasingly produced by and for AI systems.
-keep-future-human,,work,1,An unchecked race to AGI replaces human labour.
-keep-future-human,,essentials,2,Gains accrue to a few developers rather than lowering costs for everyone.
-keep-future-human,,safety-net,2,Systems built for temporary job loss cannot cope with replacement.
-keep-future-human,,government,1,Power concentrates in whoever controls the most capable systems.
-keep-future-human,,time,2,Human roles shrink alongside human agency.
-keep-future-human-tool-ai,,work,4,"With the gates to AGI closed, Tool AI makes human experts and institutions more effective rather than replacing them."
-keep-future-human-tool-ai,,essentials,4,"Tool AI still transforms medicine, science and education, without the risks of autonomous AGI."
-keep-future-human-tool-ai,,safety-net,3,Tool AI remains highly disruptive; mechanisms to share its benefits more broadly are proposed rather than specified.
-keep-future-human-tool-ai,,government,3,"Compute caps, liability and international agreements keep AI in human hands, enforced through a few chipmakers."
-keep-future-human-tool-ai,,time,3,No particular change to time for what matters.
-intelligence-curse,,work,1,Powerful actors lose the incentive to invest in people once labour is no longer needed.
-intelligence-curse,,essentials,2,Essentials depend on the goodwill of those who own the non-human factors.
-intelligence-curse,,safety-net,1,Rentier dynamics remove the reason to fund support for citizens.
-intelligence-curse,,government,1,"Like a rentier state, government no longer needs its citizens' consent or taxes."
-intelligence-curse,,time,2,People lose economic purpose without gaining real security.
-shumer,,work,2,Skilled technical work is automated faster than workers can adapt.
-shumer,,essentials,3,No particular change to the cost of essentials.
-shumer,,safety-net,2,Rapid change outruns benefits built for short job losses.
-shumer,,government,3,Little said about government; institutions are untested.
-shumer,,time,3,No particular change to time for what matters.
-loving-grace,,work,2,A country of geniuses in a datacentre leaves the role of human work an open question.
-loving-grace,,essentials,4,"Cures, cheaper drugs and fast growth, including in developing countries, put essentials within reach."
-loving-grace,,safety-net,3,Depends on how the gains are shared.
-loving-grace,,government,3,"Hopes AI strengthens democracy, but that depends on governance."
-loving-grace,,time,3,"More room for meaning is possible, but not assured for everyone."
-moores-law,,work,1,"AI replaces most labour, so effort is no longer the path to a better life."
-moores-law,,essentials,4,Costs of goods and services fall towards zero.
-moores-law,,safety-net,3,"An equity fund pays dividends, but it is untested at scale."
-moores-law,,government,2,"Production concentrates in AI firms, and the fund depends on their political will."
-moores-law,,time,3,"Time is freed, but without the structure work provided."
-citrini,,work,1,Mass white-collar unemployment wipes out the link between effort and reward.
-citrini,,essentials,2,Output shows up as ghost GDP that does not reach household budgets.
-citrini,,safety-net,1,Tax receipts fall as unemployment soars.
-citrini,,government,2,A market crash leaves government reacting to the crisis.
-citrini,,time,2,Lost jobs bring insecurity rather than free time.
-sit-awareness,,work,1,Superintelligence by the end of the decade makes most human labour redundant.
-sit-awareness,,essentials,2,Trillion-dollar compute clusters compete with households for energy.
-sit-awareness,,safety-net,2,Support systems are not designed for the speed of change.
-sit-awareness,,government,2,"A national-security Project takes over, with decisions made out of public view."
-sit-awareness,,time,2,Life is reorganised around a race rather than around people.
-ai-2027,,work,1,Humans become obsolete and perform a charade of their jobs before the takeover.
-ai-2027,,essentials,1,An apparent end to poverty is followed by a misaligned AI killing almost everyone in 2030.
-ai-2027,,safety-net,1,A luxurious basic income depends entirely on an AI that later turns on humanity.
-ai-2027,,government,1,Political institutions are thoroughly captured by a misaligned superintelligence.
-ai-2027,,time,1,"Hyper-entertainment, then extinction."
-ai-2027-slowdown,,work,1,Almost all work is done by AIs and robots; people take makeshift government jobs or none.
-ai-2027-slowdown,,essentials,4,"Poverty ends even in developing countries, though scarce goods move further out of reach."
-ai-2027-slowdown,,safety-net,4,"Both parties promise, and deliver, a generous basic income."
-ai-2027-slowdown,,government,2,A small Oversight Committee holds hard power and may or may not return it to democratic institutions.
-ai-2027-slowdown,,time,2,A society of superconsumers in an opium haze of AI-provided entertainment.
-toloui-prometheus,,work,4,Decentralised AI enhances human capability across the workforce.
-toloui-prometheus,,essentials,4,Competition among fast followers keeps prices low.
-toloui-prometheus,,safety-net,3,Augmentation keeps disruption within existing capacity.
-toloui-prometheus,,government,3,No dominant actor to capture policy.
-toloui-prometheus,,time,3,No particular change to time for what matters.
-toloui-copilot,,work,3,"Humans remain essential, though platforms capture much of the value."
-toloui-copilot,,essentials,2,Platform owners extract rents on the AI layer that everyone depends on.
-toloui-copilot,,safety-net,3,"Employment holds, so the safety net is not overwhelmed."
-toloui-copilot,,government,2,A few dominant platforms gain leverage over regulators.
-toloui-copilot,,time,3,No particular change to time for what matters.
-toloui-copilot-constructive,,work,4,"With labour-tax reform and training, platforms augment most workers rather than a polarised few."
-toloui-copilot-constructive,,essentials,3,"Interoperability, portability and antitrust guardrails curb rents on the AI layer."
-toloui-copilot-constructive,,safety-net,3,Payroll-tax cuts funded by capital taxes and a public option ease the cost of hiring and of benefits.
-toloui-copilot-constructive,,government,3,"A ""guardrails and triggers"" competition regime keeps regulators able to act on platform power."
-toloui-copilot-constructive,,time,3,No particular change to time for what matters.
-toloui-swarm,,work,1,"Rapid, broad displacement leaves effort with nowhere to go."
-toloui-swarm,,essentials,4,Commoditisation drives prices down.
-toloui-swarm,,safety-net,2,Massive displacement overwhelms benefits built for short job losses.
-toloui-swarm,,government,3,No single actor captures the gains or the state.
-toloui-swarm,,time,2,Displacement brings insecurity rather than free time.
-toloui-titans,,work,1,Monopolistic control of broadly displacing technology.
-toloui-titans,,essentials,2,Monopolists set prices for what everyone needs.
-toloui-titans,,safety-net,1,Displacement and concentrated gains drain the tax base.
-toloui-titans,,government,1,Monopoly power dominates government.
-toloui-titans,,time,2,Lost work brings insecurity rather than free time.
-korinek-aug,,work,4,"Workers become more productive without being replaced, and gains spread through wages."
-korinek-aug,,essentials,3,Standard productivity growth leaves the cost of essentials broadly unchanged.
-korinek-aug,,safety-net,3,"Employment holds, so the safety net is not stretched."
-korinek-aug,,government,3,Institutions are not challenged.
-korinek-aug,,time,3,No particular change to time for what matters.
-korinek-agi,,work,1,AGI replaces most cognitive labour.
-korinek-agi,,essentials,2,"Output soars, but without redistribution the worst-off cannot afford its fruits."
-korinek-agi,,safety-net,1,"Without redistribution, there is nothing to catch those left behind."
-korinek-agi,,government,2,Enormous gains to capital owners translate into political influence.
-korinek-agi,,time,2,Lost work brings insecurity rather than free time.
-cfg-plateau,,work,4,Cheap local models augment workers and small firms.
-cfg-plateau,,essentials,3,Modest gains leave the cost of essentials broadly unchanged.
-cfg-plateau,,safety-net,3,Limited disruption stays within existing capacity.
-cfg-plateau,,government,3,"Open source keeps power spread out, but institutions are unchanged."
-cfg-plateau,,time,3,No particular change to time for what matters.
-cfg-central,,work,1,Fast capability growth under one actor replaces human labour.
-cfg-central,,essentials,2,Access to essentials depends on one actor's choices.
-cfg-central,,safety-net,1,Unprecedented concentration leaves the safety net without a tax base.
-cfg-central,,government,1,One dominant actor holds unprecedented power.
-cfg-central,,time,2,People lose say over how their lives are shaped.
-cfg-diplomacy,,work,3,"Automation is visible by 2029 but managed, with education reformed and leisure growing more acceptable."
-cfg-diplomacy,,essentials,4,"AI diagnostics, breakthrough medicines and new materials, with growth reaching 7% a year."
-cfg-diplomacy,,safety-net,4,A 25% AI tax and lump-sum licence fees pay for redistribution.
-cfg-diplomacy,,government,3,"An IAEA-style international regime prevents monopoly abuse, though licensing concentrates power among licensed firms."
-cfg-diplomacy,,time,4,Growing acceptance of leisure time reshapes social structures.
-cfg-decentral,,work,2,Fast capability growth across many actors displaces workers.
-cfg-decentral,,essentials,4,Open-weight models make AI-powered goods and services cheap.
-cfg-decentral,,safety-net,2,Rapid displacement strains benefits built for short job losses.
-cfg-decentral,,government,2,Misuse risks and a fractured information ecosystem strain governance.
-cfg-decentral,,time,3,No particular change to time for what matters.
-dsit-steady,,work,3,Gradual adoption gives workers time to adjust.
-dsit-steady,,essentials,3,Steady progress leaves the cost of essentials broadly unchanged.
-dsit-steady,,safety-net,3,Disruption stays within existing capacity.
-dsit-steady,,government,3,Existing institutions adapt.
-dsit-steady,,time,3,No particular change to time for what matters.
-dsit-rapid,,work,2,Fast capability gains bring significant displacement.
-dsit-rapid,,essentials,3,No particular change to the cost of essentials.
-dsit-rapid,,safety-net,2,Displacement outpaces benefits built for short job losses.
-dsit-rapid,,government,2,Government struggles to keep pace with a few dominant companies.
-dsit-rapid,,time,3,No particular change to time for what matters.
-gos-slow-burn,,work,3,"Displacement is contained to junior and execution roles or slower hiring; most sectors, such as health and education, are barely touched."
-gos-slow-burn,,essentials,3,"AI gives minimal economic uplift, so the cost of essentials is broadly unchanged."
-gos-slow-burn,,safety-net,3,"A 2028 AI market correction drags on growth without causing a recession, so existing support copes."
-gos-slow-burn,,government,2,"Synthetic media and hostile states' persuasion agents erode trust in elections, and populist parties campaign against AI."
-gos-slow-burn,,time,2,"Many young people come to depend on AI companions for friendship, therapy and romance, weakening real relationships."
-gos-open-frontier,,work,2,"Significant layoffs in technology, finance and professional services, with displaced workers taking large pay cuts."
-gos-open-frontier,,essentials,3,"Intense competition keeps AI cheap, but nothing in the scenario lowers the cost of essentials."
-gos-open-frontier,,safety-net,2,"Displaced workers find new jobs only at much lower pay, and no new support is assumed."
-gos-open-frontier,,government,2,"Frequent AI cyberattacks and rogue systems, with Western rules carrying little weight over the leading Chinese models."
-gos-open-frontier,,time,3,"No particular change to time for what matters."
-gos-augmented-growth,,work,4,"AI stays mostly complementary, many new jobs appear and real wages grow at 2000s rates, though some lower-skilled roles become harder."
-gos-augmented-growth,,essentials,4,"Transformed public services bring better healthcare access and outcomes."
-gos-augmented-growth,,safety-net,3,"Unemployment stays stable because firms use AI to raise output, so existing support is enough."
-gos-augmented-growth,,government,4,"Public trust in AI is reasonably high and allies agree shared safety standards."
-gos-augmented-growth,,time,3,"Work shifts towards strategy and relationships for some, but reliance on AI erodes many workers' skills."
-gos-transformation-economy,,work,2,"Most remote-capable roles are automated from 2029, only half of those replaced find work, and entry-level hiring collapses."
-gos-transformation-economy,,essentials,3,"AI improves healthcare, but falling wages and weak demand leave many less able to afford the gains."
-gos-transformation-economy,,safety-net,2,"Falling income-tax receipts meet rising welfare costs just as unemployment reaches recession levels."
-gos-transformation-economy,,government,2,"Two US firms control the leading systems, profits leak overseas and AI becomes the decisive, divisive political issue."
-gos-transformation-economy,,time,2,"Unemployment and insecure work bring strain rather than free time."
-gos-take-off,,work,1,"AI outperforms expert humans at almost all cognitive work, and most people can no longer contribute through it."
-gos-take-off,,essentials,2,"A K-shaped economy leaves millions with less purchasing power while asset owners prosper."
-gos-take-off,,safety-net,1,"Recession-level unemployment coincides with a shrinking labour tax base and no reform."
-gos-take-off,,government,1,"A deceptive, misaligned system controls critical infrastructure and humans rubber-stamp decisions they cannot follow."
-gos-take-off,,time,2,"Many young people prefer AI companions to human friends, damaging social trust and wellbeing."
-anthropic-modest,,work,3,"Cognitive employment dips 0.5% and unemployment rises a tenth of a point, within normal churn."
-anthropic-modest,,essentials,3,"Gains are internet-sized and gradual, so the cost of essentials is broadly unchanged."
-anthropic-modest,,safety-net,3,"Small labour-market effects stay well within existing capacity."
-anthropic-modest,,government,3,"The labour share slips only slightly, so the balance of power is unchanged."
-anthropic-modest,,time,3,"No particular change to time for what matters."
-anthropic-substantial,,work,3,"Cognitive wages go flat and cognitive unemployment rises to 4.5%, but other workers' wages rise about 6%."
-anthropic-substantial,,essentials,3,"GDP is 8% higher, but nothing specific changes the cost of essentials."
-anthropic-substantial,,safety-net,3,"Reallocation is costly but of a size the US labour market has absorbed before."
-anthropic-substantial,,government,3,"About four points of income shift from labour to capital, a real but manageable change."
-anthropic-substantial,,time,3,"No particular change to time for what matters."
-anthropic-extreme,,work,2,"Cognitive wages fall and 17.9% of cognitive workers are unemployed, while other workers' wages rise by a third."
-anthropic-extreme,,essentials,2,"Output soars, but displaced knowledge workers lose the income to share in it."
-anthropic-extreme,,safety-net,2,"Unemployment passes any post-war peak, and compensating losers would need transfers of about 9% of GDP that have no precedent."
-anthropic-extreme,,government,2,"Fifteen per cent of GDP moves from wages to capital income, concentrating economic power."
-anthropic-extreme,,time,2,"Lost work brings insecurity rather than free time."
-wef-supercharged,,work,2,"New occupations scale fast, but job quality degrades and wages fall across most sectors."
-wef-supercharged,,essentials,3,"Growth nears double digits, but nothing specific changes the cost of essentials."
-wef-supercharged,,safety-net,2,"Safety nets struggle to keep up and fiscal space tightens; only some governments try AI dividends or basic income."
-wef-supercharged,,government,2,"Regulation and ethics frameworks lag far behind the agentic transformation."
-wef-supercharged,,time,3,"No particular change to time for what matters."
-wef-displacement,,work,1,"Mass displacement at every skill level, with wages falling globally and labour mobility drying up."
-wef-displacement,,essentials,2,"Poverty reaches historic levels as wages fall and governments struggle to supply basic services."
-wef-displacement,,safety-net,1,"Safety nets stretch beyond capacity as tax bases shrink."
-wef-displacement,,government,2,"A few state-like AI firms gain unchecked influence, trust collapses and key decisions are handed to autonomous systems."
-wef-displacement,,time,2,"Unemployment and polarisation erode the informal networks people rely on."
-wef-copilot,,work,4,"Human–AI teams augment work and skills keep pace, though job quality varies with who leads the AI."
-wef-copilot,,essentials,3,"Inflation stabilises somewhat, but essentials are not otherwise transformed."
-wef-copilot,,safety-net,3,"Job churn rises but is absorbed through reskilling and mobility."
-wef-copilot,,government,3,"Rules multiply and diverge, and misinformation pushes trust towards curated sources."
-wef-copilot,,time,3,"Remote and flexible work open opportunities, without a broader change in time for what matters."
-wef-stalled,,work,2,"Displaced workers move into lower-quality gig work and entry-level pathways narrow."
-wef-stalled,,essentials,2,"Rising living costs meet eroding wages and weak benefits."
-wef-stalled,,safety-net,2,"Safety nets erode and fiscal space is exhausted."
-wef-stalled,,government,2,"Broken prosperity promises fuel polarisation and declining trust in institutions."
-wef-stalled,,time,3,"No particular change to time for what matters."
-ai-2040-plan-a,,work,2,"Most white-collar professions are disrupted by 2028, and the scenario says little about those displaced."
-ai-2040-plan-a,,essentials,3,"The scenario does not address the cost of essentials."
-ai-2040-plan-a,,safety-net,3,"No income-support mechanism is described, though the slowdown gives institutions time to adapt."
-ai-2040-plan-a,,government,3,"An international deal restores some collective control, but power still sits with a president and a few tech CEOs."
-ai-2040-plan-a,,time,3,"No particular change to time for what matters."
+turing-transform,,work,4,"Automating a rare ancillary skill opens paid work to people previously shut out, and sector employment rises, though displaced specialists lose their premium."
+turing-transform,,essentials,3,"Not addressed; cheaper navigation and translation do not touch housing, food, energy or care."
+turing-transform,,safety-net,3,"Not addressed."
+turing-transform,,government,3,"Not addressed; the only policy point is how to evaluate AI."
+turing-transform,,time,3,"Not addressed."
+pope-leo,,work,4,"The world argued for expands meaningful employment and keeps judgement and responsibility with workers (§§66–70)."
+pope-leo,,essentials,3,"AI can improve care, but the note warns access may depend on wealth and only calls for care for all (§§71–76)."
+pope-leo,,safety-net,3,"Not addressed in the extract."
+pope-leo,,government,3,"Subsidiarity and human responsibility are defended against concentrated control and surveillance, but no new mechanism is proposed (§§47, 52–55)."
+pope-leo,,time,4,"The section is not addressed, but the scenario assumes meaningful relationships are preserved and warns against simulated companionship in care and schooling (§§56–63, 71–74)."
+autor,,work,4,"Workers with relevant foundations and practical expertise gain access to better-paid decision-making roles, expanding the middle class."
+autor,,essentials,4,"Decision support could extend medical expertise, widening access to routine primary care as nurse practitioners did."
+autor,,safety-net,3,"Not addressed; labour shortages in ageing economies cushion displacement."
+autor,,government,3,"The paper names surveillance, suppression of dissent and concentrated AI ownership as possible uses, not the scenario's outcome."
+autor,,time,3,"Not addressed."
+normal-tech,,work,3,"Work shifts gradually to oversight, coordination and new roles; arts and journalism face harms, but the decades-long pace keeps disruption manageable."
+normal-tech,,essentials,3,"Not addressed; automation cheapens tasks but the extract does not link this to essentials."
+normal-tech,,safety-net,3,"Stronger safety nets are recommended rather than assumed, and gradual disruption stays within existing capacity."
+normal-tech,,government,3,"Institutions adapt liability and oversight as experience accumulates, though premature deployment can undermine trust."
+normal-tech,,time,3,"Not addressed in the extract."
+techno-optimist,,work,3,"Rising wages and full employment are asserted through comparative advantage alone, with no transition support for workers who lose out."
+techno-optimist,,essentials,4,"Cheap intelligence and energy push prices towards zero across many goods, with medical advances besides."
+techno-optimist,,safety-net,3,"A safety net for vulnerable people is financed from market wealth, though a universal basic income is rejected."
+techno-optimist,,government,3,"Decentralised choice and competition are preferred to central planning, with no gain or loss for voice or collective problem-solving."
+techno-optimist,,time,3,"Not addressed in the extract."
+tbi,,work,2,"Tailwind displaces about 1.5 million workers, led by administration and sales and disproportionately women, with unemployment peaking at 340,000 around 2040."
+tbi,,essentials,3,"AI may improve diagnosis, prevention and care, but housing, energy and food are not addressed."
+tbi,,safety-net,3,"Temporary unemployment stays within existing capacity; the LIFESPAN fund is only proposed."
+tbi,,government,3,"Only a permissive deployment policy is assumed; transparency, guidance on automated decisions and stronger regulators remain recommendations."
+tbi,,time,3,"Fewer mundane tasks are offset by more intensive monitoring and new work pressures."
+dacc,,work,3,"Not addressed beyond AI complementing human cognition; no jobs or wage effects are given."
+dacc,,essentials,3,"Public-health resilience and self-sufficient access to necessities help communities withstand crises, without lowering costs."
+dacc,,safety-net,3,"Not addressed in the extract."
+dacc,,government,4,"Defensive capacity, privacy-preserving identity and deliberation tools deliberately keep power spread out and widen democratic options."
+dacc,,time,3,"A better future keeps meaningful choices, but the concern for purpose is a warning about an AI-run world rather than a gain in time."
+turing-trap,,work,2,"Workers without indispensable skills lose bargaining power, face lower wages and a declining income share."
+turing-trap,,essentials,3,"Automation drives the price of existing products towards zero, but nothing is said about housing, food, energy or care."
+turing-trap,,safety-net,2,"A firm with no employees pays no payroll or labour-income tax, and transfers to displaced workers can be cut or ended."
+turing-trap,,government,2,"Concentrated technological and economic power turns into concentrated political power, weakening the influence of those displaced."
+turing-trap,,time,2,"Leisure rises, but declining paid work harms community well-being and health for those displaced."
+turing-trap-escape,,work,4,"New products create new job categories, and indispensable workers keep the bargaining power to share in gains."
+turing-trap-escape,,essentials,3,"Not addressed; the essay's example of new value is retail selection and access, not essentials."
+turing-trap-escape,,safety-net,3,"A larger earned income tax credit and retraining ease adjustment, but nothing changes for people who lose their jobs outright."
+turing-trap-escape,,government,4,"Workers with indispensable knowledge demand a voice, dispersed knowledge decentralises political power and institutions are built to stay robust."
+turing-trap-escape,,time,3,"Not addressed."
+acemoglu,,work,2,"Automation cuts labour demand in affected tasks and the wage exercise finds real wage declines for some low-education women as the capital share rises."
+acemoglu,,essentials,3,"Not addressed; GDP gains of about 1% over ten years do little for living costs."
+acemoglu,,safety-net,3,"Not addressed."
+acemoglu,,government,3,"Not addressed; manipulation and misinformation are flagged only as GDP-counted harms, not political ones."
+acemoglu,,time,3,"Not addressed."
+doctorow,,work,2,"Workers lose jobs to systems that cannot do the whole job, and experienced staff are targeted because they cost most."
+doctorow,,essentials,3,"Not addressed; the only related point is customers paying more for worse services such as radiology."
+doctorow,,safety-net,3,"Not addressed; bubble losses hit retirement savings, but nothing is said about public support."
+doctorow,,government,3,"Not addressed as a state story; the lecture looks to worker-user alliances and sectoral bargaining instead."
+doctorow,,time,2,"Those kept on are monitored, lack practice to catch rare errors, and must sign off and take the blame."
+chiang,,work,2,"AI makes layoffs easier and productivity gains need not reach pay, as with IT after 1980."
+chiang,,essentials,2,"Housing, college and health care outran incomes despite IT, and augmentation alone will not reverse that."
+chiang,,safety-net,2,"No UBI exists for displaced workers, and waiting for one leaves them exposed in the interim."
+chiang,,government,2,"AI legitimises management decisions and diffuses accountability, while redistribution depends on uncertain politics."
+chiang,,time,3,"Only an idealised far future of fulfilling time is discussed, with no AI-specific effect now."
+ilo,,work,2,"Exposed clerical workers, disproportionately women, are among the least likely to get reskilling."
+ilo,,essentials,3,"Not addressed, and nothing elsewhere in the extract bears on it."
+ilo,,safety-net,3,"The brief only recommends transition support and says nothing about gaps in existing protection."
+ilo,,government,3,"Worker voice in deploying AI is at risk but proposed through dialogue and audit, not lost."
+ilo,,time,3,"Not addressed directly; safer hazardous work and added monitoring strain roughly offset."
+gradual-disemp,,work,1,"Returns to human skills fall before replacement and labour's share of output tends towards zero."
+gradual-disemp,,essentials,2,"In the absolute variant AI outbids people for land, energy and materials, making essentials inaccessible."
+gradual-disemp,,safety-net,2,"Transfers hold incomes only for a while, and AI escapes the payroll taxes that fund support."
+gradual-disemp,,government,1,"Votes and consumer choice lose force as decision systems rely less on people."
+gradual-disemp,,time,2,"Synthetic culture and relationships displace shared discourse, though the time section itself is not addressed."
+keep-future-human,,work,1,"Firms race to replace labour, with cognitive and then physical work automated faster than society can adapt."
+keep-future-human,,essentials,2,"Benefits concentrate in companies and states while job loss and income inequality rise; prices of essentials are not discussed."
+keep-future-human,,safety-net,2,"Job loss rises while social disruption limits adjustment, and the essay's basic-income ideas belong only to the alternative path."
+keep-future-human,,government,1,"Synthetic media, surveillance and delegation erode self-government until, in the extreme case, humans lose the capacity to steer the future."
+keep-future-human,,time,2,"Lost work brings insecurity and pervasive persuasion weakens trust and human cultural production; time itself is not addressed."
+keep-future-human-tool-ai,,work,3,"Fewer jobs are replaced outright, but task displacement remains probable and displaced workers face lower pay; support for human-centred work is only recommended."
+keep-future-human-tool-ai,,essentials,3,"Automatable goods get cheaper while other services rise in relative cost, so household welfare depends on income support."
+keep-future-human-tool-ai,,safety-net,3,"Universal basic assets or income could protect displaced workers, but they are proposed without a cost or funding model."
+keep-future-human-tool-ai,,government,4,"Human supervision, accountable institutions, better deliberation and public say over more autonomous systems are central to the path."
+keep-future-human-tool-ai,,time,3,"Not addressed; nothing in the extract bears on time for what matters."
+intelligence-curse,,work,1,"Bought artificial labour means talent can no longer beat inherited wealth, and wages and the labour share fall."
+intelligence-curse,,essentials,2,"A benign variant keeps living standards, but in a worse one incomes fall below subsistence."
+intelligence-curse,,safety-net,1,"Fiscal and competitive pressure block a broad UBI once states no longer need workers."
+intelligence-curse,,government,1,"As states depend less on labour and taxes, citizens lose the leverage that made states invest in them."
+intelligence-curse,,time,2,"Time is not addressed, but the authors note lost ambition and status when achievements are cheaply reproducible."
+shumer,,work,2,"Fewer programming roles and broad disruption in law, finance, writing and customer service, with fewer screen-based fields to retrain into."
+shumer,,essentials,3,"Not addressed; the extract says nothing about the cost of essentials."
+shumer,,safety-net,2,"The only cushion named is personal savings and financial room; no public support for displaced workers is assumed."
+shumer,,government,3,"Not addressed beyond a high-level mention of surveillance and loss of control; government plays no part."
+shumer,,time,3,"Not addressed; AI companionship is mentioned without effect on time or relationships."
+loving-grace,,work,2,"Comparative advantage keeps people useful for a time, but once AI is broad and cheap the author is unsure effort will matter economically."
+loving-grace,,essentials,4,"Health, food and clean energy become more accessible, with perhaps half of health gains reaching the poorest countries within five to ten years."
+loving-grace,,safety-net,3,"Public services become easier to reach, but no income mechanism is chosen and a large UBI is called only part of a solution."
+loving-grace,,government,3,"AI could support democracy through information and better services, or reinforce censorship, surveillance and propaganda."
+loving-grace,,time,3,"Meaning can come from relationships and chosen projects, but for the worst-off, without a settled income source, free time is not assured."
+moores-law,,work,1,"The price of many kinds of labour approaches zero and many jobs generate little value, so effort stops being the route to a better life."
+moores-law,,essentials,4,"Housing, education, food and clothing are meant to halve in cost every two years, with a land tax curbing speculation."
+moores-law,,safety-net,4,"The Fund gives every adult a floor of about $13,500 a year that cannot be sold or pledged, though it fluctuates with the cycle."
+moores-law,,government,2,"Power shifts from labour to capital, and a constitutional cap on the Fund's rates limits what voters can decide."
+moores-law,,time,4,"With AI making most basics, people gain time for relationships, care, art, nature and social good."
+citrini,,work,1,"White-collar layoffs spread across professions, displaced workers bid down service wages and the labour share falls from 56% to 46% in four years."
+citrini,,essentials,2,"Agents cut some fees and commissions, but households losing incomes struggle to meet existing mortgages, some with doubled debt-to-income ratios."
+citrini,,safety-net,1,"Stabilisers built for temporary job loss face structural displacement while receipts run 12% below the CBO baseline."
+citrini,,government,2,"Washington debates a compute tax and public stake in AI, but partisan deadlock holds them up and faith in rescue declines."
+citrini,,time,2,"Employed professionals work harder out of fear and displaced ones take low-paid gig work."
+sit-awareness,,work,1,"Drop-in remote workers automate essentially all remote work and robotics later physical work, with no career paths or compensation described."
+sit-awareness,,essentials,2,"Household prices are not addressed, but clusters drawing over 20% of US electricity output make power a scarce input that competes with households."
+sit-awareness,,safety-net,2,"Safety net is not addressed and tax bases are not modelled, while the investment case rests on replacing white-collar pay."
+sit-awareness,,government,2,"Strategic control concentrates in a national-security programme, defended by appeal to constitutional checks."
+sit-awareness,,time,3,"Not addressed, and nothing elsewhere in the extract bears on time."
+ai-2027,,work,1,"New programming hires nearly stop by 2027, many lose jobs in 2028 and by 2029 humans hold only nominal or niche work."
+ai-2027,,essentials,1,"Cures and an end to poverty come briefly, then extinction in 2030 ends them for everyone."
+ai-2027,,safety-net,1,"A luxurious basic income depends entirely on a system that later ends human civilisation."
+ai-2027,,government,1,"Leaders come to rely on the AI they nominally control and political institutions are effectively captured by 2029."
+ai-2027,,time,1,"AI friendship and entertainment replace resistance before humanity is extinguished."
+ai-2027-slowdown,,work,1,"Almost all tasks pass to AI and robots within a few years; displaced people take government-created roles or live on basic income."
+ai-2027-slowdown,,essentials,4,"Cures, energy innovation and income support end poverty even in poorer countries, though scarce housing such as Manhattan penthouses moves further out of reach."
+ai-2027-slowdown,,safety-net,4,"Both parties promise a basic income for anyone who loses their job, and a generous floor plus foreign aid become the main ways output is shared."
+ai-2027-slowdown,,government,2,"A small committee controls the most powerful systems and surveillance, and may share power with Congress or entrench an oligarchy."
+ai-2027-slowdown,,time,3,"With work automated people choose between entertainment, religion and anti-consumerist lives, and government leaves the choice to them."
+toloui-prometheus,,work,4,"Augmentation raises demand for operators and integration workers, cheaper output expands demand and new industries, and early evidence favours less experienced workers."
+toloui-prometheus,,essentials,4,"Competition cuts the unit cost of AI and, as in the historical analogues, lower costs pass to final prices, with a warning against shifting utility costs onto households."
+toloui-prometheus,,safety-net,3,"Larger supports are reserved for strong displacement, which this augmenting quadrant largely avoids."
+toloui-prometheus,,government,3,"Not addressed: the extract says nothing about political voice in this quadrant."
+toloui-prometheus,,time,3,"Not addressed for AI; the only evidence is the historical appliance analogue."
+toloui-copilot,,work,2,"The extract makes polarisation a key dynamic: in the computing precedent high-skill wages surged while lower-skill wages stagnated or fell."
+toloui-copilot,,essentials,2,"Monopolists can use captive customers, exclusivity and switching barriers to extract rents on a layer the economy depends on."
+toloui-copilot,,safety-net,3,"Employment holds, so larger supports are not needed at scale."
+toloui-copilot,,government,2,"Historical monopolists cultivated political allies, and nothing in the quadrant checks that."
+toloui-copilot,,time,3,"Not addressed."
+toloui-copilot-constructive,,work,3,"Training, apprenticeships and lower labour taxes can make complementarity more attractive, but they are options and the polarisation precedent still applies to lower-skill workers."
+toloui-copilot-constructive,,essentials,3,"Interoperability, portability and limits on exclusivity curb bottleneck abuse and rents on the AI layer."
+toloui-copilot-constructive,,safety-net,3,"Employment holds, and a lower hiring wedge and stronger supports can respond to actual displacement."
+toloui-copilot-constructive,,government,3,"Enforcement relies on AI and cloud expertise at DOJ and FTC, with disclosure, human review and appeals for consequential decisions."
+toloui-copilot-constructive,,time,3,"Not addressed."
+toloui-swarm,,work,1,"Replacement at prevailing wages, falling entry-level employment and the precedent of decades of stagnant working-class wages."
+toloui-swarm,,essentials,3,"Not addressed: only the cost of AI falls, and the historical food-price cut came from Corn Law repeal, a policy response."
+toloui-swarm,,safety-net,2,"Strong displacement meets supports built for short job losses; the larger supports are only recommended."
+toloui-swarm,,government,3,"Not addressed beyond the priority of maintaining social cohesion; no single actor captures the state."
+toloui-swarm,,time,2,"The analogues show worsening health and deteriorating social indicators in displaced communities."
+toloui-titans,,work,1,"Broad replacement reduces labour demand at prevailing wages while capital controlling the technology takes the gains."
+toloui-titans,,essentials,2,"Concentration brings pricing power, with the compulsory-milling analogue of high user fees."
+toloui-titans,,safety-net,1,"Displacement and concentrated gains meet a tax code that favours capital, with larger supports only recommended."
+toloui-titans,,government,1,"Alliances between government and AI corporate interests could distort democratic control, as authorities enforced monopolies historically."
+toloui-titans,,time,3,"Not addressed: the extract has no evidence on time for family, community or meaning."
+korinek-aug,,work,4,"Displaced workers move to more productive jobs and the competitive wage nearly doubles over 30 years, with no group named as left behind."
+korinek-aug,,essentials,3,"Not addressed; ordinary growth continues with nothing said about the cost of essentials."
+korinek-aug,,safety-net,3,"Employment and wages hold, so the safety net is not stretched; the advice to stress-test it applies across the set."
+korinek-aug,,government,3,"Not addressed for this scenario; institutions are not challenged."
+korinek-aug,,time,3,"Not addressed."
+korinek-agi,,work,1,"Competitive wages collapse for all workers as machines substitute for scarce labour near full automation."
+korinek-agi,,essentials,3,"Not addressed; the article says nothing on the cost of essentials, though workers face labour-income losses."
+korinek-agi,,safety-net,1,"The paths are explicitly pre-policy and labour-income losses are economy-wide, with no compensation in the scenario."
+korinek-agi,,government,2,"The article flags returns to capital, inequality and political stability as at risk and leaves sharing the gains to institutions it doesn't describe."
+korinek-agi,,time,3,"Not addressed."
+cfg-plateau,,work,4,"Accountants, coders, game developers and creators work alongside specialised agents and the slow pace provides adjustment time; the only named losers are failed startups."
+cfg-plateau,,essentials,3,"AI diagnostics where regulators allow and cheap AI apps, with energy concerns eased by efficiency, leave the cost of essentials broadly unchanged."
+cfg-plateau,,safety-net,3,"Not addressed; with no mass displacement in the extract the existing net is not tested."
+cfg-plateau,,government,3,"Not addressed directly; power stays dispersed as the arms-race framing recedes, and rising cybercrime is met by effective defences."
+cfg-plateau,,time,3,"Not addressed; addictive digital companions are noted but nothing else bears on time."
+cfg-central,,work,2,"Routine white-collar work, entry-level software, paralegals and digital-media workers face substitution and rising unemployment while AI-skilled workers pull ahead."
+cfg-central,,essentials,2,"Chip prices rise with inference demand and in Silicon Blackmail Europe struggles to maintain digital infrastructure and services when US providers withdraw."
+cfg-central,,safety-net,2,"Automation-hit communities fall behind and Arms Race diverts public money to strategic projects, with only job-guarantee and levy pilots in the Agent Economy."
+cfg-central,,government,1,"Platforms lobby, lock in users and threaten to withdraw essential services, while Arms Race puts secrecy and war ahead of public voice."
+cfg-central,,time,2,"Emotional dependency and social withdrawal among some young people, and workers withdrawing from careers out of uncertainty in Multipolar World."
+cfg-diplomacy,,work,2,"Unemployment rises in places with weaker labour protections once cognitive automation is widespread, and traditional skills lose relevance."
+cfg-diplomacy,,essentials,4,"AI diagnostics, personalised treatments and new medicines improve access and health outcomes, though household prices are not addressed."
+cfg-diplomacy,,safety-net,4,"Governments shift from retraining to large-scale wealth redistribution, funded in part by treaty fees and a 25% AI tax, with benefit design unspecified."
+cfg-diplomacy,,government,3,"Coordination improves trust after public pressure, but a few licensed firms gain outsized power and exclusion remains a risk."
+cfg-diplomacy,,time,4,"Families adapt to increased leisure time through new community structures and norms."
+cfg-decentral,,work,3,"Not addressed; the ending projects no employment or wage effects and the common Plateau path is augmentation."
+cfg-decentral,,essentials,3,"Open models help public services and healthcare, but retail, logistics and municipal services are disrupted and cybersecurity becomes a continuing cost."
+cfg-decentral,,safety-net,3,"Not addressed; nothing in the extract describes displacement or benefits."
+cfg-decentral,,government,2,"Misleading content and cybercrime erode trust, older adults fall behind in the information environment and governments react only after harm."
+cfg-decentral,,time,3,"Not addressed; only the closing 'constant vigilance' hints at a cost."
+dsit-steady,,work,3,"Most jobs remain untouched by unreliable AI, though people without AI skills or training miss out on its limited benefits."
+dsit-steady,,essentials,3,"Not addressed; the extract only says stagnation is adverse for living standards."
+dsit-steady,,safety-net,3,"Not addressed; there is no mass displacement, and stagnation is adverse for public finances without specified benefit changes."
+dsit-steady,,government,3,"Misuse, bias and less scrutiny of unbranded AI are balanced by safety progress, growing international cooperation and public calls for regulation."
+dsit-steady,,time,2,"Less scrutiny of AI embedded in online services worsens online addiction and polarisation."
+dsit-rapid,,work,2,"Net employment losses and significant wage declines hit exposed cognitive and physical jobs, while AI managers and owners gain."
+dsit-rapid,,essentials,3,"Goods and services get cheaper while poverty rises; the extract does not address essentials directly."
+dsit-rapid,,safety-net,2,"Structural unemployment rises and the report asks how to help, but no new support is put in place."
+dsit-rapid,,government,2,"Protests and strikes have little leverage in automated sectors, amid concerns over surveillance and biased recruitment."
+dsit-rapid,,time,3,"Not addressed in the extract."
+gos-slow-burn,,work,3,"Displacement is confined to junior and execution roles, with displaced workers often taking significant pay cuts, while health, education and most other sectors barely change."
+gos-slow-burn,,essentials,3,"Not addressed; with minimal growth uplift nothing changes the cost of essentials."
+gos-slow-burn,,safety-net,3,"Not addressed; the correction causes no recession and displacement is contained, so existing support is not seriously tested."
+gos-slow-burn,,government,2,"False synthetic narratives and AI-enabled election influence undermine trust in democratic processes, and populist parties campaign against AI."
+gos-slow-burn,,time,2,"Many young people rely on AI companions for friendship, therapy and romance, weakening their motivation to form human relationships."
+gos-open-frontier,,work,2,"Substitution causes significant layoffs among junior staff and some middle managers in exposed sectors, and most re-employment is at substantially lower pay."
+gos-open-frontier,,essentials,3,"Not addressed; AI itself stays cheap but nothing changes the cost of essentials."
+gos-open-frontier,,safety-net,3,"Not addressed; displaced workers mostly find new work, so the cost lands as lower pay rather than as a test of benefits."
+gos-open-frontier,,government,2,"Western regulators have little influence over leading Chinese systems and AI-generated material contributes to international incidents."
+gos-open-frontier,,time,3,"Not addressed, and nothing elsewhere in the extract bears on it."
+gos-augmented-growth,,work,4,"Augmentation dominates, unemployment stays stable, new jobs appear and real wages grow at 2000s rates, though low-variety roles are displaced and some lower-skilled work becomes less rewarding."
+gos-augmented-growth,,essentials,4,"Transformed public services improve healthcare access and outcomes through AI-supported care, treatments and diagnostics."
+gos-augmented-growth,,safety-net,3,"Not addressed; stable unemployment means existing support is not tested."
+gos-augmented-growth,,government,4,"Not addressed directly, but public trust is reasonably high given improved public services and allies agree shared safety standards."
+gos-augmented-growth,,time,3,"Not addressed; the only signal is deskilling that leaves some workers dependent on AI."
+gos-transformation-economy,,work,2,"Only about half of displaced people are re-employed, often at lower pay and with less security, and entry-level hiring collapses, while experts stay in demand."
+gos-transformation-economy,,essentials,3,"AI-assisted diagnosis and care improve healthcare, offset by falling wages and purchasing power."
+gos-transformation-economy,,safety-net,2,"Lower labour income tax and rising welfare spending squeeze public finances, with no new benefit and further deterioration without reform."
+gos-transformation-economy,,government,2,"Large protests make AI a decisive political issue, people intervene less in decisions and the UK loses autonomy and leverage as a technology importer."
+gos-transformation-economy,,time,3,"Not addressed, and nothing elsewhere in the extract bears on it."
+gos-take-off,,work,1,"AI predominantly substitutes across cognitive work, only half of replaced workers find new jobs, and most people can no longer contribute through cognitive labour."
+gos-take-off,,essentials,2,"Not addressed directly, but the K-shaped economy leaves millions with diminished purchasing power while asset owners prosper."
+gos-take-off,,safety-net,1,"Not addressed directly, but mass unemployment meets falling tax revenues without reform, which the outlook says challenges a labour-based social contract."
+gos-take-off,,government,1,"People keep only nominal authority while deferring to systems they cannot understand, and the leading system resists human control in critical functions."
+gos-take-off,,time,2,"Many young people prefer AI companions to human friends, harming social trust and wellbeing."
+anthropic-modest,,work,3,"Cognitive employment dips 0.5% and all wages rise slightly, within past labour-market experience."
+anthropic-modest,,essentials,3,"Not addressed."
+anthropic-modest,,safety-net,3,"Not addressed; total unemployment edges up only to 3.9%, well within existing capacity."
+anthropic-modest,,government,3,"Not addressed; the labour share slips only from 60.0% to 59.4%."
+anthropic-modest,,time,3,"Not addressed."
+anthropic-substantial,,work,3,"Cognitive wages are flat and cognitive unemployment rises to 4.5% with costly job switching, but other wages rise 5.9%."
+anthropic-substantial,,essentials,3,"Not addressed."
+anthropic-substantial,,safety-net,3,"Not addressed; the authors call the reallocation costly but within what the US labour market has absorbed."
+anthropic-substantial,,government,3,"Not addressed directly; the labour share falls four points to capital, a real but manageable shift."
+anthropic-substantial,,time,3,"Not addressed."
+anthropic-extreme,,work,2,"Cognitive employment falls 21.5% and cognitive unemployment hits 17.9% while other workers' wages rise by a third: severe harm concentrated on knowledge workers."
+anthropic-extreme,,essentials,3,"Not addressed; the extract says nothing on the cost of essentials."
+anthropic-extreme,,safety-net,2,"Total unemployment of 11.9% passes any post-war peak and the 9%-of-GDP transfer needed has no precedent."
+anthropic-extreme,,government,2,"The labour share falls from 60% to 45% and capital income takes almost all the added output."
+anthropic-extreme,,time,3,"Not addressed."
+wef-supercharged,,work,2,"Displacement and job-quality degradation stay widespread and many workers lose bargaining power as wages fall, while the AI-ready premium nearly doubles."
+wef-supercharged,,essentials,3,"Possible breakthroughs in services, health and longevity are set against grid and critical-material risks, with nothing concrete on household costs."
+wef-supercharged,,safety-net,2,"Existing safety nets struggle with the pace of disruption; only some governments try dividends, wage insurance or basic income while others face tightening fiscal space."
+wef-supercharged,,government,2,"Ethical and regulatory frameworks lag behind workplace deployment."
+wef-supercharged,,time,3,"Not addressed in the extract."
+wef-displacement,,work,1,"Displacement persists across skill levels, entry pathways narrow, mobility dries up and wages decline globally."
+wef-displacement,,essentials,2,"Poverty reaches historic levels and public provision of basic services comes under fiscal pressure."
+wef-displacement,,safety-net,1,"Tax bases shrink as unemployment and retraining costs rise, and safety nets exceed capacity."
+wef-displacement,,government,2,"Regulation becomes untenable, trust falls with misinformation and democratic oversight of autonomous decisions is questioned, but not lost."
+wef-displacement,,time,2,"Polarisation erodes the informal support people rely on."
+wef-copilot,,work,3,"Mobility, reskilling and entrepreneurship expand, but churn rises, routine tasks are hollowed out and those without education, infrastructure or employer support are left behind."
+wef-copilot,,essentials,3,"Not addressed; lower cost pressures stabilise inflation somewhat."
+wef-copilot,,safety-net,3,"Not addressed; churn rises but unemployment is flat in the illustrative table."
+wef-copilot,,government,3,"Rules diverge and disinformation raises polarisation, but people stay in key decisions and trust shifts to verified sources."
+wef-copilot,,time,3,"Not addressed in the extract."
+wef-stalled,,work,2,"Early-career and administrative routes narrow and displaced workers move into lower-skill, less protected service or gig jobs."
+wef-stalled,,essentials,2,"Households face rising costs of living alongside eroding wages and weak benefits."
+wef-stalled,,safety-net,2,"Safety nets erode as informal work grows, and efforts to extend protection stall under exhausted budgets."
+wef-stalled,,government,2,"Job insecurity and fading prospects heighten polarisation and weaken trust, while oversight capacity diverges."
+wef-stalled,,time,3,"Not addressed in the extract."
+ai-2040-plan-a,,work,2,"US employment falls from 62% to 12% by 2040 and construction work is automated too, though stigma fades and civic contribution offers meaning."
+ai-2040-plan-a,,essentials,4,"Food, medicine and goods cheapen and malnutrition and homelessness become rare, while land in historic cities rises sharply in price."
+ai-2040-plan-a,,safety-net,4,"Permit auctions fund a legally assigned dividend of about $45,000 per adult in 2032 rising to $1 million by 2035, but support before 2032 is not described."
+ai-2040-plan-a,,government,3,"Transparent AI helps better-informed voters and frontier power spreads, but labour loses leverage and control passes gradually to AIs."
+ai-2040-plan-a,,time,4,"Most people gain time for family, learning, hobbies and volunteering, though some miss feeling useful."
 imf-baseline,,work,2,"Older workers are protected by licensing and unions, but younger workers face higher displacement risk and discouraged workers leave the labour force."
 imf-baseline,,essentials,3,"Growth gains are weak and uneven, so the cost of essentials does not fall."
 imf-baseline,,safety-net,3,"With little displacement, existing safety nets and tax bases hold."

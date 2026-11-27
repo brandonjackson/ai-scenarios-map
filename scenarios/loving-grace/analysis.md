@@ -1,28 +1,25 @@
 # Machines of Loving Grace — assumptions analysis
 
 ## Policy on or off?
-**Policy on, with deliberate effort across the board.** Amodei repeats that success "depends on our collective efforts" and "is not what happens by default". The developing-world gains need global health campaigns and political advocacy. The democratic gains need an entente of democracies working closely with AI firms. The economic transition needs a "broader societal conversation" whose result he can't specify. The essay also assumes the risks are handled: it opens by saying it sets aside the risk-reduction work Anthropic does.
+**Mixed** (previously on). The technology and early productivity gains come from capability growth on their own. The optimistic distribution and democratic outcomes depend on deliberate action: technology companies, philanthropies and policymakers spreading health and technological gains, democratic coordination and better public services. The economic arrangements once cheap AI does most work are left open; a large UBI, the entente of democracies and social experimentation are recommendations, not parts of the scenario.
 
 ## Big assumptions
-1. **Powerful AI arrives soon** (as early as 2026) in roughly LLM form, with clusters able to run millions of instances by about 2027.
-2. **Intelligence has high marginal returns** in science and health but runs into physical limits (experiments, hardware, regulation). Hence a 5–10-year "compressed century" rather than an overnight singularity.
-3. **Safety and alignment are solved enough** for the benefits to be pursued.
-4. **Democracies win the race.** A US-led coalition gets and keeps a decisive lead through export controls and fast scaling.
-5. **Benefits spread** through markets, state capacity and philanthropy, including to corrupt or weak states, while respecting their self-determination.
-6. **Meaning separates from work.** People find purpose in relationships and non-economic pursuits.
+1. **Capability.** Powerful AI arrives soon (as early as 2026) and runs as millions of expert-level agents, with diminishing returns to intelligence alone outside AI.
+2. **Adoption.** Markets diffuse high-value technologies over time (mobile phones are the precedent), while public health campaigns and philanthropy reach the poorest; regulation, weak institutions, corruption and opt-outs slow uptake.
+3. **Markets.** Competition lowers the cost of new treatments and technologies; growth in developing economies could reach an illustrative 20% a year, half from better economic decisions and half from diffusion.
+4. **Politics.** Democracies make the choices that spread access and protect institutions, and the risks are managed well enough for the benefits to be pursued.
 
 ## What must be true for this to occur
-- Scaling continues to Nobel-level autonomous capability on schedule.
-- Biology and health systems absorb AI-designed interventions quickly (trials, regulation, manufacturing).
-- Labs and governments cooperate on the entente without the race degrading safety, and without the coalition becoming a tool of domination.
-- A new economic settlement is found *before* comparative advantage runs out. The essay doesn't say who designs it.
-- AI owners share a "gigantic" pie broadly enough that the worst-off benefit.
+- Capability arrives on schedule and biology, health systems and regulators absorb AI-designed interventions quickly.
+- Companies, philanthropies and governments make major distribution efforts, including in countries with weak institutions.
+- A new economic settlement is found before comparative advantage runs out; the essay does not say who designs it.
+- Democracies, not authoritarian states, shape how AI is used.
 
 ## Tensions and weak points
-- **Map framing:** the map tags this "Strong REP, DIFF (aspirational)". That's accurate: replacement-level capability is assumed, and diffusion is a hope that "depends on governance".
-- The section on work is short "as a sign of a lack of clear answers". The scenario says most about health and least about the promises this goal scores most heavily (work and safety net).
-- The entente strategy concentrates power in a coalition of governments and labs, which is in tension with responsive government at home. The essay doesn't address who holds AI companies accountable.
-- The author leads a frontier lab, which creates an incentive to stress benefits. To his credit, the essay names its uncertainty and its value-laden choices.
+- The essay says most about health and least about work and income, the promises this goal weighs most. Amodei himself finds access inequality easier to solve than wealth inequality.
+- The entente of democracies concentrates power in a coalition of governments and labs, which sits uneasily with responsive government at home.
+- The author leads a frontier lab, which creates an incentive to stress benefits, though the essay names its uncertainties.
+- **Map placement:** tags become "Strong REP (long run), DIFF (aspirational)". The labour point moves slightly from (0.15, 0.55) to (0.15, 0.5), reflecting the explicit period of complementarity before replacement. The fiscal point (-0.1, 0.2) is kept, but the extract gives no tax, spending or debt projections, so public finances are inferred from growth. Close neighbours are `shumer`, `cfg-diplomacy`, `moores-law`, `cfg-decentral` and `toloui-swarm`.
 
 ## Scoring notes
-Draft scores (2/4/3/3/3) fit the "if everything goes right" reading: essentials high, work held down by the long-run end of comparative advantage. Time could arguably be 4, given Amodei's case that meaning separates from labour. Because diffusion is aspirational, a policy-off row (powerful AI, no new settlement) would score much like Korinek's AGI scenario.
+Draft scores 2/4/3/3/3, unchanged. Work is 2 because, once AI is broad and cheap, Amodei is unsure effort will matter economically in its current form. Essentials is 4: health, food and clean energy improve, with perhaps half of health gains reaching the poorest countries. Safety net is 3 because no income mechanism is chosen and UBI is called only part of a solution. Government is 3: AI could strengthen or weaken democracy. Time is 3 rather than 4: the essay's case that meaning separates from work is strong, but for the worst-off, without a settled income source, free time may mean insecurity. A policy-off reading (powerful AI with no new settlement) would score much like `korinek-agi`.

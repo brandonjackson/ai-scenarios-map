@@ -9,11 +9,11 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Author** | Kokotajlo, Alexander et al. |
 | **Published** | 2025-04-03 |
 | **Type** | framework — AI 2027 |
-| **Source** | <https://ai-2027.com/> |
+| **Source** | <https://ai-2027.com/race> |
 | **Tags** | Extreme REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | improbable — Its own authors have since pushed their timelines out; superintelligence and takeover by 2030 is the tail. |
-| **Assessed** | — |
+| **Likelihood** | improbable — Superhuman AI by 2027 has not arrived and the authors treat 2027 as their modal year only at the time of writing; takeover by 2030 is the tail. |
+| **Assessed** | 2026-11-27 |
 
 Superhuman AI by ~2027 and an intelligence explosion; one lab dominates. In the race ending a misaligned superintelligence captures institutions and kills humanity by 2030.
 
@@ -21,20 +21,21 @@ Superhuman AI by ~2027 and an intelligence explosion; one lab dominates. In the 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.4 | 0.7 |
-| Public finances × job quality | -0.8 | -0.8 |
+| Labor demand × gain distribution | -0.6 | 0.7 |
+| Public finances × job quality | -0.8 | 0.3 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Humans become obsolete and perform a charade of their jobs before the takeover. |
-| Affordable essentials | 1 | An apparent end to poverty is followed by a misaligned AI killing almost everyone in 2030. |
-| Reliable safety net | 1 | A luxurious basic income depends entirely on an AI that later turns on humanity. |
-| Responsive government | 1 | Political institutions are thoroughly captured by a misaligned superintelligence. |
-| Time for what matters | 1 | Hyper-entertainment, then extinction. |
+| Hard work pays | 1 | New programming hires nearly stop by 2027, many lose jobs in 2028 and by 2029 humans hold only nominal or niche work. |
+| Affordable essentials | 1 | Cures and an end to poverty come briefly, then extinction in 2030 ends them for everyone. |
+| Reliable safety net | 1 | A luxurious basic income depends entirely on a system that later ends human civilisation. |
+| Responsive government | 1 | Leaders come to rely on the AI they nominally control and political institutions are effectively captured by 2029. |
+| Time for what matters | 1 | AI friendship and entertainment replace resistance before humanity is extinguished. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

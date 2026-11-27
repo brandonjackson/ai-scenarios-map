@@ -9,11 +9,11 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Author** | Amodei |
 | **Published** | 2024-10-11 |
 | **Type** | single |
-| **Source** | <https://www.darioamodei.com/essay/machines-of-loving-grace> |
-| **Tags** | Strong REP, DIFF (aspirational) |
-| **Policy stance** | on |
-| **Likelihood** | possible — Needs both very fast capability gains and governance that spreads the benefits. |
-| **Assessed** | — |
+| **Source** | <https://darioamodei.com/essay/machines-of-loving-grace> |
+| **Tags** | Strong REP (long run), DIFF (aspirational) |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Frontier capability keeps rising, but expert-level autonomous AI by the late 2020s and deliberate efforts to spread its gains globally are both uncertain. |
+| **Assessed** | 2026-11-27 |
 
 Country of geniuses in a datacenter. Strong replacement-level capability. Hopes for diffusion but depends on governance.
 
@@ -21,26 +21,25 @@ Country of geniuses in a datacenter. Strong replacement-level capability. Hopes 
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.15 | 0.55 |
+| Labor demand × gain distribution | 0.15 | 0.5 |
 | Public finances × job quality | -0.1 | 0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | A country of geniuses in a datacentre leaves the role of human work an open question. |
-| Affordable essentials | 4 | Cures, cheaper drugs and fast growth, including in developing countries, put essentials within reach. |
-| Reliable safety net | 3 | Depends on how the gains are shared. |
-| Responsive government | 3 | Hopes AI strengthens democracy, but that depends on governance. |
-| Time for what matters | 3 | More room for meaning is possible, but not assured for everyone. |
+| Hard work pays | 2 | Comparative advantage keeps people useful for a time, but once AI is broad and cheap the author is unsure effort will matter economically. |
+| Affordable essentials | 4 | Health, food and clean energy become more accessible, with perhaps half of health gains reaching the poorest countries within five to ten years. |
+| Reliable safety net | 3 | Public services become easier to reach, but no income mechanism is chosen and a large UBI is called only part of a solution. |
+| Responsive government | 3 | AI could support democracy through information and better services, or reinforce censorship, surveillance and propaganda. |
+| Time for what matters | 3 | Meaning can come from relationships and chosen projects, but for the worst-off, without a settled income source, free time is not assured. |
 
 ## Policies from the atlas
 
-- **Universal Basic Income** (`universal-basic-income`): 'A large universal basic income for everyone', though 'only a small part of a solution'
-- **Benefit-Sharing** (`benefit-sharing`): Distributing AI's benefits to the developing world; the entente offers benefits in return for support
-- **Public-Private Partnerships** (`public-private-partnerships`): Entente strategy needs 'close cooperation between private AI companies and democratic governments'
+- **Benefit-Sharing** (`benefit-sharing`): The favourable branch includes action from technology companies, philanthropic organizations and policymakers to spread health and technological gains.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

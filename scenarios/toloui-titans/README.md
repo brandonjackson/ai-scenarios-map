@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Toloui |
+| **Author** | Ramin Toloui |
 | **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Market concentration is real; it becomes this scenario if capabilities move from augmenting to replacing. |
-| **Assessed** | — |
+| **Likelihood** | possible — Frontier concentration is real, but the essay notes monopoly over a broadly labour-replacing technology is rare as a market outcome, and replacement-level capability has not arrived. |
+| **Assessed** | 2026-11-27 |
 
 Winner-take-all + labor-replacing. Monopolistic control of broadly displacing technology. The worst quadrant.
 
@@ -28,13 +28,14 @@ Winner-take-all + labor-replacing. Monopolistic control of broadly displacing te
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Monopolistic control of broadly displacing technology. |
-| Affordable essentials | 2 | Monopolists set prices for what everyone needs. |
-| Reliable safety net | 1 | Displacement and concentrated gains drain the tax base. |
-| Responsive government | 1 | Monopoly power dominates government. |
-| Time for what matters | 2 | Lost work brings insecurity rather than free time. |
+| Hard work pays | 1 | Broad replacement reduces labour demand at prevailing wages while capital controlling the technology takes the gains. |
+| Affordable essentials | 2 | Concentration brings pricing power, with the compulsory-milling analogue of high user fees. |
+| Reliable safety net | 1 | Displacement and concentrated gains meet a tax code that favours capital, with larger supports only recommended. |
+| Responsive government | 1 | Alliances between government and AI corporate interests could distort democratic control, as authorities enforced monopolies historically. |
+| Time for what matters | 3 | Not addressed: the extract has no evidence on time for family, community or meaning. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

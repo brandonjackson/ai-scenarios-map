@@ -12,8 +12,8 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Source** | <https://www.gov.uk/government/publications/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai> |
 | **Tags** | Strong REP, Strong CONC |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Market concentration and the UK's reliance on US models are real; the sudden displacement waits on remote-work-level capability. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Frontier concentration and the UK's reliance on US models are real today; the sudden displacement waits on remote-work-level capability. |
+| **Assessed** | 2026-11-27 |
 
 Two US companies command unprecedented market share in a winner-takes-all economy. Sudden workforce shifts, with only half of those replaced finding new work. Lost consumer demand almost cancels the productivity boom, profits leak overseas, tax receipts fall and AI becomes the decisive political issue. Policy interventions deliberately excluded.
 
@@ -28,13 +28,14 @@ Two US companies command unprecedented market share in a winner-takes-all econom
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Most remote-capable roles are automated from 2029, only half of those replaced find work, and entry-level hiring collapses. |
-| Affordable essentials | 3 | AI improves healthcare, but falling wages and weak demand leave many less able to afford the gains. |
-| Reliable safety net | 2 | Falling income-tax receipts meet rising welfare costs just as unemployment reaches recession levels. |
-| Responsive government | 2 | Two US firms control the leading systems, profits leak overseas and AI becomes the decisive, divisive political issue. |
-| Time for what matters | 2 | Unemployment and insecure work bring strain rather than free time. |
+| Hard work pays | 2 | Only about half of displaced people are re-employed, often at lower pay and with less security, and entry-level hiring collapses, while experts stay in demand. |
+| Affordable essentials | 3 | AI-assisted diagnosis and care improve healthcare, offset by falling wages and purchasing power. |
+| Reliable safety net | 2 | Lower labour income tax and rising welfare spending squeeze public finances, with no new benefit and further deterioration without reform. |
+| Responsive government | 2 | Large protests make AI a decisive political issue, people intervene less in decisions and the UK loses autonomy and leverage as a technology importer. |
+| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on it. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

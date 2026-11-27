@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | CFG |
-| **Published** | 2025 |
+| **Author** | Bengüsu Özcan, Daan Juijn, Jakob Graabak & Sam Bogerd (Centre for Future Generations) |
+| **Published** | 2025-07-10 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
 | **Tags** | Strong REP, CONC (licensed) |
 | **Policy stance** | on |
-| **Likelihood** | improbable — Needs a safety crisis and an IAEA-style regime with a 25% AI tax. |
-| **Assessed** | — |
+| **Likelihood** | improbable — Needs a serious but survivable safety crisis, a verifiable US–China treaty under IAEA oversight and a 25% AI tax by the early 2030s, none of which current diplomacy points towards. |
+| **Assessed** | 2026-11-27 |
 
 A safety crisis triggers an IAEA-style international regime: licensed labs, audits and a 25% AI tax that funds redistribution while growth reaches 7% a year.
 
@@ -21,25 +21,27 @@ A safety crisis triggers an IAEA-style international regime: licensed labs, audi
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.1 | 0.45 |
-| Public finances × job quality | -0.1 | 0.5 |
+| Labor demand × gain distribution | -0.1 | 0.55 |
+| Public finances × job quality | -0.25 | 0.5 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Automation is visible by 2029 but managed, with education reformed and leisure growing more acceptable. |
-| Affordable essentials | 4 | AI diagnostics, breakthrough medicines and new materials, with growth reaching 7% a year. |
-| Reliable safety net | 4 | A 25% AI tax and lump-sum licence fees pay for redistribution. |
-| Responsive government | 3 | An IAEA-style international regime prevents monopoly abuse, though licensing concentrates power among licensed firms. |
-| Time for what matters | 4 | Growing acceptance of leisure time reshapes social structures. |
+| Hard work pays | 2 | Unemployment rises in places with weaker labour protections once cognitive automation is widespread, and traditional skills lose relevance. |
+| Affordable essentials | 4 | AI diagnostics, personalised treatments and new medicines improve access and health outcomes, though household prices are not addressed. |
+| Reliable safety net | 4 | Governments shift from retraining to large-scale wealth redistribution, funded in part by treaty fees and a 25% AI tax, with benefit design unspecified. |
+| Responsive government | 3 | Coordination improves trust after public pressure, but a few licensed firms gain outsized power and exclusion remains a risk. |
+| Time for what matters | 4 | Families adapt to increased leisure time through new community structures and norms. |
 
 ## Policies from the atlas
 
-- **Restructuring International Organizations** (`restructuring-international-organizations`): A Global AI Security Institute modelled on the IAEA
-- **Regulatory Agencies** (`regulatory-agencies`): Treaty-based licensing regime with standardised alignment and audits
+- **Restructuring International Organizations** (`restructuring-international-organizations`): Under the treaty, countries annually review a capability threshold, and the IAEA takes on verification.
+- **Regulatory Agencies** (`regulatory-agencies`): Developers submit to standardized alignment, cybersecurity monitoring and on-site audits.
+- **Benefit-Sharing** (`benefit-sharing`): Lump-sum fees and a 25% AI tax are redistributed among treaty nations by population size and development needs.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

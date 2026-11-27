@@ -1,23 +1,23 @@
 # The Age of Displacement — summary
 
-*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (January 2026). Scenarios are global and built on two axes: AI advancement (exponential or incremental) and workforce readiness (widespread or limited).*
+*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (7 January 2026). Four exploratory global scenarios on two axes, incremental versus exponential AI advancement and limited versus widespread workforce readiness, built from research and workshops with chief strategy officers to stress-test business decisions. No probabilities; the directions of change in Table 1 are illustrative. Read from the full 20-page paper; see `extract.md`.*
 
-**The scenario.** "Exponential AI advancement outpaces the capacity of the workforce to adapt." Education systems "entangled in traditional approaches" fail to produce adaptable talent, a "culture of accelerationism takes hold", and "automation has become significantly cheaper than mass upskilling and reskilling of workers." Regulation is tried but "competition renders restrictions economically and politically untenable."
+**The scenario.** AI advances faster than schools and training systems can prepare workers. Firms automate to cover skills shortages, and lower deployment costs make automation cheaper than reskilling, which entrenches dependence on AI. End-to-end automation absorbs more than half of tasks overall and nearly 90% in highly exposed sectors. A handful of companies control foundation models, compute and data, and with them the cost of and access to automation. "Workforce displacement is no longer transitory."
 
 ## Hard work pays
-Broken. "Workforce displacement is no longer transitory." Whole occupational families shrink or vanish; technology does more than half of all tasks and nearly 90% in highly exposed sectors. "Labour mobility has nearly dried out by 2030." Care and gig work absorb some displaced people but "cannot absorb all", and robotics threatens them too. "Wages decline globally."
+Broken. Displacement persists across skill levels, entry pathways narrow and some occupational families disappear. New complementary roles emerge without enough trained applicants, and labour mobility has nearly dried up by 2030. Human-centred and gig work absorb only some displaced people and are themselves exposed to further automation. Wages decline globally.
 
 ## Affordable essentials
-Broken for many. "Income inequality and poverty reach a historic level", and governments face rising costs for "the supply of basic services." Consumer confidence falls below its historical low.
+Broken for many. Poverty and inequality reach historic levels, consumer confidence falls below its historical low of 44, and public provision of basic services faces fiscal pressure. Access to and prices of automation depend on a few powerful providers, and data-centre demand outruns grid capacity.
 
 ## Reliable safety net
-Broken. "Social safety nets stretch beyond capacity." "Tax bases shrink, and governments face rising fiscal burdens from mass unemployment, retraining needs and the supply of basic services." Some governments turn to taxing AI.
+Broken. Tax bases shrink while the costs of unemployment, retraining and basic services rise, and safety nets exceed their capacity. Some governments consider taxing AI technologies and applications. Polarisation erodes informal support, and countries that fail to adapt welfare see persistent unemployment.
 
 ## Responsive government
-Badly weakened. "A handful of state-like companies controlling foundational models, compute and proprietary datasets" gain "unchecked influence". Trust in institutions declines amid misinformation and AI-generated content. Some firms hand decisions to AI agents with little oversight, and governments "grapple with the question of democratic oversight in a world where key decisions are outsourced to autonomous systems."
+Badly weakened. Attempts to regulate mass deployment become economically and politically untenable under competition, and international harmonisation deadlocks. Trust falls as misinformation and AI-generated content displace traditional media, and governments question democratic oversight when autonomous systems make key decisions.
 
 ## Time for what matters
-Worse. "Polarization erodes informal networks", and countries that fail to adapt welfare see "persistent unemployment and rising political polarization."
+Not addressed directly, though polarisation eroding informal support networks bears on family and community life.
 
 ## Bottom line
-The WEF's worst case: economies "race ahead technologically but fracture socially".
+The WEF's worst case: economies race ahead technically while their labour markets, public finances and politics fracture.

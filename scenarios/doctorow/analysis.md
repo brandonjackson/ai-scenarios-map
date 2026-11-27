@@ -1,26 +1,26 @@
 # The Reverse Centaur's Guide to Criticizing AI — assumptions analysis
 
 ## Policy on or off?
-**Policy off now, with a clear prescription.** The harm comes from markets and monopoly power operating without restraint. Doctorow's remedies are specific and political: pop the bubble, keep AI output uncopyrightable, resist new training copyrights, and above all re-legalise sectoral bargaining. He also expects workers to act themselves, through unions and strikes, rather than relying on government.
+**Off, with a clear prescription.** The trajectory is market-driven: employers deploy the tools under existing labour law. The extract labels the stance "mixed" because existing checks (the human-authorship rule, collective bargaining where it exists) slow displacement, but these are current law rather than new policy the scenario depends on. Doctorow's remedies (keep human authorship, restore sectoral bargaining, organise workers and users together, no training copyright) are recommendations, so there are no Policy Atlas links. A policy-on row with sectoral bargaining restored would be a natural contrast.
 
 ## Big assumptions
-1. **AI capability is limited and plateauing.** It is "just a word guessing program". Scaling won't produce human-level minds ("breeding horses ... until one ... gives birth to a locomotive"). He doesn't think AI "is that important of a technology."
-2. **Investment is driven by narrative, not use.** Hundreds of billions flow because monopolists need growth stories, not because returns are there.
-3. **Firms will replace workers anyway.** Bosses fire workers for AI that does the job worse, because the savings show up on the books and the quality loss doesn't, at least at first.
-4. **The bubble bursts.** Capital losses fall on ordinary savers, and something useful is left behind (cheap GPUs, open models).
-5. **Automation blindness is real.** People can't stay alert for rare errors, so human-in-the-loop oversight fails in exactly the cases that matter.
+1. **Capability is limited.** AI assists with second opinions, transcription, summarising and editing, but makes "statistically plausible errors" and cannot replace a whole worker. The largest models depend on continuing investment.
+2. **Adoption follows the pitch, not the performance.** Buyers choose uses that cut payroll and let them claim a human is in control.
+3. **Markets are concentrated.** Monopolists need growth stories; concentrated buyers of creative work can take new rights from creators.
+4. **The bubble bursts.** More than a third of the stock market is tied to seven AI firms, with circular commitments; a collapse closes many providers and facilities.
 
 ## What must be true for this to occur
-- Frontier AI stays unreliable for high-stakes work (code security, diagnosis) despite continued investment.
-- Executives keep cutting headcount on the strength of vendor promises.
-- Capital keeps flowing until losses force a correction, and the correction hits retail savings and pensions.
-- Labour stays fragmented: no sectoral bargaining outside a few creative guilds.
+- AI stays unreliable for high-stakes work while firms keep cutting staff on vendor promises.
+- Human-in-the-loop oversight fails because reviewers lack practice to catch rare errors.
+- Investment runs ahead of returns until a correction, and that correction reaches household retirement savings.
+- Labour stays without sectoral bargaining outside a few sectors.
 
 ## Tensions and weak points
-- **Capability risk:** the argument depends on AI staying a "word guesser". If capability keeps improving as Shumer, AI 2027 or Citrini describe, reverse centaurs become *replaced* workers and the bubble may not burst. The diagnosis of power and accountability would still hold. The forecast wouldn't.
-- Doctorow's own examples (senior coders who use AI well, the D&D game) show real centaur uses. His case is that money is aimed at reverse centaurs, not that good uses can't exist.
-- Bubbles vs. intelligence crises: Doctorow and Citrini both foresee financial pain from AI, for opposite reasons (AI fails versus AI works too well). Both point to retirement savings and credit as the channel.
-- Compare Chiang: both see AI's main function as shifting power and blame from bosses to "the algorithm".
+- **Capability risk:** the forecast rests on AI staying unreliable. If capability keeps improving, reverse centaurs become replaced workers and the bubble may not burst. The diagnosis of power and blame would still hold.
+- **Map placement:** the old "Limited impact" tag and mild-augmentation position understated how much of the lecture is about dismissals. The map now puts it just on the replacement side of centre (`y_labor` 0.1): limited capability, but job loss is the main effect. Gains are strongly concentrated (`x_labor` −0.65).
+- The extract has nothing on government finances; the fiscal placement (−0.4, −0.25) rests on job loss and the bust.
+- The lecture's own centaur examples (narrow tools on workers' terms) show good uses exist; the argument is about where the money goes.
+- Close to `chiang` (AI as cover for management) and `acemoglu`; shares the financial-pain channel with `citrini` for the opposite reason (AI fails rather than works too well).
 
 ## Scoring notes
-Draft scores (2/3/3/3/2). Given the bubble argument, safety net could be 2, since a crash would hit pensions and savings. Government at 3 is generous against Doctorow's account of monopoly power. His positive programme (sectoral bargaining) would justify a policy-on row.
+Draft scores 2/3/3/3/2. Work is 2: workers lose jobs to systems that cannot do them, with experienced staff targeted. Time is 2: those kept on are monitored and made to carry the blame for machine errors. Essentials, safety net and government are 3 because the extract's social-contract sections are silent on them; worse, dearer services (radiology) and bubble losses in retirement savings are noted but are not about essentials or public support.

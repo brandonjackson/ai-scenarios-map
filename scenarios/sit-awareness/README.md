@@ -13,7 +13,7 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Tags** | Extreme REP, CONC |
 | **Policy stance** | mixed |
 | **Likelihood** | possible — Scaling continues, but AGI by 2027 and a government-run project look less likely than when it was written. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
 AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Government Project takes over.
 
@@ -28,18 +28,18 @@ AGI by ~2027, superintelligence by decade's end. Trillion-dollar clusters. Gover
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Superintelligence by the end of the decade makes most human labour redundant. |
-| Affordable essentials | 2 | Trillion-dollar compute clusters compete with households for energy. |
-| Reliable safety net | 2 | Support systems are not designed for the speed of change. |
-| Responsive government | 2 | A national-security Project takes over, with decisions made out of public view. |
-| Time for what matters | 2 | Life is reorganised around a race rather than around people. |
+| Hard work pays | 1 | Drop-in remote workers automate essentially all remote work and robotics later physical work, with no career paths or compensation described. |
+| Affordable essentials | 2 | Household prices are not addressed, but clusters drawing over 20% of US electricity output make power a scarce input that competes with households. |
+| Reliable safety net | 2 | Safety net is not addressed and tax bases are not modelled, while the investment case rests on replacing white-collar pay. |
+| Responsive government | 2 | Strategic control concentrates in a national-security programme, defended by appeal to constitutional checks. |
+| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on time. |
 
 ## Policies from the atlas
 
-- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Trillion-dollar clusters built in the US, with US electricity output up by tens of percent
-- **Public-Private Partnerships** (`public-private-partnerships`): 'The Project': a government AGI programme run with the leading labs
+- **Public-Private Partnerships** (`public-private-partnerships`): A national-security project coordinates frontier work and pools resources as the geopolitics and danger become apparent.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

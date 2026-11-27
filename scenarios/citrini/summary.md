@@ -1,23 +1,23 @@
 # The 2028 Global Intelligence Crisis — summary
 
-*Citrini Research (Citrini & Alap Shah), 22 February 2026 · "a scenario, not a prediction", written as a macro memo from June 2028*
+*Citrini Research, "The 2028 Global Intelligence Crisis: A Thought Exercise in Financial History, from the Future" (22 February 2026). A macro memo dated 30 June 2028; Alap Shah proposed the question and wrote companion pieces. The authors call it "a scenario, not a prediction" and assign no probability. Read from the full memo, including the Preface; see `extract.md`.*
 
-**The scenario.** AI works *better* than expected, and that is the problem. Agentic coding jumps in late 2025. Enterprises cut SaaS contracts and headcount. Companies "laid off workers, then used the savings to buy more AI capability, which let them lay off more workers": the "human intelligence displacement spiral", "a feedback loop with no natural brake." Productivity booms and nominal GDP grows, but the output is "Ghost GDP" that "never circulates through the real economy". By June 2028, unemployment is 10.2%, the S&P is down 38%, private-credit software loans have defaulted (Zendesk's $5bn facility marked to 58 cents), insurers backing private credit are in trouble, and prime mortgages in tech cities are going delinquent.
+**The scenario.** AI works, and that is the problem. Agentic coding lets firms build or threaten to build their own software, and purchasing agents strip the rents from businesses that live on inertia and intermediation. Firms keep output up with fewer workers and spend the savings on more automation. Output per hour grows faster than at any time since the 1950s, but less of it reaches the consumer economy ("Ghost GDP"). High-income households cut spending, the US is in recession by Q2 2027, private-credit losses on software loans spread to insurers, and by June 2028 unemployment is 10.2% and the S&P 500 is 38% below its October 2026 high, with a prime-mortgage crisis still possible.
 
 ## Hard work pays
-Broken. White-collar workers, 50% of employment, are displaced or forced down the ladder. A $180,000 Salesforce product manager ends up driving for Uber on $45,000. Overqualified workers flood service and gig jobs and push wages down there too. Those still employed work "twice as hard ... just to not get fired". Labour's share of GDP falls from 56% to 46% in four years. "A Claude agent can do the work of a $180,000 product manager for $200/month."
+Broken. Layoffs spread from software to finance, consulting, law and marketing. White-collar workers were half of employment; one displaced product manager goes from $180,000 to $45,000 in gig work. Displaced professionals crowd into service jobs and bid down wages there, while those still employed work harder to keep their jobs. Labour's share of GDP falls from 56% in 2024 to 46% four years later.
 
 ## Affordable essentials
-Paradoxical. Agents strip out "friction": real-estate commissions fall below 1%, insurance and subscription rents disappear, delivery fees go to drivers. But households borrowed "against a future they can no longer afford to believe in." Prime mortgages "were good on day one. The world just…changed."
+Strained. Agents cut some prices and fees (insurance renewals, property commissions, card interchange), and housing values fall in San Francisco, Seattle and Austin. But households lose the incomes that service their existing debts: some see debt-to-income ratios double, borrowers draw on credit and retirement savings to keep up mortgage payments, and prime delinquencies rise in technology and finance centres.
 
 ## Reliable safety net
-Broken. "The federal government's revenue base is essentially a tax on human time." Receipts run 12% below forecast while outlays rise. "Automatic stabilizers were built for temporary job losses, not structural displacement." States that depend on income tax see their bonds price in default risk. India's IT-export model collapses and the IMF is called in.
+Broken. Automatic stabilisers assume people go back to work after a temporary job loss; structural displacement keeps outlays high while income- and payroll-tax receipts fall, running 12% below the CBO baseline through Q1 2028. More output goes to capital and compute, which yields less tax per unit. States that rely on income tax come under bond-market pressure. "The federal government's revenue base is essentially a tax on human time."
 
 ## Responsive government
-Lagging and polarised. The government "seems, quite frankly, confused." The proposed "Transition Economy Act" (transfers funded by a compute tax) and "Shared AI Prosperity Act" (a public stake in AI infrastructure) stall in partisan fights. Rate cuts and quantitative easing can't fix a real-economy shock. "The policy response is moving at the pace of ideology, not reality."
+Lagging. The Fed cuts rates and weighs its liquidity tools, and Washington debates transfers funded by a compute tax and a public stake in AI infrastructure, but partisan fights over redistribution, taxation and competition hold the package up at the memo's horizon. Faith in rescue declines; "Occupy Silicon Valley" protests follow.
 
 ## Time for what matters
-Worse. Insecurity, longer hours and "Occupy Silicon Valley" blockades of AI labs.
+Worse. Employed professionals work harder and save more out of fear; displaced ones take gig work at much lower pay.
 
 ## Bottom line
-"The first time in history the most productive asset in the economy has produced fewer, not more, jobs." The social contract fails through the financial system as much as the labour market. The authors' last word: "the real villain is time."
+A fast, policy-off displacement shock that breaks the social contract through household balance sheets and the tax base as much as through jobs. The authors' last word: "the real villain is time."

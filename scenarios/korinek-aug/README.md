@@ -6,16 +6,16 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Korinek / IMF |
+| **Author** | Anton Korinek (IMF) |
 | **Published** | 2023-12 |
 | **Type** | framework — Korinek / IMF |
 | **Source** | <https://www.imf.org/en/publications/fandd/issues/2023/12/scenario-planning-for-an-agi-future-anton-korinek> |
 | **Tags** | Strong AUG, DIFF |
 | **Policy stance** | off |
 | **Likelihood** | plausible — Matches much current use, though gains are not yet spreading clearly through wages. |
-| **Assessed** | — |
+| **Assessed** | 2026-11-27 |
 
-AI makes workers more productive without replacing them. Standard productivity boost. Gains spread through labor markets.
+AI automates a growing range of cognitive tasks. Workers move into new, on average more productive jobs, and competitive wages keep rising while human labour remains scarce.
 
 ## Map position
 
@@ -28,13 +28,14 @@ AI makes workers more productive without replacing them. Standard productivity b
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | Workers become more productive without being replaced, and gains spread through wages. |
-| Affordable essentials | 3 | Standard productivity growth leaves the cost of essentials broadly unchanged. |
-| Reliable safety net | 3 | Employment holds, so the safety net is not stretched. |
-| Responsive government | 3 | Institutions are not challenged. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 4 | Displaced workers move to more productive jobs and the competitive wage nearly doubles over 30 years, with no group named as left behind. |
+| Affordable essentials | 3 | Not addressed; ordinary growth continues with nothing said about the cost of essentials. |
+| Reliable safety net | 3 | Employment and wages hold, so the safety net is not stretched; the advice to stress-test it applies across the set. |
+| Responsive government | 3 | Not addressed for this scenario; institutions are not challenged. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

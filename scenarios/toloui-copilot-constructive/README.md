@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Toloui |
+| **Author** | Ramin Toloui |
 | **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC (checked) |
 | **Policy stance** | on |
-| **Likelihood** | possible — Needs antitrust, interoperability and tax reform that are only partly in motion. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs a guardrails-and-triggers competition regime and enforcement capacity that are only partly in place. |
+| **Assessed** | 2026-11-27 |
 
 Few dominant platforms own the AI layer, but antitrust guardrails, interoperability and labour-tax reform keep their power in check and spread the gains.
 
@@ -28,24 +28,19 @@ Few dominant platforms own the AI layer, but antitrust guardrails, interoperabil
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | With labour-tax reform and training, platforms augment most workers rather than a polarised few. |
-| Affordable essentials | 3 | Interoperability, portability and antitrust guardrails curb rents on the AI layer. |
-| Reliable safety net | 3 | Payroll-tax cuts funded by capital taxes and a public option ease the cost of hiring and of benefits. |
-| Responsive government | 3 | A "guardrails and triggers" competition regime keeps regulators able to act on platform power. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Training, apprenticeships and lower labour taxes can make complementarity more attractive, but they are options and the polarisation precedent still applies to lower-skill workers. |
+| Affordable essentials | 3 | Interoperability, portability and limits on exclusivity curb bottleneck abuse and rents on the AI layer. |
+| Reliable safety net | 3 | Employment holds, and a lower hiring wedge and stronger supports can respond to actual displacement. |
+| Responsive government | 3 | Enforcement relies on AI and cloud expertise at DOJ and FTC, with disclosure, human review and appeals for consequential decisions. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Policies from the atlas
 
-- **Antitrust Law** (`antitrust-law`): The constructive Copilot Empire needs modernised antitrust to rein in monopolistic abuses
-- **Public Utility Regulation** (`public-utility-regulation`): Interoperability, portability and cloud non-discrimination rules
-- **Regulatory Agencies** (`regulatory-agencies`): Expanded AI teams at DOJ and FTC
-- **Automation/Robot Taxes** (`automation-robot-taxes`): Higher taxes on capital, or on super-normal AI rents under winner-take-all dynamics
-- **Employer Tax Breaks** (`employer-tax-breaks`): Cut payroll taxes to lower the cost of hiring
-- **Procurement Policies** (`government-procurement-policies`): Procurement that demands worker-augmenting AI
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Training grants and WIOA programmes
-- **AI Liability** (`ai-liability`): Modernised tort standards for AI
+- **Antitrust Law** (`antitrust-law`): An advance roadmap of competition guardrails and escalation triggers across cloud/compute, model and application layers defines the constructive variant.
+- **Public Utility Regulation** (`public-utility-regulation`): An advance roadmap of competition guardrails and escalation triggers across cloud/compute, model and application layers defines the constructive variant.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

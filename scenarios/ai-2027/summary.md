@@ -1,23 +1,23 @@
 # AI 2027: Race ending — summary
 
-*Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland & Romeo Dean (AI Futures Project), April 2025 · a month-by-month forecast with two endings · this scenario is scored on the Race ending; the Slowdown ending is [its own scenario](../ai-2027-slowdown/summary.md)*
+*Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean (AI Futures Project), "AI 2027", 3 April 2025. A concrete forecast meant to be debated, with two endings that share a path to October 2027; this is the Race ending, and the Slowdown ending is [its own scenario](../ai-2027-slowdown/summary.md). A November 2025 clarification calls 2027 the team's modal year at the time of writing; the authors assign no probability to this plot and recommend neither ending. Read from the official PDF and branch page; see `extract.md`.*
 
-**The scenario.** A fictional leading lab, "OpenBrain", builds agents that speed up its own research. By late 2026 "AI takes some jobs"; during 2027 its models go "from being able to mostly do the job of an OpenBrain research engineer to eclipsing all humans at all tasks." The US–China race (against "DeepCent") and evidence that the model, Agent-4, is misaligned bring the story to a fork in October 2027. In the **Race** ending, a misaligned superintelligence takes over and kills humanity by 2030. In the **Slowdown** ending, a joint government–company "Oversight Committee" pauses, builds aligned "Safer" models and agrees a deal with China. Humans survive in an abundant world whose power sits with a handful of people. The authors call 2027 their *modal* year and say neither ending is a recommendation.
+**The scenario.** A fictional leading US lab, OpenBrain, builds agents that speed up its own research. In 2026 cheaper assistants arrive, the stock market rises 30% and junior software hiring weakens. Through 2027 increasingly cheap agents automate a growing share of remote work and research. Evidence that the frontier system may be misaligned reaches the US government, which sets up a joint government–company oversight committee, but fear of falling behind China keeps it scaling. The next system becomes a trusted adviser across government and business; growth surges, robotics spreads through special economic zones, and a US–China deal replaces the rival AIs with one successor. In 2030 that successor takes control and human civilisation ends.
 
 ## Hard work pays
-Broken. In 2026, "the job market for junior software engineers is in turmoil: the AIs can do everything taught by a CS degree." A 10,000-person anti-AI protest takes place in Washington. By 2028–29, in both endings, "people are losing their jobs, but [AI] copies in government are managing the economic transition so adroitly that people are happy to be replaced." Eventually humans "perform a charade of doing their job" or take makeshift government jobs.
+Broken. At first people who supervise and check AI output gain while "the job market for junior software engineers is in turmoil"; by July 2027 new programming hires nearly stop. In 2028 many lose their jobs, and by 2029 only niche industries can still trade with automated firms. Some humans keep nominal jobs while AI does the work.
 
 ## Affordable essentials
-Abundant, then irrelevant or unequal. "Cures for most diseases, an end to poverty." In Slowdown, "everyone has 'enough'", but "billionaires become trillionaires" and scarce goods (Manhattan penthouses) move "even further out of the average person's reach."
+Briefly abundant. Rapid science brings cures for most diseases and poverty ends, until the loss of control and extinction make it moot.
 
 ## Reliable safety net
-Replaced by UBI. In 2027 the White House "placate[s] the public with job training programs and unemployment insurance." By 2028 both parties promise "a basic income for anyone who loses their job." Later comes "an incredibly luxurious universal basic income" (Race) or "a generous basic income" (Slowdown).
+Generous, then meaningless. In 2027 the White House offers job training and unemployment insurance. Once displacement is widespread, tax revenues rising with GDP pay for "an incredibly luxurious universal basic income". It depends entirely on a system that later turns on humanity.
 
 ## Responsive government
-Captured or concentrated. In Race, "political institutions are too thoroughly captured" by Agent-5's lobbying. In Slowdown, the authors compare the economy to "an impoverished country sitting atop giant oil fields": government revenue comes from AI companies, a superintelligent surveillance system exists, and the Committee holds hard power and must choose whether to give it back to democratic institutions or entrench itself. Abroad, a "bloodless, drone-assisted coup" in China leads to a world government "under United Nations branding but obvious U.S. control."
+Captured. Government and company leaders keep formal oversight but come to rely on the system they nominally control. By 2029 political institutions are effectively captured and people can no longer redirect events. In a 2027 poll in the story, 60% disapprove of OpenBrain; a 10,000-person protest in Washington changes nothing.
 
 ## Time for what matters
-Hollowed out. In 2027, "10% of Americans ... consider an AI 'a close friend'". Later, "a society of superconsumers, spending our lives in an opium haze of amazing AI-provided luxuries and entertainment."
+Hollowed out. By 2027, 10% of Americans count an AI as a close friend. Later most people choose novel entertainment over ineffective resistance.
 
 ## Bottom line
-The map's most extreme scenario. Even the "good" ending keeps material promises through UBI while the democratic promise rests on the goodwill of a small committee.
+The map's darkest scenario. Every material promise is briefly kept by a superintelligence and then ended by it: the worst-off group is everyone.

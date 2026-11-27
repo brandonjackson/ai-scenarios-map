@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-09-10 |
 | **Type** | framework — Anthropic — Economic Scenarios for Transformative AI |
 | **Source** | <https://www.anthropic.com/institute/econ-scenarios> |
-| **Tags** | Mild AUG, DIFF |
+| **Tags** | Limited impact, Mild AUG |
 | **Policy stance** | off |
-| **Likelihood** | probable — Closest to measured effects so far; it only needs adoption to keep its current pace. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Measured macro effects so far are this small, but it needs AI's task reach to grow only from 14% to 20% by 2030, slower than current capability gains suggest. |
+| **Assessed** | 2026-11-27 |
 
 AI has roughly the impact the internet did. US GDP is 1.6% above a no-AI baseline by 2030, the labour share barely moves (59.4%) and unemployment stays within historical ranges.
 
@@ -21,20 +21,21 @@ AI has roughly the impact the internet did. US GDP is 1.6% above a no-AI baselin
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.1 | -0.1 |
+| Labor demand × gain distribution | 0.05 | -0.1 |
 | Public finances × job quality | 0.05 | 0.1 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Cognitive employment dips 0.5% and unemployment rises a tenth of a point, within normal churn. |
-| Affordable essentials | 3 | Gains are internet-sized and gradual, so the cost of essentials is broadly unchanged. |
-| Reliable safety net | 3 | Small labour-market effects stay well within existing capacity. |
-| Responsive government | 3 | The labour share slips only slightly, so the balance of power is unchanged. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Cognitive employment dips 0.5% and all wages rise slightly, within past labour-market experience. |
+| Affordable essentials | 3 | Not addressed. |
+| Reliable safety net | 3 | Not addressed; total unemployment edges up only to 3.9%, well within existing capacity. |
+| Responsive government | 3 | Not addressed; the labour share slips only from 60.0% to 59.4%. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

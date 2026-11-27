@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Toloui |
+| **Author** | Ramin Toloui |
 | **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
-| **Tags** | Strong REP, DIFF |
+| **Tags** | Strong REP, Mild DIFF |
 | **Policy stance** | off |
-| **Likelihood** | possible — Needs replacement-level capability and rapid commoditisation at the same time. |
-| **Assessed** | — |
+| **Likelihood** | possible — Early payroll data show lower employment for young workers in exposed jobs, but the quadrant needs replacement-level capability and rapid commoditisation at once. |
+| **Assessed** | 2026-11-27 |
 
 Fast-follower + labor-replacing. Rapid diffusion, commoditization. Massive displacement but no single actor captures gains.
 
@@ -21,20 +21,21 @@ Fast-follower + labor-replacing. Rapid diffusion, commoditization. Massive displ
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.5 | 0.48 |
+| Labor demand × gain distribution | 0.25 | 0.48 |
 | Public finances × job quality | -0.35 | -0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 1 | Rapid, broad displacement leaves effort with nowhere to go. |
-| Affordable essentials | 4 | Commoditisation drives prices down. |
-| Reliable safety net | 2 | Massive displacement overwhelms benefits built for short job losses. |
-| Responsive government | 3 | No single actor captures the gains or the state. |
-| Time for what matters | 2 | Displacement brings insecurity rather than free time. |
+| Hard work pays | 1 | Replacement at prevailing wages, falling entry-level employment and the precedent of decades of stagnant working-class wages. |
+| Affordable essentials | 3 | Not addressed: only the cost of AI falls, and the historical food-price cut came from Corn Law repeal, a policy response. |
+| Reliable safety net | 2 | Strong displacement meets supports built for short job losses; the larger supports are only recommended. |
+| Responsive government | 3 | Not addressed beyond the priority of maintaining social cohesion; no single actor captures the state. |
+| Time for what matters | 2 | The analogues show worsening health and deteriorating social indicators in displaced communities. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

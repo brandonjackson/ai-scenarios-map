@@ -7,13 +7,13 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | | |
 | --- | --- |
 | **Author** | World Economic Forum |
-| **Published** | 2026-01-08 |
+| **Published** | 2026-01-07 |
 | **Type** | framework — WEF — Four Futures for Jobs |
 | **Source** | <https://www.weforum.org/publications/four-futures-for-jobs-in-the-new-economy-ai-and-talent-in-2030/> |
 | **Tags** | Mild REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | probable — Uneven gains, skills shortages and leading firms pulling ahead describe current conditions. |
-| **Assessed** | — |
+| **Likelihood** | probable — Uneven gains, skills shortages, pressure on entry-level work and leading firms pulling ahead describe current conditions. |
+| **Assessed** | 2026-11-27 |
 
 Steady AI progress meets persistent talent shortages. Gains are uneven and automation mainly fills gaps; AI-proficient firms pull ahead, routine roles are cut and inequality widens.
 
@@ -22,19 +22,20 @@ Steady AI progress meets persistent talent shortages. Gains are uneven and autom
 | Axis pair | x | y |
 | --- | --- | --- |
 | Labor demand × gain distribution | -0.4 | 0.05 |
-| Public finances × job quality | -0.2 | -0.15 |
+| Public finances × job quality | -0.3 | -0.4 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Displaced workers move into lower-quality gig work and entry-level pathways narrow. |
-| Affordable essentials | 2 | Rising living costs meet eroding wages and weak benefits. |
-| Reliable safety net | 2 | Safety nets erode and fiscal space is exhausted. |
-| Responsive government | 2 | Broken prosperity promises fuel polarisation and declining trust in institutions. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | Early-career and administrative routes narrow and displaced workers move into lower-skill, less protected service or gig jobs. |
+| Affordable essentials | 2 | Households face rising costs of living alongside eroding wages and weak benefits. |
+| Reliable safety net | 2 | Safety nets erode as informal work grows, and efforts to extend protection stall under exhausted budgets. |
+| Responsive government | 2 | Job insecurity and fading prospects heighten polarisation and weaken trust, while oversight capacity diverges. |
+| Time for what matters | 3 | Not addressed in the extract. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

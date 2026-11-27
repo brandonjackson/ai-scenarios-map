@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Toloui |
+| **Author** | Ramin Toloui |
 | **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, DIFF |
-| **Policy stance** | on |
-| **Likelihood** | possible — Open models are close behind, but labour-augmenting diffusion with low prices everywhere needs both trends to hold. |
-| **Assessed** | — |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Open and specialised models sit near the frontier, but broad augmentation with prices falling across the economy needs both trends to hold. |
+| **Assessed** | 2026-11-27 |
 
 Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Competition keeps prices low.
 
@@ -28,29 +28,18 @@ Fast-follower + labor-augmenting. Decentralized AI enhances human capability. Co
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 4 | Decentralised AI enhances human capability across the workforce. |
-| Affordable essentials | 4 | Competition among fast followers keeps prices low. |
-| Reliable safety net | 3 | Augmentation keeps disruption within existing capacity. |
-| Responsive government | 3 | No dominant actor to capture policy. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 4 | Augmentation raises demand for operators and integration workers, cheaper output expands demand and new industries, and early evidence favours less experienced workers. |
+| Affordable essentials | 4 | Competition cuts the unit cost of AI and, as in the historical analogues, lower costs pass to final prices, with a warning against shifting utility costs onto households. |
+| Reliable safety net | 3 | Larger supports are reserved for strong displacement, which this augmenting quadrant largely avoids. |
+| Responsive government | 3 | Not addressed: the extract says nothing about political voice in this quadrant. |
+| Time for what matters | 3 | Not addressed for AI; the only evidence is the historical appliance analogue. |
 
 ## Policies from the atlas
 
-- **Automation/Robot Taxes** (`automation-robot-taxes`): Rebalance the tax code that favours capital investment over hiring
-- **Employer Tax Breaks** (`employer-tax-breaks`): Cut payroll taxes to lower the cost of hiring, funded by taxes on capital
-- **Tax Credit Expansion** (`tax-credit-expansion`): Expanded earned income tax credit
-- **Wage Insurance** (`wage-insurance`): Wage insurance as a worker-side subsidy
-- **Universal Basic Income** (`universal-basic-income`): Non-employment-linked transfers if labour replacement dominates
-- **Procurement Policies** (`government-procurement-policies`): Procurement that demands worker-augmenting AI copilots rather than turnkey automation
-- **Workforce Training and Reskilling Investment** (`workforce-training-and-reskilling-investment`): Federal grants for company training; scale proven models through WIOA
-- **Vocational Training & Apprenticeships** (`vocational-training-apprenticeships`): Registered apprenticeships and employer–community college partnerships
-- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Energy, grid and chip investment; compute access through NAIRR
-- **Antitrust Law** (`antitrust-law`): Modernised antitrust with a 'guardrails and triggers' approach
-- **Public Utility Regulation** (`public-utility-regulation`): Interoperability, portability and cloud non-discrimination rules
-- **Regulatory Agencies** (`regulatory-agencies`): Expanded AI teams at DOJ and FTC; reporting of large training runs to BIS
-- **AI Liability** (`ai-liability`): Modernised tort standards for AI, with safe harbours
+- **AI Infrastructural Investments** (`ai-infrastructural-investments`): Toloui draws attention to education and infrastructure in the historical examples and proposes ways to promote the positive form.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

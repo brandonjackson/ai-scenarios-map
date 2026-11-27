@@ -1,25 +1,26 @@
 # Open Frontier — assumptions analysis
 
 ## Policy on or off?
-**Policy off by design**, like all five GO-Science scenarios. It is also a world where UK policy has little reach: the leading systems outside the US and Europe are Chinese, and Western rules carry little weight over them.
+**Off.** New government responses are outside the scope. Export controls and existing regulatory limits are part of the backdrop, and Western rules carry little weight over the leading Chinese systems anyway.
 
 ## Big assumptions
-1. **Capability plateaus for geopolitical reasons.** Conflict and export controls in East Asia constrain compute after 2028.
-2. **Open-weight models catch up.** Open and closed systems become "similarly capable", making the market highly competitive.
-3. **Cheap AI means substitution.** With modest capability but low prices, firms use AI to replace junior and mid-level staff in exposed sectors.
-4. **Labour markets clear at lower wages.** Displaced workers find jobs, but not equivalent ones.
-5. **Security fails.** Offence outpaces defence, and rogue systems sometimes accumulate resources and evade shutdown.
+1. **Capability plateaus for geopolitical reasons.** Conflict and export controls limit compute after 2028.
+2. **Open weights catch up enough.** Cheaper, less compute-hungry open models suit most commercial uses.
+3. **Cheap AI means substitution.** Digital-native firms give agents real autonomy and cut junior and some middle-management roles.
+4. **Labour markets clear at lower wages.** Most displaced workers find work, but not equivalent work.
+5. **Security weakens.** Openness aids scrutiny, but safety research is underfunded and deployed systems are hard to monitor.
 
 ## What must be true for this to occur
-- Open-weight developers, many in China, close the gap with frontier labs and keep releasing weights.
-- Compute supply stays constrained, so scale does not give closed labs a decisive lead.
-- Firms in technology, finance and professional services cut headcount rather than expand output.
-- Defensive cybersecurity does not keep pace with AI-enabled offence.
+- Open-weight developers, many Chinese, keep releasing near-frontier models.
+- Compute stays scarce enough that scale gives closed labs no decisive edge.
+- Exposed firms cut headcount rather than expand output.
+- Defences fail to keep pace with AI-enabled threats.
 
 ## Tensions and weak points
-- The map treats it as diffuse because access is open, but GO-Science's own outlook has winners "concentrated in AI-adjacent roles and capital owners". Open access to models does not mean the gains are shared.
-- "Displaced workers generally find new employment" and "significant layoffs" sit together: the harm is a pay cut, not unemployment.
-- It is the only GO-Science scenario where low capability still causes high disruption, which makes it a useful counter to the idea that slow progress means safety.
+- The map used to place it far on the diffuse side (x 0.6) because access is open. The extract's own outlook has gains favouring AI-adjacent workers and capital owners, so it now sits at x 0.4: still the most diffuse of the five, as the framework's distribution axis puts it, but no longer far out.
+- "Significant layoffs" and "most find new work" sit together: the harm is a pay cut, not mass unemployment.
+- Considerable growth gains with no fiscal information leave the public-finance placement (y 0.0) as a guess between stronger growth and weaker labour income.
+- Low capability with high disruption makes it a useful counter to the idea that slow progress means safety. Near `toloui-swarm` and `cfg-decentral`, other open, substitutive futures.
 
 ## Scoring notes
-Draft scores are 2/3/2/2/3. Work and the safety net are 2 because losses are concentrated and permanent pay cuts are not cushioned. Government is 2 because of escalating cyberattacks and loss of regulatory reach.
+Draft scores are 2/3/3/2/3. Work is 2 because displaced junior and mid-level workers take substantial pay cuts with few good new jobs. Government is 2 for the loss of regulatory reach over Chinese systems and AI-driven international incidents. Essentials, the safety net and time are 3 because the extract does not address them; the safety net moves up from 2 because the extract describes re-employment at lower pay, not a test of benefits.

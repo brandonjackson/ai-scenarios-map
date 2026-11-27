@@ -12,8 +12,8 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Source** | <https://www.anthropic.com/institute/econ-scenarios> |
 | **Tags** | Strong REP, CONC |
 | **Policy stance** | off |
-| **Likelihood** | possible — Needs near-total automation of cognitive work within four years. |
-| **Assessed** | — |
+| **Likelihood** | possible — Needs AI's task reach to more than triple and its use to rise sixfold by 2030, which the authors say would likely require recursively self-improving AI. |
+| **Assessed** | 2026-11-27 |
 
 AI performs almost half of today's cognitive work by 2030 and growth reaches 15% a year. GDP is 32% above baseline, but the labour share falls from 60% to 45%, cognitive wages fall and unemployment reaches 11.9% (17.9% for cognitive workers), above any post-war US peak.
 
@@ -21,20 +21,21 @@ AI performs almost half of today's cognitive work by 2030 and growth reaches 15%
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | -0.55 | 0.65 |
+| Labor demand × gain distribution | -0.6 | 0.65 |
 | Public finances × job quality | -0.55 | 0.1 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Cognitive wages fall and 17.9% of cognitive workers are unemployed, while other workers' wages rise by a third. |
-| Affordable essentials | 2 | Output soars, but displaced knowledge workers lose the income to share in it. |
-| Reliable safety net | 2 | Unemployment passes any post-war peak, and compensating losers would need transfers of about 9% of GDP that have no precedent. |
-| Responsive government | 2 | Fifteen per cent of GDP moves from wages to capital income, concentrating economic power. |
-| Time for what matters | 2 | Lost work brings insecurity rather than free time. |
+| Hard work pays | 2 | Cognitive employment falls 21.5% and cognitive unemployment hits 17.9% while other workers' wages rise by a third: severe harm concentrated on knowledge workers. |
+| Affordable essentials | 3 | Not addressed; the extract says nothing on the cost of essentials. |
+| Reliable safety net | 2 | Total unemployment of 11.9% passes any post-war peak and the 9%-of-GDP transfer needed has no precedent. |
+| Responsive government | 2 | The labour share falls from 60% to 45% and capital income takes almost all the added output. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

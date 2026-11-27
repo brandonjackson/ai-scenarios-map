@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | CFG |
-| **Published** | 2025 |
+| **Author** | Bengüsu Özcan, Daan Juijn, Jakob Graabak & Sam Bogerd (Centre for Future Generations) |
+| **Published** | 2025-07-10 |
 | **Type** | framework — CFG — Possible Futures |
 | **Source** | <https://cfg.eu/advanced-ai-possible-futures/> |
-| **Tags** | Strong REP, DIFF |
-| **Policy stance** | off |
-| **Likelihood** | possible — Misuse of open models is growing, but not yet at a scale that prompts bans. |
-| **Assessed** | — |
+| **Tags** | Mild AUG, DIFF->CONC |
+| **Policy stance** | mixed |
+| **Likelihood** | possible — Open-weight models remain close to the frontier and AI-enabled cyber misuse is growing, but a misuse wave big enough to bring harmonised US–EU–China release bans needs several things to go its way. |
+| **Assessed** | 2026-11-27 |
 
 Open-weight models spread widely; guardrails are breached and misuse (hacking, disinformation) escalates until governments ban high-scale open models. CFG ending under Plateau; CFG has no full fast-and-decentralised scenario.
 
@@ -21,20 +21,27 @@ Open-weight models spread widely; guardrails are breached and misuse (hacking, d
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.42 | 0.55 |
-| Public finances × job quality | -0.2 | -0.1 |
+| Labor demand × gain distribution | 0.1 | -0.2 |
+| Public finances × job quality | -0.05 | -0.2 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Fast capability growth across many actors displaces workers. |
-| Affordable essentials | 4 | Open-weight models make AI-powered goods and services cheap. |
-| Reliable safety net | 2 | Rapid displacement strains benefits built for short job losses. |
-| Responsive government | 2 | Misuse risks and a fractured information ecosystem strain governance. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 3 | Not addressed; the ending projects no employment or wage effects and the common Plateau path is augmentation. |
+| Affordable essentials | 3 | Open models help public services and healthcare, but retail, logistics and municipal services are disrupted and cybersecurity becomes a continuing cost. |
+| Reliable safety net | 3 | Not addressed; nothing in the extract describes displacement or benefits. |
+| Responsive government | 2 | Misleading content and cybercrime erode trust, older adults fall behind in the information environment and governments react only after harm. |
+| Time for what matters | 3 | Not addressed; only the closing 'constant vigilance' hints at a cost. |
+
+## Policies from the atlas
+
+- **Regulatory Agencies** (`regulatory-agencies`): The EU gives ENISA intervention powers, and the US, EU and China prohibit open publication beyond a compute threshold.
+- **Restructuring International Organizations** (`restructuring-international-organizations`): NATO expands incident coordination.
+- **AI Literacy Training** (`ai-literacy`): Authorities also make resilience investments and educate citizens about AI-enabled scams and misleading information.
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

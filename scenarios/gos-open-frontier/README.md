@@ -10,10 +10,10 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 | **Published** | 2026-06-15 |
 | **Type** | framework — GO-Science — AI Scenarios 2030 |
 | **Source** | <https://www.gov.uk/government/publications/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai/ai-scenarios-2030-helping-policymakers-plan-for-the-future-of-ai> |
-| **Tags** | Moderate REP, DIFF |
+| **Tags** | Moderate REP, Mild DIFF |
 | **Policy stance** | off |
-| **Likelihood** | plausible — Open-weight models, many from China, already trail the frontier by months; it follows if that gap closes. |
-| **Assessed** | — |
+| **Likelihood** | plausible — Open-weight models, many from China, already trail the frontier by months; it follows if compute stays constrained and that gap stays small. |
+| **Assessed** | 2026-11-27 |
 
 Open- and closed-weight systems become similarly capable and China becomes the default supplier outside the US and Europe. Significant layoffs in exposed sectors, displaced workers accept large wage cuts, and offensive misuse outpaces defences. Policy interventions deliberately excluded.
 
@@ -21,20 +21,21 @@ Open- and closed-weight systems become similarly capable and China becomes the d
 
 | Axis pair | x | y |
 | --- | --- | --- |
-| Labor demand × gain distribution | 0.6 | 0.35 |
-| Public finances × job quality | -0.3 | -0.1 |
+| Labor demand × gain distribution | 0.4 | 0.35 |
+| Public finances × job quality | -0.3 | 0 |
 
 ## Social contract scores (draft)
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 2 | Significant layoffs in technology, finance and professional services, with displaced workers taking large pay cuts. |
-| Affordable essentials | 3 | Intense competition keeps AI cheap, but nothing in the scenario lowers the cost of essentials. |
-| Reliable safety net | 2 | Displaced workers find new jobs only at much lower pay, and no new support is assumed. |
-| Responsive government | 2 | Frequent AI cyberattacks and rogue systems, with Western rules carrying little weight over the leading Chinese models. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | Substitution causes significant layoffs among junior staff and some middle managers in exposed sectors, and most re-employment is at substantially lower pay. |
+| Affordable essentials | 3 | Not addressed; AI itself stays cheap but nothing changes the cost of essentials. |
+| Reliable safety net | 3 | Not addressed; displaced workers mostly find new work, so the cost lands as lower pay rather than as a test of benefits. |
+| Responsive government | 2 | Western regulators have little influence over leading Chinese systems and AI-generated material contributes to international incidents. |
+| Time for what matters | 3 | Not addressed, and nothing elsewhere in the extract bears on it. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

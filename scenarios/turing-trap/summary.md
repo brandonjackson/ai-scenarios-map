@@ -1,23 +1,23 @@
 # The Turing Trap — summary
 
-*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus, Spring 2022 · this scenario is the trap (policy off); the way out is [Escaping the Turing Trap](../turing-trap-escape/summary.md)*
+*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus (American Academy of Arts & Sciences), 19 April 2022; author preprint on arXiv. Read from the full text; see `extract.md`. This scenario is the trap (policy off); the way out is [Escaping the Turing Trap](../turing-trap-escape/summary.md).*
 
-**The scenario.** A fork in the road, not a forecast. Building AI that *imitates* humans (passing Turing's test) leads to a trap: "as machines become better substitutes for human labor, workers lose economic and political bargaining power and become increasingly dependent on those who control the technology." AI that *augments* people creates far more value and keeps power spread out. "The future is not preordained." But today "there are currently excess incentives for automation rather than augmentation among technologists, business executives, and policy-makers."
+**The scenario.** AI increasingly imitates and automates economically valuable human tasks. Productivity rises, but many workers lose market value and the ability to bargain over wages and conditions, while owners of AI and scarce complementary assets capture more of the output. Economic concentration becomes political concentration. The trap is "an equilibrium in which those without power have no way to improve their outcomes". Current incentives push this way: researchers like the clear goal of replicating humans, managers like measurable labour-cost cuts, and the tax system underprices automation.
 
 ## Hard work pays
-Depends on the path. Under augmentation, people stay indispensable and "retain the power to insist on a share of the value created". In the trap, workers become substitutable and their bargaining power drains away. Brynjolfsson notes that machine learning could do every task in none of 950 occupations he studied with Mitchell and Rock, so whole-job replacement is hard, and augmentation is often the richer option anyway: 60% of today's jobs are in occupations that didn't exist in 1940.
+Broken for some. Once workers lack indispensable assets or skills, they have less capacity to gain from effort or demand better terms. As automation spreads, less replaceable talents become more valuable while many workers face lower wages, weaker bargaining and a declining share of income. Whole-job replacement is still hard: in one cited study of 950 occupations, machine learning could do every task in none.
 
 ## Affordable essentials
-Augmentation wins on value. Through the thought experiment of Dædalus automating ancient Greece, he argues that making existing goods cheaper delivers far less than inventing new ones: "there is only so much value one can get from clay pots and horse-drawn carts, even with unlimited quantities and zero prices."
+Not addressed directly. Automating an existing product can drive its price close to zero, but the author argues that cheapness alone cannot match the gains in living standards that new products bring.
 
 ## Reliable safety net
-Weakened by today's tax code. A firm earning $1bn with 1,000 workers pays corporate, payroll and workers' income taxes; a firm with no workers pays only corporate tax. US labour income is taxed at up to 37% against 20% for capital gains. Brynjolfsson suggests equalising the treatment, or favouring wages (for example, a larger earned income tax credit), and public support for training, which firms underprovide.
+At risk. A fully automated economy could fund transfers to people whose work is no longer needed, but the author questions whether recipients could stop those transfers being cut or ended. Meanwhile a firm with no employees pays no payroll or labour-income taxes, and US labour income is taxed at up to 37% against 20% for long-term capital gains.
 
 ## Responsive government
-At risk in the trap. "Concentration of economic power often begets concentration of political power." Knowledge held in human heads is "inalienable" and spreads power; once codified in machines it can be owned and concentrated. The free-trade "grand bargain" (grow the pie, then compensate the losers) failed when "the economic winners ... reneged", which fed populist backlash.
+Weakened. Knowledge held in people is dispersed and inalienable; once codified in machines it can be owned and concentrated, and concentrated economic power can turn into concentrated political power. The free-trade parallel shows promised compensation is hard to sustain once the winners gain power.
 
 ## Time for what matters
-Ambiguous. Human-like AI promises "increased leisure", but in the trap that leisure comes without power. Lost work also brings "deaths of despair".
+Mixed, worse for the worst-off. Automation could increase leisure, but when paid work declines the effects spill over to community well-being and health.
 
 ## Bottom line
-Each promise depends on which kind of AI we build and reward, and current incentives push toward replacement.
+Where today's incentives lead: higher productivity and wealth, allocated to a shrinking group that also gains political power.

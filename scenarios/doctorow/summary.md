@@ -1,23 +1,23 @@
 # The Reverse Centaur's Guide to Criticizing AI — summary
 
-*Cory Doctorow, Pluralistic, 5 December 2025 · a University of Washington lecture drawn from his book* The Reverse Centaur's Guide to Life After AI *(FSG, 2026)*
+*Cory Doctorow, "The Reverse Centaur's Guide to Criticizing AI", Pluralistic, 5 December 2025: the text of a University of Washington lecture on what fuels the AI bubble, how it changes work and how workers and users can respond. US examples from technology, health care and organised labour. Read from the full text; see `extract.md`.*
 
-**The scenario.** "AI can't do your job, but an AI salesman can convince your boss to fire you and replace you with an AI that can't do your job." Doctorow thinks AI is a bubble driven by the growth-stock logic of tech monopolies, which need one "ever-more-outlandish" story after another to keep high price-to-earnings ratios. The pitch to investors is that a boss fires you, "keep[s] half of your salary for himself, and give[s] the other half to the AI company." Workers become **reverse centaurs**: humans serving machines, like an Amazon driver watched by AI cameras, or a radiologist left to sign off on the AI's diagnoses as an "accountability sink."
+**The scenario.** Dominant technology firms nearing market saturation need new stories to keep their growth-stock valuations, and AI is the latest. Suppliers pitch it to clients as a way to cut payroll, and use announced layoffs as proof that other jobs can be automated. Employers dismiss workers and keep a few to feed, monitor or take the blame for unreliable systems: the **reverse centaur**, a human serving the machine. "The radiologist's job isn't really to oversee the AI's work, it's to take the blame for the AI's mistakes." Then "AI is a bubble and it will burst": many suppliers and data centres fail, while cheap hardware, open models and some smaller, useful tools survive.
 
 ## Hard work pays
-Broken through degradation rather than outright replacement. Tech firms "fired 500,000 over the past three years" and gave the remaining coders the "soul-crushing" job of reviewing AI output for bugs that are "statistically indistinguishable from working code." Senior, well-paid workers with process knowledge are the target because replacing high wages is where the profit is.
+Broken for some. An AI system can cost people their jobs "even when it cannot perform the whole job, because management acts on the sales pitch". In radiology and software, fewer workers oversee more output, and experienced workers who could catch subtle errors are "expensive enough to target for dismissal". The industry has cut some 500,000 technology jobs in three years, and image-generation hype threatens precarious illustrators.
 
 ## Affordable essentials
-Worse service, not cheaper. Products made by reverse centaurs are "substandard". The public will be "charged more for worse things". Doctorow wants a coalition between workers and the people who rely on their work, because they share an interest against degraded services.
+Not addressed directly. In the reverse-centaur model "customers can pay more for worse services", with radiology as the example, but the lecture says nothing about the wider cost of living.
 
 ## Reliable safety net
-Threatened by the bubble. "Bubbles transfer the life's savings of normal people ... to the wealthiest and most unethical people in our society, and every bubble eventually bursts." Retirement savings tied up in AI stocks are at risk. What remains afterwards could be useful: cheap GPUs, skilled statisticians, open-source models that run on laptops, much as Worldcom's fibre outlived the fraud.
+Not addressed. The nearest point is that households' retirement savings are drawn into the bubble and lose value when it ends; Doctorow says nothing about public support for displaced workers.
 
 ## Responsive government
-Captured by monopoly, but with openings. Google, Apple and Meta dominate their markets. Doctorow rejects new training copyrights (they would just hand rights to studios and labels) and praises the US Copyright Office's stance that AI output can't be copyrighted, a "recipe for centaurhood". His main demand is to restore **sectoral bargaining**, banned for most workers by the Taft-Hartley Act, after the example of the 2023 writers' strike.
+Not addressed as a story about the state. The lecture's political answer is collective: alliances between workers and the people who rely on their services, restored sectoral bargaining, and keeping the US Copyright Office's human-authorship rule, which still gives firms a reason to employ creative workers. Doctorow opposes extending copyright to training as a substitute for labour power.
 
 ## Time for what matters
-Worse. Reverse centaurs are worked at "superhuman speed, demanding superhuman endurance": "the van uses the driver up." AI art and "slop" thin out culture.
+Worse for those kept on. Delivery drivers are monitored, and reviewers of low-error AI output get too little practice to spot rare failures yet must sign off and carry the blame. Generated text erodes the value of things like recommendation letters.
 
 ## Bottom line
-Limited capability, concentrated harm. The social contract erodes through the story AI is sold with, more than through what it can do, until the bubble bursts and hits ordinary savers.
+Limited capability, concentrated harm. The social contract erodes through how AI is sold more than through what it can do, until the bubble bursts and hits ordinary savers.

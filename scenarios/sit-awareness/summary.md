@@ -1,23 +1,23 @@
 # Situational Awareness — summary
 
-*Leopold Aschenbrenner, "Situational Awareness: The Decade Ahead", June 2024*
+*Leopold Aschenbrenner, "Situational Awareness: The Decade Ahead" (June 2024; PDF updated 6 June 2024). A forecast of a plausible near-term path combined with a national-security argument for action; the author finds "AGI by 2027 is strikingly plausible" while naming compute, algorithms, long-horizon agency and data as ways the extrapolation could fail. Read from the full PDF; see `extract.md`.*
 
-**The scenario.** "AGI by 2027 is strikingly plausible." Counting orders of magnitude, with about 0.5 a year from compute, about 0.5 a year from algorithmic efficiency, and "unhobbling" from chatbot to agent, gives another GPT-2-to-GPT-4-sized jump: "drop-in remote workers" that can "automate basically all cognitive jobs (think: all jobs that could be done remotely)." Hundreds of millions of AGIs then automate AI research, compressing "a decade of algorithmic progress ... into 1 year": an intelligence explosion to superintelligence by the end of the decade. Trillion-dollar clusters, a 10%+ rise in US electricity output, and a race with China follow, ending in "The Project": "by 27/28 we'll get some form of government AGI project."
+**The scenario.** About half an order of magnitude a year from physical compute and another half from algorithmic efficiency, plus systems that can act as agents, give "drop-in remote workers" around 2027. Many copies of those systems automate AI research and could compress years of progress into one, producing superintelligence before the decade ends. The value of automating cognitive work pulls in over $1 trillion a year of AI investment by 2027 and clusters of $1 trillion and about 100 GW (over 20% of US electricity production) around 2030. The US and China race, and by 2027–28 the author expects a US government AGI project. Once robots can make more robots, growth of 30% a year or more becomes possible.
 
 ## Hard work pays
-Broken for cognitive work. The drop-in remote worker makes "the jump in economic value ... somewhat discontinuous." Robotics follows: "robo-factories could produce more robo-factories," and growth reaches "30%/year and beyond." Aschenbrenner says "arcane regulation" (human doctors and lawyers) and "human nannies" may slow this, but treats them as friction, not protection. The essay says almost nothing about workers.
+Broken for cognitive work. A drop-in remote worker could automate essentially all work that can be done remotely, and robotics later extends automation to physical work. Global white-collar pay of tens of trillions a year is the prize that justifies the investment. Some fields may keep humans (law, medicine, childcare) through regulation or preference, but the essay gives no path for employment, wages or worker transitions.
 
 ## Affordable essentials
-Abundance in principle. Explosive growth implies huge output. The essay doesn't consider distribution; its frame is national power.
+Not addressed for households. The essay's scarcities are GPUs, generation, grid connections, transformers and data-centre construction; a cluster drawing a fifth of US electricity output is a direct competitor for the energy households use. Robots and faster research are expected to relax bottlenecks later.
 
 ## Reliable safety net
-Not discussed. With "white-collar workers ... paid tens of trillions of dollars in wages annually" as the prize that pays for the clusters, the fiscal effect on wage-based states is the unexamined flip side.
+Not addressed. The author does not model tax bases, receipts, debt or social insurance, even though the investment case rests on replacing paid white-collar work.
 
 ## Responsive government
-Militarised. Superintelligence is "the most powerful military weapon", so "the radical proposal is not The Project; the radical proposal is taking a bet on private AI CEOs wielding military power and becoming benevolent dictators." Aschenbrenner trusts the US state's "checks and balances" over lab governance, wants labs "locked down" against Chinese espionage and wants clusters built in America, not "capricious Middle Eastern dictatorship[s]." "The free world must prevail." Power concentrates in a national-security project "somewhere in a SCIF."
+Centralised for security. As the stakes become clear, strategic control moves into a national programme modelled on the Manhattan and Apollo projects. Aschenbrenner argues that the US government's constitutional checks and balances are safer than leaving extraordinary power with private lab chiefs, and that democracies must keep leverage over authoritarian powers. Benefits are to be preserved "for the free world", with no allocation of income, ownership or access spelled out.
 
 ## Time for what matters
-Not considered. The essay's world is mobilisation and race, not leisure.
+Not addressed.
 
 ## Bottom line
-A future decided by the US–China race and a secret government project. For ordinary citizens every promise depends on a state run in wartime mode, and the essay never asks how work, income or democratic voice survive the transition.
+A future decided by scaling, a US–China race and a government project. It says a great deal about compute and power and almost nothing about the people whose work it expects to replace.

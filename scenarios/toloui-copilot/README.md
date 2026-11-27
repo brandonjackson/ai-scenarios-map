@@ -6,14 +6,14 @@ data/assessments.csv and goals/social-contract/scores.csv. Edit those, then re-r
 
 | | |
 | --- | --- |
-| **Author** | Toloui |
+| **Author** | Ramin Toloui |
 | **Published** | 2025-12-11 |
 | **Type** | framework — Toloui — Titans, Swarms |
 | **Source** | <https://www.digitalistpapers.com/vol2/toloui> |
 | **Tags** | Strong AUG, CONC |
 | **Policy stance** | off |
-| **Likelihood** | probable — A few platforms own the frontier while humans stay in the loop: close to today's market. |
-| **Assessed** | — |
+| **Likelihood** | probable — A few firms hold the frontier at hundreds of billions of dollars of infrastructure while current use mostly augments workers, close to today's market. |
+| **Assessed** | 2026-11-27 |
 
 Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but humans remain essential.
 
@@ -28,13 +28,14 @@ Winner-take-all + labor-augmenting. Few dominant platforms own the AI layer but 
 
 | Promise | Score | Reason |
 | --- | --- | --- |
-| Hard work pays | 3 | Humans remain essential, though platforms capture much of the value. |
-| Affordable essentials | 2 | Platform owners extract rents on the AI layer that everyone depends on. |
-| Reliable safety net | 3 | Employment holds, so the safety net is not overwhelmed. |
-| Responsive government | 2 | A few dominant platforms gain leverage over regulators. |
-| Time for what matters | 3 | No particular change to time for what matters. |
+| Hard work pays | 2 | The extract makes polarisation a key dynamic: in the computing precedent high-skill wages surged while lower-skill wages stagnated or fell. |
+| Affordable essentials | 2 | Monopolists can use captive customers, exclusivity and switching barriers to extract rents on a layer the economy depends on. |
+| Reliable safety net | 3 | Employment holds, so larger supports are not needed at scale. |
+| Responsive government | 2 | Historical monopolists cultivated political allies, and nothing in the quadrant checks that. |
+| Time for what matters | 3 | Not addressed. |
 
 ## Files
 
+- [`extract.md`](extract.md)
 - [`summary.md`](summary.md)
 - [`analysis.md`](analysis.md)

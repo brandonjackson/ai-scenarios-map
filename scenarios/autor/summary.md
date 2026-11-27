@@ -1,23 +1,23 @@
 # Applying AI to Rebuild Middle Class Jobs — summary
 
-*David Autor, NBER w32140, February 2024 (published in NOEMA as "How AI Could Help Rebuild the Middle Class")*
+*David Autor, "Applying AI to Rebuild Middle Class Jobs", NBER working paper w32140, 12 February 2024; a shorter version appeared in Noema as "AI Could Actually Help Rebuild The Middle Class". A conditional scenario and prescription, headed "A Scenario, Not a Forecast". Read from the full text; see `extract.md`.*
 
-**The scenario.** "Not a forecast but an argument about what is possible." Computerisation hollowed out the middle of the labour market: it automated rule-following "mass expertise" (clerks, production workers) and concentrated decision-making in "elite experts" with degrees. AI is the "inversion technology". Because it can handle tacit, judgement-based tasks, it can give decision support to a wider group of workers with foundational training, letting them do higher-stakes work now reserved for doctors, lawyers, coders and professors. "AI, if used well, can assist with restoring the middle-skill, middle-class heart of the US labor market."
+**The scenario.** Industrialisation created mass middle-skill expertise; conventional computing automated explicit rules, raised the value of elite judgement and hollowed out procedural jobs. AI that learns from examples can reverse this. Real-time decision support lets workers with sound foundational expertise take on a broader range of cases in medicine, skilled trades, software and other work, while they still handle unusual cases and carry responsibility. Some occupations and skills still lose value and others emerge; which effect dominates depends on choices by governments, firms, universities, worker organisations and individuals.
 
 ## Hard work pays
-Potentially restored. Nurse practitioners are the model: their numbers nearly tripled to 224,000 between 2011 and 2022, taking on diagnosis and prescribing once reserved for physicians, helped by information technology and a hard-won change in regulations. Experiments show AI helps lower performers most: Copilot made coders 56% faster, ChatGPT brought weaker writers up to the median, and AI-assisted call-centre novices matched experienced agents in three months instead of ten. Training still matters: "AI will not in general enable untrained, non-expert workers to carry out high-stakes tasks."
+Improving, for people with the foundations. The opportunity is for workers with relevant training and practical expertise to reach better-paid decision-making roles, expanding the middle class. In cited studies, less-experienced call-centre agents gained most (about 14% higher productivity), and novices reached experienced-agent capability in three months rather than ten. Blind reliance can amplify bad advice, and the workers displaced need not be the ones who benefit.
 
 ## Affordable essentials
-A specific, important gain. Healthcare and education prices rose about 200% and 600% relative to household incomes over four decades, partly because of costly elite experts. Spreading expertise could lower the cost of healthcare, education and legal services, much as mass production lowered the cost of goods.
+Improving for care. Decision support could extend the reach of medical expertise; the nurse-practitioner example shows how access to routine primary care expands when suitably trained practitioners take on some services.
 
 ## Reliable safety net
-Not directly addressed. Autor argues labour will be *scarce*: "the U.S. and other rich countries will run out of workers before we run out of jobs," because of falling birth rates. Employment shifts between sectors, as farming fell from 35% to 1% of jobs, but the economy creates new expert work.
+Not addressed. In ageing rich economies the more immediate problem is a shortage of workers, which cushions displacement.
 
 ## Responsive government
-Implied and necessary. The nurse-practitioner case needed new training, certification and a fight with the American Medical Association over scope of practice. He rejects "inevitabilism": "AI will not decide how AI is used."
+At stake. Institutional choices shape political power and civil rights: the paper describes surveillance and suppression of dissent as possible uses, notes autocracies exporting surveillance systems, and warns of concentrated AI ownership if human expertise loses its economic value.
 
 ## Time for what matters
-Indirect gains. Better-paid middle-skill jobs and lower-stress work (AI-assisted agents faced less customer hostility and quit less) improve quality of life.
+Not addressed.
 
 ## Bottom line
-The most concrete pro-worker augmentation case on the map. Hard work and affordable essentials could both improve, but only through deliberate design, training and institutional reform.
+The clearest pro-worker augmentation case on the map, but a conditional one: if expertise is devalued instead, wealth could accrue largely to AI patent owners.

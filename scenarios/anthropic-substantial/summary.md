@@ -1,23 +1,23 @@
 # Substantial — summary
 
-*Korinek, Jones, Sacher, Cotter & McCrory, "Economic Scenarios for Transformative AI", Anthropic Institute Working Paper 2026-02 (10 September 2026), with the online Econ Scenario Explorer*
+*Korinek, Jones, Sacher, Cotter & McCrory, "Economic Scenarios for Transformative AI", The Anthropic Institute Working Paper No. 2026-02 (September 2026), with Anthropic's companion web explorer, "Scenarios for our Economic Future", and its June 2026 Economic Policy Framework. A US model with three scenarios (Modest, Substantial, Extreme) compared in January 2030. Read from the full working paper, the explorer text and the policy framework; see `extract.md`.*
 
-**The scenario.** AI is "a pivotal technology, more significant than the internet." It "is capable of doing half of all knowledge work by 2030" but is not used for all of it: about 20% of the tasks cognitive workers did in 2025 are affected. Three quarters of that work is automated and a quarter augmented. GDP is 8.3% above its no-AI path and growing 5.4% a year. The authors' survey of nearly 11,000 US adults finds the typical respondent expects something close to this scenario.
+**The scenario.** "AI is a pivotal technology, more significant than the internet." Its reach grows from 14% to 30% of task mass by 2030 and it is used on 40% of the tasks it could do, so 12% of all task instances are affected. Three quarters of that work is automated, with one new task per four automated. GDP is 8.3% above the no-AI path and growing 5.4% a year, faster than the 4.7% peak of the 1990s dot-com boom. The median respondent in the authors' survey of US adults expects something close to this scenario.
 
 ## Hard work pays
-Holds, unevenly. Cognitive wages are flat (0.3% below the no-AI path) while other occupations' wages are 5.9% higher. Cognitive employment falls 3.9% and employment elsewhere rises 4.6%: knowledge workers retrain as electricians, nurses and the like. "Changing occupations entirely is hard, and it takes many people a long time to land a new job." Unemployment among cognitive workers rises from 2.9% to 4.5%.
+Holds, unevenly. Cognitive employment falls 3.9% from mid-2026 while other occupations grow 4.6%; cognitive wages are 0.3% below the no-AI path while other wages are 5.9% higher. Cognitive unemployment rises from 2.9% to 4.5%. Switching occupation takes time: the explorer's examples are coders or call-centre staff moving into electrical work or nursing.
 
 ## Affordable essentials
-Unchanged in the model. Output is substantially higher, but nothing specific changes the cost of essentials.
+Not addressed.
 
 ## Reliable safety net
-Stretched but coping. The authors judge reallocation on this scale, "while costly, is a size the U.S. labor market has absorbed historically."
+Not addressed. The authors call reallocation on this scale costly for those affected but "within what the US labour market has absorbed historically".
 
 ## Responsive government
-Some drift. The labour share falls from 60% to 56%, and capital income is 19% above its no-AI path while labour income is only 1.4% higher. The pie grows, "but a larger share might go to capital."
+Not addressed directly. Labour income rises 1.4% while capital income rises 18.9%, and the labour share falls from 60.0% to 56.1%, almost as large as the fall over the four decades after 1980.
 
 ## Time for what matters
-No particular change.
+Not addressed.
 
 ## Bottom line
-A real shift of income towards capital and a hard transition for knowledge workers, but one that existing institutions could probably manage.
+Faster growth, most of it going to capital, and a hard transition for knowledge workers that existing institutions could probably manage.
