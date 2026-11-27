@@ -1,0 +1,23 @@
+{
+  "slug": "anthropic-economic-policy-framework-2026",
+  "title": "Anthropic's Economic Policy Framework",
+  "authors": [
+    "Anthropic"
+  ],
+  "publisher": "Anthropic",
+  "date": "2026-06",
+  "url": "https://www.anthropic.com/policy-on-the-ai-exponential/epf",
+  "pdf_url": "https://assets.claude.com/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf",
+  "archive_url": "http://web.archive.org/web/20261112010415/https://www.anthropic.com/policy-on-the-ai-exponential/epf",
+  "retrieved": "2026-11-27",
+  "format": "pdf",
+  "licence": "© Anthropic, all rights reserved",
+  "fulltext": "private",
+  "read": "full (PDF and web summary page)",
+  "scenarios": [
+    "anthropic-epf-tier1",
+    "anthropic-epf-tier2",
+    "anthropic-epf-tier3"
+  ],
+  "related": []
+}
