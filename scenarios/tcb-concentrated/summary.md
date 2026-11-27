@@ -1,6 +1,6 @@
 # Concentrated Gains — summary
 
-*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page.*
+*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page; see `extract.md`.*
 
 **The scenario.** "AI raises productivity unevenly, benefiting certain industries and occupations." Aggregate employment disruption is limited or moderate, but the firms, roles and workers best placed to capture the gains pull ahead, and an "AI underclass" of excluded workers, firms and communities may form.
 

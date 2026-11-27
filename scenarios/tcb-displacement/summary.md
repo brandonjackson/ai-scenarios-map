@@ -1,6 +1,6 @@
 # Significant Displacement — summary
 
-*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page.*
+*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page; see `extract.md`.*
 
 **The scenario.** AI sharply reduces labour demand across many sectors. Losses start in clerical, production, transport and food-preparation work, then reach professional fields such as finance, law and some medical services, many of which require advanced degrees. "Increased unemployment rates would be persistent and paired with higher underemployment and lower labor force participation rates." A relatively small number of firms and workers capture the gains. The press release calls this "massive displacement".
 

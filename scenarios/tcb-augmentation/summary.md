@@ -1,6 +1,6 @@
 # Gradual Augmentation — summary
 
-*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page.*
+*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page; see `extract.md`.*
 
 **The scenario.** "AI primarily helps workers rather than replaces them." The overall effect on employment is "minimal or slow to develop", a view the report links to "AI as normal technology". Change shows up in the mix of tasks inside jobs; health care (AI scribes, staffing tools) is the example. The Conference Board projects that within three years 60–70% of cognitive-workforce jobs will involve human-AI collaboration. The report calls it "one plausible scenario" that could hold even if capabilities grow fast.
 

@@ -1,6 +1,6 @@
 # Uneven Disruption — summary
 
-*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page.*
+*The Conference Board, "AI & the Labor Force: Scenarios for Stakeholders" (15 September 2026), a US report for business leaders, policymakers and educators. Four scenarios, no probabilities, no named authors. Read from the full report text on the Conference Board's publication page; see `extract.md`.*
 
 **The scenario.** "AI displaces workers in certain occupations while supporting job growth in others." Some sectors and roles lose heavily, but growth in AI-using roles may offset them and aggregate employment might even rise. The report calls it "less severe—though still disruptive".
 
