@@ -3,18 +3,28 @@
 
 const ROUNDING = { floor: Math.floor, round: Math.round, ceil: Math.ceil };
 
+// How a score or coordinate was arrived at. A blank score means the source
+// doesn't address the criterion; it is shown as "not addressed" and left out
+// of averages rather than defaulted to the midpoint.
+export const BASES = ["stated", "inferred"];
+
 // Group scores.csv rows into { [scenarioId]: { baseline, policies: { [slug]: entry } } },
-// where an entry is { [criterionId]: { score, reason } }.
+// where an entry is { [criterionId]: { score, reason, basis } }. score is null
+// when the criterion is not addressed.
 export function indexScores(rows) {
   const out = {};
   for (const r of rows) {
-    if (!r.scenario || !r.criterion || r.score === "") continue;
+    if (!r.scenario || !r.criterion) continue;
     const s = (out[r.scenario] ||= { baseline: {}, policies: {} });
     const entry = r.policy ? (s.policies[r.policy] ||= {}) : s.baseline;
-    entry[r.criterion] = { score: Number(r.score), reason: r.reason || "" };
+    const score = r.score === "" ? null : Number(r.score);
+    entry[r.criterion] = { score, reason: r.reason || "", basis: score == null ? "" : r.basis || "" };
   }
   return out;
 }
+
+// True when a criterion entry carries a score (not "not addressed").
+export const isScored = (s) => s != null && s.score != null;
 
 // Group policies.csv rows into { [policySlug]: [{ criterion, reason }] }:
 // which criteria each policy is meant to strengthen.
@@ -28,13 +38,21 @@ export function indexPolicyCriteria(rows) {
 }
 
 // Turn one set of criterion scores into an assessment: the (weighted)
-// average, the weakest criterion, and the headline rating.
+// average over the criteria the source addresses, the weakest of them, and
+// the headline rating. A rating needs every criterion to have a row and at
+// least aggregation.minScored of them (default: all) to carry a score.
 export function assess(goal, entry) {
   if (!entry) return null;
   const agg = goal.aggregation || {};
-  const scored = goal.criteria.filter((c) => entry[c.id]);
-  if (!scored.length) return null;
-  const complete = scored.length === goal.criteria.length;
+  const covered = goal.criteria.filter((c) => entry[c.id]);
+  if (!covered.length) return null;
+  const scored = covered.filter((c) => isScored(entry[c.id]));
+  const notAddressed = covered.filter((c) => !isScored(entry[c.id])).map((c) => c.id);
+  const complete = covered.length === goal.criteria.length;
+  const minScored = agg.minScored ?? goal.criteria.length;
+  if (!scored.length) {
+    return { scores: entry, average: null, min: null, rating: null, complete, capped: false, scored: 0, notAddressed };
+  }
 
   const totalWeight = scored.reduce((n, c) => n + (c.weight ?? 1), 0);
   const average = scored.reduce((n, c) => n + entry[c.id].score * (c.weight ?? 1), 0) / totalWeight;
@@ -42,7 +60,7 @@ export function assess(goal, entry) {
 
   let rating = null;
   let capped = false;
-  if (complete) {
+  if (complete && scored.length >= minScored) {
     const roundFn = ROUNDING[agg.rounding] || Math.round;
     // Nudge before rounding so 2.9999… from float weights doesn't floor to 2.
     rating = roundFn(average + 1e-9);
@@ -53,7 +71,7 @@ export function assess(goal, entry) {
     const values = goal.scale.map((s) => s.value);
     rating = Math.max(Math.min(...values), Math.min(Math.max(...values), rating));
   }
-  return { scores: entry, average, min, rating, complete, capped };
+  return { scores: entry, average, min, rating, complete, capped, scored: scored.length, notAddressed };
 }
 
 export const scaleLabel = (goal, value) => goal.scale.find((s) => s.value === value)?.label || "";
@@ -62,8 +80,10 @@ export const scaleLabel = (goal, value) => goal.scale.find((s) => s.value === va
 export function describeAggregation(goal) {
   const agg = goal.aggregation || {};
   const weighted = goal.criteria.some((c) => c.weight != null && c.weight !== 1);
-  const parts = [`Rating = ${agg.rounding || "round"}(${weighted ? "weighted " : ""}average of ${goal.criteria.length} criteria)`];
+  const n = goal.criteria.length;
+  const parts = [`Rating = ${agg.rounding || "round"}(${weighted ? "weighted " : ""}average of the criteria addressed)`];
   if (agg.weakestLink != null) parts.push(`capped at weakest criterion + ${agg.weakestLink}`);
+  if (agg.minScored != null && agg.minScored < n) parts.push(`given only when at least ${agg.minScored} of ${n} are addressed`);
   return parts.join(", ");
 }
 
@@ -87,13 +107,22 @@ export function validateGoal(goal, rows, { scenarioIds, policySlugs, policyRows 
   for (const s of goal.scale) req(Number.isFinite(s.value) && s.label, `scale entry ${JSON.stringify(s)} needs numeric value and label`);
   const rounding = goal.aggregation?.rounding;
   req(!rounding || ROUNDING[rounding], `aggregation.rounding must be floor, round or ceil (got "${rounding}")`);
+  const minScored = goal.aggregation?.minScored;
+  req(minScored == null || (Number.isInteger(minScored) && minScored >= 1 && minScored <= goal.criteria.length),
+    `aggregation.minScored must be a whole number from 1 to ${goal.criteria.length}`);
 
   const seen = new Set();
   rows.forEach((r, i) => {
     const where = `scores.csv row ${i + 2}`;
     req(r.scenario, `${where}: missing scenario`);
     req(critIds.has(r.criterion), `${where}: unknown criterion "${r.criterion}"`);
-    req(values.has(Number(r.score)), `${where}: score "${r.score}" is not on the scale`);
+    if (r.score === "") {
+      req(r.reason, `${where}: a blank (not addressed) score still needs a reason`);
+      req(!r.basis, `${where}: a blank (not addressed) score takes no basis`);
+    } else {
+      req(values.has(Number(r.score)), `${where}: score "${r.score}" is not on the scale`);
+      req(!r.basis || BASES.includes(r.basis), `${where}: basis "${r.basis}" must be ${BASES.join(" or ")}`);
+    }
     if (scenarioIds && r.scenario) req(scenarioIds.has(r.scenario), `${where}: unknown scenario "${r.scenario}"`);
     if (policySlugs && r.policy) req(policySlugs.has(r.policy), `${where}: unknown policy "${r.policy}"`);
     const key = `${r.scenario}|${r.policy}|${r.criterion}`;

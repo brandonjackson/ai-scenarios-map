@@ -1,6 +1,6 @@
 import { scenarios, policies } from "../data.js";
 import { goals, defaultGoal, goalById, assessScenario } from "../goals.js";
-import { describeAggregation } from "../lib/goals.js";
+import { describeAggregation, isScored } from "../lib/goals.js";
 import { ScoreChip } from "../components/Assessment.jsx";
 import RiskChart from "../components/RiskChart.jsx";
 import { href } from "../router.js";
@@ -66,17 +66,17 @@ function Scorecard({ goal, rows }) {
               <th scope="row">{link ? <a href={link}>{label}</a> : label}</th>
               {goal.criteria.map((c) => {
                 const s = a.scores[c.id];
-                const delta = base && s && base.scores[c.id] ? s.score - base.scores[c.id].score : 0;
+                const delta = base && isScored(s) && isScored(base.scores[c.id]) ? s.score - base.scores[c.id].score : 0;
                 return (
                   <td key={c.id}>
-                    <ScoreChip goal={goal} value={s?.score} title={s?.reason} />
+                    <ScoreChip goal={goal} value={s?.score} title={s?.reason} basis={s?.basis} />
                     {delta !== 0 && <span className={`delta ${delta > 0 ? "up" : "down"}`}>{delta > 0 ? `+${delta}` : delta}</span>}
                   </td>
                 );
               })}
-              <td className="mono">{a.average.toFixed(1)}</td>
+              <td className="mono">{a.average != null ? a.average.toFixed(1) : "–"}</td>
               <td>
-                {a.rating != null ? <ScoreChip goal={goal} value={a.rating} label /> : <span className="muted">incomplete</span>}
+                {a.rating != null ? <ScoreChip goal={goal} value={a.rating} label /> : <span className="muted">{a.complete ? "too few addressed" : "incomplete"}</span>}
               </td>
             </tr>
           ))}
@@ -101,7 +101,7 @@ export function GoalDetail({ id }) {
   const baseline = ids
     .map((sid) => ({ key: sid, label: scenarioById[sid].title, link: href(`/scenarios/${sid}`), a: assessScenario(goal, sid) }))
     .filter((r) => r.a)
-    .sort((x, y) => (y.a.rating ?? 0) - (x.a.rating ?? 0) || y.a.average - x.a.average);
+    .sort((x, y) => (y.a.rating ?? 0) - (x.a.rating ?? 0) || (y.a.average ?? 0) - (x.a.average ?? 0));
   const policyTests = ids.flatMap((sid) =>
     Object.keys(goal.assessments[sid].policies).map((slug) => ({
       key: `${sid}|${slug}`,

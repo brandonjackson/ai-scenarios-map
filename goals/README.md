@@ -63,17 +63,21 @@ Each **criterion**:
 | `method` | `"mean"` | Weighted mean of criterion scores. |
 | `rounding` | `"round"` | `floor`, `round` or `ceil`, applied to the mean to get a whole-number rating. |
 | `weakestLink` | none | If set to `n`, the rating can be at most `n` points above the lowest criterion score. |
+| `minScored` | all criteria | How many criteria must carry a score (not be left blank as not addressed) for a headline rating. |
 
-A headline rating is only given once every criterion is scored. The social
+A headline rating is only given once every criterion has a row and at least
+`minScored` of them are scored. Blank (not addressed) criteria are left out
+of the average and the weakest-link rule. The social
 contract uses `floor` rounding and `weakestLink: 1`, so a scenario averaging
 2.6 with one promise at 1 is rated 2.
 
 ## `scores.csv`
 
 ```csv
-scenario,policy,criterion,score,reason
-wf-lost-generation,,work,2,"Firms stop hiring beginners."
-wf-lost-generation,universal-basic-income,work,3,"Hypothetical rescore with a policy in place."
+scenario,policy,criterion,score,basis,reason
+wf-lost-generation,,work,2,stated,"Firms stop hiring beginners."
+wf-lost-generation,,time,,,"Not addressed: the source says nothing about working hours or family time."
+wf-lost-generation,universal-basic-income,work,3,inferred,"Hypothetical rescore with a policy in place."
 ```
 
 - `scenario` — an `id` from `data/scenarios.csv`.
@@ -81,7 +85,12 @@ wf-lost-generation,universal-basic-income,work,3,"Hypothetical rescore with a po
   a `slug` from `data/policy-atlas/policies.json` and rescore the scenario
   with it in place; the goal page shows the change against the baseline.
 - `criterion` — a criterion `id` from `goal.json`.
-- `score` — a `value` from the goal's `scale`.
+- `score` — a `value` from the goal's `scale`, or blank when the source
+  doesn't address the criterion. A blank is shown as "not addressed" and is
+  not the same as a midpoint score.
+- `basis` — `stated` if the source says it, `inferred` if the source implies
+  it without saying it (shown outlined rather than filled). Leave blank when
+  `score` is blank.
 - `reason` — one sentence explaining the score. Quote it if it contains commas.
 
 Scenarios with no rows are listed as "not yet assessed".

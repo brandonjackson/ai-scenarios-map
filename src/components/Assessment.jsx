@@ -1,4 +1,4 @@
-import { scaleLabel } from "../lib/goals.js";
+import { scaleLabel, isScored } from "../lib/goals.js";
 
 // Maps a score onto the five-step diverging palette (--score-0 … --score-4),
 // normalised to the goal's scale so goals with other ranges still read
@@ -12,11 +12,13 @@ export function scoreStep(goal, value) {
 
 export const scoreColor = (goal, value) => `var(--score-${scoreStep(goal, value)})`;
 
-export function ScoreChip({ goal, value, label, title }) {
-  if (value == null) return <span className="score score-na">–</span>;
+export function ScoreChip({ goal, value, label, title, basis }) {
+  if (value == null) return <span className="score score-na" title={title || "Not addressed"}>–</span>;
   const step = scoreStep(goal, value);
+  const inferred = basis === "inferred";
+  const tip = title || scaleLabel(goal, value);
   return (
-    <span className={`score score-${step}`} title={title || scaleLabel(goal, value)}>
+    <span className={`score score-${step}${inferred ? " score-inferred" : ""}`} title={inferred ? `Inferred: ${tip}` : tip}>
       {label ? `${value} · ${scaleLabel(goal, value)}` : value}
     </span>
   );
@@ -31,9 +33,13 @@ export function AssessmentCard({ goal, assessment }) {
           const s = assessment.scores[c.id];
           return (
             <li key={c.id}>
-              <ScoreChip goal={goal} value={s?.score} />
+              <ScoreChip goal={goal} value={s?.score} basis={s?.basis} />
               <div>
-                <div className="assessment-name">{c.name}</div>
+                <div className="assessment-name">
+                  {c.name}
+                  {s && !isScored(s) && <span className="muted"> · not addressed</span>}
+                  {s?.basis === "inferred" && <span className="muted"> · inferred</span>}
+                </div>
                 <div className="assessment-reason">{s ? s.reason || "No reason given." : "Not scored."}</div>
               </div>
             </li>
@@ -42,14 +48,17 @@ export function AssessmentCard({ goal, assessment }) {
       </ul>
       <div className="assessment-foot">
         <span>
-          Average <strong>{assessment.average.toFixed(1)}</strong>
+          Average <strong>{assessment.average != null ? assessment.average.toFixed(1) : "–"}</strong>
+          {assessment.notAddressed.length > 0 && (
+            <span className="muted"> over {assessment.scored} of {goal.criteria.length}</span>
+          )}
         </span>
         <span>
           Rating{" "}
           {assessment.rating != null ? (
             <ScoreChip goal={goal} value={assessment.rating} label />
           ) : (
-            <span className="muted">incomplete</span>
+            <span className="muted">{assessment.complete ? "too few addressed" : "incomplete"}</span>
           )}
         </span>
         {assessment.capped && <span className="muted">held down by the weakest-link rule</span>}

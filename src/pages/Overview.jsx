@@ -1,7 +1,7 @@
 import { scenarios } from "../data.js";
 import { LikelihoodBadge } from "../likelihood.jsx";
 import { defaultGoal as goal, assessScenario } from "../goals.js";
-import { scaleLabel } from "../lib/goals.js";
+import { scaleLabel, isScored } from "../lib/goals.js";
 import { ScoreChip, scoreColor } from "../components/Assessment.jsx";
 import { ScenarioGroup, ScenarioRow } from "../components/ScenarioList.jsx";
 import { href } from "../router.js";
@@ -22,7 +22,7 @@ const assessed = (stance) =>
   scenarios
     .filter((s) => s.policy === stance)
     .map((s) => ({ s, a: assessScenario(goal, s.id) }))
-    .filter((r) => r.a?.complete);
+    .filter((r) => r.a?.rating != null);
 
 const off = assessed("off");
 const on = assessed("on");
@@ -32,7 +32,7 @@ const summarise = (rows) => ({
   average: mean(rows.map((r) => r.a.average)),
   rating: mean(rows.map((r) => r.a.rating)),
   criteria: Object.fromEntries(
-    goal.criteria.map((c) => [c.id, mean(rows.map((r) => r.a.scores[c.id].score))])
+    goal.criteria.map((c) => [c.id, mean(rows.filter((r) => isScored(r.a.scores[c.id])).map((r) => r.a.scores[c.id].score))])
   ),
 });
 
