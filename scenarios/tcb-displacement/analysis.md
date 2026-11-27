@@ -19,4 +19,4 @@
 - Named "Massive displacement" in the press release and "Significant displacement" in the report; the map uses the report's name.
 
 ## Scoring notes
-Draft scores are 1/3/1/2/2. Work and safety net are 1: unemployment is broad and persistent, and the report expects benefit systems to fail under the load. Government is 2 for turmoil and capacity limits, time is 2 for the health and family harms. Essentials is 3 because the report does not discuss prices.
+Draft scores are 1/–/1*/2/2. Work is 1: unemployment is broad and persistent, with large earnings losses for those re-employed. Safety net is 1, inferred: broad, persistent unemployment and rising reliance on public benefits meet a UI system that reaches about 28% of laid-off workers. Government is 2 for turmoil and capacity limits, time is 2 for the health and family harms. Essentials is not addressed because the report does not discuss prices. On the map, `y_fiscal` is inferred from persistent unemployment, lower participation and rising reliance on benefits; the report's severe tax-base case is not tied to this scenario by name.

@@ -18,4 +18,4 @@
 - Close to `ilo` and `acemoglu`, and to the trade-shock literature.
 
 ## Scoring notes
-Draft scores are 2/3/2/3/3. Work and safety net are 2 because the source documents large, lasting losses for a specific group and benefit systems built for statewide, not occupational, shocks. The rest are not addressed.
+Draft scores are 2/–/2*/–/–. Work is 2 because the source documents large, lasting losses for displaced workers. Safety net is 2, inferred: the report names this scenario as needing targeted help because benefits triggered by statewide unemployment miss occupational and local shocks. Essentials, government and time are not addressed, so only two promises are scored, short of the three a headline rating needs. The fiscal pair is left blank: government finances are not addressed, and job growth elsewhere set against lasting earnings losses gives no direction.

@@ -8,7 +8,7 @@ From 2029 frontier AI outperforms experts at almost all cognitive tasks and acce
 
 - **Source:** AI Scenarios 2030: Helping policymakers plan for the future of AI, Government Office for Science, Government Office for Science (GOV.UK), 2026-06-15. `sources/go-science-ai-scenarios-2030-2026/`
 - **Other sources for this scenario:** None.
-- **Reading notes:** Full GOV.UK HTML report, including the scenario narrative, the outlook to 2040, and the cross-cutting findings.
+- **Reading notes:** Full GOV.UK HTML report, including the scenario narrative, the outlook to 2040, the cross-cutting findings and the economic assumptions in Annex B (Table 7).
 - **Scenario set:** Slow Burn and Open Frontier (trajectory 1), Augmented Growth and Transformation Economy (trajectory 2), and Take-Off (trajectory 3). The six uncertainties are capability, distribution and model access, security, adoption, labour displacement, and global cooperation (Executive summary, “Methodology” and “Scenarios overview”; ch. 2).
 - **Geography:** Global developments, with implications for the UK (ch. 1, “Project scope”).
 - **Authors' framing:** Exploratory policy-planning scenario. “They are not predictions, and the future may involve elements from all scenarios” (Foreword).
@@ -65,13 +65,15 @@ The authors describe a K-shaped economy: rising incomes for asset owners and rem
 
 Continued growth may coexist with falling tax revenues without economic reform. The report does not quantify government spending, tax-base or debt changes for the scenario (ch. 3, “Take-Off”, Outlook to 2040).
 
+*Applies across the set.* The report assumes that no regulation, public backlash or policy intervention such as “a major fiscal redistribution response (universal basic income)” has prevented any scenario’s course (Annex B, §1.9).
+
 ### International economic patterns
 
 An alliance system centres on access to US or Chinese systems, while semiconductor controls and geopolitical tension constrain supply. The UK and other middle powers lose influence. Longer-run prosperity depends on countries’ positions in robotics, compute, energy and capital ownership and their ability to ease bottlenecks. Restrictions on access to US systems could deepen its advantage while supply shocks could narrow the frontier gap (ch. 3, “Take-Off”, Distribution and model access, Global cooperation and Outlook to 2040).
 
 ### Market pricing and scarcity
 
-Public models remain much cheaper than human labour. Compute infrastructure, energy capacity and capital stay scarce and confer economic power. Continued job losses can generate deflationary pressure absent reform (ch. 3, “Take-Off”, Distribution and model access and Outlook to 2040).
+Public models remain much cheaper than human labour. Compute infrastructure, energy capacity and capital stay scarce and confer economic power. Continued job losses can generate deflationary pressure absent reform (ch. 3, “Take-Off”, Distribution and model access and Outlook to 2040). The report’s economic assumptions add rising prices for in-person services and manual labour, with aggregate demand maintained by elite consumption and investment rather than broad wage growth (Annex B, §7, Table 7).
 
 ### Financial markets and stability
 

@@ -8,7 +8,7 @@ AI automates many digital workflows by 2030, but remains limited in open-ended c
 
 - **Source:** AI Scenarios 2030: Helping policymakers plan for the future of AI, Government Office for Science, Government Office for Science (GOV.UK), 2026-06-15. `sources/go-science-ai-scenarios-2030-2026/`
 - **Other sources for this scenario:** None.
-- **Reading notes:** Full GOV.UK HTML report, including the scenario narrative, the outlook to 2040, and the cross-cutting findings.
+- **Reading notes:** Full GOV.UK HTML report, including the scenario narrative, the outlook to 2040, the cross-cutting findings and the economic assumptions in Annex B (Table 7).
 - **Scenario set:** Slow Burn and Open Frontier (trajectory 1), Augmented Growth and Transformation Economy (trajectory 2), and Take-Off (trajectory 3). The six uncertainties are capability, distribution and model access, security, adoption, labour displacement, and global cooperation (Executive summary, “Methodology” and “Scenarios overview”; ch. 2).
 - **Geography:** Global developments, with implications for the UK (ch. 1, “Project scope”).
 - **Authors' framing:** Exploratory policy-planning scenario. “They are not predictions, and the future may involve elements from all scenarios” (Foreword).
@@ -59,11 +59,13 @@ Large-cap technology firms endure the correction better than start-ups. Well-res
 
 ### Household incomes and living standards
 
-Not addressed.
+The report’s economic assumptions give consumer demand as broadly stable, with some deflationary pressure from the real-economy spillovers of the global correction in AI asset prices. It gives no figures for household incomes or living standards (Annex B, §7, Table 7).
 
 ### Government finances
 
-Not addressed.
+Not addressed for this scenario: the narrative, outlook and economic assumptions give no path for tax revenue, spending or debt.
+
+*Applies across the set.* The report assumes that no regulation, public backlash or policy intervention such as “a major fiscal redistribution response (universal basic income)” has prevented any scenario’s course (Annex B, §1.9).
 
 ### International economic patterns
 

@@ -18,4 +18,4 @@
 - The "AI underclass" is asserted rather than modelled.
 
 ## Scoring notes
-Draft scores are 2/3/3/2/3. Work and government are 2 because specific regions and occupations lose out and political voice follows the gains. Other promises are not addressed.
+Draft scores are 2/–/2*/–/–. Work is 2 because specific regions and occupations lose out while a small share of firms, roles and workers capture the gains. Safety net is 2, inferred: the report names this scenario among those where severe occupational and regional shocks need targeted help that benefits triggered by statewide unemployment do not give. Essentials, government and time are not addressed; the earlier government score of 2 rested on political voice following the gains, which the extract does not say. Only two promises are scored, short of the three a headline rating needs. The fiscal pair is left blank: government finances are not addressed, and the report's fiscal cases that fit this scenario point in different directions.
