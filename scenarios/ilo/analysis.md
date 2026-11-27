@@ -1,30 +1,29 @@
 # Work Transformed — assumptions analysis
 
 ## Policy on or off?
-**Descriptive evidence plus a policy-on agenda.** The present-day picture (limited displacement, hiring freezes, gendered exposure) is policy off. The brief then sets out an extensive programme in three policy boxes: skills, digital infrastructure, technology transfer, social protection, career-transition support, regulation, algorithmic auditing, social dialogue and global AI initiatives. Its message: AI "should not be hindered" but "must not be allowed to shape society unchecked."
+**Mixed.** The brief's picture of uneven exposure and adoption is today's world, with no new policy. Its three income scenarios vary complementarity and diffusion "without a common specified policy package", but the good branch (high complementarity, broad diffusion) is the one the brief argues training, diffusion support and worker participation can bring about. Its programme (responsible diffusion, developing-country capacity and connectivity, skills, career transitions, social dialogue, auditing, AI for labour inspection) is recommended rather than assumed, so it is not linked to Policy Atlas entries. The earlier rating was "on", which leaned on that recommended programme.
 
 ## Big assumptions
-1. **Task-based exposure measures capture the risk.** The figures rest on Gmyrek et al.'s scoring of tasks against generative AI capability as of 2023–24.
-2. **Complementarity can be built.** Augmentation potential is realised if workers get skills, tools and infrastructure.
-3. **Historical patterns broadly hold.** IT shifted labour demand rather than reducing it (ATMs and bank tellers, 60% of jobs in occupations that didn't exist in 1940).
-4. **Social dialogue works.** Tripartite governance (government, employers, unions) can shape deployment, which is the ILO's founding model.
-5. **Developing countries are "temporarily shielded"** by low adoption, but risk falling behind later.
+1. **Task exposure measures the risk.** Figures rest on 2023–25 scoring of tasks against generative AI capability.
+2. **Complementarity can be built.** Augmentation is realised where workers have skills, tools, infrastructure and ready firms.
+3. **Diffusion is the hinge.** Gains depend on whether AI spreads beyond rich countries and advantaged workers.
+4. **Social dialogue works.** Worker participation can shape how systems are deployed.
 
 ## What must be true for the good path
-- Governments invest in AI-complementary skills and broad digital infrastructure.
-- Employers consult workers before deploying algorithmic management.
-- AI diffusion is wide (not concentrated in large firms and rich countries).
-- Social protection catches those displaced from clerical and administrative work, disproportionately women.
+- AI complements more work than it replaces, and complementary training reaches exposed workers.
+- Infrastructure and connectivity let developing countries and smaller firms adopt.
+- Workers have a say in deploying algorithmic management.
 
 ## What must be true for the bad path
-- AI is adopted with low complementarity (substitution), so gains go to capital owners.
-- Diffusion stays concentrated in rich countries and large firms, widening the global "AI divide".
-- Worker voice stays absent, especially in non-union and platform work.
+- Low complementarity, so gains go to capital owners.
+- Diffusion stays limited to high-income countries and better-placed workers.
 
 ## Tensions and weak points
-- **Map description check:** the CSV says "1 in 4 workers globally exposed." This brief's headline numbers are 2.3% high automation potential and roughly 10–13% augmentation potential. The one-in-four figure comes from the ILO's 2025 refined index (Gmyrek et al. 2025), cited but not headlined here. "Labour income share falling" is implied (capital income gains) but not documented in this brief.
-- Exposure estimates are a snapshot of capability. Rapid agentic progress since mid-2025 could raise them a lot, particularly for "non-routine cognitive work traditionally performed by white-collar professionals," which the brief itself identifies as newly exposed.
-- The brief is a global view. Its findings on low-income countries (low exposure, low augmentation) differ sharply from the US-centric scenarios elsewhere on the map.
+- The brief is a synthesis: its scenarios are borrowed from the IMF (Cazzaniga et al.), so the map point describes the uneven present more than one modelled future.
+- Exposure figures are a snapshot of capability; faster progress would raise them, especially for non-routine cognitive work.
+- An earlier catalogue description claimed "1 in 4 workers exposed" and a documented falling labour share; neither is in this extract, and the likelihood reason no longer relies on the labour share.
+- The extract is silent on government finances, so the fiscal placement (−0.2, −0.2) rests on job quality and unequal gains.
+- The map now places it on the mild-augmentation side (`y_labor` −0.1): automation potential is low and complementarity is the brief's central lens. Neighbours are `imf-baseline`, `tcb-uneven` and `anthropic-modest`; the global, low-income view sets it apart from US-centred scenarios.
 
 ## Scoring notes
-Draft scores (2/3/2/3/3). Under the worst-off rule (older clerical workers, often women, with weak retraining access), work and safety net at 2 are justified even though the aggregate picture is "transformation, not elimination".
+Draft scores 2/3/3/3/3. Work is 2: exposed clerical workers, disproportionately women, are least likely to get reskilling. Safety net moves from 2 to 3 because this extract only recommends transition support and says nothing about gaps in existing protection. Essentials is 3 (not addressed). Government is 3: worker voice is at risk but proposed, not lost. Time is 3: safer work and more monitoring roughly offset.

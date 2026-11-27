@@ -1,25 +1,25 @@
 # The Turing Transformation — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** The mechanism runs through markets: automation lowers skill barriers and labour supply expands into the opened tasks. The authors' only policy point is negative: researchers and policymakers shouldn't steer AI toward "augmentation" for its own sake, but judge it by outcomes.
+**Off.** Firms adopt AI when it pays, and no government intervention enters the model. The authors recommend only a way of evaluating AI (whose skills it complements or substitutes for), not a policy the scenario needs.
 
 ## Big assumptions
-1. **Jobs are bundles of a scarce skill plus common skills.** AI automates the scarce one ("task 1") and leaves the widely held one ("task 2") to people.
-2. **Demand expands with supply.** When more people can do the job, enough demand exists to employ them. Uber grew the ride market rather than splitting the old one.
-3. **AI automates high-skill tasks.** Webb's patent analysis suggests machine-learning verbs ("predict", "detect", "classify") are common in high-wage work, so automation compresses the top of the wage distribution.
-4. **The remaining common task stays human.** The model needs task 2 (driving, talking to customers) not to be automated next.
-5. **Equality through lower wages at the top counts as a gain,** even when part of it comes from incumbents losing income.
+1. **Capability:** AI can perform a specialised human task more cheaply than the skilled worker, as with navigation, translation, diagnosis and writing.
+2. **Adoption:** firms adopt when AI plus generic labour gives a bigger surplus than the old arrangement; the threshold depends on AI cost, outside wages and coordination costs.
+3. **Markets:** jobs are bundles of strongly complementary tasks, and a large enough pool of generic workers can take up the remaining task. Output and sector employment rise as the skill bottleneck goes.
+4. **Politics:** absent. Distribution is left to the market and to whose scarcity rents erode.
 
 ## What must be true for this to occur
-- AI reliably handles the expert core of many jobs (diagnosis, translation, code, legal research) while humans keep the interpersonal or physical remainder.
-- New entrants can access the AI tools cheaply and the work is organised to let them in (platforms, licensing reform).
-- The wider pool of work offers decent pay and conditions, not just more participants.
+- AI handles the scarce, expert part of jobs while the widely held part stays human.
+- The supply of generic workers is large and coordination costs are not prohibitive.
+- AI is cheap enough that adoption raises total surplus rather than just shifting it.
 
 ## Tensions and weak points
-- **The Uber example cuts both ways.** It widened access, but much of that work is precarious, low-paid gig work. Doctorow's reverse centaurs (a driver watched by AI cameras) are the other side of the same example. Under the worst-off rule, more jobs at lower quality doesn't necessarily mean "hard work pays."
-- **Second-stage automation:** autonomous vehicles now threaten the very drivers the cab example celebrates. If task 2 is automated in turn, the transformation is temporary.
-- Licensed professions (medicine, law) may not open up even if the expert task is automated, because regulation limits entry.
-- Matches early evidence that AI helps novices most (Brynjolfsson et al.'s call-centre study), and runs opposite to Windfall's Lost Generation, where AI replaces juniors. Which pattern dominates is an open empirical question.
+- The model is conditional: the same automation can complement one group and substitute for another, and under other assumptions employment is unchanged or falls. The map places the main case.
+- The extract says nothing on household incomes or government finances. The fiscal y-coordinate is inferred from rising output and employment and is now much lower than before (0.2, was 0.55).
+- More jobs at a compressed wage are not necessarily better jobs; the extract gives no evidence on pay or conditions in the opened-up work, so `x_fiscal` is placed below the earlier value (0.5, was 0.65).
+- If the remaining generic task is automated next, the transformation is temporary; the model does not consider a second step.
+- Shares its mechanism with `autor` (decision support widening access to expert work) and argues against the framing of `turing-trap`, where human-like AI is the problem. Nearest on the map are `turing-trap-escape`, `toloui-prometheus` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores (4/3/3/3/3) fit. Work at 4 assumes the opened-up work is decent. If it is mostly gig work, 3 is fairer.
+Draft scores are 4/3/3/3/3, rated 3. Work is 4 because the extract's cases show rare-skill barriers falling and sector employment rising; the specialists who lose their premium are worse off but not severely harmed. The other four are 3 because the extract says `Not addressed.` for each and nothing elsewhere bears on them. Work would drop to 3 if the opened-up work proved low-paid or insecure.

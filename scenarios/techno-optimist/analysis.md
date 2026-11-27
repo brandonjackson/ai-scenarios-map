@@ -1,27 +1,26 @@
 # The Techno-Optimist Manifesto — assumptions analysis
 
 ## Policy on or off?
-**Policy off, as a principle.** The manifesto argues the good outcome *requires* minimal policy: no precautionary regulation, no AI slowdown, no UBI, no "stakeholder capitalism". The only active policy it endorses is pro-supply: build nuclear plants, remove barriers. Free markets are the mechanism; the state is a source of failure.
+**Off.** The outcome comes from markets: competitive enterprise, AI deployment and expanding energy supply, with market wealth financing collective needs. The extract labels the stance mixed, because the author supports welfare for vulnerable people and deliberate action to remove barriers to technology. The map keeps it off: the welfare provision is existing, and clearing barriers is a call to step aside rather than a new instrument the scenario depends on. No Policy Atlas policy is assumed.
 
 ## Big assumptions
-1. **Historical regularity holds for AI.** Productivity has raised wages for 300 years, so it will again. This ignores the question AI raises (Korinek, Toloui, Citrini): what happens when technology substitutes for human cognition across the board.
-2. **Comparative advantage guarantees jobs** "regardless of the level of technology". This doesn't hold if the wage at which humans are worth employing falls below subsistence. Comparative advantage guarantees *some* trade, not a living wage.
-3. **Markets prevent monopolies.** Monopoly is treated as a product of state interference, not of network effects, scale economies or data flywheels, which are exactly the forces Toloui and CFG see in frontier AI.
-4. **Falling prices are the same as rising incomes.** True for buyers who still have income. The manifesto doesn't consider those without it.
-5. **Inventors capture only 2% of value.** Nordhaus's estimate for past innovation is applied to a technology whose owners may capture much more.
-6. **Infinite wants mean infinite demand for *human* work.** That assumes demand is met by people rather than machines.
+1. **Capability:** an intelligence takeoff arrives, and AI augments people as a general problem-solving tool; fission and fusion make energy abundant.
+2. **Adoption:** competitive incentives, new applications and falling prices spread use quickly once barriers are removed.
+3. **Markets:** wages track productivity, comparative advantage keeps people employed "regardless" of technology, and competition passes almost all gains to consumers (the Nordhaus 2%/98% split).
+4. **Politics:** states accept rapid deployment and nuclear build-out, and markets prevent concentration without active policy.
 
 ## What must be true for this to occur
-- AI stays mainly augmenting, or new tasks for humans arise faster than AI absorbs old ones.
-- Competition among AI firms stays intense enough to pass gains to consumers.
-- Energy really does become abundant (nuclear build-out, fusion), avoiding the energy-bill risks Toloui flags.
-- Social stability holds through any transition without a stronger safety net.
+- AI stays mainly complementary, or new human tasks arise faster than old ones are absorbed.
+- Competition among AI firms stays strong enough to pass gains on as lower prices.
+- Energy really becomes abundant.
+- Social stability holds through any transition with only a targeted safety net.
 
 ## Tensions and weak points
-- **The monopoly paradox:** "monopolies" are on the enemy list, yet the author's industry is the most concentrated in the economy. The manifesto has no mechanism beyond faith in markets for stopping AI winners from capturing gains.
-- **Map framing:** the map tags it "DIFF (asserted)" and "Pure faith". Fair: the manifesto cites no endnotes ("in lieu of detailed endnotes ... read the work of these people").
-- Its rejection of UBI is principled (dignity through work), which makes it more dependent than any other optimistic scenario on the labour market working. If AI is broadly substitutive, it offers no fallback.
-- It is the only scenario that names "existential risk" and "trust and safety" as *enemies*. Its stance on government is the opposite of Keep the Future Human and Situational Awareness.
+- Falling prices raise real incomes only for those who still have income; the manifesto does not consider those who lose it, and the extract names no losers.
+- Comparative advantage guarantees some trade, not a living wage; if AI broadly substitutes for labour, the scenario has no fallback beyond a safety net it does not size.
+- The 2% innovator share comes from past inventions and is applied to a technology whose owners may capture far more.
+- Map: the fiscal y-value moves from −0.35 to 0.1. The new extract has market wealth financing research, welfare and defence and says little against the state beyond rejecting central planning; with no figures it sits only mildly positive. Gain distribution (0.65) is high because diffusion is asserted, not shown, hence the tag "DIFF (asserted)".
+- Compare `dacc`: both are techno-optimist, but Buterin argues markets alone do not steer technology well.
 
 ## Scoring notes
-Draft scores (3/4/2/2/3) score the world the manifesto would produce, not the world it promises. That's sensible given the worst-off rule: no UBI and a hollowed-out state leave those who fall through the market with little support.
+Draft scores are 3/4/3/3/3. Essentials is 4: falling prices, cheap energy and medical advances are the core of the scenario. Work stays 3: wage growth and full employment are asserted, but they rest on comparative advantage alone with no transition support. Safety net moves from 2 to 3 because the new extract has the author supporting a safety net for vulnerable people, funded by growth, though not a universal one. Government moves from 2 to 3: the extract shows a preference for decentralised choice over planning, not an attack on voice or collective problem-solving. Time is 3 because it is not addressed.

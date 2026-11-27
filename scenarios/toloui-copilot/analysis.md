@@ -1,24 +1,26 @@
 # Copilot Empire — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** This scenario is the structural description: market consolidation plus augmenting technology, with no new competition or tax policy. Toloui's "constructive form", which needs antitrust modernisation, interoperability rules and labour-favouring tax reform, is its own scenario, [Copilot Empire (constructive)](../toloui-copilot-constructive/analysis.md).
+**Off.** The quadrant is defined by concentrated market power and labour augmentation, with no particular policy package. In the historical analogues antitrust, regulation and organised labour responded to monopoly abuses, but that response is the separate, policy-dependent [Copilot Empire (constructive)](../toloui-copilot-constructive/analysis.md).
 
 ## Big assumptions
-1. **AI stays a complement to human labour** even while its owners consolidate. Some attributes (empathy, presence, judgement, leadership) stay human, and firms invest in the slower, harder work of augmentation instead of the "low-hanging fruit" of automation.
-2. **Concentration is compatible with broad growth.** The 20th-century US analogy holds: monopolised infrastructure still lifted wages economy-wide.
-3. **Regulators can match the platforms.** Antitrust law, built for railways and oil, can be modernised fast enough for cloud, model and application layers.
-4. **The winner is domestic.** The essay's framing is American; for most countries a Copilot Empire means depending on a foreign platform.
+1. **Capability concentrates.** Scale gains continue and algorithmic efficiency slows, so training and serving frontier models moves beyond all but a few firms.
+2. **Adoption augments.** Workflow integration gives incumbents an advantage, but realised augmentation depends on worker and managerial skills and redesign.
+3. **Markets entrench.** Installed scale, switching barriers and data feedback let suppliers keep market power and extract rents.
+4. **Politics does not respond.** No new competition rules; incumbents can build political influence as historical monopolists did.
 
 ## What must be true for this to occur
-- Frontier training costs keep rising and scaling laws keep paying, so only a few firms stay at the frontier.
-- At the same time, AI capability does *not* reach broad absolute advantage over humans. This is a narrow window: expensive enough to concentrate, but not capable enough to replace.
-- Firms deploy copilots rather than replacement, perhaps nudged by procurement rules, R&D funding for "worker-augmenting AI", and a LEAD/AI-style certification.
-- Workers have enough bargaining power (unions, tight labour markets, ageing demographics) to share in productivity gains.
+- Frontier costs keep rising, and fast followers and open models fall behind.
+- AI stays a complement: it does not reach the broad absolute advantage that defines the replacing quadrants.
+- Firms choose augmentation even though automating may be easier at first.
+- Regulators do not adopt interoperability, portability and exclusivity rules.
 
 ## Tensions and weak points
-- The quadrant is unstable. Toloui's own evidence that recent US tech monopolies brought wage polarisation shows "augmenting" can mean augmenting a minority and replacing the rest.
-- Toloui cites payroll evidence of falling employment for young workers in AI-exposed jobs. If entry-level tasks are automated, the augmentation story may hold for incumbents while the pipeline breaks (see the Windfall Lost Generation scenario).
-- Regulatory capture is assumed manageable, though the essay says historical monopolies "forged alliances with politicians".
+- The quadrant is unstable. The extract's own evidence is polarisation: augmentation for some workers and replacement for others, which can drift toward Titan's Dominion.
+- The essay gives no growth path for the AI quadrant; the map position rests on historical analogues.
+- The extract's "Affordable essentials", "Effort is rewarded" and "Time for what matters" are all `Not addressed`, so work and essentials are scored from the labour and pricing sections.
+- Likelihood is `probable`: a few firms hold the frontier and current use is mostly augmenting. But the extract also cites DeepSeek and open models near the frontier, which point the other way.
+- Close neighbours: `doctorow`, `chiang` and `tcb-concentrated`, though Copilot sits further toward augmentation.
 
 ## Scoring notes
-3/2/3/2/3, rated 2: rent extraction on the AI layer and platform leverage over regulators. The constructive version scores 4/3/3/3/3 as [`toloui-copilot-constructive`](../toloui-copilot-constructive/analysis.md).
+Draft scores 2/2/3/2/3 (work down from 3). Work is 2 because the extract makes polarisation a key dynamic: high-skill wages rose while lower-skill wages stagnated or fell, and the worst-off group is scored. Essentials is 2 because monopolists can extract rents on a layer everyone depends on. Government is 2 because historical monopolists cultivated political allies and nothing here checks that. Safety net is 3 because employment holds; time is 3 because the extract is silent.

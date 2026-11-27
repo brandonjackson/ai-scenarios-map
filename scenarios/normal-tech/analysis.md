@@ -1,25 +1,25 @@
 # AI as Normal Technology — assumptions analysis
 
 ## Policy on or off?
-**Mixed: the forecast is policy-light, the prescription is policy-on.** Slow diffusion happens naturally (organisational, regulatory and safety frictions), so the *pace* needs no intervention. But the authors argue good *outcomes* aren't automatic: "achieving the benefits of AI is not guaranteed and requires action". That means diffusion-enabling regulation, public goods (data, energy grid), redistribution and stronger safety nets. They explicitly oppose drastic interventions such as non-proliferation or licensing regimes.
+**Mixed.** Slow diffusion happens by itself: reliability gaps, organisational change and institutional friction set the pace, so the core dynamic needs no intervention. But the scenario as described also has governments adapting liability, safety rules and oversight as automation becomes more capable (Parts II–IV), which are deliberate choices. The extract marks the stance as on; the map keeps it mixed because the forecast half (slow diffusion) holds without new policy. The wider programme (evaluation, incident reporting, workforce training, open data, energy infrastructure, stronger safety nets, mandatory negotiation with publishers) is recommended, not assumed, so it is no longer linked.
 
 ## Big assumptions
-1. **Impact is limited by diffusion, not capability.** Even if AI methods improve quickly, deployment in consequential sectors is slowed by safety, liability and the need to restructure organisations, as electrification took decades.
-2. **No superintelligence in a useful sense.** Humans with AI tools stay at least as capable as AI alone. Superhuman persuasion and forecasting won't materialise (they make testable predictions here).
-3. **Control is tractable.** Auditing, monitoring, fail-safes and circuit breakers keep humans in charge without a human approving every decision.
-4. **Benchmarks overstate real-world impact.** The easier a task is to benchmark, the less it reflects professional work.
-5. **Institutions can adapt** if the pace is decades, as they did with past general-purpose technologies.
+1. **Capability:** methods improve but real-world reliability, evaluation and tacit knowledge limit what benchmark gains yield; intelligence is distributed and multidimensional, and superiority over society's accumulated expertise is doubted.
+2. **Adoption:** diffusion, not invention, sets the pace, and effective organisational change takes decades, slowest in safety-critical settings.
+3. **Markets:** as tasks are automated their value falls and work shifts to what remains hard or newly possible.
+4. **Politics:** institutions can learn as they go: liability and oversight evolve, and the public sector keeps the capacity to adopt AI.
 
 ## What must be true for this to occur
-- Frontier capability gains don't turn into rapid autonomous deployment. Agentic systems stay unreliable or are trusted only slowly in high-stakes areas.
-- Firms find that using AI well requires slow reorganisation rather than plug-and-play substitution.
-- Regulators avoid both paralysis and recklessness.
-- The economic shocks that do arrive (specific occupations) are small enough for existing institutions plus a stronger safety net.
+- Capability gains do not turn into rapid autonomous deployment in high-stakes sectors.
+- Firms find that using AI well needs slow reorganisation, not plug-and-play substitution.
+- Regulators adapt rules rather than freeze them or wave deployment through.
+- Shocks to particular occupations stay small enough for existing institutions.
 
 ## Tensions and weak points
-- **Timing:** written in April 2025, the essay predates the step-change in agentic coding that Shumer and Citrini describe (late 2025–early 2026). If diffusion in software and white-collar work turns out to take years rather than decades, the core claim is under pressure, though software is an easy area for diffusion and the authors' argument is strongest in regulated sectors.
-- The essay treats systemic harms (inequality, concentration of power) as *more* important than catastrophic risk but gives them fewer pages than its critique of superintelligence. The policy programme for them is thin.
-- Its rejection of non-proliferation favours open models and decentralised development. That fits with d/acc and Toloui's Promethean Fire, and is opposed to Keep the Future Human.
+- **Timing:** written in April 2025, before the step-change in agentic coding described by `shumer` and `citrini`. If diffusion in software and office work takes years rather than decades, the core claim is under pressure, though the argument is strongest in regulated sectors.
+- The essay names who loses (arts, journalism, workers in automatable tasks) and suggests compensation, but says nothing about household incomes, so the gain-distribution coordinate (now 0.3, down from 0.38) leans on the shape of the argument.
+- Government finances: the extract gives levers (taxing AI firms) but no budget path, so the fiscal y-value (0.15) is weakly grounded.
+- Its rejection of drastic intervention and preference for resilience sits close to `dacc` in spirit; on the map it sits beside `dsit-steady` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores (3/3/3/3/3) fit a steady-state reading. If the systemic risks the authors list materialise under today's capitalism, government could be 2. If their recommended redistribution is adopted, safety net could be 4.
+Draft scores are 3/3/3/3/3. Work is 3: harms to arts and journalism are named, but the gradual pace and shift to oversight and new roles keep disruption within existing capacity; a reading weighted on those groups could give 2. Safety net is 3 because a stronger net is recommended, not assumed; adopted, it could be 4. Government is 3: adaptive institutions are expected, with the warning that premature deployment can erode trust. Essentials and time are 3 because the extract does not address them.

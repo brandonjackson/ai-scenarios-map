@@ -1,23 +1,23 @@
 # The Simple Macroeconomics of AI — summary
 
-*Daron Acemoglu, NBER w32487, May 2024 (prepared for* Economic Policy*)*
+*Daron Acemoglu, "The Simple Macroeconomics of AI", NBER working paper, May 2024. A task-based model with a preliminary ten-year quantification for the United States, using exposure and experimental evidence. Read from the full text; see `extract.md`.*
 
-**The scenario.** A deliberately sober estimate. Using a task-based model (Hulten's theorem: aggregate gains ≈ share of tasks affected × average task-level cost saving) and existing estimates of AI exposure and productivity, Acemoglu finds AI's ten-year macroeconomic effect "nontrivial but modest": at most **+0.66% total factor productivity over 10 years** (about 0.06% a year), falling to under **0.53%** once "hard-to-learn" tasks are counted, and a GDP boost of about **1–1.6%** over the decade. Early evidence comes from easy tasks with clear success metrics; much remaining work depends on context and has no objective outcome for AI to learn from.
+**The scenario.** Generative AI and computer vision automate some tasks and make people more productive in others, but only a small share of tasks is economically affected within ten years: about 4.6% of GDP by weight, with an average cost saving of 14.4%. Tasks that depend on context and have hard-to-observe outcomes, such as care or judging scholarship, are harder for AI to learn. Total factor productivity rises by 0.53–0.66% over ten years and GDP by about 0.9–1.6%, which the author treats as upper bounds. The gains that do arrive tilt towards capital: "there is also no evidence that AI will reduce labor income inequality".
 
 ## Hard work pays
-Mostly unchanged, slightly worse. Because AI exposure is spread more evenly across demographic groups than earlier automation, he finds "no substantial negative wage effects for any education group", but also "no evidence that AI will reduce labor income inequality." Low-education women may see small wage declines. Even AI that makes low-skill workers more productive can *raise* inequality: if their tasks get cheaper and less labour is needed in them, they lose the overlap with high-skill workers.
+Broken for some, mildly. Automation cuts labour demand directly in the tasks moved to capital, though cost savings can support demand elsewhere. The wage exercise finds real wage declines for some low-education women and a rising capital share, with less demographic concentration than earlier automation. Less experienced workers gained most in some experiments, but that does not establish a narrower wage distribution.
 
 ## Affordable essentials
-Little help. Productivity gains this small do little for the cost of living. He notes some new AI "tasks" have *negative* social value (manipulative ads, addictive social media, cyber attack and defence). They could add 2% to GDP while *reducing* welfare by about 0.72%.
+Not addressed. Gains this small do little for living costs, and welfare may rise less than GDP because some new activity, such as manipulative content, adds to measured output while harming people (up to +2% GDP against −0.72% welfare in an illustration).
 
 ## Reliable safety net
-Stable but slowly eroding. Without enough new tasks, "the gap between capital and labor income is likely to widen further." That slowly shifts the tax base away from wages, without a crisis.
+Not addressed.
 
 ## Responsive government
-Implicitly challenged. The paper's main warning is about *direction*: the benefits depend on whether AI is used to create new tasks for workers (better information and expertise for electricians, nurses, educators) rather than just to automate. That is a choice for firms and policymakers, which Acemoglu has argued elsewhere needs active steering.
+Not addressed. The paper flags manipulation and misinformation as activities counted in GDP with negative welfare value, but does not discuss their political effects.
 
 ## Time for what matters
-No claim, apart from the welfare cost of manipulative and addictive uses.
+Not addressed.
 
 ## Bottom line
-No revolution, no collapse. The social contract stays broadly where it is, with capital gaining on labour, unless AI is deliberately pointed at creating good new work.
+No revolution and no collapse: modest growth, with the capital–labour income gap widening unless AI is aimed at new tasks that raise workers' capabilities.

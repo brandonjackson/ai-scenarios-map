@@ -1,23 +1,23 @@
 # Moore's Law for Everything — summary
 
-*Sam Altman, March 2021 · <https://moores.samaltman.com/>*
+*Sam Altman, "Moore's Law for Everything", 16 March 2021. A forecast of technological change and an illustration of how policy could share the gains, offered "in the spirit of a conversation starter". Read from the full essay on the author's site; see `extract.md`.*
 
-**The scenario.** "Software that can think and learn will do more and more of the work that people now do." Within five years AI reads legal documents and gives medical advice. Within ten it does assembly-line work. In the decades after, "almost everything". The revolution is "unstoppable" and self-accelerating. The labour cost behind most prices falls "toward zero", producing "phenomenal wealth", but "even more power will shift from labor to capital. If public policy doesn't adapt accordingly, most people will end up worse off than they are today." Altman's answer is the **American Equity Fund**: an annual 2.5% tax on large companies' market value (paid in shares) and on privately held land, paid out to every adult, which he estimates at about $13,500 a year within a decade.
+**The scenario.** Software that thinks takes over more and more work: within five years it reads legal documents and gives medical advice; within ten it works on assembly lines; in the decades after it does almost everything, including scientific discovery. Smarter machines help build smarter machines, and lower labour costs throughout supply chains make goods and services much cheaper. "Even more power will shift from labor to capital," and Altman expects most people to be worse off if policy fails to adapt. His answer is an American Equity Fund: an annual 2.5% levy on companies above a valuation threshold, paid in shares, and 2.5% on privately held land, paid in dollars, distributed to every adult citizen as cash and shares — about $13,500 a year each a decade on.
 
 ## Hard work pays
-Altman replaces this promise rather than keeps it. People will still have jobs, but "many of those jobs won't be ones that create a lot of economic value." Income comes from owning a share in national capital, not from effort. "We will discover new jobs–we always do," but the essay doesn't argue the point.
+Replaced rather than kept. As powerful AI joins the workforce, "the price of many kinds of labour approaches zero". Work remains, but many future jobs "generate relatively little value by present standards". Altman expects new jobs to be found and sees abundance as freeing people to invent them. The Fund is meant to preserve opportunity through ownership, not through effort.
 
 ## Affordable essentials
-The essay's centre: "Moore's Law for everything", where housing, education, food and clothing get "half as expensive every two years". Altman says plainly that housing, healthcare and education costs have risen and that "redistribution of wealth alone won't work if these costs continue to soar." Robots building houses on your own land and AI doctors and teachers are how prices fall. A land-value tax tackles the scarce factor AI can't make.
+The essay's centre. The aspiration is for housing, education, food and clothing to become half as expensive every two years for decades, through AI doctors and teachers and robot-built homes. Altman notes that these costs have risen while electronics fell, and argues that redistribution alone cannot keep up if they keep soaring. Land stays fixed in supply, so a land tax curbs speculation and improves access.
 
 ## Reliable safety net
-Rebuilt as ownership. Income tax "will work much, much worse in the future". The Fund gives "a floor for everyone in exchange for a ceiling for no one", payouts that grow with the economy and can't be borrowed against or sold.
+Rebuilt as ownership. Dividends form "a floor for everyone in exchange for a ceiling for no one". Payouts can be spent on education, health, housing or new businesses; they cannot be sold or pledged, and they rise with growth, though they fluctuate with the economic cycle. Altman compares the change to Roosevelt's safety net and expects a large fall in poverty.
 
 ## Responsive government
-Assumed rather than examined. Altman expects the policy to be "enormously popular" and compares the moment to Roosevelt's New Deal. He wants a constitutional amendment to stop voters "voting themselves more money", and says strong government will still be needed to balance share prices against the environment and human rights.
+Assumed rather than examined. Altman links growth and inclusion with less polarisation and more individual freedom, and expects a broad movement for reform. But a constitutional cap on the Fund's rates is meant to stop voting from compromising growth, and strong leadership is still needed to balance shareholder incentives against rights and the environment.
 
 ## Time for what matters
-Improved. People will be "freed up to spend more time with people they care about, care for people, appreciate art and nature, or work toward social good."
+Improving. When AI makes most basics, people gain time "for relationships, care, art, nature and work for social good".
 
 ## Bottom line
-Near-total replacement of labour, presented as abundance. Everything depends on one large policy change, made in time, that turns citizens into shareholders.
+Near-total replacement of labour presented as abundance. Everything good depends on one large policy, enacted in time, that turns citizens into shareholders.

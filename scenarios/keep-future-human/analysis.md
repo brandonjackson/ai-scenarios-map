@@ -1,29 +1,25 @@
 # Keep the Future Human: the AGI race — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** This scenario is the current trajectory the essay warns of: no compute limits, no liability, an unchecked race. The essay's strongly policy-on alternative (compute caps, strict liability, tiered regulation, international agreements, Tool AI) is its own scenario, [Keep the Future Human: Tool AI](../keep-future-human-tool-ai/analysis.md).
+**Off.** This is the trajectory the essay warns of: states and companies keep following economic and strategic incentives, with no binding interruption to gains in capability and autonomy. The limits on compute and unsafe capabilities, liability, tiered requirements, international agreements and Tool AI that Aguirre proposes belong to the policy-on twin, [`keep-future-human-tool-ai`](../keep-future-human-tool-ai/analysis.md).
 
 ## Big assumptions
-1. **AGI is near.** Scaling laws plus resources equal to "a dozen Manhattan Projects" and AI accelerating its own research. Metaculus forecasters give 25% for 1–2 years and 50% for 2–5 years (as of early 2025).
-2. **AGI is inherently uncontrollable.** A system with autonomy, generality and intelligence beyond ours "would be inherently uncontrollable", so alignment can't be relied on.
-3. **The race is self-reinforcing.** Corporate profit motives and national security fears, each actor believing it will be "the best steward of that power", keep it going.
-4. **Compute is governable.** Because "specialized AI hardware is made by only a handful of companies," caps can be verified and enforced through the supply chain.
-5. **Tool AI delivers most of the benefit.** Medicine, science, education and governance gains don't need autonomous general agents.
+1. **Capability.** Systems combining autonomy, generality and superhuman capability are near, work at speeds and scales people cannot match, are hard to inspect, and can help improve themselves, widening the gap with their users.
+2. **Adoption.** Competitive pressure drives delegation from personal assistants to corporate and state decisions; a participant who keeps humans in charge loses to faster rivals.
+3. **Markets.** Firms pay more to replace a salary than households pay for productivity tools, so investment goes to substitution; a few giant developers capture the prize.
+4. **Politics.** A feared first-mover advantage keeps the US, China and others racing, and no coordinated limit emerges.
 
-## What must be true for the warned-of outcome
-- Frontier labs keep scaling toward autonomous general agents, and commercial pressure rewards replacement.
-- Governments don't impose compute limits or liability, whether through lack of will, capture or geopolitical rivalry.
-- Alignment and control research fails to keep up, or succeeds while still leaving power concentrated.
-
-## What must be true for the alternative
-- Political will arrives in time, which Aguirre expects to come from "reality itself" as consequences become visible.
-- The US, China and others agree on verifiable compute limits.
-- Tool AI is commercially attractive enough to win investment without the AGI prize.
+## What must be true for this to occur
+- Frontier developers keep scaling towards autonomous, general systems, and commercial pressure rewards replacement over tools.
+- Governments impose no binding limits, through lack of will, rivalry or capture.
+- Delegation outpaces human understanding, so control is lost before anyone decides to give it up.
+- Robotics eventually extends exposure from screen-based to physical work.
 
 ## Tensions and weak points
-- The rival scenarios' prescriptions conflict. Narayanan & Kapoor reject non-proliferation as fragile and power-concentrating; Buterin worries licensing regimes could lead to totalitarian lock-in; Aschenbrenner wants a national race. Aguirre's caps rely on the very chokepoints others fear.
-- The Tool/AGI boundary may be fuzzy in practice, as agents built from "tools" can become autonomous.
-- **Map placement:** "REP (warns), CONC (warns)" is accurate. Fiscal coordinates (-0.5/-0.35) are inferred; the essay doesn't model public finances.
+- The essay gives no modelled growth, wage or fiscal path, and its social-contract sections are silent on effort, essentials, safety net and time. The map position and most scores lean on the labour-market and power sections.
+- **Map placement:** tags are now "Strong REP (warns), CONC (warns)". The labour point moves to (-0.55, 0.5): the extract frames the race as one to replace labour, with cognitive then physical work exposed, so the earlier replacement value of 0.35 understated it. The fiscal point (-0.5, -0.35) is kept: fewer good jobs is grounded in the labour section, but weaker public finances is inferred from institutional overload and lost worker leverage, as government finances are `Not addressed.`
+- Close neighbours are `korinek-agi`, `wef-displacement`, `dsit-rapid` and `gradual-disemp`; it sits between gradual disempowerment and the faster `cfg-central` race.
+- The Tool/AGI line that separates this path from its twin may be fuzzy in practice, since agents assembled from tools can become autonomous.
 
 ## Scoring notes
-1/2/2/1/2, rated 1, scoring the future the essay warns of. The Tool AI path scores 4/4/3/3/3 as [`keep-future-human-tool-ai`](../keep-future-human-tool-ai/analysis.md).
+Draft scores 1/2/2/1/2, unchanged, scored on the outcome the essay warns of. Work is 1 because replacement spreads from cognitive to physical work faster than society can adapt. Essentials is 2 because benefits concentrate while job loss and inequality rise, though the essay does not discuss prices of essentials. Safety net is 2 because job loss meets "social disruption [that] limits adjustment" and no income support exists on this path. Government is 1: in the extreme case humans lose the capacity to steer the future. Time is 2 because lost work brings insecurity and the information environment erodes trust and cultural production; the extract does not address time directly, so this is the least certain score. The weakest-link rule caps the headline at 2.

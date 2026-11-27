@@ -1,23 +1,23 @@
 # Escaping the Turing Trap — summary
 
-*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus, Spring 2022 · the policy-on branch; the trap itself is [`turing-trap`](../turing-trap/summary.md)*
+*Erik Brynjolfsson, "The Turing Trap: The Promise & Peril of Human-Like Artificial Intelligence", Dædalus (American Academy of Arts & Sciences), 19 April 2022; author preprint on arXiv. Read from the full text; see `extract.md`. This is the policy-on branch; the trap itself is [`turing-trap`](../turing-trap/summary.md).*
 
-**The scenario.** The future Brynjolfsson argues for. Technologists, managers and policymakers stop "putting a finger on the scales in favor of replacement". Tax law treats labour no worse than capital, governments pay for the training firms underprovide, and research aims at what is "easy for machines and hard for humans" rather than imitating people. AI then augments workers, creates new goods and capabilities, and keeps power spread out.
+**The scenario.** The future the essay argues for. AI tools complement people instead of imitating them, opening new products, services and tasks. Firms redesign production around human–AI teams rather than swapping people for machines. Workers stay necessary to creating value, so they can bargain for a share of the proceeds and a role in decisions. Tax and training policy and new technical benchmarks steer development this way. "Augmenting humans with technology opens an endless frontier of new abilities and opportunities."
 
 ## Hard work pays
-Kept. When people are indispensable to creating value they "retain the power to insist on a share of the value created." Whole jobs are hard to automate anyway: in Brynjolfsson's work with Mitchell and Rock, machine learning could do every task in none of 950 occupations. And 60% of today's jobs are in occupations that didn't exist in 1940.
+Improving. Employment, skills and bargaining power give more people ways to improve their situation. New products create new job categories (60% of workers are in occupations that did not exist in 1940), and in aviation productivity raised demand enough that more pilots were employed. Remaking organisations also raises the need for training.
 
 ## Affordable essentials
-Improving. Most of the value created since ancient times has come from new goods and services, "not from cheaper versions of existing goods". Augmentation makes far more of that value than imitation does.
+Not addressed. The essay's example of new value is retail: wider selection, reviews and continuous access, not cheaper housing, food, energy or care.
 
 ## Reliable safety net
-Stable. Equalising the tax treatment of labour and capital, or favouring wages through a larger earned income tax credit, stops firms with no workers from escaping payroll and income tax, so the tax base holds.
+Somewhat stronger. A larger earned income tax credit could support wage income, and public education and retraining can lower the burden of adjustment. Rebalancing effective taxes on labour and capital keeps firms that employ people from being penalised.
 
 ## Responsive government
-Stable. Useful knowledge stays "inalienably locked in human brains", which spreads economic and political power. This avoids the free-trade mistake, where the winners "reneged" on compensating the losers.
+Improving. Workers with indispensable knowledge can demand a voice in decisions, wider dispersion of useful knowledge decentralises economic and political power, and the author envisages institutions that stay robust as AI grows more powerful. Broad-based gains could also reverse the political backlash against technology.
 
 ## Time for what matters
-No specific claim.
+Not addressed.
 
 ## Bottom line
-The same technology as the trap, steered differently: "prosperity for the many, not just the few".
+The same technology as the trap, steered towards complementing people, so that more of the gains go to workers and power stays spread out.

@@ -1,23 +1,23 @@
 # AI Disrupts the Workforce — summary
 
-*UK Government Office for Science / DSIT, "Future Risks of Frontier AI", Annex C: AI 2030 Scenarios (Oct 2023)*
+*Government Office for Science / DSIT, "AI 2030 Scenarios: Helping policy makers plan for the future of AI" (Annex C), published on GOV.UK on 28 April 2025. The five scenarios were developed in 2023 for the November AI Safety Summit, and the report is dated January 2024. They are exploratory and deliberately leave out new policy so that policymakers can stress-test against them; no likelihoods are given. Read from the full HTML annex; see `extract.md`.*
 
-**The scenario.** By 2030, narrow but highly capable AI systems owned by tech giants automate work across many sectors. A key breakthrough lets AI act in the physical world through robots and autonomous vehicles. Data-centre shortages and persistent inflation in 2025 shape the path: vendors focus on cheaper domain-specific systems, and labour stays expensive relative to AI, so "firms therefore used AI systems to replace labour." The systems are seen as "technically safe", yet they cause "increased unemployment and poverty".
+**The scenario.** By 2030, relatively narrow AI, fine-tuned by tech giants and built into robots and autonomous vehicles, automates work across cognitive and physical sectors. Two things in 2025 set the path: data-centre shortages and price spikes push vendors towards narrow, low-compute products, and persistent inflation keeps labour expensive relative to AI. "Firms therefore used AI systems to replace labour." Productivity rises and goods get cheaper, but unemployment, falling wages and poverty increase. The systems work as intended; the harm is economic.
 
 ## Hard work pays
-Broken for many. White- and blue-collar jobs are automated, hitting hardest in repetitive cognitive work (accounting, IT) and in transport (taxis, freight) and agriculture. A new class of "AI managers" who oversee and fine-tune models does well at others' expense. In-person jobs (hospitality, entertainment) become sought after, especially by the young. "Industrial action is limited in heavily automated sectors": workers lose their leverage.
+Broken for many. There are net employment losses, "significant wage declines" and wider wage inequality. Repetitive cognitive work such as accounting and IT is heavily exposed, as are agriculture, taxis and freight. Some skilled AI users do the work of several people, specialist AI managers gain, and hospitality and entertainment become sought after, especially by the young. The report raises the prospect of a permanent net reduction in jobs, and industrial action loses force where work is heavily automated.
 
 ## Affordable essentials
-Mixed. "Increased productivity results in cheaper goods and services", and automated manufacturing and construction cut the cost of green infrastructure. But wage declines and poverty mean many can't take advantage.
+Not addressed directly. Productivity makes consumer goods and services cheaper, and automated manufacturing and construction cut the cost of green infrastructure, but poverty still rises.
 
 ## Reliable safety net
-Overwhelmed. DSIT raises the possibility of "a permanent net reduction in jobs" and asks "What policies should be implemented to help structurally unemployed workers?" The scenario also lists higher tax revenue from growth as an *opportunity*, so the money exists but isn't directed to the displaced.
+Under strain, with nothing new in place. The report asks what policy should help structurally unemployed workers and suggests retraining, taxation and workers' rights, but no change in support happens inside the scenario. It lists growth-driven tax revenue and stronger public finances as an opportunity, so the money may exist without being directed to the displaced.
 
 ## Responsive government
-Strained. Social cohesion erodes, protests and strikes disrupt the economy, and worries grow about AI surveillance and biased recruitment. Smaller developers can't compete with the giants. Global cooperation is limited by economic rivalry. The public sector does better, where "stronger trade unions limit job substitution."
+Strained. Protests and strikes follow rising unemployment and poverty, but have less effect in automated sectors. Concerns grow over surveillance and biased recruitment. Existing regulation slows automation in construction, but businesses lobby to copy looser foreign rules. Public-sector unions limit substitution. Fierce economic competition limits international cooperation and raises conflict risk.
 
 ## Time for what matters
-Worse. Unemployment and poverty, not leisure. Bias in automated decisions adds daily friction for service users.
+Not addressed.
 
 ## Bottom line
-A safe, controllable AI that still breaks the social contract. DSIT's main lesson is that policymakers "need to look beyond control of AI systems and their misuse" to its systemic economic impact.
+Safe, controllable AI that still breaks the social contract. As the report puts it, "Negative economic and societal impacts from AI use could occur even if there is successful implementation of technical AI safety systems and limited malicious use."

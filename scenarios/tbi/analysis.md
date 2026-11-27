@@ -1,29 +1,29 @@
 # The Impact of AI on the Labour Market — assumptions analysis
 
 ## Source note
-The TBI site blocks automated access (a Vercel security checkpoint), so this summary relies on the report's published figures as reported by Euronews and other coverage and on search summaries, not a full read. **Add the PDF to this folder** and re-check the summary against it.
+Earlier versions of this entry relied on press coverage because the TBI site blocked automated access. The extract is now from the full report, which corrects some figures: Tailwind displaces about 1.5 million jobs cumulatively (the 800,000–3 million range spans all four paths), and peak extra unemployment in Tailwind is 340,000 around 2040.
 
 ## Policy on or off?
-**Policy on, but light-touch.** The central estimate assumes today's institutions plus targeted improvements: retraining, safety-net adjustments, better job matching, contingency planning. There is no big structural reform (no UBI, no capital taxation shift). The optimistic outcome relies mainly on market adjustment, with government smoothing frictions.
+**On.** Tailwind assumes a "permissive and considered" deployment policy; Breeze and Whirlwind show what happens when regulatory barriers slow take-up or re-employment. That deployment stance is the only policy the central case depends on. The retraining, LIFESPAN fund and regulatory recommendations are not assumed, so the earlier links to unemployment benefits and reskilling (taken from press coverage) are dropped; the link is a blank row naming the deployment lever.
 
 ## Big assumptions
-1. **AI saves time rather than eliminating whole jobs.** A quarter of workforce time freed mostly becomes higher output and redeployment, not mass redundancy.
-2. **Gradual adoption.** Spreading across the economy over years (including scaling to smaller firms) keeps annual displacement in the tens to low hundreds of thousands, which the labour market can absorb.
-3. **New demand offsets displacement.** Productivity raises incomes and spending, creating jobs elsewhere, as in past technology waves.
-4. **Capabilities are roughly 2024 tools.** Estimates rest on task-exposure analysis of current AI, not on a step-change toward autonomous agents.
-5. **UK institutions are fit for purpose.** Jobcentres, skills programmes and benefits can be modernised fast enough.
+1. **Capability:** roughly 2024 tools: data-driven software and AI-enabled hardware, with AGI excluded from the modelling.
+2. **Adoption:** large firms first, cheap standard tools before bespoke systems, with specialist providers bringing repeatable products to small firms; 90% effective adoption by 2050.
+3. **Markets:** substitution raises job losses first, then higher productivity and wages support demand, and new products create tasks after a five-year lag.
+4. **Politics:** regulation enables rather than blocks deployment, and the UK labour market re-absorbs displaced workers without new instruments.
 
 ## What must be true for this to occur
-- Firms adopt AI steadily rather than in a sudden wave (no Citrini-style reflexive layoff spiral).
-- Displaced workers in admin, customer service and finance find comparable work, rather than downgrading as in Citrini's scenario.
-- GDP gains go broadly to households (through wages and public services), not mostly to capital.
-- Government delivers on retraining and job matching, which is historically a weak spot.
+- Adoption is steady rather than a sudden wave.
+- New tasks arrive within about five years, not ten as in Whirlwind and Breeze.
+- Productivity gains reach workers as higher incomes, so demand grows.
+- Displaced administration and sales workers find comparable work.
 
 ## Tensions and weak points
-- The 1–3 million displacement range is wide. The upper end over a short period would put far more pressure on the safety net than the central story.
-- Peak *net* unemployment can mask large *gross* churn and a long-term drop in wages for those displaced, which matters under the worst-off rule.
-- Junior hiring: if AI hits entry-level roles first (Windfall's Lost Generation), headline unemployment may stay low while early-career prospects get worse, exactly the masking the TBI's aggregate figures can't show.
-- TBI is a strong advocate of AI adoption in government, which colours the optimistic framing.
+- Peak net unemployment masks gross churn: 1.5 million displacements over 25 years, with earlier disruption for women in exposed roles.
+- The 23.8% time saving and 70% cost advantage over labour describe substantial substitution, which is why the replacement coordinate moves from −0.22 to −0.05 and the tag from "Moderate AUG" to "Mixed AUG/REP".
+- Government finances: the report gives no budget path, so the fiscal y-value moves down from 0.35 to 0.2; it rests on growth and lower health costs.
+- The catalogue is a single entry for a four-path set. Jet Stream and Whirlwind would sit well apart from Tailwind on the replacement axis.
+- Close neighbours: `anthropic-modest`, `gos-slow-burn`, `tcb-uneven`.
 
 ## Scoring notes
-Draft scores (2/3/3/4/3). Government at 4 reflects TBI's capable-state assumption. Work at 2 seems harsh against the report's own "capped and offset" conclusion. 3 would match the text, unless the worst-off rule points to displaced admin workers.
+Draft scores are 2/3/3/3/3. Work is 2 under the worst-off rule: about 1.5 million workers in administration and sales, disproportionately women, are displaced, with unemployment taking five years or more to unwind. Government moves from 4 to 3: the earlier score rested on press coverage of AI-enabled public services, while the full extract assumes only a permissive deployment policy and leaves regulatory strengthening as recommendations. Essentials is 3: health gains, nothing on housing or energy. Safety net is 3: temporary unemployment peaking at 340,000 stays within existing capacity, and the LIFESPAN fund is only proposed. Time is 3: less drudgery offset by more monitoring.

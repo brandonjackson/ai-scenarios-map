@@ -1,23 +1,26 @@
 # Co-Pilot Economy — assumptions analysis
 
 ## Policy on or off?
-**On.** Good outcomes go to "countries and businesses that invested early in training, mobility, digital infrastructure and AI governance." AI literacy and reskilling are the main levers. They are tagged to Policy Atlas policies in `data/scenario-policies.csv`.
+**Mixed.** The good outcome rests on early investment in training, mobility, digital infrastructure and governance, which is deliberate policy (by governments and firms alike). But the slowdown that makes augmentation possible is a market bust, not a policy choice, and regulation diverges rather than following a plan: standards and privacy rules multiply, some jurisdictions harmonise, others nationalise or restrict. The map previously rated this fully on; the new extract supports both strands. The paper's recommendations are mostly for businesses and apply across the set.
 
 ## Big assumptions
-1. **An AI bust.** The bubble bursts in the mid-2020s and frontier funding dries up, slowing capability.
-2. **Readiness keeps pace.** AI skills become as common as basic digital skills.
-3. **Augmentation by default.** Firms embed AI in human-led workflows rather than redesigning work around it.
-4. **No automation shock**, so productivity gains build up steadily.
+1. **An AI bust.** Valuations collapse in the mid-2020s and frontier funding dries up, slowing capability.
+2. **Readiness keeps pace.** Education and industry training are redesigned early, and AI literacy becomes universal.
+3. **Augmentation by design.** Firms embed AI task by task in human-led workflows rather than rebuilding around it.
+4. **Steady gains.** Productivity growth rises above 1.5% and breaks a long stretch of weak GDP growth without an automation shock.
 
 ## What must be true for this to occur
 - Capability growth slows to incremental by 2030.
-- Governments and firms invest in AI literacy and reskilling at scale.
-- Managers choose to keep humans in core loops and decision-making roles.
+- Governments and firms invest in AI skills at scale before displacement bites.
+- Managers choose to keep humans in core decisions.
+- Energy and infrastructure gaps do not stop lagging economies from catching up.
 
 ## Tensions and weak points
-- **The bust has not happened.** As of late 2026 investment and capability are still rising. The scenario's human-led use of AI matches many firms today, but its starting assumption does not, which is why its likelihood is rated Possible rather than Plausible.
-- It is close to `dsit-steady` (AI disappoints) and `cfg-plateau`, which also start from slower progress, but adds the training investment those leave out.
-- Inequality still widens between adaptable workers and those "locked out", so even the good scenario leaves a group behind.
+- **The bust has not happened.** As of late 2026, investment and capability are still rising. The human-led, task-level use of AI matches many firms today, but the starting assumption does not, hence Possible.
+- Who pays for the training is unclear: the extract describes redesigned education and industry training but does not say how much is public.
+- It is the benign scenario, yet wage polarisation still rises in Table 1 and the excluded fall further behind. That is why it sits closer to the centre than before on distribution and jobs.
+- Government finances are not addressed; the fiscal placement leans on growth breaking out of stagnation.
+- Neighbours are `tcb-augmentation`, `korinek-aug`, `cfg-plateau` and `normal-tech`, all slower, augmenting paths.
 
 ## Scoring notes
-Draft scores are 4/3/3/3/3. Work is 4 because augmentation and mobility improve prospects for most. The rest are 3: stable, with no clear improvement described.
+Draft scores are 3/3/3/3/3. Work drops from 4 to 3: most workers gain from mobility and augmentation, but scoring for the worst-off means weighing the groups the extract says are excluded and the jobs whose quality worsens. Essentials, safety net and time are 3 because the extract does not address them. Government is 3: diverging rules and disinformation are offset by people staying in key decisions and trust moving to verified sources.

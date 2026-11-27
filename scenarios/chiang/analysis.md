@@ -1,25 +1,26 @@
 # Will A.I. Become the New McKinsey? — assumptions analysis
 
 ## Policy on or off?
-**Policy off: the essay is about the absence of the right policy.** Chiang says the gains from IT failed to reach the median household because "we haven't had those policies for the past forty years" and blames Reagan, Friedman, Jack Welch and the consultancies. His implied prescription is policy on in a specific sense: taming capital through regulation and resisting it through stronger labour, plus a change in corporate culture back to the postwar "golden age" (GE's 1953 goal: "maximizing employment security").
+**Off: the missing policy is the point.** Existing market incentives favour management, and redistribution depends on political action Chiang treats as uncertain. The scenario assumes no UBI for displaced workers. His recommendations (economic policy to distribute gains, AI that serves regulation, unions and worker cooperatives) are posed as directions, not instruments, so there are no Policy Atlas links.
 
 ## Big assumptions
-1. **AI is deployed by management, for management.** Firms choose AI that maximises shareholder value; pro-social AI loses as a pro-social consultancy would lose to McKinsey.
-2. **The post-1980 pattern continues.** The decoupling of productivity from median income under IT is the best guide to AI.
-3. **Capability barely matters.** The harm works through accountability laundering ("the algorithm says") and lower labour costs, even if AI is mediocre. Chiang is "not very convinced" by AI-takeover risk.
-4. **Distribution is set by power, not technology.** "The only way that technology can boost the standard of living is if there are economic policies in place to distribute the benefits."
-5. **UBI won't arrive in time.** Using future UBI to justify present harm is like justifying toxic waste with a hypothetical waste-to-food machine.
+1. **Capability barely matters.** Harm works through lower labour costs and diffused accountability, whether AI is a cost-cutting tool or semi-autonomous software.
+2. **Adoption is chosen by management.** Firms pick applications that cut costs or replace staff; pro-worker uses stay hypothetical.
+3. **Markets reward shareholder value.** A firm can choose systems that maximise returns over ones restricted to pro-social choices.
+4. **Politics decides distribution.** The post-1980 gap between output and median income is the best guide, and policy to close it is not assumed.
 
 ## What must be true for this to occur
 - Shareholder primacy stays the dominant corporate norm.
-- Labour's bargaining power stays low (low union density, weak regulation).
-- AI is good enough to replace or deskill some workers, or to provide cover for layoffs, even where the work gets worse.
-- No movement emerges that uses AI to strengthen workers' collective power.
+- Labour's bargaining power stays weak.
+- AI is good enough to replace or deskill some workers, or to give cover for layoffs.
+- No movement uses AI to strengthen workers' collective power.
 
 ## Tensions and weak points
-- **Map description (fixed):** the map used to say Chiang argues AI is "technically overhyped". The essay makes no claim about capability. Its point is that AI is harmful *because it serves capital*, at any capability level. The CSV description now says so. "Limited impact" on the labour axis is still an inference the text doesn't support; Chiang is closer to "replacement as management's intent", and the map coordinates may deserve a second look.
-- It is a diagnosis more than a forecast. There's no timeline or mechanism for how bad things get, and the hopeful path (a second golden age without another Great Depression first) isn't spelled out.
-- It shares Acemoglu and Johnson's thesis (direction of technology is a choice) and Doctorow's (AI as a narrative tool against labour).
+- **Map description (fixed earlier):** the catalogue once said Chiang calls AI "technically overhyped". The essay makes no capability claim; its point is whom AI serves. The old "Limited impact" tag carried the same mistake, so the tags now read "Mixed AUG/REP" and `y_labor` moves just past centre (0.05): the essay covers both layoffs and augmentation whose gains go to owners.
+- It is a diagnosis more than a forecast: no timeline or mechanism for how bad things get, and the hopeful path is only sketched.
+- Essentials and time rest on historical comparison and an idealised far future, not on AI-specific mechanisms.
+- The extract is silent on government finances; the fiscal placement (−0.35, −0.1) rests on weaker job quality alone.
+- Close to `doctorow` (AI as a tool against labour) and `acemoglu` (direction of technology is a choice); sits next to `tcb-concentrated` and `wef-stalled` on the labour map.
 
 ## Scoring notes
-Draft scores (2/3/3/2/3): essentials could be 2, since Chiang says plainly that housing, tuition and healthcare are already out of reach and AI won't help.
+Draft scores 2/2/2/2/3. Work is 2: layoffs are easier and productivity gains need not reach pay. Essentials is 2: housing, college and health care have outrun incomes and augmentation will not reverse that. Safety net is 2: no UBI exists and waiting for one leaves displaced workers exposed. Government is 2: AI diffuses accountability for management decisions and redistribution depends on uncertain politics. Time is 3: only the idealised future is discussed.

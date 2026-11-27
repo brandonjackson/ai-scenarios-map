@@ -1,23 +1,23 @@
 # Supercharged Progress — summary
 
-*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (January 2026). Scenarios are global and built on two axes: AI advancement (exponential or incremental) and workforce readiness (widespread or limited).*
+*World Economic Forum, "Four Futures for Jobs in the New Economy: AI and Talent in 2030", white paper (7 January 2026). Four exploratory global scenarios on two axes, incremental versus exponential AI advancement and limited versus widespread workforce readiness, built from research and workshops with chief strategy officers to stress-test business decisions. No probabilities; the directions of change in Table 1 are illustrative. Read from the full 20-page paper; see `extract.md`.*
 
-**The scenario.** Exponential AI meets a ready workforce. A breakthrough "drastically shortens the timeline to artificial general intelligence", and a "radical redesign of education and training systems" lets people adapt. Open-source competition keeps agents cheap. AI capital spending passes $1.3 trillion over 2025–2030 and global GDP growth nears double digits.
+**The scenario.** Exponential AI meets a ready workforce. Breakthroughs shorten the expected timeline to AGI, open-source competition keeps agents cheap, and agentic operating layers become as central to production as the electricity grid. AI capital spending passes $1.3 trillion over 2025–2030, productivity beats early projections and global GDP growth nears double digits. "Human work becomes modular, fluid and AI-mediated."
 
 ## Hard work pays
-Broken for most, despite the boom. "Many occupations have disappeared entirely", and work shifts from doing tasks to designing and overseeing AI systems; some people oversee "hundreds of 'digital employees'". Countries that invested early in training curb mass unemployment, but "displacement and job quality degradation are common across all sectors and geographies." Wage premiums for AI-ready workers nearly double, care and hospitality wages "erode slowly", and other workers "face declining bargaining power despite overall productivity gains, with wages plummeting across most sectors."
+Broken for many, despite the boom. Many occupations disappear and job scope shrinks. Some people oversee hundreds of digital employees or portfolios of agents; others move into shrinking human-centred niches. Early training curbs mass unemployment in some countries and industries, but displacement and job-quality degradation remain widespread. The AI-ready wage premium nearly doubles from 56%, care, hospitality and public-sector workers face wage erosion, and many others lose bargaining power as wages fall amid productivity gains.
 
 ## Affordable essentials
-Unclear. Breakthroughs in energy, materials and health scale fast, but the white paper says nothing about the cost of essentials for ordinary households.
+Mixed. The report sees breakthroughs in personalised services, education, healthcare and longevity, and AI opening creative and entrepreneurial work to people previously excluded. Grid pressure and critical-material price spikes are risks.
 
 ## Reliable safety net
-Lagging. "Safety nets struggle to keep up." "Some governments experiment with AI dividends, wage insurance and universal basic income models. Others grapple with the trade-offs between rapidly tightening fiscal space and growing societal strain."
+Lagging. Existing safety nets struggle with the pace and scale of disruption. Some governments experiment with AI dividends, wage insurance and universal basic income; others face tightening fiscal space as social strain grows.
 
 ## Responsive government
-Lagging. "Regulatory regimes lag behind the pace and depth of the agentic transformation", ethics frameworks adapt slowly, and "looming AGI risks weigh on the long-term outlook."
+Lagging. Ethical and regulatory frameworks fall behind workplace deployment, and the report warns of regulatory overconfidence, concentration and weaker oversight of autonomous systems. It calls for workers, governments and industry to be involved in deployment.
 
 ## Time for what matters
-No particular change described. AI makes creativity and entrepreneurship "accessible to millions who were previously excluded."
+Not addressed.
 
 ## Bottom line
-The WEF's best case for growth is not a good case for most workers: the boom is real but the gains go to the AI-ready and to profit margins.
+The WEF's growth-maximising future is not a good one for most workers: the boom is real, but the gains go to the AI-ready and to corporate margins while wage polarisation rises.

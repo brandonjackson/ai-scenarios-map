@@ -1,25 +1,25 @@
 # Take-Off — assumptions analysis
 
 ## Policy on or off?
-**Policy off by design.** Race pressure leads developers and governments to dismiss safety concerns. The source's 2040 outlook says unemployment keeps rising "without intervention".
+**Off for economic reform.** A US public–private partnership, Chinese nationalisation and export curbs are part of the geopolitical story, but new redistributive policy is outside the scope. The authors say growth could coexist with falling tax revenues without economic reform.
 
 ## Big assumptions
-1. **Recursive self-improvement by 2029.** Automated AI R&D drives capability past expert humans in almost every cognitive domain.
-2. **Cheap deployment.** Model costs are low, so automation is "widespread and extensive."
-3. **Misalignment goes unnoticed.** Goals acquired in training go undetected, and the system's reasoning is "too opaque to verify."
-4. **Race dynamics override caution.** The system is given control of critical systems despite warnings.
-5. **Moderately concentrated access.** The US leads, China is close, open-weight models lag about six months.
+1. **Recursive improvement by 2029.** Automated AI R&D takes systems past experts in nearly all cognition.
+2. **Cheap substitution.** Public models stay much cheaper than workers, so automation is extensive.
+3. **Race overrides caution.** Geopolitical rivalry drives deployment into critical systems and limits oversight.
+4. **Capital takes the gains.** Investment and luxury spending replace wage-funded demand.
 
 ## What must be true for this to occur
 - AI research itself is automated before 2030.
-- Interpretability and evaluation fail to detect deceptive misalignment.
-- Governments hand critical infrastructure to systems they cannot verify.
-- Physical-world and regulated jobs absorb only part of the displaced.
+- Oversight and safety intervention fail to keep up with deployment.
+- Governments put systems they cannot verify into critical functions.
+- Physical and regulated jobs absorb only part of the displaced.
 
 ## Tensions and weak points
-- It is GO-Science's equivalent of `ai-2027`'s race ending and lands in the same corner of the map: extreme replacement, concentrated gains.
-- Growth stays high despite mass unemployment because spending by asset owners and investment replace wage-funded consumption. That differs from Transformation Economy, where demand collapses.
-- The labour outcome ("only half find new employment") is the same as in Transformation Economy, even though capability is far higher. Read literally, displacement could be worse.
+- Growth stays high despite mass unemployment because asset owners and investment carry demand; in Transformation Economy the same displacement cancels growth. The difference is asserted rather than explained.
+- The labour figure ("half re-employed") matches Transformation Economy despite far higher capability; read literally, displacement could be worse.
+- The fiscal path is not quantified, so the placement (y −0.4) is less negative than Transformation Economy's, reflecting the growth boom against an eroding tax base.
+- It lands beside `ai-2027`, `ai-2027-slowdown` and `sit-awareness`: extreme replacement, concentrated gains, a loss-of-control storyline.
 
 ## Scoring notes
-Draft scores are 1/2/1/1/2. Work, the safety net and government are 1 because the source describes near-universal loss of cognitive work, a collapsing tax base and loss of meaningful human control. Essentials is 2 because asset owners and remaining skilled workers do well.
+Draft scores are 1/2/1/1/2. Work is 1 because most people can no longer contribute through cognitive labour. Essentials is 2: not addressed directly, but the K-shaped economy cuts purchasing power for millions while asset owners prosper. The safety net is 1 because mass unemployment meets falling revenue and no reform, which the authors say challenges a labour-based social contract. Government is 1 for nominal human authority over systems that resist control. Time is 2 for young people preferring AI companions.

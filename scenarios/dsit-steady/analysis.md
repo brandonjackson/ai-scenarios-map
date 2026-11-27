@@ -1,25 +1,25 @@
 # AI Disappoints — assumptions analysis
 
 ## Policy on or off?
-**Explicitly policy off.** GO-Science "explicitly avoided including any such government interventions in the scenarios" so policymakers can stress-test ideas against them, and "deliberately avoided including any scenarios that are largely benign or favourable." Every DSIT scenario is a policy-off baseline by design.
+**Off by design.** GO-Science left new policy interventions out of every scenario so that policymakers can stress-test against them. The governments in this scenario do reinvest in human capital and other technologies as AI disappoints, and the public calls for regulation, but no enacted response shapes the outcome. The report's recommendations (help with skills and adoption barriers, keeping strategic AI skills and infrastructure through the downturn, AI literacy, ways to report unsound decisions) sit outside the scenario.
 
 ## Big assumptions
-1. **Capability stalls on accuracy and reliability.** Hallucination and weak multi-step reasoning prove "stubborn", made worse by a shortage of high-quality data.
-2. **Investment is pro-cyclical.** A 2025 "AI bust" and media backlash pull money out, which slows progress further ("Might a slowing of AI development cause a drop in investment, which could reinforce the slowing?").
-3. **Practical adoption barriers dominate.** Legacy IT, poor data structures and missing skills limit use even where tools work.
-4. **Something else attracts capital.** Breakthroughs in fusion and quantum draw investors away.
-5. **Climate becomes the overriding concern,** pushing international cooperation.
+1. **Capability stalls on reliability.** Accuracy and multi-step reasoning stay weak; data shortages slow the large labs and let open-source developers catch up.
+2. **Adoption is held back by practical barriers.** Legacy data systems, missing integration skills, bad publicity and hard-to-use tools keep uptake low in the UK and abroad.
+3. **Investment is pro-cyclical.** A 2025 bust pulls money out, which slows progress further, and capital moves to fusion and quantum.
+4. **Politics stays calm.** Low capability leaves room for safety research and international cooperation; climate becomes the bigger concern.
 
 ## What must be true for this to occur
-- Scaling and reasoning methods fail to fix reliability by the late 2020s.
-- Investors lose patience quickly, and the bust is short rather than systemic.
-- Firms can't redesign workflows around unreliable tools.
-- Low capability coexists with enough misuse to erode trust.
+- Reliability problems resist scaling and new methods through the late 2020s.
+- Investors lose patience quickly, and the resulting crisis is brief rather than systemic.
+- Firms cannot redesign work around unreliable tools.
+- Low capability still leaves enough misuse to keep trust low.
 
 ## Tensions and weak points
-- **Naming (fixed):** the map used to call this "Steady Progress" with a gentler description ("existing institutions adapt"). DSIT publishes no scenario by that name, and the source describes a bust, disillusionment and inequitable access, and says outright that it excluded benign scenarios. The CSV now uses DSIT's own name, "AI Disappoints", and a matching description. The map coordinates (augmenting, diffuse, stronger finances) were set for the old framing and may need revisiting.
-- Written for the November 2023 AI Safety Summit, the scenario is already partly overtaken: 2024–25 brought large gains in reasoning and agentic capability, which makes "AI Disappoints" look less likely than when it was written.
-- An AI bust is treated as a minor event. Given today's AI capex share of GDP, a larger crash could hit public finances and jobs on its own (compare Doctorow).
+- **Overtaken by events.** The scenario starts from a 2025 bust that did not happen; capability and investment kept rising. That is why it is rated Improbable.
+- **Map position revisited.** The map used to place this as augmenting, diffuse and fiscally positive, a hangover from an older, gentler description. The extract supports none of that: gains go to big tech and to people with AI skills, most jobs are untouched rather than augmented, and stagnation is "adverse for public finances". It now sits near the centre, slightly concentrated and slightly weaker on public finances.
+- The bust is treated as a minor event. A larger crash, given the scale of AI investment, could hit jobs and public finances on its own.
+- Its nearest neighbours are `imf-baseline` (diffusion stalls, then a correction), `anthropic-modest` and `gos-slow-burn`; `acemoglu` is a little more concentrated.
 
 ## Scoring notes
-Draft scores (3/3/3/3/3) fit. Time might be 2 given the source's explicit mention of worsening online addiction and polarisation.
+Draft scores are 3/3/3/3/2. Work stays 3: most jobs are untouched, and the skills divide is a gap in benefits rather than severe harm. Essentials and the safety net are 3 because the extract does not address them. Government is 3: misuse, bias and weaker scrutiny are offset by safety progress and growing cooperation. Time is 2, down from 3, because the only thing the extract says about it is a harm: worsening online addiction and polarisation from unscrutinised AI.

@@ -1,30 +1,25 @@
 # The Turing Trap — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** This scenario is the trap: where *current* incentives lead (tax codes favouring capital, plug-and-play automation, research aimed at imitating humans). The policy-on branch (rebalanced taxation, subsidised training, redirected research) is its own scenario, [Escaping the Turing Trap](../turing-trap-escape/analysis.md).
+**Off.** The trap is where existing incentives lead: tax rules that favour capital over labour, managers chasing measurable replacement targets and research aimed at imitating humans. The author's recommendations (rebalanced taxes, a larger earned income tax credit, training, new benchmarks) belong to the policy-on twin, [Escaping the Turing Trap](../turing-trap-escape/analysis.md).
 
 ## Big assumptions
-1. **Automation vs. augmentation is a real, steerable choice.** The direction of AI development responds to incentives facing researchers, firms and governments.
-2. **Augmentation creates more value.** New goods and capabilities outweigh cheaper old ones, so a market with corrected incentives would *choose* augmentation.
-3. **Whole-job automation is hard.** Jobs are bundles of tasks and many resist automation (no occupation was fully automatable in his 2018 analysis).
-4. **Bargaining power comes from being indispensable** (incomplete-contracts theory). Inalienable human knowledge spreads power; codified knowledge concentrates it.
-5. **Markets misprice the externalities of displacement,** including community harms and deaths of despair, so the welfare theorems don't apply.
+1. **Capability:** AI becomes a closer substitute for human labour as it masters more human tasks, and grows more powerful and pervasive over the decade from 2022.
+2. **Adoption:** firms swap machines for measurable tasks with few workflow changes; replacing whole jobs is harder.
+3. **Markets:** bargaining power comes from being indispensable. Substitution shifts income to owners and scarce complementary assets.
+4. **Politics:** economic concentration becomes political concentration, so the losers cannot enforce redistribution even if an automated economy could afford it.
 
-## What must be true for the good path
-- Tax reform removes the bias toward capital (or tilts it toward labour).
-- Researchers and investors value "superhuman in new domains" over "human-like in old ones".
-- Firms invest in reorganising work around human–AI complementarity, roughly nine dollars of intangible investment for every dollar spent on machine learning.
-- Governments fund training, overcoming the externality that keeps firms from training workers who may leave.
-
-## What must be true for the trap
-- Plug-and-play automation stays the "low-hanging fruit" for managers and investors seeking "scalable" models.
-- The labour/capital tax wedge persists.
-- AI advances toward general human-like capability, which narrows the set of tasks only humans can do.
+## What must be true for this to occur
+- Plug-in automation of measurable tasks stays the easiest path for managers and investors.
+- The tax wedge between labour and capital persists.
+- AI keeps advancing on human-like capabilities, narrowing the set of tasks only people can do.
+- Displaced workers lack the political power to secure a lasting share.
 
 ## Tensions and weak points
-- Written in 2021–22, before large language models. Frontier AI has since pursued exactly the human-like generality Brynjolfsson warned about, and the "zero occupations fully automatable" finding may not hold for frontier agents.
-- If general AI makes augmentation and automation converge (an assistant capable enough becomes a substitute), the choice he describes gets narrower.
-- **Map placement:** "DIFF<>CONC" is right. The essay is a hinge between the two. Its fiscal coordinates are blank, though the essay has a clear fiscal argument (the tax wedge). It could be placed.
+- The essay argues that whole-job automation is hard (none of 950 occupations fully automatable), yet the trap needs substitution to spread widely. The map places replacement as moderate (0.35) rather than strong for that reason.
+- Average living standards can rise in the trap; it is distribution and power, not output, that fail. Gains go to "a shrinking group", which puts it firmly on the concentrated side (`x_labor` −0.45).
+- Written in 2022, before general-purpose language models; frontier AI has since pursued the human-like generality the essay warns about.
+- Nearest on the map are `keep-future-human`, `dsit-rapid` and `gradual-disemp`: the same substitution-and-concentration story at a slower pace than `ai-2027` or `citrini`.
 
 ## Scoring notes
-Scored as the trap: 2/3/2/2/2, rated 2. The earlier draft averaged both branches to 3s across the board, which hid the essay's point. The policy-on branch scores 4/4/3/3/3 as [`turing-trap-escape`](../turing-trap-escape/analysis.md).
+Draft scores are 2/3/2/2/2, rated 2. Work is 2: workers without indispensable skills lose bargaining power and wages. Essentials is 3: cheaper existing goods, but nothing on housing, food, energy or care. Safety net is 2: the tax base shrinks as firms shed workers, and transfers to the displaced can be cut. Government is 2: concentrated economic power becomes political power. Time is 2: leisure rises, but lost work harms community well-being and health for those displaced.

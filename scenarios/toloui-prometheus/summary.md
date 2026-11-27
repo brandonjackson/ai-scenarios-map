@@ -1,23 +1,23 @@
 # Promethean Fire — summary
 
-*Ramin Toloui, "Titans, Swarms, or Human Renaissance?", Digitalist Papers vol. 2 · one of four quadrants*
+*Ramin Toloui, "Titans, Swarms, or Human Renaissance? Technological Revolutions and Policy Lessons for the AI Age", The Digitalist Papers vol. 2 (11 December 2025). One of four quadrants formed by crossing market structure (winner-take-all or fast-follower) with labour replacement or augmentation, grounded in historical analogues and followed by five policy priorities. The quadrants are conceptual possibilities, with no probabilities attached. Read from the full essay; see `extract.md`.*
 
-**The scenario.** The best cell: decentralised, quickly spreading AI that augments human ability, with competition holding prices down and pushing innovation to the application layer. Toloui's precedent is the US Second Industrial Revolution: electrification, the combustion engine, plumbing, appliances, chemistry. These "complemented human labor both directly ... and indirectly". It is the "Human Renaissance" of the essay's title.
+**The scenario.** Fast-follower competition spreads a transformative AI that complements workers. Knowledge spreads quickly, switching costs are low, and open and specialised models stay near the frontier, so the cost of intelligence falls and "the innovative edge moves to the application layer". Cheaper output expands demand for products and for the labour that makes, supplies and uses them, and new industries create new work. The positive version is an explicit policy goal: in the historical analogues, public education and infrastructure helped deliver it.
 
 ## Hard work pays
-Kept and strengthened. Like early 20th-century car workers whose jobs grew as productivity rose, workers become more productive, cheaper output raises demand, and whole new industries need people. Early evidence that AI lifts less-experienced workers most (call centres, coding, writing, consulting) fits this.
+Improving. Augmentation can raise demand for operators, maintenance and integration workers, and lower costs expand demand along supply chains and into new industries. Early evidence favours less experienced workers in call centres, software, writing, law and consulting. The historical analogue is car making, where productivity and employment rose together and second-order jobs followed. Complementarities still vary by field, skill and task.
 
 ## Affordable essentials
-Improving. Toloui expects intelligence to become a commodity like electricity, with lower unit costs passed to consumers. He warns that data-centre energy demand must not push "higher utility prices onto households and small businesses".
+Improving. Competition cuts the unit cost of AI, and the historical mechanism is cheaper output and lower final prices. The analogues include better sanitation, health and agriculture. Toloui warns that new AI infrastructure should not push higher utility prices onto households and small businesses.
 
 ## Reliable safety net
-Stable. Augmentation keeps most people employed, so the net isn't overloaded. Toloui's flexible tax reforms would need "less adjustment in rates" in this world: the levers are built in advance but used lightly.
+Stable. Across the set, larger supports (an expanded earned income tax credit, wage insurance, transfers not tied to employment, a public health option) are reserved for strong displacement and unequal gains, which this quadrant largely avoids.
 
 ## Responsive government
-Stable, with a job to do. Power is spread out, so capture is less of a threat, but the state must invest. Public education and infrastructure (roads, electrification) were what made the original Promethean Fire work. The priority now is "leveraging ... transformative AI to raise living standards while containing misuse and misalignment", because decentralised capability also reaches bad actors.
+Not addressed. The extract says nothing about political voice in this quadrant. The state's role is as investor: education, compute access, extension services and safety governance.
 
 ## Time for what matters
-Potentially better. The Second Industrial Revolution's appliances cut household labour and let more women work outside the home. Toloui doesn't project the AI equivalent, so this stays implied rather than argued.
+Not addressed for AI. The only evidence is historical: mass-produced appliances cut housework and let more women work outside the home.
 
 ## Bottom line
-A future in which every promise can improve, but which, on Toloui's reading of history, only arrives if policy steers toward it.
+The "Human Renaissance" of the title: every promise can improve, but on Toloui's reading of history it arrives through public investment as well as market competition.

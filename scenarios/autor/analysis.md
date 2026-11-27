@@ -1,26 +1,26 @@
-# Applying AI to Rebuild Middle-Class Jobs — assumptions analysis
+# Applying AI to Rebuild Middle Class Jobs — assumptions analysis
 
 ## Policy on or off?
-**Policy on (the map tag "if policy steers it" is accurate).** Autor calls his thesis "a claim about what is attainable", not a forecast. Realising it needs training systems, credentialing reform, scope-of-practice changes (as with nurse practitioners) and choices about how AI is designed and deployed. He points to Acemoglu, Autor and Johnson for practical policy ideas.
+**Mixed.** The extract classes it as mixed: the opportunity depends on choices by both public and private institutions. Employers must organise AI around complementarity, and permission to do some expert work must extend to less-credentialled practitioners, as it did for nurse practitioners. The scenario also contains its own bad branch, in which expertise is devalued and AI is used for surveillance. Previously rated `on`; the new extract puts as much weight on firms' deployment choices as on public policy.
 
 ## Big assumptions
-1. **AI complements judgement rather than replacing it.** AI is good at tacit knowledge but "not trustworthy with facts and numbers", so it works best as an adviser to a trained human who makes the decision.
-2. **Foundational expertise stays necessary.** The YouTube analogy: tools extend the reach of people who already have a base of skill, and are dangerous for those who don't.
-3. **Demand for expert services is elastic.** Demand for healthcare, education and code is "almost limitless", so cheaper services mean more work, not less.
-4. **Demographics make labour scarce.** Ageing and falling birth rates keep labour markets tight, which cushions displacement.
-5. **Professional guilds can be reformed.** Scope of practice can be widened against incumbent opposition (doctors, lawyers).
+1. **Capability:** AI gives real-time pattern recognition, advice and synthesis but fails outside the range where it was tested; capable, cheap robotics in unpredictable settings remains distant.
+2. **Adoption:** value depends on reliability, the user's expertise, institutional rules and workflow choices.
+3. **Markets:** demand for expert work grows when more people can supply it, and labour shortages in ageing economies keep workers scarce.
+4. **Politics:** institutions and professions widen scope of practice and steer AI towards access to expertise rather than surveillance and devaluation.
 
 ## What must be true for this to occur
-- AI stays a decision-support tool rather than becoming an autonomous decision-maker.
-- Regulators and professional bodies let mid-skill workers do more with AI assistance.
-- Training pipelines (community colleges, apprenticeships, certifications) expand to supply the foundational expertise.
-- Employers use AI to widen access to expert work rather than to cut headcount.
+- AI stays decision support for a trained person rather than an autonomous decision-maker.
+- Workers have, or can get, the foundational expertise the tools build on.
+- Regulators and professional bodies let less-credentialled practitioners take on more.
+- Employers use AI to widen access to expert work rather than to cut roles.
 
 ## Tensions and weak points
-- **Source link (fixed):** the map's URL used to point to NBER w32890, "Pensioners Without Borders" (Kalin, Levy & Muñoz), and the title read "Labor Market Impacts of AI". The CSV now points to **NBER w32140** (<https://www.nber.org/papers/w32140>) and uses the paper's title.
-- Frontier AI has moved fast since early 2024. Autor's claim that AI is weak on facts and rules has been eroded by reasoning models and agents. If AI becomes a reliable *autonomous* expert, the "decision support for mid-skill workers" window may be brief.
-- It assumes incumbents (the AMA, bar associations) can be overcome. The nurse-practitioner fight took decades.
-- It shares its mechanism with Agrawal et al.'s Turing Transformation, but Autor stresses decent jobs and training where Agrawal et al. stress market entry.
+- **Source link (fixed earlier):** the map's URL once pointed to NBER w32890 ("Pensioners Without Borders") under another title; it now points to w32140 and uses the paper's own title.
+- The paper admits AI also automates and eliminates roles, and the displaced need not be the beneficiaries; the map places the opportunity, not the net effect.
+- The extract does not address government finances. The fiscal y-coordinate is inferred from wider middle-class employment and is placed lower than before (0.2, was 0.45).
+- If AI becomes reliable as an autonomous expert, the decision-support window may be brief.
+- Shares its mechanism with `turing-transform` but depends on deliberate choices; it sits less diffuse than `turing-transform` because the gains go to those with the right foundations. Neighbours include `keep-future-human-tool-ai`, `korinek-aug` and `wef-copilot`.
 
 ## Scoring notes
-Draft scores (4/3/3/3/3). Essentials could reasonably be 4, since the paper argues directly that AI could lower healthcare, education and legal costs, the biggest drivers of unaffordability.
+Draft scores are 4/4/3/3/3, rated 3. Work is 4: workers with foundations gain access to better-paid decision-making. Essentials rises to 4 (was 3) because the extract argues directly that decision support could widen access to primary care. Safety net and time are 3, not addressed. Government is 3: the paper names surveillance and concentrated ownership as risks, but as possible uses rather than the scenario's outcome.

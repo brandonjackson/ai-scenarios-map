@@ -1,23 +1,23 @@
-# AI Augments Workers (business as usual) — summary
+# AI Augments Workers — summary
 
-*Anton Korinek, "Scenario Planning for an A(G)I Future", IMF Finance & Development, Dec 2023 · model in Korinek & Suh, "Scenarios for the Transition to AGI", NBER w32255 (2024)*
+*Anton Korinek, "Scenario Planning for an A(G)I Future", IMF Finance & Development, December 2023. This is the first of three technology scenarios in the article: the "traditional" business-as-usual case. The other two (AGI in about 20 years and about five years) form `korinek-agi`. Read from the full print article (pp. 30–33), including its two charts; see `extract.md`.*
 
-**The scenario.** Korinek's "traditional" case. Work is split into tasks of differing complexity, and the hardest human tasks are *unbounded*: however far the automation frontier moves, a thick tail of tasks stays human. A constant share of tasks is automated each year, so AGI never arrives. In the simulations, output and wages "rise forever ... at a pace similar to what advanced countries have experienced over the past century". AI is another engine of ordinary productivity growth.
+**The scenario.** AI keeps automating cognitive tasks, but the complexity of tasks humans can do has no upper bound. Automation removes tasks at the simpler end and people move to new, more complex ones beyond the automation frontier, as they have in the past. Displaced workers find "new, on average more productive jobs", labour stays scarce, and growth "continues along the trajectory we are used to from past decades". In the article's illustrative chart, output rises from 100 to about 225 over 30 years and competitive wages to just under 200. The author gives each of his three scenarios more than a 10% chance and stresses that the charts illustrate possibilities rather than forecasts.
 
 ## Hard work pays
-Kept. As long as automation is slow relative to capital accumulation, labour stays scarce and wages rise with output. Automation moves people from automated tasks to complex ones, and those tasks still need humans. This is the textbook mechanism by which technology has raised living standards since the Industrial Revolution.
+Kept, and improving. Some workers lose particular jobs, but they move into more productive work and the competitive wage nearly doubles over 30 years, tracking output. The article names no group that loses out.
 
 ## Affordable essentials
-Stable. Ordinary productivity growth slowly lowers the real cost of goods. Korinek models no special effect on housing, energy or care, so essentials follow long-run trends rather than any AI dividend.
+Not addressed. Ordinary growth continues; the article says nothing about housing, food, energy or care.
 
 ## Reliable safety net
-Stable. With employment and wages growing, tax bases built on labour income hold. The net faces ordinary churn as tasks are automated, not structural collapse. In the companion analysis, the heterogeneous-skill results warn that workers in heavily automatable tasks can still be "starkly devalued", so the net must handle uneven transitions.
+Not tested in this scenario. Across all three scenarios the author advises stress-testing safety nets, expanding them where needed and perhaps starting "a small basic income designed to scale", but in this case employment and wages hold.
 
 ## Responsive government
-Not stress-tested. Existing institutions and fiscal systems suit a world of growing labour income. Korinek's planning advice is that governments should *prepare* for the AGI scenarios even if this one holds, which is cheap insurance.
+Not addressed. The advice to stress-test taxation, fiscal sustainability and other institutions applies across the set, as cheap insurance against the AGI cases.
 
 ## Time for what matters
-Unchanged. Rising real wages give societies the option of shorter hours, as in the past century, but the model is silent on how that choice is made.
+Not addressed.
 
 ## Bottom line
-The continuity scenario: AI as a normal productivity technology whose gains reach workers through labour scarcity. Each promise holds at its current level, with modest improvement on work.
+The continuity case: AI as a normal productivity technology whose gains reach workers because human labour stays scarce. Every promise holds; work improves slowly.

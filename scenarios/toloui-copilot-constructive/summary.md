@@ -1,23 +1,23 @@
 # Copilot Empire (constructive) — summary
 
-*Ramin Toloui, "Titans, Swarms, or Human Renaissance?", Digitalist Papers vol. 2 · the policy-on branch of [Copilot Empire](../toloui-copilot/summary.md)*
+*Ramin Toloui, "Titans, Swarms, or Human Renaissance? Technological Revolutions and Policy Lessons for the AI Age", The Digitalist Papers vol. 2 (11 December 2025). The policy-dependent form of [Copilot Empire](../toloui-copilot/summary.md), which Toloui mentions expressly under his third priority (competition). Read from the full essay; see `extract.md`.*
 
-**The scenario.** The version of Copilot Empire that Toloui counts among the two desirable end states. A few platforms still own the AI layer and AI still augments rather than replaces, but public institutions match private power, as antitrust, regulation and organised labour eventually did with the railroad, oil and telephone monopolies.
+**The scenario.** A few providers still own the AI layer and AI still augments rather than replaces, but competition rules are set in advance. Toloui calls it "a 'guardrails and triggers' approach": stable, non-discriminatory APIs and machine-readable data portability make switching viable; exclusivity, egress fees and self-preferencing are restricted; and prepared triggers allow stronger intervention if bottlenecks or abuse emerge, across cloud, model and application layers. Concentration is not assumed to disappear. The other priorities (worker-centred procurement and training, lower labour taxes, safety rules) are described as measures that can help, not as a fixed package.
 
 ## Hard work pays
-Kept for most. Toloui's labour-tax reforms (payroll-tax cuts funded by capital taxes, an expanded EITC, wage insurance) and training (WIOA, registered apprenticeships, procurement that rewards worker-augmenting copilots) spread augmentation beyond a polarised minority of high-skill workers.
+Stable. Augmentation can raise demand for complementary work, and subsidised training, apprenticeships, worker-centred public R&D and lower labour taxes can make complementarity more attractive. But these are options rather than assumptions, and the extract still carries the computing-era precedent of rising high-skill wages and stagnant or falling lower-skill wages.
 
 ## Affordable essentials
-Stable. Interoperability requirements, data portability, bans on exclusivity and cloud non-discrimination limit rents on the AI layer that every business depends on.
+Stable. Interoperability and portability lower switching barriers, and the guardrails limit bottleneck abuse and rent extraction on the AI layer. The extract does not address the cost of housing, food, energy or care directly.
 
 ## Reliable safety net
-Stable. Employment holds, and hiring and benefits get cheaper through payroll-tax cuts and a revived public option for health insurance.
+Stable. Employment holds. A lower hiring wedge, funded by capital or rent taxes, and stronger wage or income supports can respond to actual displacement and consolidation.
 
 ## Responsive government
-Stable. A "guardrails and triggers" competition regime sets rules now and prepares escalation if concentration deepens, backed by bigger tech teams at the DOJ and FTC. Safety rules (reporting of training runs, independent evaluations, AI liability) add accountability.
+Stable. Enforcement depends on AI and cloud expertise at the DOJ and FTC. Disclosure, meaningful human review and appeals should cover consequential government decisions, alongside incident reporting, civil liability and due-process powers to withdraw harmful systems.
 
 ## Time for what matters
-No particular change.
+Not addressed.
 
 ## Bottom line
-Concentrated but accountable: the 20th-century American model, where monopolised infrastructure lifted the wider economy because government kept the monopolies in check.
+Concentrated but accountable: platforms keep their scale, but adaptable rules keep switching possible and the state ready to act.

@@ -1,23 +1,23 @@
 # Something Big Is Happening — summary
 
-*Matt Shumer, February 2026 (shumer.dev; covered by Fortune) · a personal essay to "non-tech friends and family"*
+*Matt Shumer, "Something Big Is Happening", somethingbig.ai, February 2026. A personal warning from a software founder, based on his own use of frontier models and on industry accounts. Read from the full text; see `extract.md`.*
 
-**The scenario.** "This is February 2020 for AI." Shumer, an AI start-up founder, says he is "no longer needed for the actual technical work of my job". After the model releases of 5 February 2026 he describes an app, walks away for four hours and comes back to finished work. Labs aimed at coding first because AI that codes helps build the next AI. That has now happened ("GPT-5.3-Codex is our first model that was instrumental in creating itself"), and they are "moving on to everything else." METR task horizons double every 4–7 months. He quotes Amodei's forecast that AI will eliminate 50% of entry-level white-collar jobs in one to five years, and says "nothing that can be done on a computer is safe in the medium term."
+**The scenario.** Rapid model releases let AI complete increasingly long and complex digital projects with little supervision; the author reports that new programming models now do work he used to handle ("I know this is real"). AI starts contributing to AI development, which he expects to speed up further gains. The effects spread from coding to other screen-based work. The capability for substantial job disruption may arrive by the end of 2026, with the full economic effects lagging behind. "I know the next two to five years are going to be disorienting in ways most people aren't prepared for."
 
 ## Hard work pays
-Breaking for knowledge workers. Law, finance, writing, software, medical analysis and customer service are all named. Unlike past automation, "AI doesn't leave a convenient gap to move into. Whatever you retrain for, it's improving at that too." His advice is individual: early adopters "move up", and "the bar is on the floor." He also tells parents the standard route (good grades, good college, stable professional job) "points directly at the roles that are most exposed."
+Breaking for screen-based workers. Shumer expects fewer programming roles and broad disruption in law, financial analysis, writing, medical analysis and customer service, and cites Dario Amodei's estimate that 50% of entry-level white-collar jobs could disappear within one to five years. Because AI improves across many occupations at once, retraining into another screen-based field offers fewer options. Physical presence, trusted relationships and licensed accountability may delay replacement, and early adopters "can become especially valuable during the transition".
 
 ## Affordable essentials
-Mostly unaddressed. The upside he names is that "knowledge is essentially free now" (a $20-a-month tutor, apps built in an hour), not cheaper housing, food or care.
+Not addressed.
 
 ## Reliable safety net
-Personal, not public. "Get your financial house in order": build savings, avoid debt that assumes your income is guaranteed, keep fixed costs flexible. The essay doesn't mention collective support for displaced workers.
+Not addressed as a public matter. The only cushion the essay names is personal: save where possible, avoid new debt that assumes a stable income, and build financial room to adapt or change jobs.
 
 ## Responsive government
-Absent from the remedy. The future "is being shaped by a remarkably small number of people: a few hundred researchers at a handful of companies." Shumer relays Amodei's "country of geniuses" warning, with its national-security, bioweapon and surveillance-state risks, but proposes no role for government.
+Not addressed. The trajectory is driven by a small number of frontier companies and by users, with no government response. Shumer mentions loss of control, surveillance and national-security risks only at a high level.
 
 ## Time for what matters
-Squeezed in the short term ("one hour a day experimenting with AI"; "this might be the most important year of your career"). The longer-term hope is that "your dreams just got a lot closer."
+Not addressed. The essay touches on AI companionship and emotional support without saying what they mean for relationships.
 
 ## Bottom line
-An insider's alarm, not a model. It describes fast replacement of cognitive work and puts the burden of adapting on each person.
+An insider's alarm rather than a model: fast replacement of cognitive work, with the burden of adapting left to each person.

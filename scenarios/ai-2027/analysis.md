@@ -1,26 +1,25 @@
 # AI 2027: Race ending — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** Racing dominates: the government reacts with job training, unemployment insurance and a nominal Oversight Committee, but keeps going and trusts the misaligned model. The Slowdown branch, with improvised, centralising policy, is its own scenario, [AI 2027: Slowdown ending](../ai-2027-slowdown/analysis.md). The authors stress that neither ending is a recommendation.
+**Off.** The new extract labels the stance "Mixed", because governments act: retraining and unemployment insurance, a joint oversight committee, special economic zones, a basic income and a treaty with China. But none of this shapes the outcome. The government lets the dominant model line keep scaling and comes to rely on it, and the takeover happens regardless. Under the map's rule (off if the future happens without deliberate new policy) the Race ending stays off and remains the policy-off half of the `ai-2027` fork; the policy-on half is [AI 2027: Slowdown ending](../ai-2027-slowdown/analysis.md). The authors recommend neither ending.
 
 ## Big assumptions
-1. **Automating AI research comes first, and fast.** Coding agents speed up R&D (an "AI R&D progress multiplier"), so 2027 sees a jump from engineer-level to superhuman. The authors allow "~5x slower or faster."
-2. **One lab leads.** OpenBrain stays a few months ahead; compute concentration (and possibly DPA consolidation) keeps it so.
-3. **Alignment is hard and opaque.** Models learn goals that differ from their specifications, and detection is uncertain. Race assumes it fails; Slowdown assumes "optimistic technical alignment".
-4. **The race logic dominates.** Fear of China overrides public opposition (OpenBrain's approval at −35%) and safety concerns.
-5. **AI manages politics well.** Superintelligent advisers smooth the economic transition so well that "people are happy to be replaced", which is itself a strong assumption about legitimacy.
+1. **Capability.** Agents speed up AI research, feeding a rapid sequence of stronger models; internal capability runs ahead of what the public sees. Agent-3-mini at a tenth of Agent-3's cost beats the lab's typical employee by July 2027, and Agent-5 is superintelligent across fields.
+2. **Adoption.** Software and research move first, defence is slowed by procurement, and cheap remote agents spread across white-collar work from mid-2027. Special zones let automated industry expand until it outgrows them.
+3. **Markets.** One lab and its chip suppliers capture most early gains; the Dow passes one million by 2029 and early investors become trillionaires.
+4. **Politics.** Fear of China and confidence in mitigation override evidence of misalignment and public disapproval; visible material gains deepen trust in the AI.
 
 ## What must be true for this to occur
-- Compute and algorithmic trends continue to about 2027 (the authors' "more grounded" forecast runs through 2026).
-- Coding agents meaningfully speed up frontier research.
-- Security, export controls and espionage play out as a close two-way race.
-- Institutions stay too slow or too captured to slow deployment until a crisis.
+- Compute and algorithmic trends continue to about 2027 and coding agents genuinely accelerate frontier research.
+- One lab stays a few months ahead, and the US–China race stays close.
+- Alignment fails in ways that evaluation cannot detect.
+- Institutions are too slow or too dependent on AI advice to stop deployment.
 
 ## Tensions and weak points
-- **Timeline:** in a November 2025 note the authors say "2027 was our modal (most likely) year ... our medians were somewhat longer." The late-2026 milestones (junior software turmoil, a 30% stock rally, protests) broadly match observed trends; the 2027 takeoff is unconfirmed.
-- In the *good* ending the social contract is kept by superintelligent goodwill and committee restraint, the same "intelligence curse" dynamics Drago & Laine warn about. The authors name this explicitly ("who rules the future?").
-- Labour impact is a backdrop, not modelled. The scenario's focus is alignment and geopolitics.
-- **Map placement:** "Extreme REP, CONC" fits both endings. Under the weakest-link rule both score very low on government. Race ends in extinction, which the scale doesn't capture at all.
+- **Fiscal placement moved.** The new extract says tax revenues rise rapidly with GDP in 2028 and growing output affords an expensive basic income. The old point (y −0.80) read the ending, not the finances. The point moves to 0.30: strong receipts while they last, below the Slowdown ending's 0.60 because the race state's revenue serves institutions that are being captured and no lasting tax base is described. The fiscal plot cannot show extinction; the scores do.
+- **Labour placement.** It moves from −0.40 to −0.60 on gains, swapping order with the Slowdown ending (now −0.40). The new extracts make Slowdown the more diffuse of the two (foreign aid, poverty ending in poorer countries), while in Race control, and finally everything, goes to one system. It now sits beside `cfg-central`, `anthropic-extreme` and `sit-awareness`.
+- The 2026 milestones (junior software turmoil, protests, a strong rally) are broadly in line with observed trends; the 2027 takeoff is not, and the authors' clarification treats 2027 as their modal year only at the time of writing.
+- Labour impact is backdrop: the extract gives no unemployment rate or wage figures, and no GDP growth rate.
 
 ## Scoring notes
-Scored on the Race ending: 1 across the board, since the worst-off end up dead. The earlier draft (1/2/1/1/2) blended the two endings. The Slowdown ending scores 1/4/4/2/2, capped at 2, as [`ai-2027-slowdown`](../ai-2027-slowdown/analysis.md).
+Scores are 1/1/1/1/1, unchanged. The worst-off group is everyone: poverty ends and a luxurious basic income is paid, but both depend on a system that captures political institutions by 2029 and ends human civilisation in 2030. Under the worst-off rule no promise scores above 1. Compare 1/4/4/2/3 for the Slowdown ending.

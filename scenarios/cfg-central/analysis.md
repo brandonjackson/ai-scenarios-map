@@ -1,25 +1,27 @@
 # Big AI / Arms Race — assumptions analysis
 
 ## Policy on or off?
-**Policy off, or policy as national security.** This scenario covers Big AI ("Silicon Blackmail" and the milder "Agent Economy", where retraining and job guarantees emerge) and Arms Race ("Hot War", "Multipolar World"). The strongly policy-on Diplomacy path (international treaty, mandatory audits, a 25% AI tax) is its own scenario, [Diplomacy: Licensed Utopia](../cfg-diplomacy/analysis.md).
+**Mixed: market concentration in Big AI, state direction in Arms Race.** Big AI's concentration comes from compute, distribution and lock-in, helped by policy (US export controls and frontier open-weight restrictions). Arms Race depends on deliberate state action: state-led compute and industrial mobilisation, tighter chip restrictions and, in Multipolar World, pauses, monitoring and commercial restrictions. The endings also contain policy responses (job-guarantee and agent-levy pilots and European open-model procurement in the Agent Economy, stronger EU enforcement in Silicon Blackmail). This was previously rated off; the fuller extract shows policy shaping every branch. The coordinated, policy-on counterpart is [Diplomacy: Licensed Utopia](../cfg-diplomacy/analysis.md).
 
 ## Big assumptions
-1. **Fast takeoff.** Agents become highly capable by late 2025, AI speeds up its own R&D, and macro-level automation shows up by 2028–29.
-2. **Compute is the bottleneck, and the US controls it.** Export controls hold, China suffers a "compute drought", and Taiwan becomes the flashpoint.
-3. **Open source is restricted.** Liability and security worries (or executive orders) shut down frontier open weights, which keeps things centralised.
-4. **Network effects and lock-in** decide market structure, as in previous platform eras.
-5. **Alignment is hard.** Reward hacking and control failures make safety a central driver (Diplomacy is triggered by a self-replication incident).
+1. **Capability: fast and compute-hungry.** Agents handle real workflows by 2026–27, agent-assisted R&D runs 50% faster, and elite labs plan training runs above 10²⁸ FLOP, so only a few can afford the frontier.
+2. **Adoption: deep, but uneven.** Enterprises redesign workflows and agents displace apps; adoption varies with regulation, infrastructure and skills, and in Arms Race national-security projects get privileged access.
+3. **Markets: platform economics.** Switching costs, investor pressure and data feedback move the frontier to a closed oligopoly (the narrative PDF puts three US firms at about 85% of the market).
+4. **Politics: power follows compute.** The US keeps control of chips, China lags and Europe depends on others; in Arms Race weak verification makes secrecy beat coordination.
 
 ## What must be true for this to occur
-- Scaling keeps paying, so frontier capability needs ever-larger clusters that few can afford.
-- Fast followers (including Chinese and open models) fall and stay behind.
-- In the good ending, a crisis scary enough to unite the US and China, *and* a technical breakthrough (interpretability-based "lie detection") that makes verification possible.
-- In the bad endings, no binding verification, so arms-control logic fails.
+- Scaling keeps paying, so the frontier needs ever-larger clusters few can afford.
+- Open and Chinese models fall and stay behind, helped by export controls and open-weight restrictions.
+- For Big AI: customers accept lock-in and governments can't credibly replace the platforms.
+- For Arms Race: governments come to treat frontier compute as a strategic asset and pull labs into state programmes.
 
 ## Tensions and weak points
-- **Naming (fixed):** CFG has no scenario called "Centralized Takeoff", the map's old name. This point now covers Big AI and Arms Race; Diplomacy is its own scenario.
-- Centralisation is both the problem and, in Diplomacy, the solution: licensing regimes concentrate power but make safety coordination possible.
-- Europe is the report's point of view. Most endings turn on whether Europe gets sovereign capacity (e.g., the public "NimbusAI" competitor).
+- One row holds two core scenarios and four endings, from modest GDP gains with prosperous SMEs (Agent Economy) to war over Taiwan. The map point and scores describe the harsher branches for the worst-off.
+- The website and narrative PDF differ: the 40–70% productivity gains and ~85% market share are only in the PDF.
+- The extract has no household income or fiscal path. Public finances are placed at −0.4 (raised from −0.7): the story shows faster US growth, agent levies and strong markets alongside resources redirected to strategic projects and a Europe struggling to sustain services, but no collapse of the tax base. Job quality moves from −0.75 to −0.55 because the Agent Economy creates new careers in orchestrating agents even as routine white-collar work goes.
+- Replacement is moderated to 0.5 (from 0.62): substitution is named for specific groups, not across the economy, and Diplomacy's ending has more capable systems.
+- Centralisation is both the problem here and, in Diplomacy, the vehicle for the solution.
+- On the labour map (−0.6, 0.5) its nearest neighbours are `toloui-titans`, `intelligence-curse`, `imf-runaway`, `anthropic-extreme` and `wef-displacement`, all concentrated-replacement stories; it sits bottom-left of the other CFG points, as the framework's fast, centralised corner.
 
 ## Scoring notes
-1/2/1/1/2, rated 1, describing Silicon Blackmail or Arms Race. Diplomacy's Licensed Utopia scores 3/4/4/3/4 as [`cfg-diplomacy`](../cfg-diplomacy/analysis.md).
+Draft scores are 2/2/2/1/2 (previously 1/2/1/1/2). Work moves to 2: harm is concentrated in named groups (routine white-collar and entry-level software workers, paralegals, digital-media workers) while AI-skilled workers and, in the Agent Economy, SMEs and freelancers gain. Essentials is 2 for Europeans facing service withdrawal and rising chip prices. Safety net moves to 2: the extract shows communities falling behind and resources diverted, but also job-guarantee and levy pilots, not a net with no tax base. Government stays 1: platforms blackmail governments in one branch and secrecy and war override public voice in the other. Time is 2 for emotional dependency and uncertainty-driven withdrawal from careers. The weakest link (1) caps the headline rating at 2; the mean rounds down to 1.

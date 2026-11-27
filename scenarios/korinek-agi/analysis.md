@@ -1,26 +1,27 @@
 # Full AGI Scenario — assumptions analysis
 
 ## Policy on or off?
-**Policy off.** Korinek models the economics with no redistribution, then argues that policy *should* respond: tax capital rather than labour, strengthen income support, and possibly slow automation. The broken promises are the result *without* that response, so this is a warning baseline, not a forecast of the social outcome.
+**Off: a warning baseline.** The paths assume competitive returns in an efficient economy and show the market outcome before any compensatory policy. The author recommends designing institutions to compensate lost labour income and share AGI's gains, alongside tax and safety-net reform and a scalable basic income, but none of that is in the scenario. Social choices to keep some jobs human are mentioned as a possibility, not built in.
 
 ## Big assumptions
-1. **Human cognition is bounded and computable.** Every task has a finite compute requirement and compute grows exponentially, so full automation comes in finite time. This rests on brain-compute estimates (Carlsmith 2020) and on Moore's-law-style trends continuing.
-2. **Hinton's 5–20-year window.** The two variants are calibrated to one expert's 2023 statement, not to an independent estimate.
-3. **Physical tasks follow cognitive ones.** Moravec's paradox is treated as a compute problem: robotics falls once compute is cheap enough.
-4. **Representative-agent economics.** The model tracks output and the wage rate, not who owns capital. "Capital owners benefit enormously" (the map's description) is an inference about ownership the model doesn't make.
-5. **Society doesn't keep jobs human.** Enough "nostalgic jobs" (priests, judges, lawmakers) would keep wages rising. The scenario assumes too few are protected.
-6. **Innovation isn't automated early.** Automating R&D lifts the returns to all factors, including wages; the baseline AGI result assumes this doesn't offset the collapse.
+1. **Capability: human task complexity is bounded.** AI can understand, learn and perform any intellectual task a person can, so full automation of work arrives in finite time.
+2. **Adoption: deployment follows capability within 5 or 20 years.** The author notes that organisational and regulatory friction, capital and chip bottlenecks, or social preferences could make deployment lag, but the illustrated paths assume it doesn't.
+3. **Markets: competitive wages and efficient substitution.** Once machines are abundant relative to labour, the wage falls towards what a machine doing the same task costs.
+4. **Politics: no compensation.** Gains are not shared unless institutions are designed to do it, and the scenario includes none.
 
 ## What must be true for this to occur
-- Scaling continues: compute keeps growing exponentially and turns into capability without hitting data or algorithmic walls.
-- Firms deploy automation wherever it is cheaper, with no social or legal brakes.
-- Fixed factors either don't bind (fast growth) or do (stagnation). Both are bad for workers.
-- Redistribution doesn't arrive in time. Policy lags and labour income disappears before capital income is shared.
+- AI progress continues to the ceiling of human task complexity within two decades, or within five years for the aggressive case.
+- Firms deploy automation wherever it is cheaper, without strong legal, organisational or social brakes.
+- Too few jobs are kept human by social choice to hold up labour demand.
+- Compensating institutions do not arrive before labour income falls.
 
 ## Tensions and weak points
-- The model shows wages collapse *even with high growth*. Material welfare then depends entirely on the ownership of capital, which the model can't see.
-- The aggressive variant (5 years) is far faster than any historical diffusion of technology. Adoption frictions (regulation, organisational change, trust) are absent.
-- The map's framing of Korinek's "baseline AGI" and "aggressive AGI" as one point loses a real difference: 20 years leaves time for policy, 5 years almost none.
+- The chart ends each wage path at index 100 in the AGI year; the "collapse" beyond that is stated in the text, not shown. The eventual wage level is not quantified.
+- The map treats two variants as one point. Twenty years leaves time for policy; five leaves almost none. The place on the map averages them.
+- "Concentrated" gains are inferred: the article flags returns to capital and inequality as uncertain outcomes but never says who owns the capital. The x position (−0.45) rests on wages falling while output soars.
+- The scenario reaches complete automation of work tasks, so it sits above `anthropic-extreme` on replacement (0.72 against 0.65), whose model stops in 2030 with 30% of task instances affected.
+- Earlier versions of this entry drew on Korinek and Suh's NBER paper (fixed factors, superstar workers, brain-compute estimates, Hinton's forecast); none of that is in the article, so it is no longer used here.
+- Close neighbours: `ai-2027`, `sit-awareness`, `anthropic-extreme` and `gos-take-off`.
 
 ## Scoring notes
-Draft scores (1/2/1/2/2) fit the policy-off reading. A policy-on row (capital taxation plus universal income) would likely score essentials and safety net at 3–4 but leave work at 1–2, the core trade-off this scenario shows.
+Draft scores are 1/3/1/2/3. Work is 1 because the competitive wage collapses for all workers as AGI approaches. The safety net is 1 because the paths are explicitly pre-policy and the loss of labour income is economy-wide, not a short spell of job loss. Government is 2 because the article flags returns to capital, inequality and political stability as at risk and leaves sharing to institutions it doesn't describe. Essentials and time are 3 because the extract does not address them; the earlier 2s rested on inference beyond the source.
