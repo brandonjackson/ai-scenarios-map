@@ -50,9 +50,9 @@ Read `analyses.md` in full. Then, for each scenario, read its `extract.md` and p
   ```json
   {
     "id": "imf-baseline",
-    "assessment": { "tags": "…", "x_labor": 0.1, "y_labor": 0.2, "x_fiscal": -0.1, "y_fiscal": -0.2, "policy": "off", "likelihood": "plausible", "likelihood_reason": "…" },
+    "assessment": { "tags": "…", "x_labor": 0.1, "y_labor": 0.2, "x_fiscal": null, "y_fiscal": null, "inferred": "y_labor", "policy": "off", "likelihood": "plausible", "likelihood_reason": "…" },
     "links": [{ "policy": "<slug or empty>", "evidence": "…" }],
-    "scores": { "social-contract": [{ "criterion": "work", "score": 2, "reason": "…" }] },
+    "scores": { "social-contract": [{ "criterion": "work", "score": 2, "basis": "stated", "reason": "…" }, { "criterion": "time", "score": null, "basis": "", "reason": "Not addressed: …" }] },
     "extract_gaps": ["…"]
   }
   ```
@@ -67,7 +67,7 @@ Merge the results yourself:
 
 - `data/assessments.csv` — replace only the in-scope columns of each in-scope row (add the row if missing); set `assessed` to today. Keep row order the same as `data/scenarios.csv`. Quote fields containing commas.
 - `data/scenario-policies.csv` — replace all rows for each in-scope scenario.
-- `goals/<goal>/scores.csv` — replace the scenario's baseline rows (empty `policy`); leave policy-variant rows.
+- `goals/<goal>/scores.csv` — replace the scenario's baseline rows (empty `policy`), including `basis`; leave policy-variant rows. A not-addressed criterion keeps its row with a blank score.
 - `scenarios/README.md` index — see *Index* in `analyses.md`.
 
 When a whole analysis has been re-run across many scenarios, do a calibration pass: sort the scenarios by each new value and check the ordering reads sensibly; fix outliers.
