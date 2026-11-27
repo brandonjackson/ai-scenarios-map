@@ -22,4 +22,4 @@
 - Close neighbours: `wef-copilot`, `keep-future-human-tool-ai`, `normal-tech` and `cfg-plateau`.
 
 ## Scoring notes
-Draft scores are 4/3/3/3/3. Work is 4 because the competitive wage nearly doubles over 30 years and displaced workers move to more productive jobs; the article names no group left behind, so the worst-off rule does not pull it down. The other four are 3 because the article does not address them for this scenario.
+Scores are 4/–/3*/–/–. Work is 4 because the competitive wage nearly doubles over 30 years and displaced workers move to more productive jobs; the article names no group left behind, so the worst-off rule does not pull it down. Safety net is 3, inferred: employment and wages hold, so the safety net is not stretched; the advice to stress-test it applies across the set. Essentials, government and time are not addressed for this scenario. With only two promises scored, there is no headline rating.

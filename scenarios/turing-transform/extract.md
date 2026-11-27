@@ -54,11 +54,11 @@ Navigation opens paid driving to workers without London taxi expertise. Real-tim
 
 ### Household incomes and living standards
 
-Not addressed.
+In the transformation case total labour income rises even though more workers compete with one another, because the productivity effect outweighs the competition (Abstract; §2). Generic workers, previously limited to the outside self-employment wage, can earn more than that wage once all workers are in demand; skilled workers' income range falls from up to 1 to at most (1−β)(1−c) as their premium goes (§2, Table 1). The authors say this "increases labor income and potentially reduces inequality" (Abstract). Where only skilled workers were employed and coordination costs are large or AI is costly, wages would fall if AI were adopted, though firms would then not adopt (§2).
 
 ### Government finances
 
-Not addressed.
+Not addressed. The only mention of tax is the introduction's report that human-centric AI innovation is partly held back by "unequal tax treatment between capital and labor", attributed to other authors (§1); the model has no government sector (§2).
 
 ### International economic patterns
 

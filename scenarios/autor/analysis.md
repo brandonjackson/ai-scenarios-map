@@ -18,9 +18,9 @@
 ## Tensions and weak points
 - **Source link (fixed earlier):** the map's URL once pointed to NBER w32890 ("Pensioners Without Borders") under another title; it now points to w32140 and uses the paper's own title.
 - The paper admits AI also automates and eliminates roles, and the displaced need not be the beneficiaries; the map places the opportunity, not the net effect.
-- The extract does not address government finances. The fiscal y-coordinate is inferred from wider middle-class employment and is placed lower than before (0.2, was 0.45).
+- The extract does not address government finances, and the paper offers no fiscal mechanism, so the fiscal pair is left blank.
 - If AI becomes reliable as an autonomous expert, the decision-support window may be brief.
 - Shares its mechanism with `turing-transform` but depends on deliberate choices; it sits less diffuse than `turing-transform` because the gains go to those with the right foundations. Neighbours include `keep-future-human-tool-ai`, `korinek-aug` and `wef-copilot`.
 
 ## Scoring notes
-Draft scores are 4/4/3/3/3, rated 3. Work is 4: workers with foundations gain access to better-paid decision-making. Essentials rises to 4 (was 3) because the extract argues directly that decision support could widen access to primary care. Safety net and time are 3, not addressed. Government is 3: the paper names surveillance and concentrated ownership as risks, but as possible uses rather than the scenario's outcome.
+Draft scores are 4/4/3*/–/–, rated 3. Work is 4: workers with foundations gain access to better-paid decision-making. Essentials is 4 because the extract argues directly that decision support could widen access to primary care. Safety net is 3, inferred: the extract says labour shortages in ageing economies are the more immediate challenge, so displaced workers are absorbed within existing capacity. Government is not addressed: the paper names surveillance, suppression of dissent and concentrated ownership as possible uses, not as what happens to government in the scenario. Time is not addressed.

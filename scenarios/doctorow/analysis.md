@@ -18,9 +18,9 @@
 ## Tensions and weak points
 - **Capability risk:** the forecast rests on AI staying unreliable. If capability keeps improving, reverse centaurs become replaced workers and the bubble may not burst. The diagnosis of power and blame would still hold.
 - **Map placement:** the old "Limited impact" tag and mild-augmentation position understated how much of the lecture is about dismissals. The map now puts it just on the replacement side of centre (`y_labor` 0.1): limited capability, but job loss is the main effect. Gains are strongly concentrated (`x_labor` −0.65).
-- The extract has nothing on government finances; the fiscal placement (−0.4, −0.25) rests on job loss and the bust.
+- The extract has nothing on government finances, and job loss without figures does not imply a direction for them, so the fiscal pair is left blank.
 - The lecture's own centaur examples (narrow tools on workers' terms) show good uses exist; the argument is about where the money goes.
 - Close to `chiang` (AI as cover for management) and `acemoglu`; shares the financial-pain channel with `citrini` for the opposite reason (AI fails rather than works too well).
 
 ## Scoring notes
-Draft scores 2/3/3/3/2. Work is 2: workers lose jobs to systems that cannot do them, with experienced staff targeted. Time is 2: those kept on are monitored and made to carry the blame for machine errors. Essentials, safety net and government are 3 because the extract's social-contract sections are silent on them; worse, dearer services (radiology) and bubble losses in retirement savings are noted but are not about essentials or public support.
+Draft scores 2/–/–/–/2*. Work is 2: workers lose jobs to systems that cannot do them, with experienced staff targeted. Time is 2, inferred: the extract's time section is silent, but fewer workers are made to oversee more output under monitoring and carry the blame for machine errors, which intensifies work for those kept on. Essentials, safety net and government are not addressed: dearer, worse services (radiology) and bubble losses in retirement savings are noted but are not about essentials or public support, and the lecture's remedies run through bargaining, not the state. With only two promises scored, there is no headline rating.

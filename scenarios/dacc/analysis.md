@@ -17,9 +17,9 @@
 
 ## Tensions and weak points
 - **Economics is the gap.** GDP, government finances and financial markets are not addressed, and the labour section is a single qualitative line. The fiscal axis stays blank.
-- The essay concedes that enhancement could first widen gaps in power, so the gain-distribution coordinate moves from 0.65 to 0.45. The augmentation coordinate moves from −0.1 to −0.3, because the new extract is explicit that AI should complement cognition and keep people involved.
+- The essay concedes that enhancement could first widen gaps in power, so the gain-distribution coordinate (0.45, inferred) is placed below the market-led optimists. The augmentation coordinate moves from −0.1 to −0.3, because the new extract is explicit that AI should complement cognition and keep people involved.
 - It admits a pluralistic AI world may be unstable, so the path depends on preventing or merging with superintelligence, both uncertain.
 - Compare `techno-optimist`: both are optimists, but Buterin denies that markets alone steer technology well. On the map it now sits near `cfg-plateau` and `normal-tech`.
 
 ## Scoring notes
-Draft scores are 3/3/3/4/3. Government is 4 because the scenario deliberately builds tools for deliberation, verification and privacy that keep power spread out. Work is 3: the extract does not address it beyond AI complementing workers. Essentials is 3: resilience to crises, not lower costs. Safety net is 3 because it is not addressed. Time is 3: the concern for purpose is a warning about an AI-run world, not a gain in time.
+Draft scores are –/3/–/4/3, rated 3. Government is 4 because the scenario deliberately builds tools for deliberation, verification and privacy that keep power spread out. Essentials is 3: resilience to crises, not lower costs. Time is 3: the concern for purpose is a warning about an AI-run world, set against a better future that keeps meaningful choices. Work is not addressed: the extract says only that AI should complement workers, with no jobs or wage effects. Safety net is not addressed.

@@ -20,4 +20,4 @@
 - Close to `gos-slow-burn` and `dsit-steady`, and to `normal-tech`'s slow-diffusion argument, but from a fiscal and financial-stability angle.
 
 ## Scoring notes
-Draft scores are 2/3/3/3/3. Work is 2 because the source names a group that loses out: younger, less-experienced workers face higher displacement risk while older workers are protected, and discouraged workers leave the labour force (p. 14). The rest are 3: manageable disruption within existing capacity.
+Scores are 2/–/3/3*/–. Work is 2 because the source names a group that loses out: younger, less-experienced workers face higher displacement risk while older workers are protected, and discouraged workers leave the labour force (p. 14). Safety net is 3: strong job protection is in force and fiscal pressures are "gradual but persistent", within current frameworks. Government is 3, inferred: governments answer societal pushback with restrictive regulation, licensing and job protection, so institutions keep control of the pace of change. Essentials and time are not addressed.
