@@ -124,4 +124,4 @@ The memo argues the value of scarce human intelligence underlay labour contracts
 | --- | --- | --- |
 | “What follows is a scenario, not a prediction.” | Framing | Preface |
 | “The federal government’s revenue base is essentially a tax on human time.” | Tax base | “The Battle Against Time” |
-| “The real villain is time.” | Speed of adjustment | “The Intelligence Premium Unwind” |
+| “Every side has their own villain, but the real villain is time.” | Speed of adjustment | “The Battle Against Time” |

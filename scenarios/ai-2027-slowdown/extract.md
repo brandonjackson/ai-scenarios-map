@@ -125,4 +125,4 @@ The narrative explores how greater alignment and international cooperation could
 | Quote (verbatim) | Topic | Locator |
 | --- | --- | --- |
 | “Both parties promise a basic income for anyone who loses their job.” | Response to displacement | Slowdown, May 2028 |
-| “Everyone has ‘enough,’ but some goods—like penthouses in Manhattan—are necessarily scarce” | Abundance and positional goods | Slowdown, 2029 |
+| Everyone has “enough,” but some goods—like penthouses in Manhattan—are necessarily scarce | Abundance and positional goods | Slowdown, 2029 |

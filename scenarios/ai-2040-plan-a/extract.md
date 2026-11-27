@@ -50,7 +50,7 @@ The 2027 US workforce includes 165 million humans and millions of agent instance
 
 ### GDP growth and productivity
 
-The narrative gives roughly 50% real GDP growth in 2032, and Appendix X estimates growth of around 100% on average from 2032 to 2037 with the controls. Reproducible labour lets additions to capital directly expand the AI-and-robot workforce, which recursively expands production. Regulatory caps bring the effective doubling time to about six months. In the very uncertain uncapped counterfactual the authors explore one-month doubling by 2033, with gains potentially concentrated in self-replicating industrial output. Rapid relative-price changes complicate intertemporal comparisons of real GDP. (pp. 16–17, 70–71)
+The narrative gives roughly 50% real GDP growth in 2032, and Appendix X estimates growth of around 100% on average from 2032 to 2037 with the controls. The economics supplement gives a model estimate around 90% for the same interval and cautions against relying on its parameter choices. Reproducible labour lets additions to capital directly expand the AI-and-robot workforce, which recursively expands production. Regulatory caps bring the effective doubling time to about six months. In the very uncertain uncapped counterfactual the authors explore one-month doubling by 2033, with gains potentially concentrated in self-replicating industrial output. Rapid relative-price changes complicate intertemporal comparisons of real GDP. (pp. 16–17, 70–71; Economics supplement, “Plan A economic outcomes”)
 
 ### Labour market dynamics
 
@@ -74,11 +74,11 @@ The US and China are the initial parties and negotiate industrial capacity share
 
 ### Market pricing and scarcity
 
-AI pushes many goods and services much lower in price. Existing land and other positional goods are supply-constrained and rise in relative price, as do goods requiring scarce human input. Housing can become cheap for people flexible about location where governments let robots build abundant new units. Robot and chip permits are scarce and costly early in the industrial expansion. (pp. 16–17, 25; Appendix X)
+AI pushes many goods and services much lower in price. Existing land and other positional goods are supply-constrained and rise in relative price, as do goods requiring scarce human input. Housing can become cheap for people flexible about location where governments let robots build abundant new units. Robot and chip permits are scarce and costly early in the industrial expansion. The supplement illustrates 2035 annual full-time-equivalent labour costs around $3,000 for cognitive work and $200,000 for physical work, and 10× more consumed healthcare against a roughly 100–1,000× fall in its price from 2025. Its illustrative land-price increases are roughly 10–100×, pushing construction toward denser buildings. (pp. 16–17, 25; Appendix X; Economics supplement, “Plan A economic outcomes”)
 
 ### Financial markets and stability
 
-The appendix illustrates real interest rates around 100% during rapid growth. Nominal stability might take large-scale money creation, while leaving the money supply unchanged could entail massive deflation. Prioritizing reinvestment can be rational for firms when returns on new AI and robotic capital are very high. The scenario does not supply an investment-return or default path. (p. 17 n. 44; Appendix X)
+The appendix illustrates real interest rates around 100% during rapid growth, while the economics supplement uses approximately 100–200% in its model. Keeping inflation near 2% could require large-scale money creation. Leaving the money supply unchanged could instead bring massive deflation and trouble repaying nominal debt, for which the supplement floats borrowing denominated in AI and robots. Prioritizing reinvestment can be rational for firms when returns on productive technology are very high. (p. 17 n. 44; Appendix X; Economics supplement, “Plan A economic outcomes”)
 
 ## Impact on the social contract
 
@@ -115,7 +115,7 @@ The decade gives society time to work on safety, public health resilience and th
 | Figure | Value | Unit / base | Year | Locator |
 | --- | --- | --- | --- | --- |
 | Real GDP growth | About 50% | Annual, US narrative | 2032 | p. 16 |
-| Real GDP growth | Around 100% | Annual average under caps | 2032–37 | Appendix X |
+| Real GDP growth | Around 100% | Annual average under caps | 2032–37 | Appendix X, with the economics supplement estimating roughly 90% |
 | Robot and compute expansion cap | 4× | Annual permitted growth | From 2032 | p. 17 |
 | US permit receipts | About $50T and $180T | Real 2025 USD | FY2032 and 2034 | p. 17 |
 | Citizen's Dividend | About $45K → $1M | Real annual USD per US adult | 2032–35 | p. 18 |
