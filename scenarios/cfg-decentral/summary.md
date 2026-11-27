@@ -1,23 +1,23 @@
 # Decentralised Mayhem — summary
 
-*Centre for Future Generations, "Advanced AI: Possible Futures", July 2025 · fast capability, many actors (closest published match: Plateau's "Decentralised Mayhem" ending)*
+*Centre for Future Generations, "Advanced AI: Possible Futures" (10 July 2025), by Bengüsu Özcan, Daan Juijn, Jakob Graabak and Sam Bogerd. The study crosses the speed of capability progress with how concentrated frontier development is. This entry is the second ending of the Plateau narrative (slow, decentralised); the first ending, A Bright Winter, is in [Plateau](../cfg-plateau/summary.md). CFG has no separate fast-and-decentralised scenario. Read from the publisher's full scenario text, narrative PDF and companion methodology and governance analysis; see `extract.md`.*
 
-**The scenario.** Capable AI spreads across many actors through open-weight models instead of being held by one lab or state. CFG's published report doesn't develop a separate fast-and-decentralised scenario. Its view is that fast progress tends to centralise, or creates containment problems that push toward centralisation. The nearest narrative is the **"Decentralised Mayhem"** ending: a frontier model's guardrails are breached in late 2027, uncensored high-capability variants circulate, automated hacking and disinformation escalate, and nations respond with harmonised laws banning large open models.
+**The scenario.** It shares Plateau's slow start: data, reliability and capital limits hold general agents back, while local and open models spread. Then FrontierAI's large 2027 run succeeds in producing a more reliable long-horizon agent, the top chipmaker's shares jump 20%, and four months later OmniAI releases a competitive open-weight model. Developers, startups and hobbyists take it up, but its safeguards fail. Misuse spreads, organisations and platforms suffer major disruptions and trust in digital news and services erodes. In 2028 NATO and EU institutions gain cyber-response roles and the US, EU and China ban open publication above 10²⁶ FLOP. Businesses buy defensive tools from closed providers and governments invest in resilience, in a world "defined less by trust and more by constant vigilance".
 
 ## Hard work pays
-Under pressure. Capability spreads to everyone, so displacement is widespread and fast. The labour story resembles Big AI (entry-level and coding roles go first) without one firm capturing the gains. Small firms and individuals using open models can compete, which is the upside.
+Not addressed. The common Plateau path has accountants, game developers and software teams using specialised agents; the ending is about misuse and business interruption and makes no projection for jobs or wages.
 
 ## Affordable essentials
-Improving where the openness holds. Cheap open models commoditise AI-powered services and narrow the digital divide. Rising cybercrime adds a hidden tax on households and firms.
+Disrupted, then stable. Governments value open models for public services, sensitive data and rising healthcare needs, but retailers, logistics and municipal services suffer disruptions during the misuse wave. Cybersecurity then becomes a continuing cost, priced by closed providers in a market created by the damage, and smaller buyers face persistent threats.
 
 ## Reliable safety net
-Strained. Rapid, widespread displacement hits benefits built for short spells of unemployment, and no concentrated profit pool exists to tax for redistribution. The report gives no specific safety-net response for this path.
+Not addressed.
 
 ## Responsive government
-The weak point. Misuse is the defining risk: ransomware, automated hacking, disinformation. Trust erodes and governments react rather than lead, ending in "a new digital equilibrium defined by constant vigilance rather than trust." The policy response (bans on large open models) undoes the decentralisation that made the scenario.
+Broken for some. Misleading content and cybercrime erode trust, spur protests and open a generation gap: technically adept younger users adapt faster than older adults to the deteriorating information environment. Governments respond to public anger with enforcement, education and new institutional powers, but after the harm, and major powers often tolerate incidents aimed at rivals. The restrictions re-centralise: gains shift from open communities to a narrower group of defence providers.
 
 ## Time for what matters
-Little change in the source. Personal assistants and companions spread widely; a damaged information environment and constant vigilance work against time for community.
+Not addressed. The "constant vigilance" the scenario ends on is the closest it comes.
 
 ## Bottom line
-Fast AI that nobody controls avoids a monopoly but risks a security crisis. CFG suggests it is unstable and likely to collapse back toward centralisation.
+A slow, open world knocked off balance by one capable open release. Openness first spreads access, then spreads harm, and the response hands advantage back to closed providers. The social contract bends mainly through trust and government, not through jobs.
