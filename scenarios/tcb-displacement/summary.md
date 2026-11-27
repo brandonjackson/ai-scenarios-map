@@ -11,7 +11,7 @@ Broken for many. Displaced workers who find new jobs face large earnings losses,
 Not addressed.
 
 ## Reliable safety net
-Overwhelmed. Only about 28% of laid-off workers collect unemployment insurance, replacing about 40% of weekly earnings, and pandemic-era systems saw payment errors double and 00–135 billion in fraud. Prolonged job loss raises reliance on Social Security, Medicaid and SNAP and "could also worsen the fiscal crisis facing Social Security". Widespread unemployment, especially among higher earners, would hit federal, state and local tax bases hard: federal receipts fell nearly 17% in the first year of the Great Recession.
+Overwhelmed. Only about 28% of laid-off workers collect unemployment insurance, replacing about 40% of weekly earnings, and pandemic-era systems saw payment errors double and $100–135 billion in fraud. Prolonged job loss raises reliance on Social Security, Medicaid and SNAP and "could also worsen the fiscal crisis facing Social Security". Widespread unemployment, especially among higher earners, would hit federal, state and local tax bases hard: federal receipts fell nearly 17% in the first year of the Great Recession.
 
 ## Responsive government
 Under pressure. The report warns of substantial "social and political turmoil" and of benefit agencies without the capacity to cope. It floats long-term wage subsidies, a universal basic income or a public dividend from AI profits as novel, costly options.

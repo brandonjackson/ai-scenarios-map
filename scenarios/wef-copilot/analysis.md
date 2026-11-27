@@ -19,7 +19,7 @@
 - **The bust has not happened.** As of late 2026, investment and capability are still rising. The human-led, task-level use of AI matches many firms today, but the starting assumption does not, hence Possible.
 - Who pays for the training is unclear: the extract describes redesigned education and industry training but does not say how much is public.
 - It is the benign scenario, yet wage polarisation still rises in Table 1 and the excluded fall further behind. That is why it sits closer to the centre than before on distribution and jobs.
-- Government finances are not addressed; the fiscal placement leans on growth breaking out of stagnation.
+- Government finances are not addressed; the fiscal placement is inferred from growth breaking out of stagnation with unemployment flat, so the point is drawn hollow.
 - Neighbours are `tcb-augmentation`, `korinek-aug`, `cfg-plateau` and `normal-tech`, all slower, augmenting paths.
 
 ## Scoring notes

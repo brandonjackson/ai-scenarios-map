@@ -17,7 +17,7 @@
 - Governments do not redirect the extra tax revenue the scenario itself expects.
 
 ## Tensions and weak points
-- **Fiscal position revised.** The map had this with clearly weaker public finances. The extract lists higher tax revenue and improved public finances as an opportunity and gives no realised welfare cost, so it now sits near neutral on finances while staying firmly in the fewer-good-jobs half. The point of the scenario is that a stronger economy and a weaker social contract can coexist.
+- **Fiscal position revised.** The map had this with clearly weaker public finances. The extract lists higher tax revenue and improved public finances as an opportunity and gives no realised welfare cost, so it now sits near neutral on finances while staying firmly in the fewer-good-jobs half; that finance placement is inferred from growth set against job losses, so the point is drawn hollow. The point of the scenario is that a stronger economy and a weaker social contract can coexist.
 - Robots and autonomous freight at scale by 2030 is the most aggressive assumption; the cognitive half of the story is more credible than the physical half.
 - Backlash is widespread but industrial action is weak where work is automated, so the political response is hard to predict and could arrive before 2030.
 - Near `turing-trap` and `keep-future-human` on labour; on the fiscal axes it sits with `anthropic-extreme` and `gradual-disemp`, between growth-funded and squeezed finances.

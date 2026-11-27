@@ -19,8 +19,8 @@
 - Capital takes most of the small gain: with a 40% share it gains 3.1% while labour gains 0.6%. The scenario is less "diffuse" than the old DIFF tag suggested, so the map now puts it near the centre (x 0.05) with a "limited impact" tag.
 - Its likelihood is moved from probable to plausible: today's measured effects are this small, but the scenario needs capability reach to grow only six points in three and a half years, and the authors' survey median sits nearer Substantial.
 - The model is US-only and leaves out demand effects, business cycles, financial disruption and robotics.
-- Government finances are not addressed; the fiscal y position (0.1) is inferred from slightly faster growth.
+- Government finances are not addressed; the fiscal y position (0.1) is inferred: GDP, labour income and capital income all rise slightly while unemployment barely moves, so the tax base grows a little with no added benefit demand.
 - Close neighbours: `imf-baseline`, `gos-slow-burn`, `tbi` and `tcb-uneven`.
 
 ## Scoring notes
-Draft scores are 3/3/3/3/3. Work is 3 because cognitive employment dips by only 0.5% and all wages rise slightly; nobody is clearly left behind. The other four are 3 because the extract does not address them and the changes it does report are small.
+Draft scores are 3/–/3*/–/–, so only two promises are scored, below the three a headline rating needs. Work is 3 because cognitive employment dips by only 0.5% and all wages rise slightly; nobody is clearly left behind. The safety net is 3*, inferred from total unemployment edging up only to 3.9%, well within existing capacity. Essentials, government and time are not addressed: the model has no prices for essentials, no political channel and nothing on time; the earlier 3 for government leaned on the labour share, which says nothing about whether votes matter.
