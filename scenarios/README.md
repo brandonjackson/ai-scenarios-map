@@ -12,9 +12,11 @@ scenarios/
     …             ← anything else you want to keep alongside it
 ```
 
-`README.md` is regenerated from the CSV and `goals/social-contract/scores.csv` by `npm run scenarios:folders`, which also creates folders for new scenarios. Don't hand-edit it. Every other file in a folder is hand-written and the script leaves it alone.
+`README.md` is regenerated from `data/scenarios.csv`, `data/assessments.csv` and `goals/social-contract/scores.csv` by `npm run scenarios:folders`, which also creates folders for new scenarios. Don't hand-edit it. Every other file in a folder is hand-written and the script leaves it alone.
 
 ## How the summaries and analyses were made
+
+New and re-run summaries and analyses are written by the `/assess-scenarios` skill from each scenario's `extract.md`. Most of those below predate extracts and were written straight from the sources:
 
 Each source was read (full text where accessible) and summarised under the five promises in [`goals/social-contract/goal.json`](../goals/social-contract/goal.json): *hard work pays*, *affordable essentials*, *reliable safety net*, *responsive government*, *time for what matters*. Each analysis covers:
 
@@ -93,7 +95,7 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 
 ## Fork scenarios
 
-Five sources describe two futures. Each future is its own scenario, with its own row in `data/scenarios.csv`, scores, folder and map point. The pair share a `framework`, so each scenario page links to its twin:
+Five sources describe two futures. Each future is its own scenario, with its own rows in `data/scenarios.csv` and `data/assessments.csv`, scores, folder and map point. The pair share a `framework`, so each scenario page links to its twin:
 
 | Policy off | Policy on |
 | --- | --- |
@@ -105,7 +107,7 @@ Five sources describe two futures. Each future is its own scenario, with its own
 
 ## Data issues found while reading
 
-These were fixed in `data/scenarios.csv`. Each fix is noted in the relevant `analysis.md`.
+These were fixed in the scenario data. Each fix is noted in the relevant `analysis.md`.
 
 - **`autor`**: the URL pointed to NBER w32890 ("Pensioners Without Borders"). It now points to w32140, and the title is now the paper's own, "Applying AI to Rebuild Middle Class Jobs".
 - **`pope-leo`**: *Antiqua et Nova* (28 Jan 2025) was issued by two Vatican dicasteries under **Pope Francis**, not Leo XIV. The author field is corrected.

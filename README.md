@@ -17,8 +17,9 @@ A left nav is shared across all pages (hash routes, so deep links work on GitHub
 
 All source data lives in `data/`:
 
-- **`scenarios.csv`** — The canonical database. Each row is a source or framework sub-scenario. Coordinate columns use a `[-1, +1]` range. Empty cells = not rated for that axis.
-- **`scenarios.json`** — Same data as JSON (generated from CSV or vice versa).
+- **`scenarios.csv`** — The catalogue: one row per source or framework sub-scenario, with only facts about it (`id`, `title`, `author`, `year`, `date`, `type`, `framework`, `desc`, `url`).
+- **`assessments.csv`** — What we derive from each scenario's extract under today's frameworks: `tags`, map coordinates (`[-1, +1]`; empty = not rated for that axis), `policy`, `likelihood`, `likelihood_reason`, and the date it was `assessed`. Kept apart from the catalogue so assessments can be re-run without touching the source material.
+- **`scenarios.json`** — Generated: the catalogue and assessments merged by `id`. The app reads this.
 - **`axes.json`** — Defines available axis pairs (what fields to plot, labels, orientation).
 - **`likelihood.json`** — The five-step likelihood scale (Improbable, Possible, Plausible, Probable, Happening) and the date the ratings were last reviewed.
 - **`scenario-policies.csv`** — Which Policy Atlas policies each policy-on or mixed scenario names (`scenario,policy,evidence`). An empty `policy` records that a scenario names none. Checked by `npm run scenarios:check-policies`, which also runs before `dev` and `build`.
@@ -45,11 +46,18 @@ To add your own goal, copy `goals/social-contract/`, edit it, and see [`goals/RE
 
 Every scenario has a folder in `scenarios/<id>/` for context about it: a generated `README.md` (metadata, map position, draft scores), an `extract.md` recording everything the source says in a fixed, framework-neutral structure, a `summary.md` reading the scenario through the five promises of the social contract, an `analysis.md` of its big assumptions (policy on or off, what must be true), and any notes you add. The publications themselves are recorded in [`sources/`](sources/README.md). See [`scenarios/README.md`](scenarios/README.md) for the index.
 
-To find and add new scenarios, run the `/find-scenarios` Claude Code skill (`.claude/skills/find-scenarios/`).
+Two Claude Code skills maintain them:
+
+- **`/find-scenarios`** (`.claude/skills/find-scenarios/`) — finds new scenarios (or re-captures existing ones), saves the source, writes `extract.md` and adds the catalogue row.
+- **`/assess-scenarios`** (`.claude/skills/assess-scenarios/`) — rates scenarios from their extracts: `data/assessments.csv`, policy links, goal scores, `summary.md` and `analysis.md`. Re-run it whenever a framework, axis or goal changes; the extracts stay put.
+
+`node scripts/assessment-status.mjs --todo` lists scenarios with missing or stale assessments (stale = the extract was committed after the assessment).
 
 ### Adding a new scenario
 
-Add a row to `scenarios.csv` with at minimum: `id`, `title`, `author`, `year`, `date`, `type`, `desc`, `url`, and coordinates for at least one axis pair. `date` is the publication date as `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` when that is all that is known; it orders the Latest page. Set `policy` to `off`, `on` or `mixed` once you know whether the scenario assumes policy is absent, depends on deliberate policy, or has both versions. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes. Set `likelihood` to one of `improbable`, `possible`, `plausible`, `probable` or `happening`, with a one-sentence `likelihood_reason`. Then run `npm run scenarios:folders` to create its folder.
+Add a row to `scenarios.csv` with `id`, `title`, `author`, `year`, `date`, `type`, `framework`, `desc` and `url`. `date` is the publication date as `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` when that is all that is known; it orders the Latest page. Run `npm run scenarios:folders` to create its folder.
+
+Then add its row to `assessments.csv` with the same `id`. Set `policy` to `off`, `on` or `mixed` once you know whether the scenario assumes policy is absent, depends on deliberate policy, or has both versions. Empty coordinate cells are fine — the visualisation only shows scenarios that have data for the selected axes. Set `likelihood` to one of `improbable`, `possible`, `plausible`, `probable` or `happening`, with a one-sentence `likelihood_reason`. A scenario with no assessment row still appears on the site, unrated.
 
 ### Likelihood ratings
 
@@ -57,9 +65,9 @@ Each scenario carries an editorial likelihood rating: how likely its core dynami
 
 ### Adding a new axis pair
 
-1. Add two columns to `scenarios.csv` (e.g., `x_inequality`, `y_inequality`)
-2. Rate each scenario on the new dimensions (leave blank if can't assess)
-3. Add an entry to `axes.json` describing the new axis pair
+1. Add two columns to `assessments.csv` (e.g., `x_inequality`, `y_inequality`) and to `NUMERIC_FIELDS` in `scripts/csv2json.mjs`
+2. Add an entry to `axes.json` describing the new axis pair
+3. Describe the poles in the `map` section of `.claude/skills/assess-scenarios/analyses.md`, then run `/assess-scenarios` with the `map` analysis across all scenarios (blank where it can't assess)
 4. The UI will automatically pick up the new axis
 
 ### Coordinate conventions
@@ -74,14 +82,16 @@ All coordinates are in `[-1, +1]`:
 
 ```
 data/
-  scenarios.csv          ← canonical data source
-  scenarios.json         ← JSON mirror
+  scenarios.csv          ← catalogue: what each scenario is
+  assessments.csv        ← derived ratings: tags, coordinates, policy, likelihood
+  scenarios.json         ← generated: the two merged
   axes.json              ← axis pair definitions
   ai_scenario_literature.xlsx  ← spreadsheet for editing
 goals/                   ← goal functions (see goals/README.md)
 scenarios/               ← one folder of context per scenario (see scenarios/README.md)
 scripts/
-  csv2json.mjs           ← scenarios.csv → scenarios.json
+  csv2json.mjs           ← scenarios.csv + assessments.csv → scenarios.json
+  assessment-status.mjs  ← which assessments are missing or stale
   check-goals.mjs        ← validates goals/
   scenario-folders.mjs   ← creates scenarios/<id>/ and regenerates each README.md
 src/
