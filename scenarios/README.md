@@ -89,6 +89,7 @@ Sources that couldn't be read directly are marked in their folder: the IMF artic
 | Concentrated Gains (Conference Board) | Off: targeted help suggested, not assumed | [summary](tcb-concentrated/summary.md) | [analysis](tcb-concentrated/analysis.md) |
 | Significant Displacement (Conference Board) | Off: shows today's systems unprepared | [summary](tcb-displacement/summary.md) | [analysis](tcb-displacement/analysis.md) |
 | Uneven Disruption (Conference Board) | Off: targeted help suggested, not assumed | [summary](tcb-uneven/summary.md) | [analysis](tcb-uneven/analysis.md) |
+| AGI and the End of Human Employment (Stiefenhofer) | Off: a warning; UBI and AGI ownership prescribed | [summary](agi-end-employment/summary.md) | [analysis](agi-end-employment/analysis.md) |
 
 ## Fork scenarios
 
