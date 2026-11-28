@@ -1,0 +1,34 @@
+{
+  "slug": "deepmind-economic-policy-for-agi-2026",
+  "title": "Economic policy for AGI",
+  "authors": [
+    "Julian Jacobs",
+    "Alex Imas"
+  ],
+  "publisher": "DeepMind Institute (Google DeepMind)",
+  "date": "2026-09-16",
+  "url": "https://institute.deepmind.com/essays/economic-policy-for-agi/",
+  "archive_url": "http://web.archive.org/web/20261116075953/https://institute.deepmind.com/essays/economic-policy-for-agi/",
+  "retrieved": "2026-11-27",
+  "format": "html",
+  "licence": "© Google DeepMind, all rights reserved",
+  "fulltext": "private",
+  "read": "partial: the DeepMind Institute essay in full; the longer SSRN paper (abstract_id=7470000) could not be read: SSRN returns 'Content Blocked' to curl and 403 to WebFetch",
+  "scenarios": [
+    "dm-policy-mild",
+    "dm-policy-moderate",
+    "dm-policy-structural"
+  ],
+  "related": [
+    {
+      "title": "Economic Policy for AGI (SSRN working paper)",
+      "authors": [
+        "Julian Jacobs",
+        "Alex Imas"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7470000",
+      "archive_url": "http://web.archive.org/web/20261103153328/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7470000",
+      "note": "Full paper behind the essay (24 interventions, 14 funding mechanisms); not captured"
+    }
+  ]
+}
